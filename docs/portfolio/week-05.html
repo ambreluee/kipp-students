@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.31">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-42db6082498c64b8158b8611e7fb4138.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-795ae1ca5c1dbc58ec319c3e1f3f461f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -267,17 +270,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
+  <li><a href="#bagian-a-asumsi-awal-daftar-pertanyaan-discovery" id="toc-bagian-a-asumsi-awal-daftar-pertanyaan-discovery" class="nav-link active" data-scroll-target="#bagian-a-asumsi-awal-daftar-pertanyaan-discovery">Bagian A: Asumsi Awal &amp; Daftar Pertanyaan Discovery</a></li>
+  <li><a href="#bagian-b-ringkasan-sesi-discovery-fakta-terungkap" id="toc-bagian-b-ringkasan-sesi-discovery-fakta-terungkap" class="nav-link" data-scroll-target="#bagian-b-ringkasan-sesi-discovery-fakta-terungkap">Bagian B: Ringkasan Sesi Discovery &amp; Fakta Terungkap</a>
   <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
+  <li><a href="#ringkasan-obrolan" id="toc-ringkasan-obrolan" class="nav-link" data-scroll-target="#ringkasan-obrolan">1. Ringkasan Obrolan</a></li>
+  <li><a href="#dampak-masalah-problem-impact-kendala-constraint" id="toc-dampak-masalah-problem-impact-kendala-constraint" class="nav-link" data-scroll-target="#dampak-masalah-problem-impact-kendala-constraint">2. Dampak Masalah (<em>Problem Impact</em>) &amp; Kendala (<em>Constraint</em>)</a></li>
   </ul></li>
+  <li><a href="#bagian-c-rumusan-masalah-bersama-shared-problem-statement" id="toc-bagian-c-rumusan-masalah-bersama-shared-problem-statement" class="nav-link" data-scroll-target="#bagian-c-rumusan-masalah-bersama-shared-problem-statement">Bagian C: Rumusan Masalah Bersama (<em>Shared Problem Statement</em>)</a></li>
+  <li><a href="#bagian-d-refleksi-perilaku-komunikasi" id="toc-bagian-d-refleksi-perilaku-komunikasi" class="nav-link" data-scroll-target="#bagian-d-refleksi-perilaku-komunikasi">Bagian D: Refleksi Perilaku Komunikasi</a></li>
   </ul>
 </nav>
     </div>
@@ -312,143 +312,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Mendengar sebelum proposing dan membangun shared problem statement dengan person.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<p><strong>Nama Mahasiswa:</strong> Winda Naila Nur Aisyah<br>
+<strong>Tanggal Pengerjaan:</strong> 22 September 2026</p>
+<hr>
+<section id="bagian-a-asumsi-awal-daftar-pertanyaan-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-a-asumsi-awal-daftar-pertanyaan-discovery">Bagian A: Asumsi Awal &amp; Daftar Pertanyaan Discovery</h2>
 <ul>
-<li>Initial assumption dan pertanyaan discovery.</li>
-<li>Transcript/paraphrase serta problem impact dan constraint.</li>
-<li>Shared problem statement yang dikonfirmasi partner.</li>
+<li><strong>Mitra Bicara:</strong> Inisial <strong>R.A.</strong> (Koordinator Divisi Acara Kegiatan UKM).</li>
+<li><strong>Asumsi Awal Saya (Sebelum Wawancara):</strong><br>
+Saya sempat menganggap R.A. kurang disiplin mengatur <em>timeline</em> kerja dan lambat memberi instruksi, sehingga materi rundown dan publikasi acara selalu terlambat diserahkan ke tim media.</li>
+<li><strong>Pertanyaan <em>Discovery</em> (Terbuka &amp; Tanpa Menghakimi):</strong>
+<ol type="1">
+<li><em>“Boleh cerita enggak, alur pengerjaan materi acara dari ide awal sampai siap di-publish itu biasanya lewat tahapan apa aja?”</em></li>
+<li><em>“Di titik mana yang menurutmu paling sering bikin alur pengerjaan jadi tersendat atau keteteran?”</em></li>
+<li><em>“Dampak apa yang paling terasa buat kamu dan tim kalau jadwal penyerahan materi ini mundur?”</em></li>
+</ol></li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-05.html">Buka contoh fiktif Minggu 5</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<section id="bagian-b-ringkasan-sesi-discovery-fakta-terungkap" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-b-ringkasan-sesi-discovery-fakta-terungkap">Bagian B: Ringkasan Sesi Discovery &amp; Fakta Terungkap</h2>
+<section id="ringkasan-obrolan" class="level3">
+<h3 class="anchored" data-anchor-id="ringkasan-obrolan">1. Ringkasan Obrolan</h3>
+<p>Setelah mendengarkan penjelasan R.A., ternyata masalah utamanya bukan pada ketidakdisiplinan timnya. Masalah sebenarnya adalah adanya penumpukan (<em>bottleneck</em>) pada proses validasi akhir. R.A. harus menunggu persetujuan dari 3 pihak berbeda (Ketua Pelaksana, Dosen Pembina, dan Pihak Sponsor) yang sering memberikan revisi berbeda di waktu yang tumpang tindih.</p>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+<section id="dampak-masalah-problem-impact-kendala-constraint" class="level3">
+<h3 class="anchored" data-anchor-id="dampak-masalah-problem-impact-kendala-constraint">2. Dampak Masalah (<em>Problem Impact</em>) &amp; Kendala (<em>Constraint</em>)</h3>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Dampak (<em>Impact</em>):</strong> Tim acara sering terpaksa lembur di malam hari, anggota merasa kelelahan emosional, dan materi publikasi jadi terburu-buru sehingga hasilnya kurang maksimal.</li>
+<li><strong>Kendala (<em>Constraint</em>):</strong> Prosedur persetujuan dari dosen dan sponsor merupakan aturan wajib yang tidak bisa dipotong begitu saja.</li>
 </ul>
+<hr>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
 </section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+<section id="bagian-c-rumusan-masalah-bersama-shared-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-c-rumusan-masalah-bersama-shared-problem-statement">Bagian C: Rumusan Masalah Bersama (<em>Shared Problem Statement</em>)</h2>
+<p>Dengan mendengarkan tanpa memotong atau menggurui, kami berhasil menyepakati satu rumusan masalah bersama:</p>
+<blockquote class="blockquote">
+<p><em>“Masalah utama kita bukanlah keterlambatan individu, melainkan <strong>belum adanya kesepakatan batas waktu (cutoff time) untuk revisi dari pihak internal/eksternal</strong>, sehingga tim acara terus-menerus melakukan revisi berulang di menit-menit akhir.”</em></p>
+</blockquote>
+<ul>
+<li><strong>Bukti Konfirmasi Mitra (R.A.):</strong><br>
+<em>“Nah iya tepat banget, Win! Masalahnya emang di batas waktu revisi eksternal itu. Kita butuh batasan tegas biar revisiannya enggak meluber terus pas udah mendekati H-2 acara.”</em></li>
+</ul>
+<hr>
 </section>
+<section id="bagian-d-refleksi-perilaku-komunikasi" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-d-refleksi-perilaku-komunikasi">Bagian D: Refleksi Perilaku Komunikasi</h2>
+<ul>
+<li><strong>Hal Baru yang Dipelajari:</strong> Pentingnya menahan emosi dan menyampingkan asumsi pribadi sebelum benar-benar memahami akar masalah dari sudut pandang lawan bicara.</li>
+<li><strong>Perubahan Sikap:</strong> Berhasil menggeser pola pikir dari <em>menyalahkan personal</em> (<em>person</em>) menjadi <em>menganalisis perbaikan sistem/alur kerja</em> (<em>structure</em>).</li>
+</ul>
 
 
 </section>

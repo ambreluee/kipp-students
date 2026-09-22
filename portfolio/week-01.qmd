@@ -1,25 +1,59 @@
 ---
 title: "Character Map"
 week: 1
-status: "Belum dimulai"
+status: "Selesai"
 self_score: "—"
 assessor_score: "—"
 description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
 ---
 
-## Kompetensi target
+**Nama Mahasiswa:** Winda Naila Nur Aisyah  
+**Tanggal Pengerjaan:** 22 September 2026  
 
-Membedakan person, personality, dan character serta memilih objective, repertoire, dan language yang sesuai.
+---
 
-## Evidence wajib
+## Bagian A: Peta 5 Domain Kehidupan
 
-- Lima character dari sedikitnya tiga domain kehidupan.
-- Objective, responsibility, repertoire, dan risiko tiap character.
-- Satu contoh perubahan language ketika character berubah.
+| Domain Kehidupan | Peran yang Saya Ambil | Siapa yang Saya Jumpai | Tanggung Jawab Utama Komunikasi |
+| :--- | :--- | :--- | :--- |
+| **1. Diri Sendiri** | Reflektor / Evaluator Diri | Diri sendiri | Jujur mengevaluasi kapasitas diri, mengelola ekspektasi, dan tidak terlalu keras pada diri sendiri saat lelah. |
+| **2. Keluarga / Sahabat** | Anak | Mama | Mendengarkan cerita Mama dengan sabar, terbuka soal kondisi perkuliahan, dan menjaga suasana rumah tetap hangat. |
+| **3. Profesional / Akademik** | Mahasiswa / Anggota Kelompok | Dosen / Teman Kelompok | Komunikasi lugas, tidak *ghosting* di grup diskusi, dan berani mengonfirmasi detail tugas yang belum jelas. |
+| **4. Komunitas / Kelompok** | Anggota UKM | Pengurus & Rekan Anggota | Aktif memberikan ide saat *brainstorming*, menghargai keputusan bersama, dan tanggap pada tugas organisasi. |
+| **5. Dunia / Publik** | Pengguna Media Sosial | Netizen / Publik | Menjaga etika berpendapat di ruang digital, menyaring kebenaran informasi sebelum membagikannya, dan tidak memicu konflik. |
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 1](../examples/week-01.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+---
 
-{{< include ../includes/evidence-template.md >}}
+## Bagian B: Analisis Kontras Dua Peran Utama
+
+| Unsur Komunikasi | Peran A: Mahasiswa (Akademik) | Peran B: Anak (Keluarga) |
+| :--- | :--- | :--- |
+| **1. Tujuan Tugas & Relasi** | Menyelesaikan proyek kuliah tepat waktu, menjaga alur diskusi tetap efektif, dan membangun kerja sama tim yang solid. | Memberikan rasa tenang bagi orang tua, menjaga keharmonisan, serta memastikan komunikasi sehari-hari tetap terjalin hangat. |
+| **2. Repertoar Utama** | Menyusun poin diskusi secara terstruktur, membagi tenggat kerjaan, dan menyampaikan ide dengan alasan yang masuk akal. | Mendengarkan cerita tanpa memotong, menunjukkan ekspresi perhatian, mengangguk, dan menggunakan gestur tubuh yang santai. |
+| **3. Pilihan Bahasa & Nada** | Bahasa semi-formal yang jelas, nada bicara to-the-point, dan sesekali menggunakan istilah teknis sesuai konteks tugas. | Bahasa santai sehari-hari, nada suara lembut, santun, serta menggunakan sapaan hangat kekeluargaan. |
+| **4. Respons yang Harus Dibaca** | Raut wajah teman yang kurang setuju saat diskusi, keheningan di grup chat, dan *feedback* dari dosen. | Nada suara Mama saat terindikasi lelah atau khawatir, serta raut wajah saat kami sedang mengobrol langsung. |
+| **5. Tindakan yang Diharapkan** | Pembagian pengerjaan tugas yang adil, kesepakatan jadwal revisi, dan tindak lanjut yang jelas. | Mama merasa didengar dan dihargai, serta tidak ada kesalahpahaman dalam urusan rumah sehari-hari. |
+| **6. Relasi yang Harus Dirawat** | Hubungan kerja kelompok yang sehat, profesional, saling menghargai, dan dapat diandalkan hingga akhir semester. | Ikatan emosional keluarga yang erat, berlandaskan rasa saling percaya dan keterbukaan jangka panjang. |
+
+---
+
+## Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan
+
+### 1. Nilai Utama
+Kejujuran, ketulusan dalam berinteraksi, empati terhadap kondisi orang lain, serta komitmen penuh atas tanggung jawab yang sudah disanggupi.
+
+### 2. Kekuatan Komunikasi
+Saya tipe orang yang mau mendengarkan orang lain sampai selesai tanpa terburu-buru menyela. Saya berusaha memahami dulu jalan pikiran orang lain sebelum memberikan tanggapan.
+
+### 3. Pola Hambatan Otomatis
+Saya sering kali merasa "sungkan" atau memilih diam saat kurang sependapat dalam diskusi. Ada rasa khawatir jika ide atau sanggahan saya akan membuat suasana menjadi kaku atau memicu konflik.
+
+### 4. Ketegangan Peran & Kepribadian
+Saya cenderung *pilih mengalah atau diam demi menghindari gesekan*, tetapi peran saya sebagai *Mahasiswa dalam kerja kelompok* menuntut saya untuk *berani bicara jujur dan menyampaikan usulan kritis agar kualitas tugas tim tidak asal-asalan*.
+
+### 5. Sasaran Pertumbuhan Perilaku Terukur
+Selama 4 minggu ke depan, di setiap diskusi kelompok, saya akan mewajibkan diri sendiri untuk menyampaikan setidaknya **1 usulan atau tanggapan alternatif** jika ada hal yang kurang pas, menggunakan kalimat santun seperti: *"Bagaimana kalau kita coba pertimbangkan sudut pandang ini...?"*
+
+### 6. Umpan Balik Jujur
+Inisial **M.R.** (Sahabat terdekat sekaligus teman sekelompok di kampus).

@@ -1,25 +1,58 @@
 ---
 title: "Relationship Conversation"
 week: 3
-status: "Belum dimulai"
+status: "Selesai"
 self_score: "—"
 assessor_score: "—"
 description: "Evidence listening, boundary, request, atau repair."
 categories: [Fondasi, Relationship]
 ---
 
-## Kompetensi target
+**Nama Mahasiswa:** Winda Naila Nur Aisyah  
+**Tanggal Pengerjaan:** 22 September 2026  
 
-Melakukan personal conversation dengan listening, clarity, boundary, dan relationship awareness.
+---
 
-## Evidence wajib
+## Bagian A: Konteks & Latar Belakang Percakapan
 
-- Transcript atau catatan percakapan.
-- Evidence listening dan response.
-- Analisis relationship state sebelum dan sesudah.
+* **Partner Bicara:** Inisial **M.R.** (Sahabat dekat sekaligus teman sekelompok perkuliahan).
+* **Kondisi Relasi Sebelum Percakapan:**  
+  Relasi pertemanan kami sangat dekat, tetapi belakangan muncul ketegangan halus saat mengerjakan proyek kelompok. M.R. sering meneruskan revisi mendadak di malam hari dan berharap saya langsung menyelesaikannya. Selama ini saya selalu mengiyakan karena sungkan, namun hal itu membuat saya diam-diam memendam rasa kesal dan kewalahan.
+* **Fokus Percakapan:** *Setting Boundary* (Menetapkan batasan sehat) dan *Request* (Menyampaikan permintaan terbuka secara santun).
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 3](../examples/week-03.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+---
 
-{{< include ../includes/evidence-template.md >}}
+## Bagian B: Ringkasan Transkrip Percakapan
+
+**Winda:** *"M.R., aku mau ngobrol sebentar soal ritme pengerjaan tugas kelompok kita belakangan ini. Boleh?"*
+
+**M.R.:** *"Boleh banget, Win. Ada apa? Ada bagian tugas yang belum beres ya?"*
+
+**Winda:** *"Bukan soal belum beres kok. Aku paham banget kamu pengen tugas kita dapet hasil terbaik dan cepet selesai, makanya kamu sigap banget tiap ada masukan revisi. Tapi aku mau jujur, kalau dapet lemparan revisi mendadak di atas jam 9 malam dan harus langsung dikerjain malam itu juga, jujur aku keteteran dan makin cemas."*
+
+**M.R.:** *"Oh... gitu ya? Sorry banget Win, aku enggak bermaksud kejar-kejar kamu. Aku cuma panik aja kalau revisiannya ketunda, takut kita kelupaan."*
+
+**Winda:** *"Iya, aku ngerti banget rasa cemas kamu soal deadline, dan aku hargai banget kepedulian kamu sama tugas ini. Tapi ke depannya, boleh enggak kalau ada revisi di malam hari, kita catat dulu dan baru kita bahas/kerjakan besok paginya? Supaya malam hari kita sama-sama bisa istirahat dan pikiran lebih jernih."*
+
+**M.R.:** *"Oke paham, Win. Maaf ya kalau selama ini bikin kamu ngerasa ditekan. Sepakat, besok-besok kita rekap dulu aja malamnya, dikerjainnya pas jam kerja/kuliah besoknya."*
+
+---
+
+## Bagian C: Analisis Bukti *Listening* & *Response*
+
+### 1. Bukti Pendengaran Aktif (*Active Listening*)
+Saya tidak langsung memotong atau bersikap defensif saat M.R. menjelaskan alasan kepanikannya. Saya memberikan validasi atas rasa cemasnya (*"Aku ngerti banget rasa cemas kamu soal deadline, dan aku hargai..."*) sebelum masuk ke batasan pribadi saya.
+
+### 2. Formulasi Respons Berkesadaran (*Healthy Boundary & Request*)
+* **Menggunakan *I-Statement*:** Saya menggunakan kalimat *"Aku keteteran..."* dan *"Aku mau jujur..."* alih-alih menyalahkan (*"Kamu selalu asal suruh..."*).
+* **Usulan Solusi Konkret:** Menyampaikan *request* yang jelas dan realistis, yaitu membuat kesepakatan tidak mengeksekusi revisi mendadak di atas jam 9 malam.
+
+---
+
+## Bagian D: Refleksi Perubahan Status Relasi (*Relationship State*)
+
+| Sebelum Percakapan | Sesudah Percakapan |
+| :--- | :--- |
+| Terdapat ganjalan emosional yang dipendam; saya merasa tertekan dan M.R. tidak menyadari kebiasaannya. | Rasa ganjalan hilang; timbul rasa lega karena masalah dikomunikasikan secara jujur dan terbuka. |
+| Komunikasi cenderung serba asumsi dan pasif-agresif saat lelah. | Terbentuk kesepakatan kerja (*working agreement*) yang menghargai batasan istirahat masing-masing. |
+| Ada rasa khawatir relasi pertemanan akan rusak jika saya menolak tugas. | Pertemanan justru terasa lebih aman (*secure*) dan matang karena saling memahami kapasitas pribadi. |

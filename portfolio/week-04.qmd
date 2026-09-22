@@ -1,25 +1,54 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
+status: "Selesai"
 self_score: "—"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
 ---
 
-## Kompetensi target
+**Nama Mahasiswa:** Winda Naila Nur Aisyah  
+**Tanggal Pengerjaan:** 22 September 2026  
 
-Mengadaptasi repertoire dan language tanpa mengubah core meaning.
+---
 
-## Evidence wajib
+## Bagian A: Pesan Inti & Konteks Kasus
 
-- Lima versi untuk friend, technical peer, manager, customer, dan public.
-- Alasan perubahan language dan repertoire.
-- Feedback understanding dari sedikitnya satu target.
+* **Pesan Utama (Core Meaning):**  
+  Pengerjaan/perilisan modul aplikasi ditunda selama 2 hari karena ditemukannya *bug* kritis pada integrasi data yang dapat mengganggu kestabilan sistem jika dipaksakan rilis sesuai jadwal.
+* **Tujuan Komunikasi:**  
+  Mengomunikasikan penundaan jadwal secara transparan, menjaga kepercayaan target lawan bicara, dan memastikan semua pihak memahami alasannya tanpa memicu kepanikan atau kesan tidak profesional.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+---
 
-{{< include ../includes/evidence-template.md >}}
+## Bagian B: Penerjemahan ke dalam 5 Target Audiens
+
+| Target Audiens | Versi Bahasa & Pesan yang Disampaikan |
+| :--- | :--- |
+| **1. Sahabat / Teman Dekat** *(Friend)* | *"Duh guys, maaf banget ya, fitur yang ini terpaksa ditahan dulu 2 hari. Ternyata pas tak cek masih ada bug lumayan parah di alur datanya. Daripada error pas dipakai, mending kita rapihin dulu sebentar deh."* |
+| **2. Rekan Teknis / Tim Proyek** *(Technical Peer)* | *"Guys, rilis modul X kita postponed 2 hari ya. Ada bug kritis di layer integrasi API yang bikin sync data async-nya failed. Kita butuh waktu buat patching dan running unit test ulang biar ga merembet ke prod."* |
+| **3. Dosen Pembimbing / Atasan** *(Manager)* | *"Selamat pagi Pak/Bu, izin menginformasikan bahwa jadwal penyelesaian modul proyek ada penyesuaian mundur 2 hari. Tim menemukan potensi kendala teknis pada validasi data yang perlu disempurnakan demi menjaga kualitas dan keamanan sistem saat diuji coba nanti."* |
+| **4. Pengguna / Klien** *(Customer)* | *"Halo Kak! Untuk memastikan pengalaman penggunaan aplikasi yang lebih stabil dan nyaman, peluncuran fitur terbaru terpaksa kami undur 2 hari ke depan ya. Terima kasih banyak atas kesabaran dan pengertiannya!"* |
+| **5. Publik / Netizen** *(Public)* | *"Pengumuman: Kami sedang melakukan peningkatan sistem secara berkala demi menjaga kenyamanan Anda. Pembaruan fitur terbaru akan tersedia dalam 2 hari ke depan. Terima kasih atas dukungan dan kepercayaan Anda."* |
+
+---
+
+## Bagian C: Analisis Perubahan Bahasa & Repertoar
+
+1. **Sahabat (Friend):** Menggunakan bahasa santai/gaul, penuh rasa empati, dan tidak kaku agar tidak merusak suasana pertemanan.
+2. **Technical Peer:** Menggunakan istilah teknis (*API, bug, async, patching, prod*) agar penyampaian pesan efisien, presisi, dan langsung ke inti permasalahan teknis.
+3. **Manager / Dosen:** Menggunakan bahasa formal, berfokus pada kualitas hasil akhir, serta menggarisbawahi rasa tanggung jawab dan mitigasi risiko.
+4. **Customer:** Mengutamakan pendekatan pelayanan yang ramah, berfokus pada manfaat kenyamanan bagi pengguna, dan menghindari istilah teknis yang membingungkan.
+5. **Public:** Menggunakan bahasa pengumuman resmi yang singkat, lugas, dan terstruktur untuk menjaga citra serta reputasi tim/organisasi.
+
+---
+
+## Bagian D: Bukti Umpan Balik (*Feedback Understanding*)
+
+* **Target Audiens yang Dihubungi:** Rekan Teknis (Inisial **M.R.**).
+* **Bentuk Komunikasi:** Tanggapan langsung di grup diskusi proyek setelah pesan teknis disampaikan.
+* **Respon / Umpan Balik:**  
+  *"Aman Win, paham. Mending di-patch dulu API-nya daripada jebol pas demo. Nanti malam kita bantu re-check unit test-nya ya."*
+* **Kesimpulan Umpan Balik:**  
+  Lawan bicara memahami pesan teknis dengan tepat, mengetahui alasan penundaan tanpa salah paham, dan langsung memberikan dukungan solusi yang relevan.

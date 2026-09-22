@@ -1,25 +1,53 @@
 ---
 title: "Professional Discovery Interview"
 week: 5
-status: "Belum dimulai"
+status: "Selesai"
 self_score: "—"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
 ---
 
-## Kompetensi target
+**Nama Mahasiswa:** Winda Naila Nur Aisyah  
+**Tanggal Pengerjaan:** 22 September 2026  
 
-Mendengar sebelum proposing dan membangun shared problem statement dengan person.
+---
 
-## Evidence wajib
+## Bagian A: Asumsi Awal & Daftar Pertanyaan Discovery
 
-- Initial assumption dan pertanyaan discovery.
-- Transcript/paraphrase serta problem impact dan constraint.
-- Shared problem statement yang dikonfirmasi partner.
+* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara Kegiatan UKM).
+* **Asumsi Awal Saya (Sebelum Wawancara):**  
+  Saya sempat menganggap R.A. kurang disiplin mengatur *timeline* kerja dan lambat memberi instruksi, sehingga materi rundown dan publikasi acara selalu terlambat diserahkan ke tim media.
+* **Pertanyaan *Discovery* (Terbuka & Tanpa Menghakimi):**
+  1. *"Boleh cerita enggak, alur pengerjaan materi acara dari ide awal sampai siap di-publish itu biasanya lewat tahapan apa aja?"*
+  2. *"Di titik mana yang menurutmu paling sering bikin alur pengerjaan jadi tersendat atau keteteran?"*
+  3. *"Dampak apa yang paling terasa buat kamu dan tim kalau jadwal penyerahan materi ini mundur?"*
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 5](../examples/week-05.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+---
 
-{{< include ../includes/evidence-template.md >}}
+## Bagian B: Ringkasan Sesi Discovery & Fakta Terungkap
+
+### 1. Ringkasan Obrolan
+Setelah mendengarkan penjelasan R.A., ternyata masalah utamanya bukan pada ketidakdisiplinan timnya. Masalah sebenarnya adalah adanya penumpukan (*bottleneck*) pada proses validasi akhir. R.A. harus menunggu persetujuan dari 3 pihak berbeda (Ketua Pelaksana, Dosen Pembina, dan Pihak Sponsor) yang sering memberikan revisi berbeda di waktu yang tumpang tindih.
+
+### 2. Dampak Masalah (*Problem Impact*) & Kendala (*Constraint*)
+* **Dampak (*Impact*):** Tim acara sering terpaksa lembur di malam hari, anggota merasa kelelahan emosional, dan materi publikasi jadi terburu-buru sehingga hasilnya kurang maksimal.
+* **Kendala (*Constraint*):** Prosedur persetujuan dari dosen dan sponsor merupakan aturan wajib yang tidak bisa dipotong begitu saja.
+
+---
+
+## Bagian C: Rumusan Masalah Bersama (*Shared Problem Statement*)
+
+Dengan mendengarkan tanpa memotong atau menggurui, kami berhasil menyepakati satu rumusan masalah bersama:
+
+> *"Masalah utama kita bukanlah keterlambatan individu, melainkan **belum adanya kesepakatan batas waktu (cutoff time) untuk revisi dari pihak internal/eksternal**, sehingga tim acara terus-menerus melakukan revisi berulang di menit-menit akhir."*
+
+* **Bukti Konfirmasi Mitra (R.A.):**  
+  *"Nah iya tepat banget, Win! Masalahnya emang di batas waktu revisi eksternal itu. Kita butuh batasan tegas biar revisiannya enggak meluber terus pas udah mendekati H-2 acara."*
+
+---
+
+## Bagian D: Refleksi Perilaku Komunikasi
+
+* **Hal Baru yang Dipelajari:** Pentingnya menahan emosi dan menyampingkan asumsi pribadi sebelum benar-benar memahami akar masalah dari sudut pandang lawan bicara.
+* **Perubahan Sikap:** Berhasil menggeser pola pikir dari *menyalahkan personal* (*person*) menjadi *menganalisis perbaikan sistem/alur kerja* (*structure*).
