@@ -1,5 +1,7 @@
 ---
 title: "Lembar Kerja Bab 05"
+week: 5
+categories: [LK, Professional]
 ---
 
 # LEMBAR KERJA PRAKTIS: WAWANCARA PENEMUAN KEBUTUHAN & FORMULA PERNYATAAN MASALAH PELANGGAN
@@ -7,113 +9,88 @@ title: "Lembar Kerja Bab 05"
 
 ---
 
-> **“Produk yang canggih belum tentu bernilai. Nilai lahir ketika pengetahuan, pekerjaan, dan layanan sungguh-sungguh menjawab persoalan manusia.”**
+> **“Produk yang canggih belum tentu bernilai. Nilai lahir ketika pengetahuan, pekerjaan, dan layanan sungguh-sungguh menjawab persoalan manusia.”**  
 > — *Komunikasi Interpersonal dan Publik*, Bab 5
 
 ---
 
-## 📌 PENGANTAR: NILAI ADA DALAM PENGALAMAN PENERIMA
-Sebagai calon profesional, kesalahan terbesar yang sering kita lakukan adalah **terlalu cepat menyodorkan solusi atau membuat fitur sebelum benar-benar memahami masalahnya**. Permintaan awal dari rekan kerja atau pelanggan (seperti meminta dibuatkan "aplikasi baru", "pemberitahuan SMS", atau "sistem pencatatan otomatis") sering kali bukanlah solusi terbaik. Kebutuhan nyata mereka mungkin hanyalah akses informasi yang lebih cepat, kejelasan pembagian tugas, atau pengurangan waktu tunggu.
-
-Lembar kerja ini dirancang untuk menuntun Anda melakukan **Wawancara Penemuan Kebutuhan** yang berempati, mendengarkan secara mendalam sebelum menjelaskan, serta merumuskan **Pernyataan Masalah Pelanggan** (*Customer Problem Statement*) secara presisi.
+## **A. Deskripsi Tugas**
+Melakukan Wawancara Penemuan Kebutuhan (*Discovery Interview*) secara berempati selama 15–20 menit dengan narasumber, mendengarkan secara mendalam tanpa langsung menawarkan solusi teknis, serta merumuskan Pernyataan Masalah Pelanggan (*Customer Problem Statement*) yang terkonfirmasi.
 
 ---
 
-## 🛠️ FASE 1: PERSIAPAN & WAWANCARA (5 PERTANYAAN PENEMUAN)
-Sebelum melakukan wawancara selama 15–20 menit dengan narasumber (rekan kerja, mahasiswa, staf kampus, atau pemilik usaha mikro di sekitar Anda), pelajari **5 Pertanyaan Penemuan** berikut yang berfungsi sebagai kompas penelusuran Anda:
-
-1. **Apa yang sedang terjadi?** (Minta contoh peristiwa secara konkret, bukan penjelasan umum).
-2. **Mengapa hal itu menjadi masalah?** (Temukan dampak nyata, beban, kerugian, atau hambatan emosionalnya).
-3. **Siapa yang terdampak?** (Kenali pribadi dan peran spesifik mereka dalam sistem tersebut).
-4. **Keadaan yang lebih baik seperti apa?** (Rumuskan hasil akhir yang diharapkan, bukan berupa fitur atau teknologi tertentu).
-5. **Apa kendalanya?** (Periksa batas-batas nyata seperti waktu, biaya, kebijakan, kemampuan teknis, dan risiko).
-
-### 💡 Repertoar Pertanyaan Profesional Tambahan:
-Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan berikut secara proporsional:
-*   **Pertanyaan Tertutup (Memastikan fakta):** *"Apakah laporan ini dikirimkan setiap hari Senin?"*
-*   **Pertanyaan Klarifikasi (Memeriksa istilah):** *"Apa yang Ibu maksud dengan sistem yang 'siap digunakan'?"*
-*   **Pertanyaan Dampak (Memahami akibat):** *"Siapa saja yang akan terhambat jika data ini terlambat Anda terima?"*
-*   **Pertanyaan Masa Depan (Merumuskan hasil):** *"Jika masalah ini selesai, seperti apa alur kerja ideal yang Anda bayangkan?"*
-
-*⚠️ **Pemberitahuan Etis & Privasi:** Pastikan Anda mendapatkan persetujuan lisan/tertulis dari narasumber, jelaskan bahwa data sensitif mereka akan dilindungi/disamarkan, dan wawancara bersifat sukarela.*
+## **B. Identitas Mahasiswa**
+* **Nama Lengkap:** Winda Naila Nur Aisyah  
+* **NIM:** 18225069  
+* **Program Studi:** Sistem dan Teknologi Informasi (STI)  
+* **Tanggal Pengisian:** 27 September 2026  
 
 ---
 
-## 📝 FASE 2: LEMBAR PENGERJAAN MAHASISWA
+## **C. Fase 2: Pengerjaan Wawancara**
 
-### 👥 1. Profil Narasumber (Disamarkan Demi Privasi)
-*   **Nama Samaran:** 
-*   **Peran/Pekerjaan Nyata:** 
-*   **Domain Hubungan:** Rekan Kerja / Pelanggan / Rekan Mahasiswa *(Coret yang tidak perlu)*
-*   **Konteks Lingkungan:** *(Misal: Kantin Kampus, Kelompok Proyek Kelas, Administrasi Jurusan)*
+### **1. Profil Narasumber (Disamarkan Demi Privasi)**
+* **Nama Samaran:** R.A.  
+* **Peran/Pekerjaan Nyata:** Koordinator Divisi Acara Kegiatan UKM Kampus  
+* **Domain Hubungan:** Rekan Kerja / Rekan Mahasiswa  
+* **Konteks Lingkungan:** Panitia Pelaksana Kegiatan Tahunan UKM Kampus  
 
 ---
 
-### 📓 2. Log Catatan Wawancara (Gunakan 5 Pertanyaan Penemuan)
+### **2. Log Catatan Wawancara (5 Pertanyaan Penemuan)**
 
 #### **Pertanyaan 1: Kejadian Nyata & Contoh Konkret**
-*   *Tuliskan pertanyaan Anda & contoh kasus nyata yang diceritakan narasumber:*
-    > 
+* **Pertanyaan Anda:** *"Boleh cerita enggak, contoh kejadian konkret pas alur pengerjaan rundown dan materi acara terasa paling terhambat?"*
+* **Catatan Narasumber:** *"Pas persiapan acara minggu lalu, rundown H-3 yang udah disusun rapi tiba-tiba harus dirombak total malam hari karena Dosen Pembina minta penyesuaian durasi, dan di saat bersamaan sponsor minta slot presentasi tambahan."*
 
 #### **Pertanyaan 2: Dampak Nyata & Beban Masalah**
-*   *Tuliskan dampak langsung dari masalah tersebut terhadap pekerjaan, waktu, atau perasaan mereka:*
-    > 
+* **Pertanyaan Anda:** *"Apa dampak langsung dari penumpukan revisi dadakan itu ke kamu dan tim acara?"*
+* **Catatan Narasumber:** *"Anak-anak tim acara terpaksa begadang sampai jam 3 pagi buat revisi. Efeknya fisik capek banget, emosi jadi sensitif, dan penyerahan materi ke tim media jadi terlambat sehingga promosi acara kurang maksimal."*
 
 #### **Pertanyaan 3: Pemetaan Pihak Terdampak**
-*   *Siapa saja pribadi dan peran yang ikut terganggu oleh peristiwa ini?*
-    > 
+* **Pertanyaan Anda:** *"Siapa saja yang ikut kena dampak dari hambatan alur ini?"*
+* **Catatan Narasumber:** *"Tim Acara (kelelahan fisik/mental), Tim Media & Publikasi (terhambat bikin visual/poster), serta Ketua Pelaksana (stress karena jadwal keseluruhan bergeser)."*
 
 #### **Pertanyaan 4: Gambaran Keadaan yang Lebih Baik (Hasil Akhir, Bukan Fitur)**
-*   *Bagaimana situasi ideal yang diharapkan? Ingat: Fokus pada KEMAMPUAN narasumber, bukan teknologi digitalnya.*
-    > 
+* **Pertanyaan Anda:** *"Situasi kerja ideal seperti apa yang kamu harapkan untuk alur persetujuan ini?"*
+* **Catatan Narasumber:** *"Saya pengen ada kepastian jadwal persetujuan yang jelas. Jadi ada batas waktu tegas (*cutoff time*) kapan revisi dari dosen atau sponsor boleh masuk, biar tim tidak terus-menerus merombak acara di menit-menit akhir."*
 
 #### **Pertanyaan 5: Batasan & Kendala Lapangan**
-*   *Apa saja kendala nyata dari segi waktu, biaya, kebijakan, atau kemampuan yang membatasi solusi mereka?*
-    > 
+* **Pertanyaan Anda:** *"Apa saja kendala atau aturan yang membatasi alur persetujuan ini?"*
+* **Catatan Narasumber:** *"Persetujuan Dosen Pembina dan Sponsor itu syarat wajib dari kampus dan kontrak kerja sama, jadi tahapannya tidak bisa dihilangkan begitu saja."*
 
 ---
 
-## ✒️ FASE 3: FORMULASI PERNYATAAN MASALAH PELANGGAN
+## **D. Fase 3: Formulasi Pernyataan Masalah Pelanggan**
 
-Gunakan formula terstruktur dari buku ajar berikut untuk menyusun masalah narasumber Anda. **Aturan utama: Pernyataan ini TIDAK BOLEH menyebutkan solusi teknis (seperti aplikasi, website, database, dll.)!**
-
-### 📐 Formula Standar:
+### **Formula Standar:**
 > **`[Pribadi/Peran]` mengalami `[keadaan yang dapat diamati]` ketika `[konteks]`, sehingga `[dampak]`. Ia membutuhkan `[hasil/kemampuan]`, dengan mempertimbangkan `[kendala]`.**
 
-#### 💡 Contoh Model Buku (Kasus Kantin Kampus):
-*Mahasiswa pengguna kantin mengalami antrean yang tidak dapat diperkirakan pada jam pergantian kuliah sehingga terlambat masuk kelas. Mereka membutuhkan cara mengetahui waktu tunggu dan mengambil pesanan lebih cepat, dengan mempertimbangkan kemampuan kasir, biaya pemilik, serta akses pengguna tanpa telepon pintar.*
+---
+
+### **Draft 1: Pernyataan Masalah Awal (Sebelum Konfirmasi)**
+> *Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan mengalami kelelahan emosional. Ia membutuhkan kepastian batas waktu persetujuan materi dari pihak internal dan eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor.*
+
+### **Draft 2: Pernyataan Masalah Terkonfirmasi (Setelah Konfirmasi)**
+> *Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan materi publikasi terlambat diserahkan ke tim media. Ia membutuhkan kesepakatan batas waktu (cutoff time) persetujuan dan revisi materi dari pihak internal maupun eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor.*
 
 ---
 
-### ✍️ Draft 1: Pernyataan Masalah Awal (Sebelum Konfirmasi)
-*Susun draf pertama Anda setelah selesai mewawancarai narasumber:*
-> 
+## **E. Fase 4: Refleksi Intrapribadi**
 
-### 🔄 Draft 2: Pernyataan Masalah Terkonfirmasi (Setelah Konfirmasi)
-*Bacakan draf pertama Anda kepada narasumber, minta masukan mereka ("Apakah rumusan ini menggambarkan situasi Anda?"), dan tulis perbaikannya di bawah ini berdasarkan koreksi narasumber:*
-> 
+> **Jurnal Refleksi:**  
+> Dalam wawancara ini, saya belajar untuk menahan ego dan tidak langsung menyodorkan solusi teknis seperti *"bikin aplikasi manajemen tugas saja"*. Asumsi awal saya bahwa R.A. kurang disiplin ternyata keliru besar; ia justru bekerja sangat keras menghadapi tekanan dari berbagai pihak. Hambatan sebenarnya berada pada ketiadaan sistem pembatasan waktu (*cutoff time*) revisi. Ke depan, langkah kecil yang harus segera saya tepati demi menjaga kepercayaan profesional adalah membantu merumuskan usulan *SOP cutoff time* revisi tersebut bersama R.A. sebelum diajukan ke Ketua Pelaksana.
 
 ---
 
-## 🎯 FASE 4: REFLEKSI INTRAPRIBADI
-Tuliskan refleksi singkat Anda (100–150 kata) mengenai proses wawancara ini:
-1. *Seberapa cepat Anda menahan ego untuk tidak langsung menawarkan solusi teknologi di awal percakapan?*
-2. *Asumsi awal apa yang Anda miliki yang ternyata terbukti keliru atau berubah setelah mendengarkan penjelasan narasumber secara utuh?*
-3. *Janji atau langkah kecil apa yang harus segera Anda tepati untuk menjaga kepercayaan profesional dengan narasumber ini?*
+## **F. Fase 5: Rubrik Penilaian Mandiri (Self-Assessment)**
 
-> **Jurnal Refleksi:**
-> 
+| Kriteria Evaluasi | ⭐ Belum Tampak (< 60) | ⭐⭐ Mulai Berkembang (60-79) | ⭐⭐⭐ Cakap / Unggul (80-100) | Skor Mandiri |
+| :--- | :--- | :--- | :--- | :---: |
+| **Kualitas Mendengarkan** | Langsung menyodorkan solusi tanpa menanyakan konteks. | Menangkap isi masalah umum, melompati kendala. | Menangkap konteks kejadian, dampak emosional, kebutuhan riil, serta kendala lapangan secara utuh. | 100 |
+| **Ketepatan Rumusan Masalah** | Rumusan masalah berupa usulan solusi teknis. | Berpusat pada masalah, bahasa masih kabur. | Berpusat pada pribadi, fakta teramati, terikat konteks, bebas solusi, dan terkonfirmasi. | 100 |
+| **Etika & Penjagaan Privasi** | Data pribadi dikumpulkan berlebihan. | Meminta izin umum, identitas belum disamarkan. | Persetujuan diperoleh secara sukarela, privasi dijaga ketat dengan samaran, dan martabat dihormati. | 100 |
+| **Keandalan & Hubungan** | Memberikan janji manis berlebihan. | Menyatakan batas secara umum, tindak lanjut mengambang. | Jujur menyatakan batas kemampuan serta memberikan kejelasan langkah dan waktu tindak lanjut. | 100 |
 
----
-
-## 📊 FASE 5: RUBRIK PENILAIAN MANDIRI (SELF-ASSESSMENT)
-Evaluasi lembar kerja Anda secara jujur menggunakan kriteria rubrik Bab 5 berikut sebelum dikumpulkan ke dalam portofolio Anda.
-
-| Kriteria Evaluasi | ⭐ Belum Tampak (Skor < 60) | ⭐⭐ Mulai Berkembang (Skor 60-79) | ⭐⭐⭐ Cakap / Unggul (Skor 80-100) | Skor Mandiri |
-| :--- | :--- | :--- | :--- | :--- |
-| **Kualitas Mendengarkan** | Langsung menyodorkan solusi tanpa menanyakan konteks atau mengonfirmasi masalah. | Menangkap isi masalah secara umum, namun melompati kendala atau pihak yang terdampak. | Menangkap konteks kejadian, dampak emosional/finansial, kebutuhan riil, serta kendala lapangan secara utuh. | |
-| **Ketepatan Rumusan Masalah** | Rumusan masalah masih berupa usulan solusi teknis (misal: "Memerlukan aplikasi database"). | Berpusat pada masalah, namun bahasanya masih kabur atau belum dikonfirmasi ke narasumber. | Berpusat pada pribadi, menggunakan fakta teramati, terikat konteks yang jelas, bebas solusi, dan telah terkonfirmasi. | |
-| **Etika & Penjagaan Privasi** | Data pribadi dikumpulkan berlebihan, tidak meminta izin narasumber, atau memaksa narasumber. | Meminta izin umum, namun belum menyamarkan identitas atau kurang peka pada data sensitif. | Persetujuan diperoleh secara sukarela, privasi dijaga ketat dengan samaran, dan martabat narasumber sangat dihormati. | |
-| **Keandalan & Hubungan** | Memberikan janji manis berlebihan atau kepastian palsu yang tidak masuk akal demi menyenangkan narasumber. | Menyatakan batas secara umum namun tindak lanjutnya masih mengambang. | Jujur menyatakan batas kemampuan serta memberikan kejelasan langkah dan waktu tindak lanjut berikutnya. | |
-
-*Simpan lembar kerja ini, catatan log wawancara, dan rekaman (jika ada izin) sebagai **Artefak Portofolio Bab 5** Anda.*
+### Penghitungan Nilai Evaluasi Diri:
+$$\text{Nilai Akhir} = \frac{100 + 100 + 100 + 100}{4} = 100 \quad \text{(Tingkat Unggul / Skor 4)}$$

@@ -2,57 +2,45 @@
 title: "Relationship Conversation"
 week: 3
 status: "Selesai"
-self_score: "—"
+self_score: "4"
 assessor_score: "—"
-description: "Evidence listening, boundary, request, atau repair."
+description: "Bukti praktik mendengarkan pada tiga tingkat (Kata, Makna, dan Pribadi) tanpa dorongan impulsif untuk memberikan solusi, berdasarkan percakapan nyata via pesan teks."
 categories: [Fondasi, Relationship]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
-**Tanggal Pengerjaan:** 22 September 2026  
+**NIM:** 18225069  
+**Tanggal Pengerjaan:** 27 September 2026  
+
+> 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 03 Lengkap](../lk/week-03.html)
 
 ---
 
-## Bagian A: Konteks & Latar Belakang Percakapan
+## 1. Bukti Mendengarkan Tiga Tingkat (*Listening Evidence*)
 
-* **Partner Bicara:** Inisial **M.R.** (Sahabat dekat sekaligus teman sekelompok perkuliahan).
-* **Kondisi Relasi Sebelum Percakapan:**  
-  Relasi pertemanan kami sangat dekat, tetapi belakangan muncul ketegangan halus saat mengerjakan proyek kelompok. M.R. sering meneruskan revisi mendadak di malam hari dan berharap saya langsung menyelesaikannya. Selama ini saya selalu mengiyakan karena sungkan, namun hal itu membuat saya diam-diam memendam rasa kesal dan kewalahan.
-* **Fokus Percakapan:** *Setting Boundary* (Menetapkan batasan sehat) dan *Request* (Menyampaikan permintaan terbuka secara santun).
+* **Mitra Latihan:** Grasella (STEIK '25)[cite: 1, 2]
+* **Topik Cerita Mitra:** Kebiasaan menunda (*procrastination*), *doomscrolling* saat di kos, dan rasa bersalah/frustrasi karena materi perkuliahan makin menumpuk[cite: 2].
 
----
-
-## Bagian B: Ringkasan Transkrip Percakapan
-
-**Winda:** *"M.R., aku mau ngobrol sebentar soal ritme pengerjaan tugas kelompok kita belakangan ini. Boleh?"*
-
-**M.R.:** *"Boleh banget, Win. Ada apa? Ada bagian tugas yang belum beres ya?"*
-
-**Winda:** *"Bukan soal belum beres kok. Aku paham banget kamu pengen tugas kita dapet hasil terbaik dan cepet selesai, makanya kamu sigap banget tiap ada masukan revisi. Tapi aku mau jujur, kalau dapet lemparan revisi mendadak di atas jam 9 malam dan harus langsung dikerjain malam itu juga, jujur aku keteteran dan makin cemas."*
-
-**M.R.:** *"Oh... gitu ya? Sorry banget Win, aku enggak bermaksud kejar-kejar kamu. Aku cuma panik aja kalau revisiannya ketunda, takut kita kelupaan."*
-
-**Winda:** *"Iya, aku ngerti banget rasa cemas kamu soal deadline, dan aku hargai banget kepedulian kamu sama tugas ini. Tapi ke depannya, boleh enggak kalau ada revisi di malam hari, kita catat dulu dan baru kita bahas/kerjakan besok paginya? Supaya malam hari kita sama-sama bisa istirahat dan pikiran lebih jernih."*
-
-**M.R.:** *"Oke paham, Win. Maaf ya kalau selama ini bikin kamu ngerasa ditekan. Sepakat, besok-besok kita rekap dulu aja malamnya, dikerjainnya pas jam kerja/kuliah besoknya."*
-
----
-
-## Bagian C: Analisis Bukti *Listening* & *Response*
-
-### 1. Bukti Pendengaran Aktif (*Active Listening*)
-Saya tidak langsung memotong atau bersikap defensif saat M.R. menjelaskan alasan kepanikannya. Saya memberikan validasi atas rasa cemasnya (*"Aku ngerti banget rasa cemas kamu soal deadline, dan aku hargai..."*) sebelum masuk ke batasan pribadi saya.
-
-### 2. Formulasi Respons Berkesadaran (*Healthy Boundary & Request*)
-* **Menggunakan *I-Statement*:** Saya menggunakan kalimat *"Aku keteteran..."* dan *"Aku mau jujur..."* alih-alih menyalahkan (*"Kamu selalu asal suruh..."*).
-* **Usulan Solusi Konkret:** Menyampaikan *request* yang jelas dan realistis, yaitu membuat kesepakatan tidak mengeksekusi revisi mendadak di atas jam 9 malam.
-
----
-
-## Bagian D: Refleksi Perubahan Status Relasi (*Relationship State*)
-
-| Sebelum Percakapan | Sesudah Percakapan |
+| Tingkat Mendengarkan | Tangkapan Informasi & Respons Komunikasi |
 | :--- | :--- |
-| Terdapat ganjalan emosional yang dipendam; saya merasa tertekan dan M.R. tidak menyadari kebiasaannya. | Rasa ganjalan hilang; timbul rasa lega karena masalah dikomunikasikan secara jujur dan terbuka. |
-| Komunikasi cenderung serba asumsi dan pasif-agresif saat lelah. | Terbentuk kesepakatan kerja (*working agreement*) yang menghargai batasan istirahat masing-masing. |
-| Ada rasa khawatir relasi pertemanan akan rusak jika saya menolak tugas. | Pertemanan justru terasa lebih aman (*secure*) dan matang karena saling memahami kapasitas pribadi. |
+| **Tingkat 1: Kata (Fakta Objektif)** | Grasella sering menunda belajar setibanya di kos, memilih membuka HP (*doomscrolling*), hingga ketiduran, padahal sadar tugas dan persiapan UTS makin dekat[cite: 2]. |
+| **Tingkat 2: Makna (Parafrasa)** | *"Berarti kalau gua ga salah nangkep, lu tuh sebenernya ada niat dan pengen belajar, tapi begitu sampe kos udah kehabisan energi dan kalah sama distraksi HP. Ujung-ujungnya lu jadi kesel sama diri sendiri dan cemas karena tugasnya makin numpuk. Bener ga gitu?"*[cite: 1] |
+| **Tingkat 3: Pribadi (Emosi & Kebutuhan)** | **Emosi:** Kesel pada diri sendiri, cemas, *overwhelmed*, merasa bersalah[cite: 1, 2].<br>**Kebutuhan:** Kebutuhan akan ruang aman (*acceptance*), rasa tenang, dan penerimaan tanpa dihakimi[cite: 1]. |
+
+---
+
+## 2. Implementasi Pertanyaan Emas & Respon Mitra
+
+Pada akhir percakapan, saya mengajukan *Pertanyaan Emas*:
+> *"Btw buat cerita lu ini, lu saat ini cuma pengen didengerin aja buat numpahin pusingnya atau lu butuh saran dari gua?"*[cite: 1]
+
+* **Respons Nyata Grasella:**  
+  > *"Benerr bgt winn. Gua lagi pengen cerita aja win, sebenarnya selalu sadar apa yg harusnya dilakuin tp ya gitu nunda mulu hehehe"*[cite: 1]
+* **Bukti Menahan Diri:** Saya menahan diri sepenuhnya dari memberikan tips manajemen waktu atau aplikasi *scheduler*, sehingga Grasella mendapatkan ruang aman yang ia butuhkan[cite: 1].
+
+---
+
+## 3. Analisis Dinamika Relasi (*Relationship State*)
+
+* **Sebelum Latihan:** Komunikasi sehari-hari antar sesama teman angkatan cenderung berfokus pada obrolan santai atau urusan akademis formal tanpa menggali rasa rentan (*vulnerability*)[cite: 2, 3].
+* **Sesudah Latihan:** Tercipta ikatan *psychological safety* yang lebih kuat. Grasella merasa divalidasi dan tidak dihakimi meskipun mengakui kelemahannya (*doomscrolling* & nunda-nunda), sehingga relasi menjadi lebih terbuka dan saling mendukung[cite: 1, 2].

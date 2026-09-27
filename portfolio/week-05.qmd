@@ -2,22 +2,25 @@
 title: "Professional Discovery Interview"
 week: 5
 status: "Selesai"
-self_score: "—"
+self_score: "4"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
-**Tanggal Pengerjaan:** 22 September 2026  
+**NIM:** 18225069  
+**Tanggal Pengerjaan:** 27 September 2026  
+
+> 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 05 Lengkap](../lk/week-05.html)
 
 ---
 
 ## Bagian A: Asumsi Awal & Daftar Pertanyaan Discovery
 
-* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara Kegiatan UKM).
+* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara Kegiatan UKM Kampus).
 * **Asumsi Awal Saya (Sebelum Wawancara):**  
-  Saya sempat menganggap R.A. kurang disiplin mengatur *timeline* kerja dan lambat memberi instruksi, sehingga materi rundown dan publikasi acara selalu terlambat diserahkan ke tim media.
+  Saya sempat berasumsi bahwa R.A. kurang disiplin mengatur *timeline* kerja dan lambat memberi instruksi, sehingga materi rundown dan publikasi acara selalu terlambat diserahkan ke tim media.
 * **Pertanyaan *Discovery* (Terbuka & Tanpa Menghakimi):**
   1. *"Boleh cerita enggak, alur pengerjaan materi acara dari ide awal sampai siap di-publish itu biasanya lewat tahapan apa aja?"*
   2. *"Di titik mana yang menurutmu paling sering bikin alur pengerjaan jadi tersendat atau keteteran?"*
@@ -32,7 +35,7 @@ Setelah mendengarkan penjelasan R.A., ternyata masalah utamanya bukan pada ketid
 
 ### 2. Dampak Masalah (*Problem Impact*) & Kendala (*Constraint*)
 * **Dampak (*Impact*):** Tim acara sering terpaksa lembur di malam hari, anggota merasa kelelahan emosional, dan materi publikasi jadi terburu-buru sehingga hasilnya kurang maksimal.
-* **Kendala (*Constraint*):** Prosedur persetujuan dari dosen dan sponsor merupakan aturan wajib yang tidak bisa dipotong begitu saja.
+* **Kendala (*Constraint*):** Prosedur persetujuan dari dosen dan sponsor merupakan aturan wajib organisasi yang tidak bisa dipotong atau dilewati.
 
 ---
 
@@ -40,7 +43,7 @@ Setelah mendengarkan penjelasan R.A., ternyata masalah utamanya bukan pada ketid
 
 Dengan mendengarkan tanpa memotong atau menggurui, kami berhasil menyepakati satu rumusan masalah bersama:
 
-> *"Masalah utama kita bukanlah keterlambatan individu, melainkan **belum adanya kesepakatan batas waktu (cutoff time) untuk revisi dari pihak internal/eksternal**, sehingga tim acara terus-menerus melakukan revisi berulang di menit-menit akhir."*
+> *"Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan mengalami kelelahan emosional. Ia membutuhkan kepastian batas waktu (cutoff time) persetujuan materi dari pihak internal dan eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor."*
 
 * **Bukti Konfirmasi Mitra (R.A.):**  
   *"Nah iya tepat banget, Win! Masalahnya emang di batas waktu revisi eksternal itu. Kita butuh batasan tegas biar revisiannya enggak meluber terus pas udah mendekati H-2 acara."*
