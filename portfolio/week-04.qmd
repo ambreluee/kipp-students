@@ -1,41 +1,66 @@
 ---
-title: "Five-Language Translation Portfolio"
+title: "Multi-Audience Communication & Adaptation"
 week: 4
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Satu meaning untuk lima person atau character."
-categories: [Fondasi, Language]
+description: "Penerjemahan pesan teknis ke lima audiens serta pengelolaan umpan balik dan keraguan pemangku kepentingan."
+categories: [Professional, Communication, Multi-Audience]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 27 September 2026  
+**Tanggal Pengerjaan:** 22 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 04 Lengkap](../lk/week-04.html)
 
 ---
 
-## 1. Ringkasan Dekonstruksi Konsep Teknis
+## Bagian A: Pesan Inti & Pemetaan 5 Audiens
 
-* **Konsep Teknis Dipilih:** Enkripsi Kunci Publik (*Public Key Cryptography*)
-* **Kebenaran Inti (*Marrow of the Message*):** Cara aman mengunci dan mengirimkan data rahasia di internet agar hanya penerima sah yang bisa membukanya, tanpa perlu bertemu langsung untuk berbagi kunci rahasia.
+* **Pesan Inti Teknis:**  
+  *"Sistem validasi rundown dan materi acara perlu mengimplementasikan mekanisme cutoff time ketat pada H-3 acara untuk mencegah race condition/overwriting revisi dari multiple stakeholders dan menekan beban server/overtime tim."*
+
+### Translasi Pesan ke 5 Target Audiens:
+1. **Rekan Teknis (Developer/Peer):**  
+   *"Kita butuh penegasan cutoff time H-3 untuk validasi rundown agar tidak terjadi race condition pada commit data revisi dari dosen dan sponsor."*
+2. **Manajer Proyek / Koordinator Acara (Non-Teknis):**  
+   *"Dengan batas waktu revisi maksimal H-3, tim kita tidak perlu lembur mendadak di malam H-1 dan risiko salah tayang jadwal acara bisa ditekan hingga nol."*
+3. **Dosen Pembina / Pihak Eksternal (Sponsor):**  
+   *"Demi kepastian kualitas dan kelancaran acara bersama, seluruh persetujuan materi dan rundown kami mohon difinalisasi sebelum H-3 pukul 17.00 WIB."*
+4. **Tim Publikasi / Media (Eksekutor Visual):**  
+   *"Mulai H-3 jam 5 sore, materi visual yang masuk sudah final 100%. Teman-teman bisa fokus cetak dan upload tanpa takut ada revisi mendadak."*
+5. **Peserta Acara / Mahasiswa Umum (End-User):**  
+   *"Jadwal dan pengisi acara resmi akan dipublikasikan secara pasti pada H-2, memberikan Anda kepastian agenda kegiatan yang akurat."*
 
 ---
 
-## 2. Matriks Terjemahan Lima Bahasa (*Code-Switching*)
+## Bagian B: Umpan Balik & Pengelolaan Keraguan Audiens (*Feedback & Trade-off*)
 
-| Target Audiens | Strategi Komunikasi | Draf Terjemahan Pesan |
-| :--- | :--- | :--- |
-| **1. Anak-Anak (~10 Tahun)** | Analogi fisik kotak gembok ajaib & dua warna kunci yang intuitif. | *"Bayangkan kamu punya kotak harta karun ajaib dengan dua kunci: kunci hijau di luar kelas yang boleh dipakai semua teman untuk mengunci surat rahasia buat kamu, dan kunci emas yang cuma kamu simpan di kantong. Temanmu bisa mengunci surat pakai kunci hijau, tapi begitu terkunci, cuma kunci emasmu yang bisa membukanya!"* |
-| **2. Sahabat (Beda Prodi)** | Bahasa kasual, akrab, dengan contoh pengiriman paket di kehidupan sehari-hari. | *"Jadi gini, kalau mau kirim pesan rahasia lewat internet, kita pakai sistem 'dua kunci'. Lu bayangin gua ngasih gembok terbuka ke lu, tapi kuncinya cuma gua yang pegang. Lu masukin surat ke kotak lalu kunci pakai gembok gua. Di jalan, orang lain ga bakal bisa buka karena kuncinya cuma ada di gua."* |
-| **3. Rekan Teknis (STI/ITB)** | Notasi matematis, istilah baku kriptografi, parameter presisi ($E, D, K_{pub}, K_{priv}$). | *"Menggunakan pasangan kunci asimetris berdasar fungsi matematika satu arah (seperti RSA atau ECC). Plaintext dienkripsi dengan Public Key penerima ($E(m, K_{pub}) = c$), dan Ciphertext $c$ hanya dapat didekripsi menggunakan Private Key penerima ($D(c, K_{priv}) = m$), menjamin kerahasiaan (confidentiality) pada saluran tak aman."* |
-| **4. Manajer / Bisnis** | Berfokus pada nilai tambah bisnis, mitigasi risiko kebocoran data, dan efisiensi biaya. | *"Untuk melindungi transaksi digital dan data sensitif pengguna dari risiko kebocoran data (data breach), kita menerapkan Enkripsi Kunci Publik. Ini meminimalkan risiko operasional dan kepatuhan regulasi secara otomatis tanpa overhead biaya pengelolaan kunci manual."* |
-| **5. Publik Umum** | Menghubungkan teknologi ke pengalaman langsung sehari-hari (WhatsApp & belanja online). | *"Ini adalah teknologi tak terlihat di balik ikon gembok kecil saat kita belanja online atau berpesan di WhatsApp. Teknologi ini menjaga PIN bank dan pesan pribadi kita aman dari peretas (hacker), sehingga kita bisa bertransaksi dengan tenang di internet."* |
+### 1. Umpan Balik Target 1: Rekan Teknis (Inisial T.O. - Lead Dev)
+* **Komentar/Tanggapan:** *"Setuju banget, kalau revisi masuk terus di H-1, database dan jadwal tampil sering konflik."*
+* **Konfirmasi Pemahaman:** Rekan teknis memahami sepenuhnya aspek kestabilan sistem dan efisiensi alur kerja.
+
+### 2. Umpan Balik Target 2: Manajer / Koordinator Non-Teknis (Inisial R.A. - Project Coordinator)
+* **Keraguan & Pertanyaan yang Disampaikan (*Uncertainty / Trade-off*):**  
+  *"Tapi Win, kalau kita kunci cutoff time ketat di H-3, gimana kalau sponsor utama atau dosen pembina mendadak minta perubahan penting di H-2? Apakah ini enggak bikin kita kelihatan kaku dan bikin sponsor kecewa?"*
 
 ---
 
-## 3. Refleksi Pembelajaran (*Intrapersonal*)
+## Bagian C: Adaptasi Pesan Lanjutan (*Follow-up Adaptation*)
 
-* **Ragam Bahasa Paling Sulit:** Ragam anak-anak, karena menuntut pembongkaran total konsep matematika yang abstrak menjadi bentuk konkret intuitif tanpa menghilangkan esensi keamanan kuncinya.
-* **Perubahan Cara Pandang Keilmuan:** Memahami keilmuan Teknologi Informasi bukan sekadar tentang kerumitan koding atau rumus matematis, melainkan tentang bagaimana nilai manfaat dan keamanannya dapat dipahami serta dipercayai oleh pengguna dari berbagai latar belakang.
+Merespons keraguan dari Koordinator Non-Teknis (R.A.) di atas, dilakukan adaptasi pesan lanjutan untuk mengelola risiko dan *trade-off* bisnis:
+
+> **Pesan Adaptasi Lanjutan kepada R.A. (Manajer):**  
+> *"Poin yang sangat bagus, R.A. Kita tidak akan kaku 100%. Ketentuan cutoff time H-3 ini berfungsi sebagai **filter standar baku**. Jika ada perubahan darurat dari sponsor di H-2, perubahan tersebut wajib melalui **Emergency Approval Path** dengan persetujuan tertulis Ketua Pelaksana dan dikenakan batas fleksibilitas maksimum 10% perubahan teknis.*  
+>  
+> *Dengan alur ini, sponsor tetap merasa dihargai tanpa mengorbankan kesehatan fisik tim acara dan kepastian jadwal publikasi kita."*
+
+* **Hasil Setelah Adaptasi Pesan:**  
+  R.A. menerima solusi *trade-off* ini dengan lega: *"Nah, kalau ada alur darurat khusus gitu aku setuju! Jadi ada bentengnya tapi tetap fleksibel kalau emang kepepet."*
+
+---
+
+## Bagian D: Refleksi Adaptasi Komunikasi
+
+* **Pelajaran Utama:** Menyesuaikan pesan bukan hanya mengubah pilihan kata (*jargon*), tetapi juga mendengarkan keraguan nyata (*uncertainty*) dari pemangku kepentingan non-teknis dan menyediakan solusi kompromi (*trade-off*) yang menenangkan mereka.
