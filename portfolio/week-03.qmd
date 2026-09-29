@@ -1,46 +1,62 @@
 ---
-title: "Relational Boundary & Trade-Off Management"
+title: "Empathic Listening, Active Paraphrasing & Boundary Setting"
 week: 3
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Pengelolaan batasan relasional, simulasi hambatan trade-off, dan justifikasi produktivitas jangka panjang."
-categories: [Personal, Boundaries, Relationship]
+description: "Transkrip percakapan real-time, penerapkan active listening (paraphrasing), kerangka OFNR, serta penegakan batasan diri tanpa mengorbankan relasi."
+categories: [Personal, Communication, Listening]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 20 September 2026  
+**Tanggal Pengerjaan:** 22 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 03 Lengkap](../lk/week-03.html)
 
 ---
 
-## Bagian A: Penetapan Batasan & Pemetaan Relasi
+## Bagian A: Pemetaan Konteks & Dinamika Relasi
 
-* **Partner Relasi:** Rekan Kerja Tim / Teman Dekat (Inisial M.R.).
-* **Kebutuhan Batasan (*Boundary*):** Menetapkan waktu *offline* kerja di atas pukul 21.00 WIB untuk menjaga kesehatan fisik dan kejernihan mental.
-
----
-
-## Bagian B: Simulasi Trade-Off & Penanganan Hambatan Kompleks
-
-### 1. Sanggahan / Penolakan Partner (Hambatan Kompleks)
-Saat menyampaikan batasan *offline* jam 21.00 WIB, M.R. memberikan sanggahan mendasar:  
-> *"Win, aku paham kamu butuh istirahat malam. Tapi kalau kita off jam 9 malam dan besok paginya aku lupa detail diskusi kita, terus kita keteteran dikejar deadline, gimana? Masa produktivitas kita dikorbankan cuma buat istirahat?"*
-
-### 2. Respons Adaptif Winda & Justifikasi Jangka Panjang
-Merespons penolakan M.R., saya melakukan penyesuaian strategi tanpa meruntuhkan batasan pribadi:
-
-> **Pesan Justifikasi Adaptif:**  
-> *"Aku ngerti banget kekhawatiranmu, R. Kita sama-sama pengen proyek ini sukses. Supaya kamu enggak lupa dan kita tetep efisien tanpa harus begadang, **aku akan buatkan 3 poin utama summary diskusi di halaman Notion kita setiap jam 20.45 WIB sebelum offline**.  
->  
-> Besok paginya kamu tinggal baca 1 menit dan langsung bisa eksekusi. Batasan malam ini justru penting banget buat menjaga stamina berpikir kita sampai minggu depan, biar kita enggak burn out di tengah jalan."*
+* **Lawan Bicara (Partner):** M.R. (Rekan Tim Proyek)
+* **Karakter Partner:** Sangat terstruktur, berorientasi target, mudah cemas jika ada detail teknis yang luput atau lupa disepakati.
+* **Kebutuhan Partner:** Kejelasan *action items* dan kepastian bahwa tugas kelompok tidak terbengkalai.
+* **Batasan Diri Winda (*Boundary*):** Harus menyelesaiakan sesi diskusi maksimal pukul 21.00 WIB untuk menjaga kesehatan fisik/mental dan menghindari *overwork*.
 
 ---
 
-## Bagian C: Hasil Kesepakatan Lanjutan
+## Bagian B: Transkrip Percakapan Verbal Real-Time (Verbatim Listening Evidence)
 
-* **Tanggapan M.R. (Partner):**  
-  *"Wah, kalau ada ringkasan 3 poin di Notion itu solusi yang dapet banget sih! Aku setuju, jadi paginya aku langsung dapet kejelasan tanpa takut lupa. Deal!"*
-* **Dampak Relasional:** Batasan pribadi terlindungi, kebutuhan produktivitas mitra terpenuhi, dan kepercayaan relasional semakin kuat.
+*Skenario: Panggilan suara Discord / Zoom pada pukul 20.30 WIB menjelang batas waktu diskusi Winda.*
+
+* **M.R. (00:01 - 00:15):**  
+  *"Win, ini kan kita baru bahas setengah dari modul backend. Kalau kita stop jam 21.00 sekarang, jujur aku khawatir banget besok pagi kita lupa sama alur logika yang tadi udah disketsain. Harusnya kita push lanjut aja sampai jam 23.00 malam ini biar kelar semua!"*
+
+* **Winda — [Active Paraphrasing & Validasi Emosi] (00:16 - 00:32):**  
+  *"Aku nangkep banget kekhawatiranmu, R. Jadi kamu cemas kalau kita berhentiin diskusi sekarang, poin-poin alur backend yang udah kita coret-coret tadi malah lupa pas besok kita koding bareng, dan kamu maunya semua detail terdata rapi malam ini juga, bener gitu?"*
+
+* **M.R. — [Konfirmasi & Penurunan Resistensi] (00:33 - 00:41):**  
+  *"Nah iya persis Win! Aku enggak tenang aja kalau belum ada catatan tertulisnya, takut besok kita mikir dari nol lagi pas koding."*
+
+* **Winda — [Formulasi Solusi Adaptif & Boundary Request] (00:42 - 01:10):**  
+  *"Oke, mengerti banget. Gimana kalau gini: aku tetap harus *offline* jam 21.00 untuk jaga kondisi, tapi di 15 menit terakhir ini (20.45-21.00) kita stop diskusi topik baru. Kita pakai 15 menit ini khusus buat rekap poin kunci logika backend ke halaman Notion kelompok. Jadi kamu dapet kepastian catatan rapi, dan aku tetap bisa istirahat tepat waktu. Gimana?"*
+
+* **M.R. — [Kesepakatan / Deal] (01:11 - 01:18):**  
+  *"Wah, deal banget kalau gitu Win! Asal ada rekap di Notion jam 21.00, aku udah tenang kok. Yuk kita tulis ringkasannya sekarang."*
+
+---
+
+## Bagian C: Analisis Struktur OFNR (Observation, Feeling, Need, Request)
+
+1. **Observation (Fakta Percakapan):** M.R. meminta diskusi diperpanjang hingga pukul 23.00 WIB karena khawatir poin logika backend terlupa.
+2. **Feeling (Pengakuan Emosi):** M.R. merasa cemas dan tidak tenang; Winda tetap tenang dan empati tanpa panik.
+3. **Need (Kebutuhan Tersembunyi):** M.R. membutuhkan **kepastian dokumen tertulis** (*reassurance*); Winda membutuhkan **stamina dan waktu istirahat yang cukup** (*boundary*).
+4. **Request (Penawaran Adaptif):** Mengalihkan 15 menit tersisa untuk membuat rekap Notion bersama sebelum pukul 21.00 WIB.
+
+---
+
+## Bagian D: Dampak Hasil & Pemeliharaan Relasi (*Outcome*)
+
+* **Status Batasan Pribadi:** Terjaga utuh (Winda *offline* tepat pukul 21.00 WIB).
+* **Kebutuhan Partner:** Terpenuhi 100% (dokumen Notion rampung dan M.R. merasa tenang).
+* **Dampak Relasional:** Kepercayaan (*trust*) antara Winda dan M.R. meningkat pesat karena Winda terbukti merespons kecemasan M.R. secara dewasa tanpa memicu konflik.

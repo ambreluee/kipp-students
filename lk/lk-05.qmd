@@ -1,32 +1,48 @@
 ---
 title: "Lembar Kerja Bab 05"
 week: 5
-categories: [LK, Professional]
+categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: WAWANCARA DISCOVERY & ADAPTASI RESPANSIF
+# LEMBAR KERJA PRAKTIS: EMPATHETIC INTERVIEWING & UJI ASUMSI
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
 * **NIM:** 18225069  
-* **Tanggal Pengisian:** 27 September 2026  
+* **Program Studi:** Sistem dan Teknologi Informasi (STI)  
+* **Tanggal Pengisian:** 29 September 2026  
 
 ---
 
-## **B. Catatan Loop Adaptasi Selama Wawancara**
+## **B. Matriks Netralisasi Asumsi & Shared Problem Statement**
 
-1. **Sinyal Diterima:** Mitra (R.A.) menunjukkan nada defensif saat ditanya alur kerja.
-2. **Penyesuaian Responsif:** Memvalidasi emosi mitra dan mengalihkan fokus pertanyaan ke titik hambatan alur (*bottleneck*).
-3. **Hasil Klarifikasi:** Berhasil mengungkap bahwa akar masalah utama adalah ketiadaan *cutoff time* persetujuan eksternal.
+| Elemen Metologis | Deskripsi Refleksi & Bukti Real-Time |
+| :--- | :--- |
+| **Asumsi Awal (Stereotip)** | R.A. kurang disiplin dan lambat mengelola tenggat waktu. |
+| **Netralisasi Pre-Session** | Menetralkan asumsi menjadi hipotesis netral tentang hambatan birokrasi eksternal. |
+| **Sinyal Defensif Mitra** | R.A. menunduk, menghela napas, dan menjawab dengan nada ragu. |
+| **Adaptasi Pertanyaan** | Mengubah dari *"Mengapa terlambat?"* menjadi *"Di titik mana alur terhambat?"*. |
+| **Fakta Lapangan (Eksplorasi)**| Revisi dari dosen/sponsor turun mendadak pada H-1 malam hari. |
+| **Shared Problem Statement** | Ketiadaan *cutoff time* validasi eksternal yang memicu penumpukan kerja di R.A. |
 
 ---
 
-## **C. Pernyataan Masalah Pelanggan Terkonfirmasi**
+## **C. Verbatim Konfirmasi Shared Problem Statement**
 
-> *"Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja akibat revisi menit akhir dari eksternal, sehingga membutuhkan kesepakatan cutoff time persetujuan materi dengan mempertimbangkan aturan wajib validasi dosen pembina dan sponsor."*
+> **Winda:** *"Jadi akar masalahnya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (cutoff time) bagi pihak eksternal sehingga kamu keteteran di akhir. Tepat begitu?"*  
+> **R.A.:** *"Nah iya tepat banget Win! Itu akar masalahnya!"*  
+> **Solusi Disepakati:** Penetapan *cutoff time* H-2 pukul 17.00 WIB dan pendampingan negosiasi tim.
 
 ---
 
 ## **D. Self-Assessment Rubrik Bab 5**
+
+| Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Menetralkan stereotip awal dan membaca perubahan konteks beban mitra. |
+| **Objective & State** | 4 | Mengurai kelelahan emosional mitra dan memisahkan masalah individu vs birokrasi. |
+| **Repertoire & Language** | 4 | Mengubah gaya interogasi menjadi eksplorasi empatik berkesadaran tinggi. |
+| **Response & Adaptation** | 4 | Sangat cepat menangkap sinyal defensif dan menurunkan tempo bicara. |
+| **Agreement & Action** | 4 | Formulasi *Shared Problem Statement* dikonfirmasi sebelum solusi ditetapkan. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

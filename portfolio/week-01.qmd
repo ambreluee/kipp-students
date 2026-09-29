@@ -1,10 +1,10 @@
 ---
-title: "Character Map & Communication Adaptability"
+title: "Character Map & Dynamic Communication Adaptability"
 week: 1
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Pemetaan lima karakter di tiga domain kehidupan beserta transisi perubahan bahasa nyata."
+description: "Pemetaan lima karakter di lima domain kehidupan beserta analisis Objective, Responsibility, Risiko, dan transisi bahasa dinamis."
 categories: [Personal, Communication, Identity]
 ---
 
@@ -16,32 +16,63 @@ categories: [Personal, Communication, Identity]
 
 ---
 
-## Bagian A: Pemetaan 5 Karakter di 3 Domain Kehidupan
+## Bagian A: Matriks 5 Karakter (Objective, Responsibility, & Risiko)
 
-1. **Domain 1: Akademik & Kampus**
-   * **Karakter 1 (Mahasiswa STI / Peneliti Muda):** Berbahasa formal, teknis, dan terstruktur saat diskusi akademis.
-   * **Karakter 2 (Rekan Kelompok Praktikum):** Berbahasa kasual, santai, dan fleksibel saat pengerjaan tugas bersama.
-2. **Domain 2: Keluarga & Domestik**
-   * **Karakter 3 (Anak Pertama kepada Orang Tua):** Berbahasa santun, penuh hormat, dan lembut.
-   * **Karakter 4 (Pengasuh / Kakak bagi Adik):** Berbahasa sederhana, mengayomi, dan empatik.
-3. **Domain 3: Organisasi & Kepanitiaan UKM**
-   * **Karakter 5 (Koordinator Media & Publikasi):** Berbahasa instruksional, lugas, profesional, dan berfokus pada tenggat waktu.
+| Domain | Character (Peran) | Objective (Tujuan Spesifik) | Responsibility (Tanggung Jawab) | Risiko Konsekuensi (Jika Gagal) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Akademik/Teknis** | Mahasiswa STI (Lead Dev) | Memastikan arsitektur kode dan *pull request* bebas konflik sebelum *deadline*. | Menjaga standar kualitas kode (*clean code*) dan efisiensi sistem. | Terjadi *race condition/build error*, merugikan waktu seluruh tim koding. |
+| **2. Peer/Sosial** | Rekan Kelompok Praktikum | Membangun suasana kerja kelompok yang suportif dan setara. | Menyeimbangkan pembagian tugas dan mendengarkan kendala anggota. | Muncul konflik internal, penurunan motivasi, dan *burnout* kelompok. |
+| **3. Domestik/Keluarga**| Anak Pertama | Memberikan penghormatan, kenyamanan, dan empati kepada Orang Tua. | Merawat emosional keluarga dan membantu meringankan beban rumah. | Hubungan emosional renggang, menciptakan suasana rumah yang kaku/dingin. |
+| **4. Komunitas/UKM** | Koordinator Pubdok | Menjamin seluruh aset konten publikasi terbit tepat waktu sesuai standar acara. | Mengelola alur kerja tim media dan ketepatan tenggat waktu *publishing*. | Publikasi terlambat, reputasi acara menurun, dan audiens kehilangan informasi. |
+| **5. Diri/Reflektif** | Jurnalis Diri (Self-Reflector) | Mengurai kompleksitas emosi dan mempertahankan kesadaran kritis diri. | Mengidentifikasi *bias* berpikir, kecenderungan kecemasan, dan batasan energi. | Mengalami kelelahan mental (*mental exhaustion*) dan kehilangan arah tujuan pribadi. |
 
 ---
 
-## Bagian B: Bukti Transisi Perubahan Bahasa Spesifik (Situasi Nyata)
+## Bagian B: Analisis Deskriptif Objective, Responsibility, & Risiko Karakter
 
-### Konteks Kejadian:
-Sedang melakukan *Zoom Meeting* pembahasan kodingan proyek STI bersama Rekan Kelompok (Peran A), lalu tiba-tiba Orang Tua masuk ke kamar membawa makan malam setelah seharian bekerja (Peran B).
+### 1. Mahasiswa STI (Lead Developer)
+* **Mengapa Memiliki Tujuan Ini:** Validasi *logic* program krusial karena dalam sistem perangkat lunak, kesalahan sekecil apa pun dapat memicu kegagalan eksekusi (*system crash*).
+* **Tanggung Jawab & Risiko:** Bertanggung jawab menjaga kelancaran repositori Git kelompok. Jika gagal berkomunikasi secara teknis dan terstruktur, seluruh tim akan mengalami kendala *merge conflict* saat mendekati tenggat waktu resmi.
 
-* **Bahasa Peran A (Rekan Kelompok STI - Diskusi Teknis):**  
-  *"Bred, PR buat async function di controller-nya diselesaiin malam ini ya, biar pas PR merge ke branch main enggak conflict."*
+### 2. Rekan Kelompok Praktikum
+* **Mengapa Memiliki Tujuan Ini:** Kinerja akademis yang efektif sangat bergantung pada iklim diskusi yang inklusif dan transparan.
+* **Tanggung Jawab & Risiko:** Bertanggung jawab memastikan seluruh anggota memahami indikator bagian masing-masing. Jika gagal (misal: gaya komunikasi terlalu mendominasi/pasif), anggota lain akan merasa tersisih dan pembagian beban tugas menjadi timpang.
 
-* **Momen Transisi (Merespons Sinyal Kehadiran Orang Tua):**  
-  Mematikan mikrofon Zoom, menurunkan nada suara, berpaling dari layar laptop, dan menyesuaikan ekspresi wajah dari tegang menjadi hangat.
+### 3. Anak Pertama
+* **Mengapa Memiliki Tujuan Ini:** Berfungsi sebagai pilar kehangatan dan penghormatan emosional dalam lingkup domestik keluarga.
+* **Tanggung Jawab & Risiko:** Bertanggung jawab meringankan beban Orang Tua dan peka terhadap kondisi fisik mereka. Risikonya, jika membawa ragam bahasa tegang/lugas kampus ke dalam rumah, Orang Tua merasa tidak dihargai dan tercipta jarak emosional.
 
-* **Bahasa Peran B (Anak kepada Orang Tua - Santun & Empatik):**  
-  *"Eh Ibu... makasih banyak ya Bu udah dibawain makan malam. Ibu kelihatan capek banget hari ini, istirahat aja dulu ya Bu, nanti piringnya Winda yang cuci kok."*
+### 4. Koordinator Pubdok
+* **Mengapa Memiliki Tujuan Ini:** Penyampaian informasi publikasi membutuhkan kejelasan eksekusi dan efisiensi waktu.
+* **Tanggung Jawab & Risiko:** Bertanggung jawab atas alur kerja tim visual dan tenggat rilis rilis media. Jika instruksi ambigu, hasil publikasi akan melenceng dari standar acara dan menurunkan kepercayaan pihak luar.
 
-* **Alasan Perubahan Bahasa & Tone:**  
-  Bahasa teknis dan istilah *slang* kampus sangat tidak relevan serta terkesan dingin jika digunakan kepada Orang Tua yang sedang lelah. Perubahan dilakukan demi menjaga etika, norma penghormatan, dan kenyamanan emosional keluarga.
+### 5. Jurnalis Diri (Self-Reflector)
+* **Mengapa Memiliki Tujuan Ini:** Menjaga regulasi emosi dan kesehatan mental agar tetap rasional dalam mengambil keputusan.
+* **Tanggung Jawab & Risiko:** Bertanggung jawab memetakan kecemasan dan batasan kapasitas diri. Risikonya, tanpa refleksi teratur, Winda akan bertindak impulsif dan rentan mengalami *burnout* akibat tumpukan tekanan tugas.
+
+---
+
+## Bagian C: Bukti Transisi Bahasa Dinamis (In-Situ Case Study)
+
+### Konteks Situasi:
+Pukul 20.30 WIB, Winda sedang memimpin rapat teknis koding via Zoom (Peran 1: *Mahasiswa STI / Lead Dev*). Tiba-tiba Ibu masuk ke kamar membawa segelas teh hangat dengan raut wajah lelah setelah bekerja seharian (Peran 3: *Anak Pertama*).
+
+* **Peran Awal (Lead Dev):**  
+  * *Bahasa & Tone:* Formal, lugas, penuh istilah teknis komputasional.  
+  * *Kalimat:* *"Rekan-rekan, kita harus segera refactor async handler di controller ini malam ini, biar pas kita buat pull request ke branch main enggak memicu race condition."*
+
+* **Momen Transisi (Non-Verbal Trigger):**  
+  Melihat Ibu melangkah pelan dan memegang dahi (sinyal kelelahan fisik), Winda seketika mematikan mikrofon Zoom, menurunkan bahu yang tegang, mengubah raut wajah serius menjadi tersenyum hangat, dan memutar posisi duduk menghadap Ibu.
+
+* **Peran Baru (Anak Pertama kepada Ibu):**  
+  * *Bahasa & Tone:* Lembut, santun, tanpa jargon teknis, penuh rasa empati.  
+  * *Kalimat:* *"Eh Ibu... makasih banyak ya Bu udah dibawain teh hangat. Ibu kelihatan capek banget hari ini, langsung istirahat aja ya Bu, nanti cangkirnya Winda yang cuci ke dapur."*
+
+---
+
+## Bagian D: Loop Adaptasi Lanjutan & Umpan Balik Real-Time
+
+1. **Sinyal Baru dari Ibu:** Ibu tersenyum lega tetapi masih membawa baki kayu dengan tangan gemetar lelah.
+2. **Adaptasi Seketika:** Winda berdiri, meminimalkan jendela Zoom, mengambil alih baki kayu dari tangan Ibu, dan menuntun Ibu ke kamar.
+3. **Kalimat Penyesuaian:** *"Sini Bu, baki kayu-nya Winda bawain sekalian ke dapur. Ibu langsung tiduran ya, rapat Winda 5 menit lagi kelar kok."*
+4. **Hasil Outcome & Relasi:** Ibu merasa sangat dihargai (state Ibu menjadi tenang), dan rapat Zoom kembali dilanjutkan tanpa mengorbankan ikatan kekeluargaan.

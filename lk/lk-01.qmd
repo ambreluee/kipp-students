@@ -4,35 +4,48 @@ week: 1
 categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER & TRANSISI BAHASA
+# LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER & ADAPTASI DINAMIS
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
 * **NIM:** 18225069  
+* **Program Studi:** Sistem dan Teknologi Informasi (STI)  
 * **Tanggal Pengisian:** 08 September 2026  
 
 ---
 
-## **B. Matriks 5 Karakter & 3 Domain**
+## **B. Matriks Pemetaan 5 Karakter (Objective, Responsibility, & Risiko)**
 
-| Domain | Peran / Karakter | Karakteristik Bahasa & Tone |
-| :--- | :--- | :--- |
-| **1. Akademik** | Mahasiswa STI | Formal, lugas, menggunakan istilah teknis koding/sistem. |
-| **1. Akademik** | Teman Angkatan | Kasual, santai, memakai jargon kampus/gaul. |
-| **2. Keluarga** | Anak Pertama | Santun, hormat, penuh perhatian dan rasa empati. |
-| **2. Keluarga** | Kakak / Pengasuh | Sederhana, mengayomi, suportif, dan ramah. |
-| **3. Organisasi** | Koordinator Media | Profesional, instruksional, berorientasi pada tenggat waktu. |
+| Domain | Character | Objective | Responsibility | Risiko Konsekuensi |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Akademik** | Mahasiswa STI | Bebas *error/race condition* | Kualitas & efisiensi kode | Proyek *crash* / *build failed* |
+| **2. Peer** | Rekan Kelompok | Suasana kerja inklusif & setara | Pembagian tugas adil | Konflik & *burnout* tim |
+| **3. Keluarga** | Anak Pertama | Kehangatan & empati orang tua | Merawat emosional rumah | Hubungan kaku / merenggang |
+| **4. Komunitas**| Koordinator Pubdok | Ketepatan rilis konten publikasi | Kelancaran tim media | Keterlambatan publikasi |
+| **5. Diri** | Jurnalis Reflektif | Regulasi emosi & *self-awareness*| Evaluasi kecemasan internal | Impulsif & *mental exhaustion*|
 
 ---
 
-## **C. Analisis Transisi Bahasa (Case Study)**
+## **C. Log Transisi Bahasa & Loop Adaptasi Dinamis**
 
-* **Situasi:** Beralih dari diskusi kodingan di Zoom ke obrolan dengan Orang Tua.
-* **Transisi Kalimat:** Dari *"PR buat async function..."* menjadi *"Eh Ibu, makasih ya Bu..."*.
-* **Evaluasi Perubahan:** Berhasil menyesuaikan regresi bahasa dari istilah komputasional ke bahasa tutur domestik yang penuh kasih sayang.
+* **Situasi:** Beralih dari Rapat Zoom Koding (Peran Akademik) ke Obrolan bersama Ibu (Peran Keluarga).
+* **Sinyal Awal:** Ibu membawa teh dengan wajah lelah dan gestur segan.
+* **Transisi Perkataan:**  
+  *Sebelum:* *"Kita harus refactor async handler biar enggak race condition..."*  
+  *Sesudah:* *"Eh Ibu, makasih ya Bu udah dibawain teh hangat..."*
+* **Sinyal Lanjutan & Adaptasi Respon:** Ibu masih memegang baki kayu gemetar $\rightarrow$ Winda berdiri mengambil alih baki kayu dan menuntun Ibu keluar kamar.
+* **Hasil Relasional:** Menjaga kehormatan orang tua sekaligus kelancaran rapat tim.
 
 ---
 
 ## **D. Self-Assessment Rubrik Bab 1**
+
+| Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Memetakan 5 Karakter di 5 Domain beserta pemisahan peran yang tegas. |
+| **Objective & State** | 4 | Memuat deskripsi eksplisit Objective, Responsibility, dan Risiko tiap karakter. |
+| **Repertoire & Language** | 4 | Kontras ragam bahasa teknis vs bahasa domestik sangat eksplisit. |
+| **Response & Adaptation** | 4 | Terbukti memuat loop adaptasi dinamis berbasis sinyal non-verbal. |
+| **Agreement & Action** | 4 | Menyajikan tindakan konkret dan perawatan hubungan jangka panjang. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

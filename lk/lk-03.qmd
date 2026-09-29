@@ -4,26 +4,43 @@ week: 3
 categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: BATASAN RELASIONAL & SIMULASI TRADE-OFF
+# LEMBAR KERJA PRAKTIS: EMPATHIC LISTENING & TRANSKRIP VERBAL
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
 * **NIM:** 18225069  
-* **Tanggal Pengisian:** 20 September 2026  
+* **Program Studi:** Sistem dan Teknologi Informasi (STI)  
+* **Tanggal Pengisian:** 22 September 2026  
 
 ---
 
-## **B. Matriks Justifikasi Batasan & Trade-Off**
+## **B. Matriks Kerangka OFNR & Respon Verbal**
 
-| Elemen | Penjelasan |
+| Elemen OFNR | Analisis Empathic Listening |
 | :--- | :--- |
-| **Batasan Diajukan** | Offline kerja/pencakapan tugas mulai pukul 21.00 WIB. |
-| **Sanggahan Partner (M.R.)** | Khawatir lupa detail diskusi dan produktivitas menurun. |
-| **Solusi Adaptif (Trade-Off)** | Menyediakan *3-point Notion Summary* setiap pukul 20.45 WIB. |
-| **Justifikasi Relasional** | Mencegah *burnout* dan menjaga produktivitas jangka panjang tim. |
+| **Observation** | Partner (M.R.) meminta waktu diskusi diperpanjang sampai jam 23.00 WIB. |
+| **Feeling** | Cemas, khawatir alur logika koding terlewat atau lupa besok pagi. |
+| **Need** | Kepastian tersedianya dokumentasi tertulis (*action items* terstruktur). |
+| **Request / Solution** | Mengalihkan 15 menit terakhir (20.45–21.00) untuk membuat rekap di Notion. |
 
 ---
 
-## **C. Self-Assessment Rubrik Bab 3**
+## **C. Transkrip Bukti Paraphrasing Spontan**
+
+> **M.R.:** *"Kalau kita stop jam 21.00, jujur aku khawatir besok pagi kita lupa alur logikanya..."*  
+> **Winda:** *"Aku nangkep banget kekhawatiranmu, R. Jadi kamu cemas kalau poin logika backend lupa pas koding besok dan butuh catatan tertulis malam ini, bener gitu?"*  
+> **Hasil:** M.R. merasa didengarkan utuh (*validated*) dan menyetujui solusi rekap Notion sebelum jam 21.00.
+
+---
+
+## **D. Self-Assessment Rubrik Bab 3**
+
+| Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Memetakan karakter M.R. dan mendeteksi kebutuhan tersembunyi. |
+| **Objective & State** | 4 | Menyeimbangkan objective partner (rekap) dan objective pribadi (istirahat). |
+| **Repertoire & Language** | 4 | Transkrip verbal terbukti menggunakan Active Paraphrasing & OFNR. |
+| **Response & Adaptation** | 4 | Merespons kecemasan secara spontan tanpa meruntuhkan batasan utama. |
+| **Agreement & Action** | 4 | Hasil kesepakatan ganda (*win-win solution*) dan penguatan *trust*. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

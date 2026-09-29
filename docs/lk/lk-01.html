@@ -183,11 +183,11 @@ window.Quarto = {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" id="toc-lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa">LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; TRANSISI BAHASA</a>
+  <li><a href="#lembar-kerja-praktis-pemetaan-karakter-adaptasi-dinamis" id="toc-lembar-kerja-praktis-pemetaan-karakter-adaptasi-dinamis" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-pemetaan-karakter-adaptasi-dinamis">LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; ADAPTASI DINAMIS</a>
   <ul class="collapse">
   <li><a href="#a.-identitas-mahasiswa" id="toc-a.-identitas-mahasiswa" class="nav-link" data-scroll-target="#a.-identitas-mahasiswa"><strong>A. Identitas Mahasiswa</strong></a></li>
-  <li><a href="#b.-matriks-5-karakter-3-domain" id="toc-b.-matriks-5-karakter-3-domain" class="nav-link" data-scroll-target="#b.-matriks-5-karakter-3-domain"><strong>B. Matriks 5 Karakter &amp; 3 Domain</strong></a></li>
-  <li><a href="#c.-analisis-transisi-bahasa-case-study" id="toc-c.-analisis-transisi-bahasa-case-study" class="nav-link" data-scroll-target="#c.-analisis-transisi-bahasa-case-study"><strong>C. Analisis Transisi Bahasa (Case Study)</strong></a></li>
+  <li><a href="#b.-matriks-pemetaan-5-karakter-objective-responsibility-risiko" id="toc-b.-matriks-pemetaan-5-karakter-objective-responsibility-risiko" class="nav-link" data-scroll-target="#b.-matriks-pemetaan-5-karakter-objective-responsibility-risiko"><strong>B. Matriks Pemetaan 5 Karakter (Objective, Responsibility, &amp; Risiko)</strong></a></li>
+  <li><a href="#c.-log-transisi-bahasa-loop-adaptasi-dinamis" id="toc-c.-log-transisi-bahasa-loop-adaptasi-dinamis" class="nav-link" data-scroll-target="#c.-log-transisi-bahasa-loop-adaptasi-dinamis"><strong>C. Log Transisi Bahasa &amp; Loop Adaptasi Dinamis</strong></a></li>
   <li><a href="#d.-self-assessment-rubrik-bab-1" id="toc-d.-self-assessment-rubrik-bab-1" class="nav-link" data-scroll-target="#d.-self-assessment-rubrik-bab-1"><strong>D. Self-Assessment Rubrik Bab 1</strong></a></li>
   </ul></li>
   </ul>
@@ -219,8 +219,8 @@ window.Quarto = {
 </header>
 
 
-<section id="lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" class="level1">
-<h1>LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; TRANSISI BAHASA</h1>
+<section id="lembar-kerja-praktis-pemetaan-karakter-adaptasi-dinamis" class="level1">
+<h1>LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; ADAPTASI DINAMIS</h1>
 <section id="a.-identitas-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="a.-identitas-mahasiswa"><strong>A. Identitas Mahasiswa</strong></h2>
 <ul>
@@ -228,66 +228,127 @@ window.Quarto = {
 </li>
 <li><strong>NIM:</strong> 18225069<br>
 </li>
+<li><strong>Program Studi:</strong> Sistem dan Teknologi Informasi (STI)<br>
+</li>
 <li><strong>Tanggal Pengisian:</strong> 08 September 2026</li>
 </ul>
 <hr>
 </section>
-<section id="b.-matriks-5-karakter-3-domain" class="level2">
-<h2 class="anchored" data-anchor-id="b.-matriks-5-karakter-3-domain"><strong>B. Matriks 5 Karakter &amp; 3 Domain</strong></h2>
+<section id="b.-matriks-pemetaan-5-karakter-objective-responsibility-risiko" class="level2">
+<h2 class="anchored" data-anchor-id="b.-matriks-pemetaan-5-karakter-objective-responsibility-risiko"><strong>B. Matriks Pemetaan 5 Karakter (Objective, Responsibility, &amp; Risiko)</strong></h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Domain</th>
-<th style="text-align: left;">Peran / Karakter</th>
-<th style="text-align: left;">Karakteristik Bahasa &amp; Tone</th>
+<th style="text-align: left;">Character</th>
+<th style="text-align: left;">Objective</th>
+<th style="text-align: left;">Responsibility</th>
+<th style="text-align: left;">Risiko Konsekuensi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>1. Akademik</strong></td>
 <td style="text-align: left;">Mahasiswa STI</td>
-<td style="text-align: left;">Formal, lugas, menggunakan istilah teknis koding/sistem.</td>
+<td style="text-align: left;">Bebas <em>error/race condition</em></td>
+<td style="text-align: left;">Kualitas &amp; efisiensi kode</td>
+<td style="text-align: left;">Proyek <em>crash</em> / <em>build failed</em></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>1. Akademik</strong></td>
-<td style="text-align: left;">Teman Angkatan</td>
-<td style="text-align: left;">Kasual, santai, memakai jargon kampus/gaul.</td>
+<td style="text-align: left;"><strong>2. Peer</strong></td>
+<td style="text-align: left;">Rekan Kelompok</td>
+<td style="text-align: left;">Suasana kerja inklusif &amp; setara</td>
+<td style="text-align: left;">Pembagian tugas adil</td>
+<td style="text-align: left;">Konflik &amp; <em>burnout</em> tim</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>2. Keluarga</strong></td>
+<td style="text-align: left;"><strong>3. Keluarga</strong></td>
 <td style="text-align: left;">Anak Pertama</td>
-<td style="text-align: left;">Santun, hormat, penuh perhatian dan rasa empati.</td>
+<td style="text-align: left;">Kehangatan &amp; empati orang tua</td>
+<td style="text-align: left;">Merawat emosional rumah</td>
+<td style="text-align: left;">Hubungan kaku / merenggang</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>2. Keluarga</strong></td>
-<td style="text-align: left;">Kakak / Pengasuh</td>
-<td style="text-align: left;">Sederhana, mengayomi, suportif, dan ramah.</td>
+<td style="text-align: left;"><strong>4. Komunitas</strong></td>
+<td style="text-align: left;">Koordinator Pubdok</td>
+<td style="text-align: left;">Ketepatan rilis konten publikasi</td>
+<td style="text-align: left;">Kelancaran tim media</td>
+<td style="text-align: left;">Keterlambatan publikasi</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>3. Organisasi</strong></td>
-<td style="text-align: left;">Koordinator Media</td>
-<td style="text-align: left;">Profesional, instruksional, berorientasi pada tenggat waktu.</td>
+<td style="text-align: left;"><strong>5. Diri</strong></td>
+<td style="text-align: left;">Jurnalis Reflektif</td>
+<td style="text-align: left;">Regulasi emosi &amp; <em>self-awareness</em></td>
+<td style="text-align: left;">Evaluasi kecemasan internal</td>
+<td style="text-align: left;">Impulsif &amp; <em>mental exhaustion</em></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </section>
-<section id="c.-analisis-transisi-bahasa-case-study" class="level2">
-<h2 class="anchored" data-anchor-id="c.-analisis-transisi-bahasa-case-study"><strong>C. Analisis Transisi Bahasa (Case Study)</strong></h2>
+<section id="c.-log-transisi-bahasa-loop-adaptasi-dinamis" class="level2">
+<h2 class="anchored" data-anchor-id="c.-log-transisi-bahasa-loop-adaptasi-dinamis"><strong>C. Log Transisi Bahasa &amp; Loop Adaptasi Dinamis</strong></h2>
 <ul>
-<li><strong>Situasi:</strong> Beralih dari diskusi kodingan di Zoom ke obrolan dengan Orang Tua.</li>
-<li><strong>Transisi Kalimat:</strong> Dari <em>“PR buat async function…”</em> menjadi <em>“Eh Ibu, makasih ya Bu…”</em>.</li>
-<li><strong>Evaluasi Perubahan:</strong> Berhasil menyesuaikan regresi bahasa dari istilah komputasional ke bahasa tutur domestik yang penuh kasih sayang.</li>
+<li><strong>Situasi:</strong> Beralih dari Rapat Zoom Koding (Peran Akademik) ke Obrolan bersama Ibu (Peran Keluarga).</li>
+<li><strong>Sinyal Awal:</strong> Ibu membawa teh dengan wajah lelah dan gestur segan.</li>
+<li><strong>Transisi Perkataan:</strong><br>
+<em>Sebelum:</em> <em>“Kita harus refactor async handler biar enggak race condition…”</em><br>
+<em>Sesudah:</em> <em>“Eh Ibu, makasih ya Bu udah dibawain teh hangat…”</em></li>
+<li><strong>Sinyal Lanjutan &amp; Adaptasi Respon:</strong> Ibu masih memegang baki kayu gemetar <span class="math inline">\(\rightarrow\)</span> Winda berdiri mengambil alih baki kayu dan menuntun Ibu keluar kamar.</li>
+<li><strong>Hasil Relasional:</strong> Menjaga kehormatan orang tua sekaligus kelancaran rapat tim.</li>
 </ul>
 <hr>
 </section>
 <section id="d.-self-assessment-rubrik-bab-1" class="level2">
 <h2 class="anchored" data-anchor-id="d.-self-assessment-rubrik-bab-1"><strong>D. Self-Assessment Rubrik Bab 1</strong></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Kriteria Dimensi</th>
+<th style="text-align: center;">Skor Mandiri</th>
+<th style="text-align: left;">Catatan Evaluasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Person &amp; Character</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Memetakan 5 Karakter di 5 Domain beserta pemisahan peran yang tegas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Objective &amp; State</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Memuat deskripsi eksplisit Objective, Responsibility, dan Risiko tiap karakter.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Repertoire &amp; Language</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Kontras ragam bahasa teknis vs bahasa domestik sangat eksplisit.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Response &amp; Adaptation</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Terbukti memuat loop adaptasi dinamis berbasis sinyal non-verbal.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Agreement &amp; Action</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Menyajikan tindakan konkret dan perawatan hubungan jangka panjang.</td>
+</tr>
+</tbody>
+</table>
 <p><span class="math display">\[\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}\]</span></p>
 
 
