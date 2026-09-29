@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Evidence person, personality, character, objective, repertoire, language, action, dan relationship.">
 
-<title>Character Map – Portfolio KIPP-2</title>
+<title>Lembar Kerja Bab 01 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -155,15 +183,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#panduan-aktivitas-kelas-peta-karakter-komunikasi-pribadi" id="toc-panduan-aktivitas-kelas-peta-karakter-komunikasi-pribadi" class="nav-link active" data-scroll-target="#panduan-aktivitas-kelas-peta-karakter-komunikasi-pribadi">Panduan Aktivitas Kelas: Peta Karakter Komunikasi Pribadi</a>
+  <li><a href="#lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" id="toc-lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa">LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; TRANSISI BAHASA</a>
   <ul class="collapse">
-  <li><a href="#lembar-kerja-mahasiswa-template-peta-karakter" id="toc-lembar-kerja-mahasiswa-template-peta-karakter" class="nav-link" data-scroll-target="#lembar-kerja-mahasiswa-template-peta-karakter">Lembar Kerja Mahasiswa (Template Peta Karakter)</a>
-  <ul class="collapse">
-  <li><a href="#bagian-a-peta-5-domain-kehidupan" id="toc-bagian-a-peta-5-domain-kehidupan" class="nav-link" data-scroll-target="#bagian-a-peta-5-domain-kehidupan">Bagian A: Peta 5 Domain Kehidupan</a></li>
-  <li><a href="#bagian-b-analisis-kontras-dua-peran-utama" id="toc-bagian-b-analisis-kontras-dua-peran-utama" class="nav-link" data-scroll-target="#bagian-b-analisis-kontras-dua-peran-utama">Bagian B: Analisis Kontras Dua Peran Utama</a></li>
-  <li><a href="#bagian-c-eksplorasi-kepribadian-dan-sasaran-pertumbuhan" id="toc-bagian-c-eksplorasi-kepribadian-dan-sasaran-pertumbuhan" class="nav-link" data-scroll-target="#bagian-c-eksplorasi-kepribadian-dan-sasaran-pertumbuhan">Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan</a></li>
-  </ul></li>
-  <li><a href="#rubrik-penilaian-evaluasi-mandiri" id="toc-rubrik-penilaian-evaluasi-mandiri" class="nav-link" data-scroll-target="#rubrik-penilaian-evaluasi-mandiri">4. Rubrik Penilaian &amp; Evaluasi Mandiri</a></li>
+  <li><a href="#a.-identitas-mahasiswa" id="toc-a.-identitas-mahasiswa" class="nav-link" data-scroll-target="#a.-identitas-mahasiswa"><strong>A. Identitas Mahasiswa</strong></a></li>
+  <li><a href="#b.-matriks-5-karakter-3-domain" id="toc-b.-matriks-5-karakter-3-domain" class="nav-link" data-scroll-target="#b.-matriks-5-karakter-3-domain"><strong>B. Matriks 5 Karakter &amp; 3 Domain</strong></a></li>
+  <li><a href="#c.-analisis-transisi-bahasa-case-study" id="toc-c.-analisis-transisi-bahasa-case-study" class="nav-link" data-scroll-target="#c.-analisis-transisi-bahasa-case-study"><strong>C. Analisis Transisi Bahasa (Case Study)</strong></a></li>
+  <li><a href="#d.-self-assessment-rubrik-bab-1" id="toc-d.-self-assessment-rubrik-bab-1" class="nav-link" data-scroll-target="#d.-self-assessment-rubrik-bab-1"><strong>D. Self-Assessment Rubrik Bab 1</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -173,18 +198,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Character Map</h1>
+<h1 class="title">Lembar Kerja Bab 01</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Fondasi</div>
-    <div class="quarto-category">Person</div>
+    <div class="quarto-category">LK</div>
+    <div class="quarto-category">Personal</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Evidence person, personality, character, objective, repertoire, language, action, dan relationship.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -199,151 +219,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="panduan-aktivitas-kelas-peta-karakter-komunikasi-pribadi" class="level1">
-<h1>Panduan Aktivitas Kelas: Peta Karakter Komunikasi Pribadi</h1>
-<p><strong>Mata Kuliah:</strong> Komunikasi Interpersonal dan Publik<br>
-<strong>Bahan Kajian:</strong> Bab 1 — Komunikasi Dimulai dari Manusia, Bukan dari Pesan</p>
-<hr>
-<section id="lembar-kerja-mahasiswa-template-peta-karakter" class="level2">
-<h2 class="anchored" data-anchor-id="lembar-kerja-mahasiswa-template-peta-karakter">Lembar Kerja Mahasiswa (Template Peta Karakter)</h2>
-<p><strong>Nama Mahasiswa:</strong> Winda Naila Nur Aisyah<br>
-<strong>NIM:</strong> 18225069<br>
-<strong>Tanggal Pengerjaan:</strong> 22 September 2026</p>
-<hr>
-<section id="bagian-a-peta-5-domain-kehidupan" class="level3">
-<h3 class="anchored" data-anchor-id="bagian-a-peta-5-domain-kehidupan">Bagian A: Peta 5 Domain Kehidupan</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Domain Kehidupan</th>
-<th style="text-align: left;">Peran yang Saya Ambil</th>
-<th style="text-align: left;">Siapa yang Saya Jumpai</th>
-<th style="text-align: left;">Tanggung Jawab Utama Komunikasi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>1. Diri Sendiri</strong></td>
-<td style="text-align: left;">Reflektor Diri</td>
-<td style="text-align: left;">Diri Sendiri</td>
-<td style="text-align: left;">Mengelola ekspektasi batin, regulasi emosi, dan menyikapi kegagalan secara objektif.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>2. Keluarga / Sahabat</strong></td>
-<td style="text-align: left;">Pendengar Sabar (Anak)</td>
-<td style="text-align: left;">Orang Tua &amp; Sahabat</td>
-<td style="text-align: left;">Mendengarkan cerita tanpa menghakimi dan memelihara kehangatan relasi.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>3. Profesional / Akademik</strong></td>
-<td style="text-align: left;">Anggota Tim Proyek</td>
-<td style="text-align: left;">Dosen &amp; Teman Kelompok</td>
-<td style="text-align: left;">Berkomunikasi lugas, menyampaikan progres tepat waktu, dan aktif memecahkan masalah.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>4. Komunitas / Kelompok</strong></td>
-<td style="text-align: left;">Anggota UKM</td>
-<td style="text-align: left;">Pengurus &amp; Rekan Anggota</td>
-<td style="text-align: left;">Menyampaikan ide kreatif secara asertif serta menghargai keragaman pendapat.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>5. Dunia / Publik</strong></td>
-<td style="text-align: left;">Pengguna Sosmed / Netizen</td>
-<td style="text-align: left;">Publik / Warga Digital</td>
-<td style="text-align: left;">Menjaga etika berpendapat di ruang digital dan menyaring kebenaran informasi.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="bagian-b-analisis-kontras-dua-peran-utama" class="level3">
-<h3 class="anchored" data-anchor-id="bagian-b-analisis-kontras-dua-peran-utama">Bagian B: Analisis Kontras Dua Peran Utama</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Unsur Komunikasi</th>
-<th style="text-align: left;">Peran A: Anggota Tim Proyek</th>
-<th style="text-align: left;">Peran B: Anak di Rumah</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>1. Tujuan Tugas &amp; Relasi</strong></td>
-<td style="text-align: left;">Menyelesaikan target tugas perkuliahan secara efisien dan objektif.</td>
-<td style="text-align: left;">Merawat kehangatan relasi keluarga dan memberikan rasa tenang pada orang tua.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>2. Repertoar Utama</strong></td>
-<td style="text-align: left;">Menyajikan data, berdiskusi teknis, dan negosiasi pembagian tugas.</td>
-<td style="text-align: left;">Mendengarkan aktif, menunjukkan empati, dan menggunakan tutur kata santun.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>3. Pilihan Bahasa &amp; Nada</strong></td>
-<td style="text-align: left;">Bahasa Indonesia formal/semi-formal, lugas, dan terstruktur.</td>
-<td style="text-align: left;">Bahasa sehari-hari, hangat, lembut, dan tidak memakai istilah teknis.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>4. Respons yang Harus Dibaca</strong></td>
-<td style="text-align: left;">Kejelasan progres kerja, nada ragu tim, dan kesepakatan <em>deadline</em>.</td>
-<td style="text-align: left;">Bahasa tubuh, raut wajah lelah orang tua, dan dinamika emosi di rumah.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>5. Tindakan yang Diharapkan</strong></td>
-<td style="text-align: left;">Pembagian kerja tuntas dan dokumen laporan selesai sesuai standar.</td>
-<td style="text-align: left;">Kehadiran utuh saat berinteraksi dan terciptanya suasana rumah yang nyaman.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>6. Relasi yang Harus Dirawat</strong></td>
-<td style="text-align: left;">Kemitraan akademik yang profesional dan saling percaya.</td>
-<td style="text-align: left;">Ikatan kekeluargaan yang kokoh, saling menghormati, dan terbuka.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="bagian-c-eksplorasi-kepribadian-dan-sasaran-pertumbuhan" class="level3">
-<h3 class="anchored" data-anchor-id="bagian-c-eksplorasi-kepribadian-dan-sasaran-pertumbuhan">Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan</h3>
-<ol type="1">
-<li><p><strong>Nilai Utama:</strong><br>
-Kejujuran, ketulusan, dan rasa saling menghargai.</p></li>
-<li><p><strong>Kekuatan Komunikasi:</strong><br>
-Mampu menjadi pendengar yang empati dan cenderung tenang saat berdiskusi satu lawan satu.</p></li>
-<li><p><strong>Pola Hambatan Otomatis:</strong><br>
-Cenderung ragu-ragu mengutarakan kritik/pendapat di depan forum kelompok karena takut menciptakan ketegangan.</p></li>
-<li><p><strong>Ketegangan Peran &amp; Kepribadian:</strong><br>
-<em>“Saya cenderung <strong>menghindari konflik saat situasi tegang</strong>, tetapi peran saya sebagai <strong>Anggota Tim Proyek</strong> menuntut saya untuk <strong>menyampaikan saran dan masukan tegas ketika alur pengerjaan tugas tersendat</strong>.”</em></p></li>
-<li><p><strong>Sasaran Pertumbuhan Perilaku Terukur:</strong><br>
-<em>“Ketika berdiskusi di kelompok tugas dan ada perbedaan pendapat atau bagian yang belum tuntas, saya akan menahan diri dari bersikap pasif, lalu mengutarakan 1 tanggapan/solusi jernih dengan nada tenang dalam 2 menit pertama diskusi.”</em></p></li>
-<li><p><strong>Umpan Balik Jujur:</strong><br>
-Rekan sekelompok perkuliahan (Inisial <strong>M.R.</strong>).</p></li>
-</ol>
-<hr>
-</section>
-</section>
-<section id="rubrik-penilaian-evaluasi-mandiri" class="level2">
-<h2 class="anchored" data-anchor-id="rubrik-penilaian-evaluasi-mandiri">4. Rubrik Penilaian &amp; Evaluasi Mandiri</h2>
-<p>Gunakan rubrik berikut untuk memeriksa apakah Peta Karakter telah memenuhi standar kualitas akademik:</p>
+<section id="lembar-kerja-praktis-pemetaan-karakter-transisi-bahasa" class="level1">
+<h1>LEMBAR KERJA PRAKTIS: PEMETAAN KARAKTER &amp; TRANSISI BAHASA</h1>
+<section id="a.-identitas-mahasiswa" class="level2">
+<h2 class="anchored" data-anchor-id="a.-identitas-mahasiswa"><strong>A. Identitas Mahasiswa</strong></h2>
 <ul>
-<li><strong>Tingkat Unggul (Skor 4):</strong> Berhasil memetakan kelima domain kehidupan secara realistis. Mampu membedakan dengan sangat jernih antara Pribadi, Kepribadian, dan Peran Naratif. Sasaran pertumbuhan dirumuskan secara sangat spesifik, terukur, berfokus pada perubahan perilaku komunikatif yang nyata, dan dilengkapi rencana umpan balik dari orang lain.</li>
-<li><strong>Tingkat Cakap (Skor 3):</strong> Memetakan domain kehidupan dengan baik. Mampu mengidentifikasi perbedaan peran komunikasi secara relevan dan menghindari stereotip. Sasaran pertumbuhan sudah berorientasi pada perilaku komunikatif meskipun ukurannya masih bisa dipertegas lagi.</li>
-<li><strong>Tingkat Berkembang (Skor 2):</strong> Pemetaan domain kehidupan atau perbedaan peran masih terasa sangat umum, kaku, atau menggunakan asumsi/label sepihak. Sasaran pertumbuhan dirumuskan secara abstrak atau berfokus pada hasil akhir saja, bukan perilaku komunikasinya.</li>
-<li><strong>Tingkat Awal (Skor 1):</strong> Belum memperlihatkan pemahaman tentang perbedaan peran naratif. Kepribadian diperlakukan sebagai stempel batin yang kaku (“saya memang begini”) tanpa adanya sasaran pertumbuhan perilaku yang jelas.</li>
+<li><strong>Nama Lengkap:</strong> Winda Naila Nur Aisyah<br>
+</li>
+<li><strong>NIM:</strong> 18225069<br>
+</li>
+<li><strong>Tanggal Pengisian:</strong> 08 September 2026</li>
 </ul>
 <hr>
-<blockquote class="blockquote">
-<p><strong>Pesan Etika &amp; Privasi:</strong> Peta karakter komunikasi ini berisi refleksi personal Anda. Jika Anda membagikan lembar kerja ini di kelas untuk sesi diskusi kelompok atau penilaian rekan, <strong>samarkan nama-nama orang lain</strong> (misalnya: ganti nama keluarga atau sahabat menjadi inisial atau “Mitra A”) demi melindungi privasi relasi Anda.</p>
-</blockquote>
+</section>
+<section id="b.-matriks-5-karakter-3-domain" class="level2">
+<h2 class="anchored" data-anchor-id="b.-matriks-5-karakter-3-domain"><strong>B. Matriks 5 Karakter &amp; 3 Domain</strong></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Domain</th>
+<th style="text-align: left;">Peran / Karakter</th>
+<th style="text-align: left;">Karakteristik Bahasa &amp; Tone</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1. Akademik</strong></td>
+<td style="text-align: left;">Mahasiswa STI</td>
+<td style="text-align: left;">Formal, lugas, menggunakan istilah teknis koding/sistem.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>1. Akademik</strong></td>
+<td style="text-align: left;">Teman Angkatan</td>
+<td style="text-align: left;">Kasual, santai, memakai jargon kampus/gaul.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>2. Keluarga</strong></td>
+<td style="text-align: left;">Anak Pertama</td>
+<td style="text-align: left;">Santun, hormat, penuh perhatian dan rasa empati.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2. Keluarga</strong></td>
+<td style="text-align: left;">Kakak / Pengasuh</td>
+<td style="text-align: left;">Sederhana, mengayomi, suportif, dan ramah.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3. Organisasi</strong></td>
+<td style="text-align: left;">Koordinator Media</td>
+<td style="text-align: left;">Profesional, instruksional, berorientasi pada tenggat waktu.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="c.-analisis-transisi-bahasa-case-study" class="level2">
+<h2 class="anchored" data-anchor-id="c.-analisis-transisi-bahasa-case-study"><strong>C. Analisis Transisi Bahasa (Case Study)</strong></h2>
+<ul>
+<li><strong>Situasi:</strong> Beralih dari diskusi kodingan di Zoom ke obrolan dengan Orang Tua.</li>
+<li><strong>Transisi Kalimat:</strong> Dari <em>“PR buat async function…”</em> menjadi <em>“Eh Ibu, makasih ya Bu…”</em>.</li>
+<li><strong>Evaluasi Perubahan:</strong> Berhasil menyesuaikan regresi bahasa dari istilah komputasional ke bahasa tutur domestik yang penuh kasih sayang.</li>
+</ul>
+<hr>
+</section>
+<section id="d.-self-assessment-rubrik-bab-1" class="level2">
+<h2 class="anchored" data-anchor-id="d.-self-assessment-rubrik-bab-1"><strong>D. Self-Assessment Rubrik Bab 1</strong></h2>
+<p><span class="math display">\[\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}\]</span></p>
 
 
 </section>
