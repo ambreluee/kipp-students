@@ -1,66 +1,32 @@
 ---
-title: "Multi-Audience Communication & Adaptation"
-week: 4
-status: "Selesai"
-self_score: "4"
-assessor_score: "—"
-description: "Penerjemahan pesan teknis ke lima audiens serta pengelolaan umpan balik dan keraguan pemangku kepentingan."
-categories: [Professional, Communication, Multi-Audience]
+title: "Lembar Kerja Bab 05"
+week: 5
+categories: [LK, Professional]
 ---
 
-**Nama Mahasiswa:** Winda Naila Nur Aisyah  
-**NIM:** 18225069  
-**Tanggal Pengerjaan:** 22 September 2026  
+# LEMBAR KERJA PRAKTIS: WAWANCARA DISCOVERY & ADAPTASI RESPANSIF
 
-> 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 04 Lengkap](../lk/week-04.html)
+## **A. Identitas Mahasiswa**
+* **Nama Lengkap:** Winda Naila Nur Aisyah  
+* **NIM:** 18225069  
+* **Tanggal Pengisian:** 27 September 2026  
 
 ---
 
-## Bagian A: Pesan Inti & Pemetaan 5 Audiens
+## **B. Catatan Loop Adaptasi Selama Wawancara**
 
-* **Pesan Inti Teknis:**  
-  *"Sistem validasi rundown dan materi acara perlu mengimplementasikan mekanisme cutoff time ketat pada H-3 acara untuk mencegah race condition/overwriting revisi dari multiple stakeholders dan menekan beban server/overtime tim."*
-
-### Translasi Pesan ke 5 Target Audiens:
-1. **Rekan Teknis (Developer/Peer):**  
-   *"Kita butuh penegasan cutoff time H-3 untuk validasi rundown agar tidak terjadi race condition pada commit data revisi dari dosen dan sponsor."*
-2. **Manajer Proyek / Koordinator Acara (Non-Teknis):**  
-   *"Dengan batas waktu revisi maksimal H-3, tim kita tidak perlu lembur mendadak di malam H-1 dan risiko salah tayang jadwal acara bisa ditekan hingga nol."*
-3. **Dosen Pembina / Pihak Eksternal (Sponsor):**  
-   *"Demi kepastian kualitas dan kelancaran acara bersama, seluruh persetujuan materi dan rundown kami mohon difinalisasi sebelum H-3 pukul 17.00 WIB."*
-4. **Tim Publikasi / Media (Eksekutor Visual):**  
-   *"Mulai H-3 jam 5 sore, materi visual yang masuk sudah final 100%. Teman-teman bisa fokus cetak dan upload tanpa takut ada revisi mendadak."*
-5. **Peserta Acara / Mahasiswa Umum (End-User):**  
-   *"Jadwal dan pengisi acara resmi akan dipublikasikan secara pasti pada H-2, memberikan Anda kepastian agenda kegiatan yang akurat."*
+1. **Sinyal Diterima:** Mitra (R.A.) menunjukkan nada defensif saat ditanya alur kerja.
+2. **Penyesuaian Responsif:** Memvalidasi emosi mitra dan mengalihkan fokus pertanyaan ke titik hambatan alur (*bottleneck*).
+3. **Hasil Klarifikasi:** Berhasil mengungkap bahwa akar masalah utama adalah ketiadaan *cutoff time* persetujuan eksternal.
 
 ---
 
-## Bagian B: Umpan Balik & Pengelolaan Keraguan Audiens (*Feedback & Trade-off*)
+## **C. Pernyataan Masalah Pelanggan Terkonfirmasi**
 
-### 1. Umpan Balik Target 1: Rekan Teknis (Inisial T.O. - Lead Dev)
-* **Komentar/Tanggapan:** *"Setuju banget, kalau revisi masuk terus di H-1, database dan jadwal tampil sering konflik."*
-* **Konfirmasi Pemahaman:** Rekan teknis memahami sepenuhnya aspek kestabilan sistem dan efisiensi alur kerja.
-
-### 2. Umpan Balik Target 2: Manajer / Koordinator Non-Teknis (Inisial R.A. - Project Coordinator)
-* **Keraguan & Pertanyaan yang Disampaikan (*Uncertainty / Trade-off*):**  
-  *"Tapi Win, kalau kita kunci cutoff time ketat di H-3, gimana kalau sponsor utama atau dosen pembina mendadak minta perubahan penting di H-2? Apakah ini enggak bikin kita kelihatan kaku dan bikin sponsor kecewa?"*
+> *"Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja akibat revisi menit akhir dari eksternal, sehingga membutuhkan kesepakatan cutoff time persetujuan materi dengan mempertimbangkan aturan wajib validasi dosen pembina dan sponsor."*
 
 ---
 
-## Bagian C: Adaptasi Pesan Lanjutan (*Follow-up Adaptation*)
+## **D. Self-Assessment Rubrik Bab 5**
 
-Merespons keraguan dari Koordinator Non-Teknis (R.A.) di atas, dilakukan adaptasi pesan lanjutan untuk mengelola risiko dan *trade-off* bisnis:
-
-> **Pesan Adaptasi Lanjutan kepada R.A. (Manajer):**  
-> *"Poin yang sangat bagus, R.A. Kita tidak akan kaku 100%. Ketentuan cutoff time H-3 ini berfungsi sebagai **filter standar baku**. Jika ada perubahan darurat dari sponsor di H-2, perubahan tersebut wajib melalui **Emergency Approval Path** dengan persetujuan tertulis Ketua Pelaksana dan dikenakan batas fleksibilitas maksimum 10% perubahan teknis.*  
->  
-> *Dengan alur ini, sponsor tetap merasa dihargai tanpa mengorbankan kesehatan fisik tim acara dan kepastian jadwal publikasi kita."*
-
-* **Hasil Setelah Adaptasi Pesan:**  
-  R.A. menerima solusi *trade-off* ini dengan lega: *"Nah, kalau ada alur darurat khusus gitu aku setuju! Jadi ada bentengnya tapi tetap fleksibel kalau emang kepepet."*
-
----
-
-## Bagian D: Refleksi Adaptasi Komunikasi
-
-* **Pelajaran Utama:** Menyesuaikan pesan bukan hanya mengubah pilihan kata (*jargon*), tetapi juga mendengarkan keraguan nyata (*uncertainty*) dari pemangku kepentingan non-teknis dan menyediakan solusi kompromi (*trade-off*) yang menenangkan mereka.
+$$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

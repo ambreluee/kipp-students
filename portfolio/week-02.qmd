@@ -1,50 +1,44 @@
 ---
-title: "Intra-Self Communication Journal"
+title: "Fact, Emotion, Story & Narrative Reframing"
 week: 2
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Evidence perubahan dari reaksi otomatis (reaction) menuju respons yang disengaja (chosen response) melalui pemisahan fakta, narasi, dan tindakan terukur."
-categories: [Fondasi, Intra-Self]
+description: "Pemisahan fakta, emosi, dan cerita internal serta bukti konkret hasil tindakan dan verifikasi narasi."
+categories: [Personal, Reframing]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 22 September 2026  
+**Tanggal Pengerjaan:** 15 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 02 Lengkap](../lk/week-02.html)
 
 ---
 
-## 1. Ringkasan Kasus & Pemisahan Elemen
+## Bagian A: Pemisahan Elemen Konflik (Kasus Tugas Kelompok)
 
-| Elemen Komunikasi | Detail Hasil Refleksi Intrapersonal |
-| :--- | :--- |
-| **Peristiwa (Fakta Objektif)** | Dua draf diagram ERD dan spesifikasi modul yang disepakati di WhatsApp grup belum diunggah oleh Rekan M.R. ke folder Google Drive tim hingga batas waktu tanggal 18 September 2026 pukul 23.59. |
-| **Interpretasi Pertama (Asumsi)** | M.R. menyepelekan tugas kelompok ini, tidak bertanggung jawab, dan sengaja membiarkan saya menanggung beban pekerjaan sendirian. |
-| **Emosi & Sensasi Tubuh** | Kecewa (Skala 8/10), Cemas (Skala 7/10). Sensasi fisik: dada sesak dan rahang menegang saat melihat folder Drive masih kosong pukul 00.15. |
+* **Fakta Objektif (*Fact*):** Rekan kelompok (inisial M.A.) belum mengunggah draf bagian laporan teknis hingga H-1 tenggat waktu internal, dan tidak merespons pesan teks grup selama 6 jam.
+* **Emosi Terasa (*Emotion*):** Cemas, jengkel, dan khawatir tugas tidak selesai tepat waktu.
+* **Cerita Internal (*Internal Story*):** *"M.A. tidak bertanggung jawab dan sengaja lepas tangan menyerahkan beban ke saya."*
 
 ---
 
-## 2. Eksplorasi Tiga Narasi Batin
+## Bagian B: Reframing Narasi & Rencana Tindakan
 
-### A. Narasi Korban (*Victim Narrative*)
-* **Narasi:** "Saya selalu mendapatkan rekan kelompok yang pasif. Usaha saya menjaga jadwal proyek sia-sia karena orang lain tidak peduli."
-* **Tindakan Reaktif:** Mengirim pesan menyindir di grup WhatsApp, lalu mengambil alih pengerjaan tugas M.R. sambil memendam rasa jengkel.
-
-### B. Narasi Analitis (*Analytical Narrative*)
-* **Fakta Terbukti:** Dokumen belum diunggah di Drive sesuai batas waktu kesepakatan.
-* **Alternatif Asumsi:** M.R. mungkin mengalami kendala teknis (koneksi/perangkat rusak), kondisi darurat keluarga, atau salah mencatat jam *deadline*.
-* **Area Kendali Diri:** Cara saya menyapa M.R., keputusan memverifikasi keadaan sebelum menghakimi, dan penyesuaian alur kerja pribadi.
-
-### C. Narasi Pertumbuhan (*Growth Narrative*)
-* **Narasi:** "Ketidakpastian dan hambatan komunikasi tim adalah bagian alami dari kerja kolaboratif. Ini adalah kesempatan bagi saya untuk melatih komunikasi asertif tanpa dilandasi emosi impulsif."
-* **Pelajaran Utama:** Pentingnya membangun jalur konfirmasi (*check-in point*) beberapa jam sebelum *deadline* resmi.
+* **Narasi Alternatif (*Reframed Story*):**  
+  *"M.A. mungkin sedang mengalami kendala teknis atau kebingungan memahami bagian laporannya sehingga ragu untuk membalas di grup."*
+* **Rencana Tindakan:**  
+  Menghubungi M.A. via panggilan suara (*voice call*) secara pribadi dengan pendekatan non-konfrontatif untuk klarifikasi.
 
 ---
 
-## 3. Komitmen Tindakan & Kesepakatan Batin (*Internal Agreement*)
+## Bagian C: Dokumentasi Outcome Konkret & Verifikasi Narasi (*Follow-up*)
 
-* **Langkah Nyata:** Mengirim pesan pribadi (Japri) yang santun dan objektif kepada M.R. untuk menanyakan kendala tanpa nada menuduh, serta menawarkan penyesuaian jadwal jika ada hambatan teknis.
-* **Hasil Tindakan:** M.R. merespons jam 07.15 WIB, memohon maaf karena jaringan internet di kediamannya terputus sejak malam, dan langsung mengunggah berkas yang sudah selesai dikerjakan.
-* **Rekan Pendamping / Umpan Balik:** M.R. (Rekan Tim Proyek).
+### 1. Proses Verifikasi Narasi (*Sync-Up Call*)
+Saya melakukan panggilan suara selama 10 menit dengan M.A. menggunakan pendekatan berempati: *"Halo M.A., aku lihat bagian laporanmu belum terisi. Ada bagian kodingan yang bikin kamu bingung atau ada kendala lain?"*
+
+### 2. Bukti Outcome / Hasil Nyata
+* **Terverifikasinya Cerita Internal:** M.A. mengungkapkan bahwa laptopnya mengalami kendala *crash* dan ia bingung menyusun bagian diagram ERD, bukan karena malas.
+* **Kesepakatan Baru:** Kami membagi ulang sub-bab. M.A. mengambil alih penulisan analisis deskriptif (30% beban kerja tambahan), sementara saya membantunya pada diagram ERD.
+* **Dampak Relasional & Hasil Kerja:** Laporan selesai diunggah H-2 jam sebelum tenggat resmi kampus, dan komunikasi tim menjadi jauh lebih terbuka tanpa ada rasa mendendam.

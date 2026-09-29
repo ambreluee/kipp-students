@@ -1,73 +1,29 @@
 ---
 title: "Lembar Kerja Bab 03"
 week: 3
-categories: [LK, Fondasi]
+categories: [LK, Personal]
 ---
 
-# PANDUAN AKTIVITAS PRAKTIS: MENDENGARKAN TANPA MEMPERBAIKI
+# LEMBAR KERJA PRAKTIS: BATASAN RELASIONAL & SIMULASI TRADE-OFF
 
-**Mata Kuliah:** Komunikasi Interpersonal dan Publik  
-**Bahan Kajian:** Bab 3 — Keluarga dan Sahabat: Relasi yang Perlu Dihadirkan  
-**Metode:** Latihan Berpasangan (*Roleplay* & Refleksi Chat)  
-
----
-
-## Identitas Praktikan
-
-* **Nama Praktikan:** Winda Naila Nur Aisyah  
-* **Nama Mitra Latihan:** Grasella (STEIK '25)  
-* **Tanggal Pelaksanaan:** 27 September 2026  
+## **A. Identitas Mahasiswa**
+* **Nama Lengkap:** Winda Naila Nur Aisyah  
+* **NIM:** 18225069  
+* **Tanggal Pengisian:** 20 September 2026  
 
 ---
 
-### BAGIAN A: Catatan Pendengar (Diisi saat Anda menjadi Pendengar)
+## **B. Matriks Justifikasi Batasan & Trade-Off**
 
-1. **Tingkat 1 - Kata (Isi Literal Masalah):**  
-   Grasella menceritakan kebiasaannya yang sering menunda belajar setibanya di kos, terdistraksi HP (*doomscrolling*) hingga ketiduran, padahal ia sadar memiliki banyak materi yang harus diulang dan UTS tinggal 2 minggu lagi[cite: 2].
-
-2. **Tingkat 2 - Makna (Parafrasa Anda):**  
-   *"Berarti kalau gua ga salah nangkep, lu tuh sebenernya ada niat dan pengen belajar, tapi begitu sampe kos udah kehabisan energi dan kalah sama distraksi HP. Ujung-ujungnya lu jadi kesel sama diri sendiri dan cemas karena tugasnya makin numpuk. Bener ga gitu?"*[cite: 1]
-
-3. **Tingkat 3 - Pribadi (Tebakan Emosi & Kebutuhan):**  
-   * **Perasaan Mitra:** Kesel pada diri sendiri, *overwhelmed*, cemas, dan merasa bersalah[cite: 1, 2].  
-   * **Kebutuhan/Nilai Mitra:** Kebutuhan akan ruang aman (*psychological safety*), validasi emosi, rasa tenang, dan tempat meluapkan unek-unek tanpa bayang-bayang penghakiman/ceramah[cite: 1].
-
-4. **Respons Pembicara terhadap "Pertanyaan Emas" Anda:**  
-   Mitra memilih: **Hanya ingin didengarkan saja** (*"Benerr bgt winn. Gua lagi pengen cerita aja win, sebenarnya selalu sadar apa yg harusnya dilakuin tp ya gitu nunda mulu hehehe"*)[cite: 1].
+| Elemen | Penjelasan |
+| :--- | :--- |
+| **Batasan Diajukan** | Offline kerja/pencakapan tugas mulai pukul 21.00 WIB. |
+| **Sanggahan Partner (M.R.)** | Khawatir lupa detail diskusi dan produktivitas menurun. |
+| **Solusi Adaptif (Trade-Off)** | Menyediakan *3-point Notion Summary* setiap pukul 20.45 WIB. |
+| **Justifikasi Relasional** | Mencegah *burnout* dan menjaga produktivitas jangka panjang tim. |
 
 ---
 
-### BAGIAN B: Catatan Umpan Balik (Diisi berdasarkan umpan balik yang Anda terima dari Pembicara)
+## **C. Self-Assessment Rubrik Bab 3**
 
-1. **Momen Kehadiran Paling Berdampak:**  
-   Grasella merasa sangat dipahami ketika saya merangkum dilema batinnya (*"Benerr bgt winn"*) dan memberikan *Pertanyaan Emas*[cite: 1]. Hal ini membuatnya merasa tidak dipojokkan atas kebiasaan buruknya, melainkan didengarkan secara utuh[cite: 1].
-
-2. **Momen Asumsi atau "Buru-buru Memperbaiki":**  
-   Pada awal sesi (saat Grasella menjadi pendengar), Grasella sempat refleks memberikan nasihat teknis belajar (*"Mungkin jangan langsung mikirin semua materi...", "Coba pelan-pelan..."*)[cite: 2]. Namun pada giliran saya menyimak cerita Grasella, saya berhasil mengerem diri 100% dan tidak memberikan tips mengatasi *procrastination* sama sekali[cite: 1].
-
----
-
-### BAGIAN C: Jurnal Refleksi Pasca-Latihan (Diisi Mandiri)
-
-1. **Refleksi Kebiasaan Otomatis:**  
-   Melihat teman mengeluhkan kebiasaan *doomscrolling*, dorongan alami saya adalah memberikan solusi seperti menyarankan aplikasi *focus-timer* atau *lock app*. Namun, ketika saya menahan diri dan memilih bertanya kebutuhan Grasella, saya menyadari bahwa lawan bicara sebenarnya sudah tahu apa solusi teknisnya[cite: 1]; mereka hanya membutuhkan ruang empati untuk mengurai rasa frustrasinya[cite: 1].
-
-2. **Memahami vs. Menyetujui:**  
-   Saya belajar bahwa memvalidasi rasa lelah dan kecewa Grasella pada dirinya sendiri bukan berarti saya menyetujui kebiasaan menunda-nunda (*procrastination*) tersebut[cite: 1, 2]. Empati adalah hadir bersama emosi seseorang tanpa perlu menghakimi atau membenarkan perilakunya.
-
-3. **Komitmen Langkah Pertumbuhan:**  
-   *Dalam 14 hari ke depan, saya berkomitmen untuk menanyakan "Pertanyaan Emas" (*"Kamu mau didengarkan aja atau butuh saran?"*) setiap kali teman atau keluarga terdekat mulai membagikan masalah pribadinya.*
-
----
-
-## IV. Rubrik Evaluasi Diri
-
-| Dimensi Penilaian | Awal (1) | Berkembang (2) | Cakap (3) | Unggul (4) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1. Kehadiran & Menyimak Aktif** | | | | $\checkmark$ |
-| **2. Pemisahan Fakta & Interpretasi** | | | | $\checkmark$ |
-| **3. Pendalaman Rasa Ingin Tahu (Pertanyaan)** | | | | $\checkmark$ |
-| **4. Validasi Emosi & Otonomi** | | | | $\checkmark$ |
-
-### Penghitungan Nilai Evaluasi Diri:
-$$\text{Nilai Akhir} = \left( \frac{16}{16} \right) \times 100 = 100 \quad \text{(Tingkat Unggul)}$$
+$$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

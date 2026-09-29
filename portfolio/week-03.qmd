@@ -1,46 +1,46 @@
 ---
-title: "Relationship Conversation"
+title: "Relational Boundary & Trade-Off Management"
 week: 3
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Bukti praktik mendengarkan pada tiga tingkat (Kata, Makna, dan Pribadi) tanpa dorongan impulsif untuk memberikan solusi, berdasarkan percakapan nyata via pesan teks."
-categories: [Fondasi, Relationship]
+description: "Pengelolaan batasan relasional, simulasi hambatan trade-off, dan justifikasi produktivitas jangka panjang."
+categories: [Personal, Boundaries, Relationship]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 27 September 2026  
+**Tanggal Pengerjaan:** 20 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 03 Lengkap](../lk/week-03.html)
 
 ---
 
-## 1. Bukti Mendengarkan Tiga Tingkat (*Listening Evidence*)
+## Bagian A: Penetapan Batasan & Pemetaan Relasi
 
-* **Mitra Latihan:** Grasella (STEIK '25)[cite: 1, 2]
-* **Topik Cerita Mitra:** Kebiasaan menunda (*procrastination*), *doomscrolling* saat di kos, dan rasa bersalah/frustrasi karena materi perkuliahan makin menumpuk[cite: 2].
-
-| Tingkat Mendengarkan | Tangkapan Informasi & Respons Komunikasi |
-| :--- | :--- |
-| **Tingkat 1: Kata (Fakta Objektif)** | Grasella sering menunda belajar setibanya di kos, memilih membuka HP (*doomscrolling*), hingga ketiduran, padahal sadar tugas dan persiapan UTS makin dekat[cite: 2]. |
-| **Tingkat 2: Makna (Parafrasa)** | *"Berarti kalau gua ga salah nangkep, lu tuh sebenernya ada niat dan pengen belajar, tapi begitu sampe kos udah kehabisan energi dan kalah sama distraksi HP. Ujung-ujungnya lu jadi kesel sama diri sendiri dan cemas karena tugasnya makin numpuk. Bener ga gitu?"*[cite: 1] |
-| **Tingkat 3: Pribadi (Emosi & Kebutuhan)** | **Emosi:** Kesel pada diri sendiri, cemas, *overwhelmed*, merasa bersalah[cite: 1, 2].<br>**Kebutuhan:** Kebutuhan akan ruang aman (*acceptance*), rasa tenang, dan penerimaan tanpa dihakimi[cite: 1]. |
+* **Partner Relasi:** Rekan Kerja Tim / Teman Dekat (Inisial M.R.).
+* **Kebutuhan Batasan (*Boundary*):** Menetapkan waktu *offline* kerja di atas pukul 21.00 WIB untuk menjaga kesehatan fisik dan kejernihan mental.
 
 ---
 
-## 2. Implementasi Pertanyaan Emas & Respon Mitra
+## Bagian B: Simulasi Trade-Off & Penanganan Hambatan Kompleks
 
-Pada akhir percakapan, saya mengajukan *Pertanyaan Emas*:
-> *"Btw buat cerita lu ini, lu saat ini cuma pengen didengerin aja buat numpahin pusingnya atau lu butuh saran dari gua?"*[cite: 1]
+### 1. Sanggahan / Penolakan Partner (Hambatan Kompleks)
+Saat menyampaikan batasan *offline* jam 21.00 WIB, M.R. memberikan sanggahan mendasar:  
+> *"Win, aku paham kamu butuh istirahat malam. Tapi kalau kita off jam 9 malam dan besok paginya aku lupa detail diskusi kita, terus kita keteteran dikejar deadline, gimana? Masa produktivitas kita dikorbankan cuma buat istirahat?"*
 
-* **Respons Nyata Grasella:**  
-  > *"Benerr bgt winn. Gua lagi pengen cerita aja win, sebenarnya selalu sadar apa yg harusnya dilakuin tp ya gitu nunda mulu hehehe"*[cite: 1]
-* **Bukti Menahan Diri:** Saya menahan diri sepenuhnya dari memberikan tips manajemen waktu atau aplikasi *scheduler*, sehingga Grasella mendapatkan ruang aman yang ia butuhkan[cite: 1].
+### 2. Respons Adaptif Winda & Justifikasi Jangka Panjang
+Merespons penolakan M.R., saya melakukan penyesuaian strategi tanpa meruntuhkan batasan pribadi:
+
+> **Pesan Justifikasi Adaptif:**  
+> *"Aku ngerti banget kekhawatiranmu, R. Kita sama-sama pengen proyek ini sukses. Supaya kamu enggak lupa dan kita tetep efisien tanpa harus begadang, **aku akan buatkan 3 poin utama summary diskusi di halaman Notion kita setiap jam 20.45 WIB sebelum offline**.  
+>  
+> Besok paginya kamu tinggal baca 1 menit dan langsung bisa eksekusi. Batasan malam ini justru penting banget buat menjaga stamina berpikir kita sampai minggu depan, biar kita enggak burn out di tengah jalan."*
 
 ---
 
-## 3. Analisis Dinamika Relasi (*Relationship State*)
+## Bagian C: Hasil Kesepakatan Lanjutan
 
-* **Sebelum Latihan:** Komunikasi sehari-hari antar sesama teman angkatan cenderung berfokus pada obrolan santai atau urusan akademis formal tanpa menggali rasa rentan (*vulnerability*)[cite: 2, 3].
-* **Sesudah Latihan:** Tercipta ikatan *psychological safety* yang lebih kuat. Grasella merasa divalidasi dan tidak dihakimi meskipun mengakui kelemahannya (*doomscrolling* & nunda-nunda), sehingga relasi menjadi lebih terbuka dan saling mendukung[cite: 1, 2].
+* **Tanggapan M.R. (Partner):**  
+  *"Wah, kalau ada ringkasan 3 poin di Notion itu solusi yang dapet banget sih! Aku setuju, jadi paginya aku langsung dapet kejelasan tanpa takut lupa. Deal!"*
+* **Dampak Relasional:** Batasan pribadi terlindungi, kebutuhan produktivitas mitra terpenuhi, dan kepercayaan relasional semakin kuat.

@@ -1,62 +1,36 @@
 ---
 title: "Lembar Kerja Bab 02"
 week: 2
-categories: [LK, Fondasi]
+categories: [LK, Personal]
 ---
 
-# Lembar Kerja Praktis: Tiga Narasi atas Satu Peristiwa
+# LEMBAR KERJA PRAKTIS: REFRAMING NARASI & DOKUMENTASI OUTCOME
 
-*(Bahan Aktivitas Mandiri & Portofolio Kuliah 2: Percakapan dengan Diri Sendiri)*
-
-Lembar kerja ini dirancang untuk melatih kemampuan **kejernihan batin (intrapersonal communication)** Anda. Tujuannya adalah membantu Anda memisahkan fakta objektif dari cerita batin, mengenali emosi, dan merumuskan respons yang disengaja (*chosen response*) alih-alih bereaksi secara otomatis (*autopilot*) atas peristiwa sulit dalam kehidupan sehari-hari.
-
----
-
-## **Siklus Pemikiran: Dari Rangsangan Menuju Respons**
-
-Sebelum mengisi lembar kerja, ingatlah alur pembentukan makna batin berikut:
-
-$$\text{Peristiwa (Fakta)} \longrightarrow \text{Interpretasi (Asumsi)} \longrightarrow \text{Narasi (Identitas)} \longrightarrow \text{Emosi} \longrightarrow \text{Pilihan} \longrightarrow \text{Tindakan}$$
+## **A. Identitas Mahasiswa**
+* **Nama Lengkap:** Winda Naila Nur Aisyah  
+* **NIM:** 18225069  
+* **Tanggal Pengisian:** 15 September 2026  
 
 ---
 
-## **Identitas Mahasiswa**
+## **B. Matriks Pemisahan & Reframe**
 
-- **Nama Mahasiswa:** Winda Naila Nur Aisyah  
-- **NIM:** 18225069  
-- **Tanggal Pengerjaan:** 22 September 2026  
-
----
-
-## **Bagian 1: Identifikasi Kasus (Bahan Mentah)**
-
-### **1. Peristiwa yang Dapat Diamati (Fakta Objektif)**
-
-* **Tuliskan Fakta Anda di sini:**  
-  Dua draf diagram ERD dan spesifikasi modul yang disepakati di WhatsApp grup belum diunggah oleh Rekan M.R. ke folder Google Drive tim hingga batas waktu tanggal 18 September 2026 pukul 23.59.
-
-### **2. Interpretasi Pertama (Asumsi Otomatis)**
-
-* **Tuliskan Interpretasi Pertama Anda di sini:**  
-  Rekan M.R. menyepelekan tugas kelompok ini, tidak bertanggung jawab, dan sengaja membiarkan saya menanggung beban pekerjaan sendirian.
-
-### **3. Emosi & Sensasi Tubuh**
-
-* **Emosi yang Dirasakan (dan skala 0–10):**  
-  Kecewa (8/10), Cemas (7/10), Kesel/Jengkel (6/10).
-* **Sensasi Tubuh yang Muncul:**  
-  Dada terasa sesak, rahang menegang, dan kepala terasa panas/pusing saat melihat folder Google Drive masih kosong pada pukul 00.15 WIB.
+| Elemen | Analisis |
+| :--- | :--- |
+| **Fakta** | M.A. belum mengunggah berkas hingga H-1 dan pasif di grup selama 6 jam. |
+| **Emosi** | Cemas dan jengkel. |
+| **Cerita Internal Awal** | Menganggap M.A. malas dan tidak bertanggung jawab. |
+| **Narasi Terverifikasi** | M.A. mengalami kendala laptop *crash* dan kebingungan teknis. |
 
 ---
 
-## **Bagian 2: Membedah Tiga Narasi**
+## **C. Log Hasil Tindakan (Outcome Verification)**
 
-```text
-+---------------------------------------------------------------------------------+
-|                                 TIGA KACAMATA                                   |
-|                                                                                 |
-|  1. NARASI KORBAN          2. NARASI ANALITIS          3. NARASI PERTUMBUHAN    |
-|  "Semua kendali di luar    "Membedah fakta,            "Mengakui kesulitan,     |
-|  diri saya, saya lumpuh    asumsi, dan hal yang        menemukan pelajaran,     |
-|  tanpa pilihan tindakan."  bisa saya kendalikan."      dan bertindak."          |
-+---------------------------------------------------------------------------------+
+* **Tindakan:** Panggilan pribadi empati 10 menit.
+* **Hasil Konkret:** Tugas direstrukturisasi, laporan selesai tepat waktu, dan friksi hubungan tim terselesaikan total.
+
+---
+
+## **D. Self-Assessment Rubrik Bab 2**
+
+$$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

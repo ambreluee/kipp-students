@@ -1,50 +1,47 @@
 ---
-title: "Character Map"
+title: "Character Map & Communication Adaptability"
 week: 1
 status: "Selesai"
-self_score: "—"
+self_score: "4"
 assessor_score: "—"
-description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
-categories: [Fondasi, Person]
+description: "Pemetaan lima karakter di tiga domain kehidupan beserta transisi perubahan bahasa nyata."
+categories: [Personal, Communication, Identity]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 22 September 2026  
+**Tanggal Pengerjaan:** 08 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 01 Lengkap](../lk/week-01.html)
 
 ---
 
-## Bagian A: Peta 5 Domain Kehidupan
+## Bagian A: Pemetaan 5 Karakter di 3 Domain Kehidupan
 
-| Domain Kehidupan | Peran yang Saya Ambil | Siapa yang Saya Jumpai | Tanggung Jawab Utama Komunikasi |
-| :--- | :--- | :--- | :--- |
-| **1. Diri Sendiri** | Reflektor Diri | Diri Sendiri | Mengelola ekspektasi batin, regulasi emosi, dan menyikapi kegagalan secara objektif. |
-| **2. Keluarga / Sahabat** | Pendengar Sabar (Anak) | Orang Tua & Sahabat | Mendengarkan cerita tanpa menghakimi dan memelihara kehangatan relasi. |
-| **3. Profesional / Akademik** | Anggota Tim Proyek | Dosen & Teman Kelompok | Berkomunikasi lugas, menyampaikan progres tepat waktu, dan aktif memecahkan masalah. |
-| **4. Komunitas / Kelompok** | Anggota UKM | Pengurus & Rekan Anggota | Menyampaikan ide kreatif secara asertif serta menghargai keragaman pendapat. |
-| **5. Dunia / Publik** | Pengguna Sosmed / Netizen | Publik / Warga Digital | Menjaga etika berpendapat di ruang digital dan menyaring kebenaran informasi. |
-
----
-
-## Bagian B: Analisis Kontras Dua Peran Utama
-
-| Unsur Komunikasi | Peran A: Anggota Tim Proyek | Peran B: Anak di Rumah |
-| :--- | :--- | :--- |
-| **1. Tujuan & Relasi** | Menyelesaikan target tugas perkuliahan secara efisien dan objektif. | Merawat kehangatan relasi keluarga dan memberikan rasa tenang pada orang tua. |
-| **2. Repertoar Utama** | Menyajikan data, berdiskusi teknis, dan negosiasi pembagian tugas. | Mendengarkan aktif, menunjukkan empati, dan menggunakan tutur kata santun. |
-| **3. Pilihan Bahasa & Nada** | Bahasa Indonesia formal/semi-formal, lugas, dan terstruktur. | Bahasa sehari-hari, hangat, lembut, dan tidak memakai istilah teknis. |
-| **4. Respons yang Dibaca** | Kejelasan progres kerja, nada ragu tim, dan kesepakatan *deadline*. | Bahasa tubuh, raut wajah lelah orang tua, dan dinamika emosi di rumah. |
-| **5. Tindakan Diharapkan** | Pembagian kerja tuntas dan dokumen laporan selesai sesuai standar. | Kehadiran utuh saat berinteraksi dan terciptanya suasana rumah yang nyaman. |
-| **6. Relasi yang Dirawat** | Kemitraan akademik yang profesional dan saling percaya. | Ikatan kekeluargaan yang kokoh, saling menghormati, dan terbuka. |
+1. **Domain 1: Akademik & Kampus**
+   * **Karakter 1 (Mahasiswa STI / Peneliti Muda):** Berbahasa formal, teknis, dan terstruktur saat diskusi akademis.
+   * **Karakter 2 (Rekan Kelompok Praktikum):** Berbahasa kasual, santai, dan fleksibel saat pengerjaan tugas bersama.
+2. **Domain 2: Keluarga & Domestik**
+   * **Karakter 3 (Anak Pertama kepada Orang Tua):** Berbahasa santun, penuh hormat, dan lembut.
+   * **Karakter 4 (Pengasuh / Kakak bagi Adik):** Berbahasa sederhana, mengayomi, dan empatik.
+3. **Domain 3: Organisasi & Kepanitiaan UKM**
+   * **Karakter 5 (Koordinator Media & Publikasi):** Berbahasa instruksional, lugas, profesional, dan berfokus pada tenggat waktu.
 
 ---
 
-## Bagian C: Eksplorasi Kepribadian & Sasaran Pertumbuhan
+## Bagian B: Bukti Transisi Perubahan Bahasa Spesifik (Situasi Nyata)
 
-* **Ketegangan Peran & Kepribadian:**  
-  Saya cenderung *menghindari konflik* (*conflict-averse*) saat situasi tegang, tetapi peran saya sebagai **Anggota Tim Proyek** menuntut saya untuk *menyampaikan ketidaksetujuan secara asertif* ketika ada jadwal yang terbengkalai.
-* **Sasaran Pertumbuhan Perilaku Terukur (4–6 Minggu Ke Depan):**  
-  *"Ketika berdiskusi di kelompok tugas dan ada perbedaan pendapat atau bagian yang belum tuntas, saya akan menahan diri dari bersikap pasif, lalu mengutarakan 1 tanggapan/solusi jernih dengan nada tenang dalam 2 menit pertama diskusi."*
-* **Umpan Balik Jujur:** Partner diskusi / teman sekelompok (Inisial **M.R.**).
+### Konteks Kejadian:
+Sedang melakukan *Zoom Meeting* pembahasan kodingan proyek STI bersama Rekan Kelompok (Peran A), lalu tiba-tiba Orang Tua masuk ke kamar membawa makan malam setelah seharian bekerja (Peran B).
+
+* **Bahasa Peran A (Rekan Kelompok STI - Diskusi Teknis):**  
+  *"Bred, PR buat async function di controller-nya diselesaiin malam ini ya, biar pas PR merge ke branch main enggak conflict."*
+
+* **Momen Transisi (Merespons Sinyal Kehadiran Orang Tua):**  
+  Mematikan mikrofon Zoom, menurunkan nada suara, berpaling dari layar laptop, dan menyesuaikan ekspresi wajah dari tegang menjadi hangat.
+
+* **Bahasa Peran B (Anak kepada Orang Tua - Santun & Empatik):**  
+  *"Eh Ibu... makasih banyak ya Bu udah dibawain makan malam. Ibu kelihatan capek banget hari ini, istirahat aja dulu ya Bu, nanti piringnya Winda yang cuci kok."*
+
+* **Alasan Perubahan Bahasa & Tone:**  
+  Bahasa teknis dan istilah *slang* kampus sangat tidak relevan serta terkesan dingin jika digunakan kepada Orang Tua yang sedang lelah. Perubahan dilakukan demi menjaga etika, norma penghormatan, dan kenyamanan emosional keluarga.

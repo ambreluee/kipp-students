@@ -4,7 +4,7 @@ week: 5
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Discovery menuju shared problem statement."
+description: "Discovery menuju shared problem statement dengan bukti adaptasi responsif selama sesi."
 categories: [Professional, Discovery]
 ---
 
@@ -16,41 +16,30 @@ categories: [Professional, Discovery]
 
 ---
 
-## Bagian A: Asumsi Awal & Daftar Pertanyaan Discovery
+## Bagian A: Identitas Mitra & Asumsi Awal
 
-* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara Kegiatan UKM Kampus).
-* **Asumsi Awal Saya (Sebelum Wawancara):**  
-  Saya sempat berasumsi bahwa R.A. kurang disiplin mengatur *timeline* kerja dan lambat memberi instruksi, sehingga materi rundown dan publikasi acara selalu terlambat diserahkan ke tim media.
-* **Pertanyaan *Discovery* (Terbuka & Tanpa Menghakimi):**
-  1. *"Boleh cerita enggak, alur pengerjaan materi acara dari ide awal sampai siap di-publish itu biasanya lewat tahapan apa aja?"*
-  2. *"Di titik mana yang menurutmu paling sering bikin alur pengerjaan jadi tersendat atau keteteran?"*
-  3. *"Dampak apa yang paling terasa buat kamu dan tim kalau jadwal penyerahan materi ini mundur?"*
+* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara UKM Kampus).
+* **Asumsi Awal Saya:** R.A. kurang disiplin mengatur waktu pengerjaan materi acara.
 
 ---
 
-## Bagian B: Ringkasan Sesi Discovery & Fakta Terungkap
+## Bagian B: Bukti Adaptasi Responsif Selama Wawancara (Loop: Mendengar $\rightarrow$ Menyesuaikan $\rightarrow$ Klarifikasi)
 
-### 1. Ringkasan Obrolan
-Setelah mendengarkan penjelasan R.A., ternyata masalah utamanya bukan pada ketidakdisiplinan timnya. Masalah sebenarnya adalah adanya penumpukan (*bottleneck*) pada proses validasi akhir. R.A. harus menunggu persetujuan dari 3 pihak berbeda (Ketua Pelaksana, Dosen Pembina, dan Pihak Sponsor) yang sering memberikan revisi berbeda di waktu yang tumpang tindih.
+### 1. Momen Sinyal Mitra (R.A. Defensif)
+Pada menit ke-3, saat ditanyakan pertanyaan awal, R.A. merespons dengan nada ragu dan defensif: *"Bukan tim kita yang lambat kok Win, emang alur persetujuan dari dosen dan sponsor aja yang ribet..."*
 
-### 2. Dampak Masalah (*Problem Impact*) & Kendala (*Constraint*)
-* **Dampak (*Impact*):** Tim acara sering terpaksa lembur di malam hari, anggota merasa kelelahan emosional, dan materi publikasi jadi terburu-buru sehingga hasilnya kurang maksimal.
-* **Kendala (*Constraint*):** Prosedur persetujuan dari dosen dan sponsor merupakan aturan wajib organisasi yang tidak bisa dipotong atau dilewati.
+### 2. Penyesuaian Strategi Pertanyaan (Adaptasi Langsung)
+Melihat sinyal rasa tidak nyaman ini, saya **seketika merubah strategi**:
+* **Perubahan Nada/Tone:** Menurunkan tempo bicaraku dan menyampaikan empati (*"Paham banget R, pasti pusing ya harus mengondisikan banyak pihak"*).
+* **Perubahan Pertanyaan:** Mengubah dari pertanyaan mencari penyebab menjadi pertanyaan pemetaan alur: *"Boleh cerita enggak, di titik mana proses persetujuan itu biasanya paling lama tertahan?"*
+
+### 3. Klarifikasi Ulang (*Re-clarification*)
+R.A. menjadi sangat terbuka dan menceritakan bahwa dosen pembina dan sponsor sering memberikan revisi tumpang tindih di H-1.  
+Saya mengklarifikasi ulang: *"Berarti penumpukan kerja ini terjadi karena belum adanya cutoff time revisi yang disepakati dosen dan sponsor ya, bukan karena masalah internal tim acara?"*  
+R.A. mengonfirmasi: *"Nah iya tepat banget Win! Itu akar masalahnya!"*
 
 ---
 
 ## Bagian C: Rumusan Masalah Bersama (*Shared Problem Statement*)
 
-Dengan mendengarkan tanpa memotong atau menggurui, kami berhasil menyepakati satu rumusan masalah bersama:
-
 > *"Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan mengalami kelelahan emosional. Ia membutuhkan kepastian batas waktu (cutoff time) persetujuan materi dari pihak internal dan eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor."*
-
-* **Bukti Konfirmasi Mitra (R.A.):**  
-  *"Nah iya tepat banget, Win! Masalahnya emang di batas waktu revisi eksternal itu. Kita butuh batasan tegas biar revisiannya enggak meluber terus pas udah mendekati H-2 acara."*
-
----
-
-## Bagian D: Refleksi Perilaku Komunikasi
-
-* **Hal Baru yang Dipelajari:** Pentingnya menahan emosi dan menyampingkan asumsi pribadi sebelum benar-benar memahami akar masalah dari sudut pandang lawan bicara.
-* **Perubahan Sikap:** Berhasil menggeser pola pikir dari *menyalahkan personal* (*person*) menjadi *menganalisis perbaikan sistem/alur kerja* (*structure*).
