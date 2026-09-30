@@ -4,7 +4,7 @@ week: 3
 categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: RAW ACTIVE LISTENING & BOUNDARY LOG
+# LEMBAR KERJA PRAKTIS: DETEKSI SINYAL LEMAH & PARAPHRASING VERBATIM
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
@@ -14,23 +14,25 @@ categories: [LK, Personal]
 
 ---
 
-## **B. Matriks Rekam Proses Listening Real-Time**
+## **B. Matriks Pendeteksian Weak Signals & Respon Adaptif**
 
-| Dimensi Sensori | Bukti Observasi Langsung (Raw Data) |
-| :--- | :--- |
-| **Auditori (Nada/Tempo)** | Nada M.R. meninggi, tempo cepat (170 kpm), penekanan pada kata *"khawatir"*. |
-| **Kinesiologis (Fisik)** | Bahu kaku, napas pendek, mengetuk pulpen ke meja secara berulang. |
-| **Monolog Batin Winda** | *"M.R. panik, bukan menyerang. Tahan emosi, dengarkan dulu sampai selesai."* |
-| **Respons Fisik Winda** | Menjaga kontak mata, menarik napas dalam, tidak menyela pembicaraan. |
+| Sinyal Lemah (*Weak Signal*) | Deteksi Sensori | Interpretasi State | Respons Adaptif Winda |
+| :--- | :--- | :--- | :--- |
+| **Micro-Pause (2.5 detik)** | Jeda hening sebelum menyanggah | Ragu & mencari validasi | Menahan diri untuk tidak memotong |
+| **Peningkatan Pitch Suara** | Suara naik 1/2 oktaf, nada kaku | Terancam ketidakpastian | Menurunkan tempo & menanyakan kecemasan |
+| **Gestur Kinesiologis** | Ketukan jari ke meja berulang | Kecemasan tinggi / *anxiety* | Memvalidasi trauma proyek masa lalu |
 
 ---
 
-## **C. Log Verbatim & Transformasi State M.R.**
+## **C. Log Verbatim & Pemenuhan Boundary**
 
-* **Kondisi Awal (Cemas):** *"Jujur aku khawatir banget... Harusnya kita push lanjut aja sampai jam 23.00!"*
-* **Winda Paraphrasing:** *"Jadi kamu cemas kalau alur backend lupa besok dan butuh catatan tertulis malam ini, bener gitu?"*
-* **Kondisi Akhir (Tenang):** *"Wah, deal banget... Asal ada rekap di Notion jam 21.00, aku udah tenang kok."*
-* **Bukti Timestamp Boundary:** Discord call diakhiri pukul **21:00:00 WIB**.
+> **M.R.:** *"Jujur aku khawatir banget... Harusnya kita push lanjut aja sampai jam 23.00 malam ini!"*  
+> **Winda:** *"R... aku denger ada nada ragu pas kamu bilang 'lupa alur'. Kamu panik membayangkan besok kita blank pas koding?"*  
+> **M.R.:** *"Iya Win... aku takut buang waktu... trauma proyek semester lalu."*  
+> **Winda:** *"Gimana kalau 15 menit terakhir ini kita rekap ke Notion? Kamu dapet kepastian, aku tetep offline jam 21.00."*  
+> **M.R.:** *"Wah, deal banget kalau gitu Win!"*
+
+* **Bukti Jam Berakhir:** Discord Call diakhiri presisi pukul **21:00:00 WIB**.
 
 ---
 
@@ -38,10 +40,10 @@ categories: [LK, Personal]
 
 | Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
 | :--- | :---: | :--- |
-| **Person & Character** | 4 | Memetakan karakter M.R. serta mendeteksi sinyal fisik/suara secara mendalam. |
-| **Objective & State** | 4 | Melacak transformasi state M.R. dari cemas menjadi tenang secara terukur. |
-| **Repertoire & Language** | 4 | Menggunakan monolog batin, paraphrasing, dan struktur OFNR terencana. |
-| **Response & Adaptation** | 4 | Beradaptasi menawarkan solusi rekap Notion tanpa mengorbankan boundary. |
-| **Agreement & Action** | 4 | Kesepakatan eksplisit tercapai dan boundary diakhiri tepat pukul 21.00 WIB. |
+| **Person & Character** | 4 | Memetakan *power dynamic* M.R. sebagai *Task Master* dan trauma latar belakangnya. |
+| **Objective & State** | 4 | Mengelola ketidakpastian tinggi dan menyelaraskan 2 *objective* yang bertolak belakang. |
+| **Repertoire & Language** | 4 | Menggunakan kerangka OFNR dan *active paraphrasing* secara alami dan luwes. |
+| **Response & Adaptation** | 4 | Terbukti mendeteksi 3 *weak signals* dan mereparasi *loop* sebelum menawarkan solusi. |
+| **Agreement & Action** | 4 | Mencapai kesepakatan *win-win* dan mengeksekusi batasan waktu tepat jam 21.00 WIB. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$

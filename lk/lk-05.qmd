@@ -4,7 +4,7 @@ week: 5
 categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: EMPATHETIC INTERVIEWING & UJI ASUMSI
+# LEMBAR KERJA PRAKTIS: UJI ASUMSI AWAL & SHARED PROBLEM STATEMENT
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
@@ -14,24 +14,22 @@ categories: [LK, Personal]
 
 ---
 
-## **B. Matriks Netralisasi Asumsi & Shared Problem Statement**
+## **B. Matriks Formulasi Uji Asumsi (Replay Formula)**
 
-| Elemen Metologis | Deskripsi Refleksi & Bukti Real-Time |
+| Elemen Evaluasi | Deskripsi Refleksi & Replay |
 | :--- | :--- |
-| **Asumsi Awal (Stereotip)** | R.A. kurang disiplin dan lambat mengelola tenggat waktu. |
-| **Netralisasi Pre-Session** | Menetralkan asumsi menjadi hipotesis netral tentang hambatan birokrasi eksternal. |
-| **Sinyal Defensif Mitra** | R.A. menunduk, menghela napas, dan menjawab dengan nada ragu. |
-| **Adaptasi Pertanyaan** | Mengubah dari *"Mengapa terlambat?"* menjadi *"Di titik mana alur terhambat?"*. |
-| **Fakta Lapangan (Eksplorasi)**| Revisi dari dosen/sponsor turun mendadak pada H-1 malam hari. |
-| **Shared Problem Statement** | Ketiadaan *cutoff time* validasi eksternal yang memicu penumpukan kerja di R.A. |
+| **Initial Assumption** | R.A. kurang disiplin dan tidak memiliki manajemen waktu yang baik. |
+| **Eksplorasi Fakta** | Dosen & sponsor mengirim revisi H-1 jam 22.00 WIB; SOP kampus kaku. |
+| **Formulasi Replay** | *"Saya datang dengan asumsi R.A. kurang disiplin, namun setelah mendengar fakta revisi H-1 dan SOP kampus, saya mengubah pandangan bahwa R.A. terkunci bottleneck birokrasi."* |
+| **Constraint Sistemik** | SOP Dual-Signature kampus & Aturan Anggaran (*Zero-Budget Overage*). |
 
 ---
 
-## **C. Verbatim Konfirmasi Shared Problem Statement**
+## **C. Shared Problem Statement & Kesepakatan Solusi**
 
-> **Winda:** *"Jadi akar masalahnya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (cutoff time) bagi pihak eksternal sehingga kamu keteteran di akhir. Tepat begitu?"*  
-> **R.A.:** *"Nah iya tepat banget Win! Itu akar masalahnya!"*  
-> **Solusi Disepakati:** Penetapan *cutoff time* H-2 pukul 17.00 WIB dan pendampingan negosiasi tim.
+> **Konfirmasi Winda:** *"Akar masalahnya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (cutoff time) validasi eksternal. Tepat begitu?"*  
+> **Konfirmasi R.A.:** *"Nah iya tepat banget Win! Itu akar masalah utamanya!"*  
+> **Solusi Tim:** Penetapan *cutoff time* H-2 pukul 17.00 WIB dan pendampingan negosiasi birokrasi oleh tim.
 
 ---
 
@@ -39,10 +37,10 @@ categories: [LK, Personal]
 
 | Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
 | :--- | :---: | :--- |
-| **Person & Character** | 4 | Menetralkan stereotip awal dan membaca perubahan konteks beban mitra. |
-| **Objective & State** | 4 | Mengurai kelelahan emosional mitra dan memisahkan masalah individu vs birokrasi. |
-| **Repertoire & Language** | 4 | Mengubah gaya interogasi menjadi eksplorasi empatik berkesadaran tinggi. |
-| **Response & Adaptation** | 4 | Sangat cepat menangkap sinyal defensif dan menurunkan tempo bicara. |
-| **Agreement & Action** | 4 | Formulasi *Shared Problem Statement* dikonfirmasi sebelum solusi ditetapkan. |
+| **Person & Character** | 4 | Menguji dan meruntuhkan asumsi awal stereotipik menggunakan data empiris. |
+| **Objective & State** | 4 | Memetakan kelelahan emosional mitra serta batasan birokrasi kampus. |
+| **Repertoire & Language** | 4 | Mengubah nada interogasi menjadi eksplorasi empatik berbasis fakta. |
+| **Response & Adaptation** | 4 | Beradaptasi instan terhadap sinyal defensif dengan menurunkan tempo bicara. |
+| **Agreement & Action** | 4 | Menyepakati *Shared Problem Statement* sebelum merumuskan solusi *cutoff time*. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$
