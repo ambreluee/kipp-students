@@ -1,10 +1,10 @@
 ---
-title: "Empathic Listening, Active Paraphrasing & Boundary Setting"
+title: "Empathic Listening, Real-Time Process & Boundary Setting"
 week: 3
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Transkrip percakapan real-time, penerapkan active listening (paraphrasing), kerangka OFNR, serta penegakan batasan diri tanpa mengorbankan relasi."
+description: "Dokumentasi proses listening real-time (nada suara, monolog batin, gestur), transkrip verbal OFNR, bukti log penegakan boundary, dan transformasi state mitra."
 categories: [Personal, Communication, Listening]
 ---
 
@@ -16,47 +16,63 @@ categories: [Personal, Communication, Listening]
 
 ---
 
-## Bagian A: Pemetaan Konteks & Dinamika Relasi
+## Bagian A: Pemetaan Konteks & Character Partner
 
 * **Lawan Bicara (Partner):** M.R. (Rekan Tim Proyek)
-* **Karakter Partner:** Sangat terstruktur, berorientasi target, mudah cemas jika ada detail teknis yang luput atau lupa disepakati.
-* **Kebutuhan Partner:** Kejelasan *action items* dan kepastian bahwa tugas kelompok tidak terbengkalai.
-* **Batasan Diri Winda (*Boundary*):** Harus menyelesaiakan sesi diskusi maksimal pukul 21.00 WIB untuk menjaga kesehatan fisik/mental dan menghindari *overwork*.
+* **Karakter Partner:** Highly-structured, goal-oriented, rentan cemas jika detail teknis belum terdokumentasikan secara rapi.
+* **Boundary Winda:** Diskusi harus selesai maksimal pukul 21.00 WIB untuk menjaga kesehatan emosional dan pola tidur.
 
 ---
 
-## Bagian B: Transkrip Percakapan Verbal Real-Time (Verbatim Listening Evidence)
+## Bagian B: Catatan Proses Listening Real-Time (Raw Observational Evidence)
 
-*Skenario: Panggilan suara Discord / Zoom pada pukul 20.30 WIB menjelang batas waktu diskusi Winda.*
+Sebelum menginterpretasikan pesan, berikut adalah rekaman proses *active listening* yang ditangkap Winda secara langsung di lapangan:
 
-* **M.R. (00:01 - 00:15):**  
+1. **Sinyal Auditori (Nada Suara & Tempo):**  
+   * Nada suara M.R. meninggi di pertengahan kalimat, tempo bicara sangat cepat (±170 kata per menit), artikulasi pada kata *"khawatir"* dan *"push lanjut"* ditekan kuat.
+2. **Sinyal Visual & Reaksi Fisik (via Kamera Discord):**  
+   * M.R. mengetuk-ngetukkan pulpen ke meja secara konstan, bahu tampak terangkat kaku, dan ritme napas pendek.
+3. **Monolog Batin Winda (*Internal Dialogue During Listening*):**  
+   * *"M.R. sedang merasa panik, bukan berniat menyerang batasan waktuku. Jangan defensif! Jangan potong bicaranya. Dengarkan dulu sampai napasnya mereda, lalu validasi rasa cemasnya."*
+4. **Respon Otomatis Diri (Sensori Winda):**  
+   * Memiringkan kepala, menjaga tatapan mata (*eye contact*), menarik napas dalam untuk menjaga ketenangan pribadi, dan tidak menyela sebelum M.R. selesai bicara.
+
+---
+
+## Bagian C: Transkrip Percakapan Verbal & Formula OFNR
+
+*Sesi Panggilan Discord — Pukul 20.30–20.58 WIB*
+
+* **M.R. (20:30:15):**  
   *"Win, ini kan kita baru bahas setengah dari modul backend. Kalau kita stop jam 21.00 sekarang, jujur aku khawatir banget besok pagi kita lupa sama alur logika yang tadi udah disketsain. Harusnya kita push lanjut aja sampai jam 23.00 malam ini biar kelar semua!"*
 
-* **Winda — [Active Paraphrasing & Validasi Emosi] (00:16 - 00:32):**  
+* **Winda — [Active Paraphrasing & Validasi Emosi] (20:30:35):**  
   *"Aku nangkep banget kekhawatiranmu, R. Jadi kamu cemas kalau kita berhentiin diskusi sekarang, poin-poin alur backend yang udah kita coret-coret tadi malah lupa pas besok kita koding bareng, dan kamu maunya semua detail terdata rapi malam ini juga, bener gitu?"*
 
-* **M.R. — [Konfirmasi & Penurunan Resistensi] (00:33 - 00:41):**  
+* **M.R. — [Penurunan Resistensi & Konfirmasi] (20:30:50):**  
+  *(Nada suara mulai memelan, napas kembali teratur)*  
   *"Nah iya persis Win! Aku enggak tenang aja kalau belum ada catatan tertulisnya, takut besok kita mikir dari nol lagi pas koding."*
 
-* **Winda — [Formulasi Solusi Adaptif & Boundary Request] (00:42 - 01:10):**  
+* **Winda — [Formulasi Solusi OFNR & Boundary Request] (20:31:05):**  
   *"Oke, mengerti banget. Gimana kalau gini: aku tetap harus *offline* jam 21.00 untuk jaga kondisi, tapi di 15 menit terakhir ini (20.45-21.00) kita stop diskusi topik baru. Kita pakai 15 menit ini khusus buat rekap poin kunci logika backend ke halaman Notion kelompok. Jadi kamu dapet kepastian catatan rapi, dan aku tetap bisa istirahat tepat waktu. Gimana?"*
 
-* **M.R. — [Kesepakatan / Deal] (01:11 - 01:18):**  
+* **M.R. — [Deal & Reframing State] (20:31:25):**  
   *"Wah, deal banget kalau gitu Win! Asal ada rekap di Notion jam 21.00, aku udah tenang kok. Yuk kita tulis ringkasannya sekarang."*
 
 ---
 
-## Bagian C: Analisis Struktur OFNR (Observation, Feeling, Need, Request)
+## Bagian D: Pemetaan Transformasi State & Log Penegakan Boundary
 
-1. **Observation (Fakta Percakapan):** M.R. meminta diskusi diperpanjang hingga pukul 23.00 WIB karena khawatir poin logika backend terlupa.
-2. **Feeling (Pengakuan Emosi):** M.R. merasa cemas dan tidak tenang; Winda tetap tenang dan empati tanpa panik.
-3. **Need (Kebutuhan Tersembunyi):** M.R. membutuhkan **kepastian dokumen tertulis** (*reassurance*); Winda membutuhkan **stamina dan waktu istirahat yang cukup** (*boundary*).
-4. **Request (Penawaran Adaptif):** Mengalihkan 15 menit tersisa untuk membuat rekap Notion bersama sebelum pukul 21.00 WIB.
+### 1. Perubahan State Emosional M.R.
 
----
+| Fase | State Emosi | Sinyal Fisik/Verbal | Outcome |
+| :--- | :--- | :--- | :--- |
+| **Awal** | Cemas & Tegang | Nada cepat, ketuk pulpen, minta lembur s/d 23.00 | Memicu potensi konflik jadwal |
+| **Transisi** | Terdekontaminasi | Otot bahu rileks, nada suara menurun | Merasa didengarkan utuh (*validated*) |
+| **Akhir** | Tenang & Lega | Tersenyum, berkata *"aku udah tenang kok"* | Menerima batasan jam 21.00 |
 
-## Bagian D: Dampak Hasil & Pemeliharaan Relasi (*Outcome*)
+### 2. Bukti Eksekusi Boundary (Audit Timestamp)
 
-* **Status Batasan Pribadi:** Terjaga utuh (Winda *offline* tepat pukul 21.00 WIB).
-* **Kebutuhan Partner:** Terpenuhi 100% (dokumen Notion rampung dan M.R. merasa tenang).
-* **Dampak Relasional:** Kepercayaan (*trust*) antara Winda dan M.R. meningkat pesat karena Winda terbukti merespons kecemasan M.R. secara dewasa tanpa memicu konflik.
+* **20:45 WIB:** Winda menghentikan pembahasan materi baru dan membuka dokumen Notion kelompok.
+* **20:58 WIB:** Dokumen rekap logika *backend* selesai disusun bersama M.R.
+* **21:00:00 WIB:** Winda pamit berpisah (*sign-off*) dan mematikan sesi Discord tepat waktu (*Boundary 100% Terjaga*).

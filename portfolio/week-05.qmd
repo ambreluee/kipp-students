@@ -1,45 +1,60 @@
 ---
-title: "Professional Discovery Interview"
+title: "Empathetic Interviewing, Neutralizing Initial Assumptions & Systemic Constraints"
 week: 5
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Discovery menuju shared problem statement dengan bukti adaptasi responsif selama sesi."
-categories: [Professional, Discovery]
+description: "Deklarasi dan pengujian asumsi awal (replay formula), analisis hambatan birokrasi/SOP kampus, wawancara empatik, dan kesepakatan Shared Problem Statement."
+categories: [Personal, Interview, Problem Statement]
 ---
 
 **Nama Mahasiswa:** Winda Naila Nur Aisyah  
 **NIM:** 18225069  
-**Tanggal Pengerjaan:** 27 September 2026  
+**Tanggal Pengerjaan:** 29 September 2026  
 
 > 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 05 Lengkap](../lk/week-05.html)
 
 ---
 
-## Bagian A: Identitas Mitra & Asumsi Awal
+## Bagian A: Deklarasi & Pengujian Asumsi Awal (*Initial Assumption*)
 
-* **Mitra Bicara:** Inisial **R.A.** (Koordinator Divisi Acara UKM Kampus).
-* **Asumsi Awal Saya:** R.A. kurang disiplin mengatur waktu pengerjaan materi acara.
+### 1. Asumsi Awal Sebelum Wawancara:
+* **Deklarasi Eksplisit:**  
+  *"Saya datang ke sesi wawancara ini dengan asumsi awal bahwa R.A. kurang disiplin, pasif, dan suka menunda-nunda pekerjaan sehingga laporan validasi eksternal selalu terlambat diserahkan ke tim."*
 
----
-
-## Bagian B: Bukti Adaptasi Responsif Selama Wawancara (Loop: Mendengar $\rightarrow$ Menyesuaikan $\rightarrow$ Klarifikasi)
-
-### 1. Momen Sinyal Mitra (R.A. Defensif)
-Pada menit ke-3, saat ditanyakan pertanyaan awal, R.A. merespons dengan nada ragu dan defensif: *"Bukan tim kita yang lambat kok Win, emang alur persetujuan dari dosen dan sponsor aja yang ribet..."*
-
-### 2. Penyesuaian Strategi Pertanyaan (Adaptasi Langsung)
-Melihat sinyal rasa tidak nyaman ini, saya **seketika merubah strategi**:
-* **Perubahan Nada/Tone:** Menurunkan tempo bicaraku dan menyampaikan empati (*"Paham banget R, pasti pusing ya harus mengondisikan banyak pihak"*).
-* **Perubahan Pertanyaan:** Mengubah dari pertanyaan mencari penyebab menjadi pertanyaan pemetaan alur: *"Boleh cerita enggak, di titik mana proses persetujuan itu biasanya paling lama tertahan?"*
-
-### 3. Klarifikasi Ulang (*Re-clarification*)
-R.A. menjadi sangat terbuka dan menceritakan bahwa dosen pembina dan sponsor sering memberikan revisi tumpang tindih di H-1.  
-Saya mengklarifikasi ulang: *"Berarti penumpukan kerja ini terjadi karena belum adanya cutoff time revisi yang disepakati dosen dan sponsor ya, bukan karena masalah internal tim acara?"*  
-R.A. mengonfirmasi: *"Nah iya tepat banget Win! Itu akar masalahnya!"*
+### 2. Formulasi Replay & Perubahan Pandangan (*Mindset Shift*):
+> **Formulasi Replay Hasil Uji Asumsi:**  
+> *"Saya datang dengan asumsi awal bahwa R.A. kurang disiplin dalam mengelola waktu, **namun** setelah mendengar penjelasannya mengenai adanya revisi mendadak dari dosen/sponsor pada H-1 jam 22.00 WIB serta batasan kaku SOP validasi kemahasiswaan kampus, **saya mengubah pandangan saya** bahwa R.A. bukanlah pribadi yang lalai, melainkan korban dari *bottleneck* birokrasi eksternal yang belum memiliki batas waktu penyerahan (*cutoff time*) yang jelas."*
 
 ---
 
-## Bagian C: Rumusan Masalah Bersama (*Shared Problem Statement*)
+## Bagian B: Analisis Batasan Sistemik & Birokrasi Kampus (*Constraints*)
 
-> *"Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan mengalami kelelahan emosional. Ia membutuhkan kepastian batas waktu (cutoff time) persetujuan materi dari pihak internal dan eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor."*
+Selain batasan waktu, wawancara ini mengidentifikasi hambatan eksternal/sistemik berikut:
+
+1. **SOP Validasi Dual-Signature Kemahasiswaan:** Laporan harus disetujui bertingkat oleh Dosen Pembimbing dan Pihak Sponsor Luar sebelum diunggah.
+2. **Aturan Keterbatasan Anggaran (*Zero-Budget Overage Rule*):** R.A. tidak boleh mengambil keputusan finansial revisi secara mandiri tanpa persetujuan dosen, sehingga ia terkunci pada arahan dosen di menit-menit terakhir.
+3. **Ketimpangan Power Relationship:** R.A. merasa cemas dan tidak memiliki wewenang (*authority*) untuk menolak revisi susulan yang diberikan dosen/sponsor di luar jam kerja.
+
+---
+
+## Bagian C: Wawancara Eksploratif & Adaptasi Sinyal Non-Verbal
+
+* **Winda (Pertanyaan Awal):** *"R.A., kenapa ya laporan validasi dari bagianmu selalu dikirim mendadak mendekati deadline?"*
+* **R.A. — [Sinyal Defensif]:** *(Menunduk, menghela napas panjang, nada ragu)* *"Ya... kan urusan sama pihak luar enggak mudah Win. Aku udah usahain semampuku..."*
+* **Winda — [Adaptasi Instan & Lowering Tempo]:** *(Menurunkan nada suara, bersandar rileks)* *"Eh sorry R.A., aku sama sekali enggak bermaksud menyalahkan kamu. Aku tahu koordinasi eksternal itu rumit. Bisakah kamu cerita, di titik alur mana kendala validasi biasanya muncul?"*
+* **R.A. — [Pengungkapan Fakta Systemic Constraint]:** *(Kontak mata kembali, nada lega)* *"Sebenarnya dosen dan sponsor baru balasin revisi di H-1 jam 22.00 WIB. Aku kebingungan karena SOP kampus minta tanda tangan mereka berdua, sementara aku enggak enak ganggu teman-teman kelompok kalau harus ngerjain malam-malam."*
+
+---
+
+## Bagian D: Formulasi *Shared Problem Statement* & Solusi Kesepakatan
+
+### 1. Verbatim Konfirmasi Akar Masalah Bersama:
+
+> **Winda:** *"Jadi kalau aku boleh simpulkan, akar masalahnya bukan di kedisiplinan atau komitmen kamu, melainkan di ketiadaan batas waktu (*cutoff time*) untuk revisi eksternal dan aturan SOP kampus yang mengunci kamu. Apakah tepat begitu, R.A.?"*  
+>  
+> **R.A. — [Konfirmasi Eksplisit]:** *"Nah iya tepat banget Win! Itu akar masalah utamanya! Aku cuma bingung cara nolak revisi dosen kalau udah mepet."*
+
+### 2. Solusi Disepakati Bersama (*Action Plan*):
+* **Penetapan Cutoff Time:** Kelompok menyepakati *cutoff time* revisi eksternal H-2 pukul 17.00 WIB.
+* **Shared Authority/Dukungan Tim:** Winda dan ketua kelompok akan mendampingi R.A. membuat template pesan resmi penolakan halus jika dosen/sponsor mengirim revisi melewati *cutoff time*.

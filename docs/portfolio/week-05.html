@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Discovery menuju shared problem statement dengan bukti adaptasi responsif selama sesi.">
+<meta name="description" content="Deklarasi dan pengujian asumsi awal (replay formula), analisis hambatan birokrasi/SOP kampus, wawancara empatik, dan kesepakatan Shared Problem Statement.">
 
-<title>Professional Discovery Interview – Portfolio KIPP-2</title>
+<title>Empathetic Interviewing, Neutralizing Initial Assumptions &amp; Systemic Constraints – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -79,35 +79,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -181,7 +152,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-05.html">Professional Discovery Interview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-05.html">Empathetic Interviewing, Neutralizing Initial Assumptions &amp; Systemic Constraints</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -214,7 +185,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Empathic Listening, Active Paraphrasing &amp; Boundary Setting</span></a>
+ <span class="menu-text">Empathic Listening, Real-Time Process &amp; Boundary Setting</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -226,7 +197,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-05.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Professional Discovery Interview</span></a>
+ <span class="menu-text">Empathetic Interviewing, Neutralizing Initial Assumptions &amp; Systemic Constraints</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -299,14 +270,18 @@ window.Quarto = {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#bagian-a-identitas-mitra-asumsi-awal" id="toc-bagian-a-identitas-mitra-asumsi-awal" class="nav-link active" data-scroll-target="#bagian-a-identitas-mitra-asumsi-awal">Bagian A: Identitas Mitra &amp; Asumsi Awal</a></li>
-  <li><a href="#bagian-b-bukti-adaptasi-responsif-selama-wawancara-loop-mendengar-rightarrow-menyesuaikan-rightarrow-klarifikasi" id="toc-bagian-b-bukti-adaptasi-responsif-selama-wawancara-loop-mendengar-rightarrow-menyesuaikan-rightarrow-klarifikasi" class="nav-link" data-scroll-target="#bagian-b-bukti-adaptasi-responsif-selama-wawancara-loop-mendengar-rightarrow-menyesuaikan-rightarrow-klarifikasi">Bagian B: Bukti Adaptasi Responsif Selama Wawancara (Loop: Mendengar <span class="math inline">\(\rightarrow\)</span> Menyesuaikan <span class="math inline">\(\rightarrow\)</span> Klarifikasi)</a>
+  <li><a href="#bagian-a-deklarasi-pengujian-asumsi-awal-initial-assumption" id="toc-bagian-a-deklarasi-pengujian-asumsi-awal-initial-assumption" class="nav-link active" data-scroll-target="#bagian-a-deklarasi-pengujian-asumsi-awal-initial-assumption">Bagian A: Deklarasi &amp; Pengujian Asumsi Awal (<em>Initial Assumption</em>)</a>
   <ul class="collapse">
-  <li><a href="#momen-sinyal-mitra-r.a.-defensif" id="toc-momen-sinyal-mitra-r.a.-defensif" class="nav-link" data-scroll-target="#momen-sinyal-mitra-r.a.-defensif">1. Momen Sinyal Mitra (R.A. Defensif)</a></li>
-  <li><a href="#penyesuaian-strategi-pertanyaan-adaptasi-langsung" id="toc-penyesuaian-strategi-pertanyaan-adaptasi-langsung" class="nav-link" data-scroll-target="#penyesuaian-strategi-pertanyaan-adaptasi-langsung">2. Penyesuaian Strategi Pertanyaan (Adaptasi Langsung)</a></li>
-  <li><a href="#klarifikasi-ulang-re-clarification" id="toc-klarifikasi-ulang-re-clarification" class="nav-link" data-scroll-target="#klarifikasi-ulang-re-clarification">3. Klarifikasi Ulang (<em>Re-clarification</em>)</a></li>
+  <li><a href="#asumsi-awal-sebelum-wawancara" id="toc-asumsi-awal-sebelum-wawancara" class="nav-link" data-scroll-target="#asumsi-awal-sebelum-wawancara">1. Asumsi Awal Sebelum Wawancara:</a></li>
+  <li><a href="#formulasi-replay-perubahan-pandangan-mindset-shift" id="toc-formulasi-replay-perubahan-pandangan-mindset-shift" class="nav-link" data-scroll-target="#formulasi-replay-perubahan-pandangan-mindset-shift">2. Formulasi Replay &amp; Perubahan Pandangan (<em>Mindset Shift</em>):</a></li>
   </ul></li>
-  <li><a href="#bagian-c-rumusan-masalah-bersama-shared-problem-statement" id="toc-bagian-c-rumusan-masalah-bersama-shared-problem-statement" class="nav-link" data-scroll-target="#bagian-c-rumusan-masalah-bersama-shared-problem-statement">Bagian C: Rumusan Masalah Bersama (<em>Shared Problem Statement</em>)</a></li>
+  <li><a href="#bagian-b-analisis-batasan-sistemik-birokrasi-kampus-constraints" id="toc-bagian-b-analisis-batasan-sistemik-birokrasi-kampus-constraints" class="nav-link" data-scroll-target="#bagian-b-analisis-batasan-sistemik-birokrasi-kampus-constraints">Bagian B: Analisis Batasan Sistemik &amp; Birokrasi Kampus (<em>Constraints</em>)</a></li>
+  <li><a href="#bagian-c-wawancara-eksploratif-adaptasi-sinyal-non-verbal" id="toc-bagian-c-wawancara-eksploratif-adaptasi-sinyal-non-verbal" class="nav-link" data-scroll-target="#bagian-c-wawancara-eksploratif-adaptasi-sinyal-non-verbal">Bagian C: Wawancara Eksploratif &amp; Adaptasi Sinyal Non-Verbal</a></li>
+  <li><a href="#bagian-d-formulasi-shared-problem-statement-solusi-kesepakatan" id="toc-bagian-d-formulasi-shared-problem-statement-solusi-kesepakatan" class="nav-link" data-scroll-target="#bagian-d-formulasi-shared-problem-statement-solusi-kesepakatan">Bagian D: Formulasi <em>Shared Problem Statement</em> &amp; Solusi Kesepakatan</a>
+  <ul class="collapse">
+  <li><a href="#verbatim-konfirmasi-akar-masalah-bersama" id="toc-verbatim-konfirmasi-akar-masalah-bersama" class="nav-link" data-scroll-target="#verbatim-konfirmasi-akar-masalah-bersama">1. Verbatim Konfirmasi Akar Masalah Bersama:</a></li>
+  <li><a href="#solusi-disepakati-bersama-action-plan" id="toc-solusi-disepakati-bersama-action-plan" class="nav-link" data-scroll-target="#solusi-disepakati-bersama-action-plan">2. Solusi Disepakati Bersama (<em>Action Plan</em>):</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -315,16 +290,17 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Professional Discovery Interview</h1>
+<h1 class="title">Empathetic Interviewing, Neutralizing Initial Assumptions &amp; Systemic Constraints</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Professional</div>
-    <div class="quarto-category">Discovery</div>
+    <div class="quarto-category">Personal</div>
+    <div class="quarto-category">Interview</div>
+    <div class="quarto-category">Problem Statement</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Discovery menuju shared problem statement dengan bukti adaptasi responsif selama sesi.
+    Deklarasi dan pengujian asumsi awal (replay formula), analisis hambatan birokrasi/SOP kampus, wawancara empatik, dan kesepakatan Shared Problem Statement.
   </div>
 </div>
 
@@ -343,44 +319,67 @@ window.Quarto = {
 
 <p><strong>Nama Mahasiswa:</strong> Winda Naila Nur Aisyah<br>
 <strong>NIM:</strong> 18225069<br>
-<strong>Tanggal Pengerjaan:</strong> 27 September 2026</p>
+<strong>Tanggal Pengerjaan:</strong> 29 September 2026</p>
 <blockquote class="blockquote">
 <p>📄 <strong>Tautan Lembar Kerja:</strong> <a href="../lk/week-05.html">Buka Lembar Kerja (LK) Bab 05 Lengkap</a></p>
 </blockquote>
 <hr>
-<section id="bagian-a-identitas-mitra-asumsi-awal" class="level2">
-<h2 class="anchored" data-anchor-id="bagian-a-identitas-mitra-asumsi-awal">Bagian A: Identitas Mitra &amp; Asumsi Awal</h2>
+<section id="bagian-a-deklarasi-pengujian-asumsi-awal-initial-assumption" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-a-deklarasi-pengujian-asumsi-awal-initial-assumption">Bagian A: Deklarasi &amp; Pengujian Asumsi Awal (<em>Initial Assumption</em>)</h2>
+<section id="asumsi-awal-sebelum-wawancara" class="level3">
+<h3 class="anchored" data-anchor-id="asumsi-awal-sebelum-wawancara">1. Asumsi Awal Sebelum Wawancara:</h3>
 <ul>
-<li><strong>Mitra Bicara:</strong> Inisial <strong>R.A.</strong> (Koordinator Divisi Acara UKM Kampus).</li>
-<li><strong>Asumsi Awal Saya:</strong> R.A. kurang disiplin mengatur waktu pengerjaan materi acara.</li>
+<li><strong>Deklarasi Eksplisit:</strong><br>
+<em>“Saya datang ke sesi wawancara ini dengan asumsi awal bahwa R.A. kurang disiplin, pasif, dan suka menunda-nunda pekerjaan sehingga laporan validasi eksternal selalu terlambat diserahkan ke tim.”</em></li>
+</ul>
+</section>
+<section id="formulasi-replay-perubahan-pandangan-mindset-shift" class="level3">
+<h3 class="anchored" data-anchor-id="formulasi-replay-perubahan-pandangan-mindset-shift">2. Formulasi Replay &amp; Perubahan Pandangan (<em>Mindset Shift</em>):</h3>
+<blockquote class="blockquote">
+<p><strong>Formulasi Replay Hasil Uji Asumsi:</strong><br>
+<em>“Saya datang dengan asumsi awal bahwa R.A. kurang disiplin dalam mengelola waktu, <strong>namun</strong> setelah mendengar penjelasannya mengenai adanya revisi mendadak dari dosen/sponsor pada H-1 jam 22.00 WIB serta batasan kaku SOP validasi kemahasiswaan kampus, <strong>saya mengubah pandangan saya</strong> bahwa R.A. bukanlah pribadi yang lalai, melainkan korban dari <em>bottleneck</em> birokrasi eksternal yang belum memiliki batas waktu penyerahan (<em>cutoff time</em>) yang jelas.”</em></p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="bagian-b-analisis-batasan-sistemik-birokrasi-kampus-constraints" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-b-analisis-batasan-sistemik-birokrasi-kampus-constraints">Bagian B: Analisis Batasan Sistemik &amp; Birokrasi Kampus (<em>Constraints</em>)</h2>
+<p>Selain batasan waktu, wawancara ini mengidentifikasi hambatan eksternal/sistemik berikut:</p>
+<ol type="1">
+<li><strong>SOP Validasi Dual-Signature Kemahasiswaan:</strong> Laporan harus disetujui bertingkat oleh Dosen Pembimbing dan Pihak Sponsor Luar sebelum diunggah.</li>
+<li><strong>Aturan Keterbatasan Anggaran (<em>Zero-Budget Overage Rule</em>):</strong> R.A. tidak boleh mengambil keputusan finansial revisi secara mandiri tanpa persetujuan dosen, sehingga ia terkunci pada arahan dosen di menit-menit terakhir.</li>
+<li><strong>Ketimpangan Power Relationship:</strong> R.A. merasa cemas dan tidak memiliki wewenang (<em>authority</em>) untuk menolak revisi susulan yang diberikan dosen/sponsor di luar jam kerja.</li>
+</ol>
+<hr>
+</section>
+<section id="bagian-c-wawancara-eksploratif-adaptasi-sinyal-non-verbal" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-c-wawancara-eksploratif-adaptasi-sinyal-non-verbal">Bagian C: Wawancara Eksploratif &amp; Adaptasi Sinyal Non-Verbal</h2>
+<ul>
+<li><strong>Winda (Pertanyaan Awal):</strong> <em>“R.A., kenapa ya laporan validasi dari bagianmu selalu dikirim mendadak mendekati deadline?”</em></li>
+<li><strong>R.A. — [Sinyal Defensif]:</strong> <em>(Menunduk, menghela napas panjang, nada ragu)</em> <em>“Ya… kan urusan sama pihak luar enggak mudah Win. Aku udah usahain semampuku…”</em></li>
+<li><strong>Winda — [Adaptasi Instan &amp; Lowering Tempo]:</strong> <em>(Menurunkan nada suara, bersandar rileks)</em> <em>“Eh sorry R.A., aku sama sekali enggak bermaksud menyalahkan kamu. Aku tahu koordinasi eksternal itu rumit. Bisakah kamu cerita, di titik alur mana kendala validasi biasanya muncul?”</em></li>
+<li><strong>R.A. — [Pengungkapan Fakta Systemic Constraint]:</strong> <em>(Kontak mata kembali, nada lega)</em> <em>“Sebenarnya dosen dan sponsor baru balasin revisi di H-1 jam 22.00 WIB. Aku kebingungan karena SOP kampus minta tanda tangan mereka berdua, sementara aku enggak enak ganggu teman-teman kelompok kalau harus ngerjain malam-malam.”</em></li>
 </ul>
 <hr>
 </section>
-<section id="bagian-b-bukti-adaptasi-responsif-selama-wawancara-loop-mendengar-rightarrow-menyesuaikan-rightarrow-klarifikasi" class="level2">
-<h2 class="anchored" data-anchor-id="bagian-b-bukti-adaptasi-responsif-selama-wawancara-loop-mendengar-rightarrow-menyesuaikan-rightarrow-klarifikasi">Bagian B: Bukti Adaptasi Responsif Selama Wawancara (Loop: Mendengar <span class="math inline">\(\rightarrow\)</span> Menyesuaikan <span class="math inline">\(\rightarrow\)</span> Klarifikasi)</h2>
-<section id="momen-sinyal-mitra-r.a.-defensif" class="level3">
-<h3 class="anchored" data-anchor-id="momen-sinyal-mitra-r.a.-defensif">1. Momen Sinyal Mitra (R.A. Defensif)</h3>
-<p>Pada menit ke-3, saat ditanyakan pertanyaan awal, R.A. merespons dengan nada ragu dan defensif: <em>“Bukan tim kita yang lambat kok Win, emang alur persetujuan dari dosen dan sponsor aja yang ribet…”</em></p>
-</section>
-<section id="penyesuaian-strategi-pertanyaan-adaptasi-langsung" class="level3">
-<h3 class="anchored" data-anchor-id="penyesuaian-strategi-pertanyaan-adaptasi-langsung">2. Penyesuaian Strategi Pertanyaan (Adaptasi Langsung)</h3>
-<p>Melihat sinyal rasa tidak nyaman ini, saya <strong>seketika merubah strategi</strong>: * <strong>Perubahan Nada/Tone:</strong> Menurunkan tempo bicaraku dan menyampaikan empati (<em>“Paham banget R, pasti pusing ya harus mengondisikan banyak pihak”</em>). * <strong>Perubahan Pertanyaan:</strong> Mengubah dari pertanyaan mencari penyebab menjadi pertanyaan pemetaan alur: <em>“Boleh cerita enggak, di titik mana proses persetujuan itu biasanya paling lama tertahan?”</em></p>
-</section>
-<section id="klarifikasi-ulang-re-clarification" class="level3">
-<h3 class="anchored" data-anchor-id="klarifikasi-ulang-re-clarification">3. Klarifikasi Ulang (<em>Re-clarification</em>)</h3>
-<p>R.A. menjadi sangat terbuka dan menceritakan bahwa dosen pembina dan sponsor sering memberikan revisi tumpang tindih di H-1.<br>
-Saya mengklarifikasi ulang: <em>“Berarti penumpukan kerja ini terjadi karena belum adanya cutoff time revisi yang disepakati dosen dan sponsor ya, bukan karena masalah internal tim acara?”</em><br>
-R.A. mengonfirmasi: <em>“Nah iya tepat banget Win! Itu akar masalahnya!”</em></p>
-<hr>
-</section>
-</section>
-<section id="bagian-c-rumusan-masalah-bersama-shared-problem-statement" class="level2">
-<h2 class="anchored" data-anchor-id="bagian-c-rumusan-masalah-bersama-shared-problem-statement">Bagian C: Rumusan Masalah Bersama (<em>Shared Problem Statement</em>)</h2>
+<section id="bagian-d-formulasi-shared-problem-statement-solusi-kesepakatan" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-d-formulasi-shared-problem-statement-solusi-kesepakatan">Bagian D: Formulasi <em>Shared Problem Statement</em> &amp; Solusi Kesepakatan</h2>
+<section id="verbatim-konfirmasi-akar-masalah-bersama" class="level3">
+<h3 class="anchored" data-anchor-id="verbatim-konfirmasi-akar-masalah-bersama">1. Verbatim Konfirmasi Akar Masalah Bersama:</h3>
 <blockquote class="blockquote">
-<p><em>“Koordinator Divisi Acara (R.A.) mengalami penumpukan alur kerja dan revisi berulang di menit-menit akhir ketika menyiapkan rundown kegiatan UKM, sehingga tim acara terpaksa lembur dan mengalami kelelahan emosional. Ia membutuhkan kepastian batas waktu (cutoff time) persetujuan materi dari pihak internal dan eksternal, dengan mempertimbangkan aturan wajib validasi dari dosen pembina dan sponsor.”</em></p>
+<p><strong>Winda:</strong> <em>“Jadi kalau aku boleh simpulkan, akar masalahnya bukan di kedisiplinan atau komitmen kamu, melainkan di ketiadaan batas waktu (<em>cutoff time</em>) untuk revisi eksternal dan aturan SOP kampus yang mengunci kamu. Apakah tepat begitu, R.A.?”</em></p>
+<p><strong>R.A. — [Konfirmasi Eksplisit]:</strong> <em>“Nah iya tepat banget Win! Itu akar masalah utamanya! Aku cuma bingung cara nolak revisi dosen kalau udah mepet.”</em></p>
 </blockquote>
+</section>
+<section id="solusi-disepakati-bersama-action-plan" class="level3">
+<h3 class="anchored" data-anchor-id="solusi-disepakati-bersama-action-plan">2. Solusi Disepakati Bersama (<em>Action Plan</em>):</h3>
+<ul>
+<li><strong>Penetapan Cutoff Time:</strong> Kelompok menyepakati <em>cutoff time</em> revisi eksternal H-2 pukul 17.00 WIB.</li>
+<li><strong>Shared Authority/Dukungan Tim:</strong> Winda dan ketua kelompok akan mendampingi R.A. membuat template pesan resmi penolakan halus jika dosen/sponsor mengirim revisi melewati <em>cutoff time</em>.</li>
+</ul>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->

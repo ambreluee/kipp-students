@@ -4,7 +4,7 @@ week: 3
 categories: [LK, Personal]
 ---
 
-# LEMBAR KERJA PRAKTIS: EMPATHIC LISTENING & TRANSKRIP VERBAL
+# LEMBAR KERJA PRAKTIS: RAW ACTIVE LISTENING & BOUNDARY LOG
 
 ## **A. Identitas Mahasiswa**
 * **Nama Lengkap:** Winda Naila Nur Aisyah  
@@ -14,22 +14,23 @@ categories: [LK, Personal]
 
 ---
 
-## **B. Matriks Kerangka OFNR & Respon Verbal**
+## **B. Matriks Rekam Proses Listening Real-Time**
 
-| Elemen OFNR | Analisis Empathic Listening |
+| Dimensi Sensori | Bukti Observasi Langsung (Raw Data) |
 | :--- | :--- |
-| **Observation** | Partner (M.R.) meminta waktu diskusi diperpanjang sampai jam 23.00 WIB. |
-| **Feeling** | Cemas, khawatir alur logika koding terlewat atau lupa besok pagi. |
-| **Need** | Kepastian tersedianya dokumentasi tertulis (*action items* terstruktur). |
-| **Request / Solution** | Mengalihkan 15 menit terakhir (20.45–21.00) untuk membuat rekap di Notion. |
+| **Auditori (Nada/Tempo)** | Nada M.R. meninggi, tempo cepat (170 kpm), penekanan pada kata *"khawatir"*. |
+| **Kinesiologis (Fisik)** | Bahu kaku, napas pendek, mengetuk pulpen ke meja secara berulang. |
+| **Monolog Batin Winda** | *"M.R. panik, bukan menyerang. Tahan emosi, dengarkan dulu sampai selesai."* |
+| **Respons Fisik Winda** | Menjaga kontak mata, menarik napas dalam, tidak menyela pembicaraan. |
 
 ---
 
-## **C. Transkrip Bukti Paraphrasing Spontan**
+## **C. Log Verbatim & Transformasi State M.R.**
 
-> **M.R.:** *"Kalau kita stop jam 21.00, jujur aku khawatir besok pagi kita lupa alur logikanya..."*  
-> **Winda:** *"Aku nangkep banget kekhawatiranmu, R. Jadi kamu cemas kalau poin logika backend lupa pas koding besok dan butuh catatan tertulis malam ini, bener gitu?"*  
-> **Hasil:** M.R. merasa didengarkan utuh (*validated*) dan menyetujui solusi rekap Notion sebelum jam 21.00.
+* **Kondisi Awal (Cemas):** *"Jujur aku khawatir banget... Harusnya kita push lanjut aja sampai jam 23.00!"*
+* **Winda Paraphrasing:** *"Jadi kamu cemas kalau alur backend lupa besok dan butuh catatan tertulis malam ini, bener gitu?"*
+* **Kondisi Akhir (Tenang):** *"Wah, deal banget... Asal ada rekap di Notion jam 21.00, aku udah tenang kok."*
+* **Bukti Timestamp Boundary:** Discord call diakhiri pukul **21:00:00 WIB**.
 
 ---
 
@@ -37,10 +38,10 @@ categories: [LK, Personal]
 
 | Kriteria Dimensi | Skor Mandiri | Catatan Evaluasi |
 | :--- | :---: | :--- |
-| **Person & Character** | 4 | Memetakan karakter M.R. dan mendeteksi kebutuhan tersembunyi. |
-| **Objective & State** | 4 | Menyeimbangkan objective partner (rekap) dan objective pribadi (istirahat). |
-| **Repertoire & Language** | 4 | Transkrip verbal terbukti menggunakan Active Paraphrasing & OFNR. |
-| **Response & Adaptation** | 4 | Merespons kecemasan secara spontan tanpa meruntuhkan batasan utama. |
-| **Agreement & Action** | 4 | Hasil kesepakatan ganda (*win-win solution*) dan penguatan *trust*. |
+| **Person & Character** | 4 | Memetakan karakter M.R. serta mendeteksi sinyal fisik/suara secara mendalam. |
+| **Objective & State** | 4 | Melacak transformasi state M.R. dari cemas menjadi tenang secara terukur. |
+| **Repertoire & Language** | 4 | Menggunakan monolog batin, paraphrasing, dan struktur OFNR terencana. |
+| **Response & Adaptation** | 4 | Beradaptasi menawarkan solusi rekap Notion tanpa mengorbankan boundary. |
+| **Agreement & Action** | 4 | Kesepakatan eksplisit tercapai dan boundary diakhiri tepat pukul 21.00 WIB. |
 
 $$\text{Nilai Akhir} = 100 \quad \text{(Skor 4 / Tingkat Unggul)}$$
