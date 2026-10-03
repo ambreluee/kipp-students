@@ -4,7 +4,7 @@ week: 5
 status: "Selesai"
 self_score: "4"
 assessor_score: "—"
-description: "Deklarasi uji asumsi awal, transkrip dialog verbatim penyesuaian strategi komunikasi real-time, analisis constraint birokrasi, dan Shared Problem Statement."
+description: "Deklarasi uji asumsi awal, transkrip dialog verbatim penyesuaian strategi komunikasi real-time, analisis constraint birokrasi, tindak lanjut, dan analisis AI."
 categories: [Personal, Interview, Problem Statement]
 ---
 
@@ -16,18 +16,16 @@ categories: [Personal, Interview, Problem Statement]
 
 ---
 
-## Bagian A: Pengujian Asumsi Awal (*Initial Assumption & Replay*)
+## Context & Initial Assumption Neutralization
 
-### 1. Deklarasi Asumsi Awal (Sebelum Wawancara):
-* **Asumsi Stereotipik:** Saya berasumsi bahwa R.A. kurang memiliki komitmen, tidak disiplin, dan menunda-nunda penyerahan laporan validasi eksternal.
-
-### 2. Formulasi Replay Perubahan Pandangan (*Mindset Shift*):
-> **Kalimat Replay Uji Asumsi:**  
-> *"Saya datang dengan asumsi awal bahwa R.A. kurang disiplin dalam mengelola waktu, **namun** setelah mendengar keterangannya mengenai revisi mendadak dari dosen/sponsor pada H-1 jam 22.00 WIB serta batasan kaku SOP dual-signature kampus, **saya mengubah pandangan saya** bahwa R.A. bukanlah individu yang lalai, melainkan pihak yang terkunci oleh bottleneck birokrasi eksternal yang tidak memiliki batas waktu penyerahan (*cutoff time*)."*
+* **Target Interview:** R.A. (Penanggung Jawab Koordinasi Eksternal Tim)
+* **Initial Assumption (Sebelum Wawancara):** Saya berasumsi bahwa R.A. kurang memiliki komitmen, tidak disiplin, dan suka menunda-nunda penyerahan laporan validasi eksternal.
+* **Formulasi Replay Shift Pandangan:**  
+  *"Saya datang dengan asumsi awal bahwa R.A. kurang disiplin dalam mengelola waktu, **namun** setelah mendengar keterangannya mengenai revisi mendadak dari dosen/sponsor pada H-1 jam 22.00 WIB serta batasan kaku SOP dual-signature kampus, **saya mengubah pandangan saya** bahwa R.A. bukanlah individu yang lalai, melainkan pihak yang terkunci oleh bottleneck birokrasi eksternal yang tidak memiliki batas waktu penyerahan (*cutoff time*)."*
 
 ---
 
-## Bagian B: Transkrip Verbatim Interaksi & Perubahan Dynamics (*Loop Real-Time*)
+## Verbatim Interaction & Real-Time Dynamic Loop
 
 Berikut adalah transkrip percakapan langsung (*verbatim turn-taking*) yang membuktikan perubahan respons R.A. secara nyata setelah Winda mengubah pendekatan komunikasinya:
 
@@ -38,16 +36,16 @@ Berikut adalah transkrip percakapan langsung (*verbatim turn-taking*) yang membu
   *(R.A. menundukkan kepala, menghela napas panjang, memutus kontak mata selama 4 detik, dan menjawab dengan suara memelan)*  
   *"Ya... kan kamu tahu sendiri urusan sama pihak luar enggak gampang Win. Aku udah usahain semampuku kok..."*
 
-* **Turn 3 — Winda [Deteksi Sinyal Defensif & Adaptasi Strategi Verbal/Non-Verbal]:**  
-  *(Winda menyadari rasa tertekan R.A., sengaja menurunkan nada suara menjadi lembut, meletakkan pulpen, dan bersandar rileks ke kursi)*  
+* **Turn 3 — Winda [Deteksi Sinyal Defensif & Adaptasi Strategi]:**  
+  *(Winda menyadari rasa tertekan R.A., sengaja menurunkan nada suara menjadi lembut, meletakkan pulpen, dan bersandar rileks)*  
   *"Eh, sorry banget R.A., aku enggak maksud menyalahkan atau menyudutkan kamu sama sekali. Aku paham banget posisi koordinasi eksternal itu penuh tekanan. Bisakah kamu cerita ke aku, di titik alur mana hambatan terbesar biasanya muncul pas kamu komunikasi sama dosen atau sponsor?"*
 
-* **Turn 4 — R.A. [Respons Langsung Setelah Adaptasi Winda — Terbuka & Vulnerable]:**  
-  *(R.A. mendongak, kontak mata kembali tersambung, nada bicaranya berubah dari kaku menjadi emosional dan terbuka)*  
+* **Turn 4 — R.A. [Respons Terbuka Setelah Adaptasi Winda]:**  
+  *(R.A. mendongak, kontak mata kembali tersambung, nada bicaranya berubah menjadi emosional dan terbuka)*  
   *"Jujur Win... aku sebenernya stres banget. Bukan aku sengaja nunda-nunda. Dosen pembimbing dan pihak sponsor itu baru ngirim revisi susulan di H-1 jam 22.00 WIB secara mendadak. SOP kampus minta tanda tangan basah mereka berdua. Aku terpaksa begadang ngerjain sendirian karena aku enggak enak ganggu teman-teman kalau harus ngechatin malam-malam."*
 
 * **Turn 5 — Winda [Validasi & Formulasi Shared Problem Statement]:**  
-  *"Bentar, jadi kamu menanggung semua revisi mendadak itu sendirian gara-gara SOP dual-signature kampus, dan mereka melanggar batas jam kerja? Berarti masalah utamanya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (*cutoff time*) revisi dari pihak luar dan ketiadaan wewenang kamu buat menolak revisi susulan. Tepat begitu R.A.?"*
+  *"Bentar, jadi kamu menanggung semua revisi mendadak itu sendirian gara-gara SOP dual-signature kampus? Berarti masalah utamanya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (*cutoff time*) revisi dari pihak luar dan ketiadaan wewenang kamu buat menolak revisi susulan. Tepat begitu R.A.?"*
 
 * **Turn 6 — R.A. [Konfirmasi Eksplisit Akar Masalah]:**  
   *(R.A. mengangguk mantap, ekspresi wajahnya terlihat sangat lega)*  
@@ -55,16 +53,42 @@ Berikut adalah transkrip percakapan langsung (*verbatim turn-taking*) yang membu
 
 ---
 
-## Bagian C: Analisis Hambatan Sistemik & Power Dynamics (*Constraints*)
+## Systemic Constraints Analysis
 
 1. **SOP Dual-Signature Kemahasiswaan:** Aturan administratif kampus mewajibkan pengesahan bertingkat yang tidak fleksibel.
 2. **Ketimpangan Power Relationship:** Sebagai mahasiswa, R.A. tidak memiliki posisi tawar (*authority*) untuk menolak permintaan dosen pembimbing di luar jam kerja.
-3. **Zero-Budget Overage Rule:** Aturan dana kegiatan yang ketat melarang R.A. mengambil keputusan revisi mandiri tanpa persetujuan sponsor.
+3. **Zero-Budget Overage Rule:** Aturan dana kegiatan yang ketat melarang R.A. mengambil keputusan revisi secara mandiri.
 
 ---
 
-## Bagian D: Rencana Action Plan & Pemulihan Relasi (*Outcome*)
+## Penggunaan AI
 
-* **Kesepakatan Cutoff Time:** Kelompok menetapkan batas akhir penerimaan revisi dari pihak eksternal adalah **H-2 pukul 17.00 WIB**.
-* **Shared Authority (Pendampingan Tim):** Jika dosen/sponsor mengirim revisi melewati *cutoff time*, Winda dan Ketua Tim akan ikut mendampingi R.A. mengirimkan template pesan penolakan secara santun.
-* **Dampak Relasional:** R.A. merasa sangat didukung, beban mentalnya terangkat, dan kepercayaan internal kelompok pulih 100%.
+AI (Claude) digunakan setelah sesi wawancara selesai untuk dua hal:
+
+1. **Memisahkan fakta dan story:** Saya memasukkan draf catatan wawancara dan meminta AI membedakan fakta teramati ("R.A. menerima revisi H-1 jam 22.00 WIB") dari asumsi subjektif saya ("R.A. takut menegur dosen karena pasif"). AI membantu saya menyadari bahwa ketakutan R.A. dipicu oleh ketimpangan *power relation* struktural kampus, bukan kecenderungan kepribadian.
+2. **Draft struktur tabel Shared Problem Statement:** Saya memberikan deskripsi umum mengenai hambatan birokrasi, AI menyusun draft poin masalah. Saya merevisi bagian "dampak" karena draft awal AI terlalu fokus pada keterlambatan berkas, bukan pada beban emosional R.A.
+
+* **Output AI yang ditolak:** AI merekomendasikan solusi agar R.A. mengabaikan revisi susulan dosen jika dikirim melebihi jam kerja. Output ini saya tolak penuh karena berisiko memicu sanksi akademis bagi tim dan tidak realistis dalam konteks hierarki kampus.
+* **Apa yang tetap saya pelajari sebagai manusia:** Kepekaan dalam mendeteksi perubahan gestur R.A. (menunduk dan napas berat) serta keberanian untuk langsung meminta maaf dan merubah nada bicara secara mendadak adalah keterampilan manusiawi yang tidak bisa digantikan oleh algoritma AI.
+
+---
+
+## Feedback dan tindak lanjut
+
+* **Feedback yang diterima:** Pesan WhatsApp dari R.A. setelah sesi: *"Win, makasih banget ya tadi udah mau dengerin cerita jujurku dan enggak langsung menyalahkan. Aku berasa plong banget akhirnya ada yang paham beban koordinasi eksternal."*
+* **Adaptation/replay:** Saya menindaklanjuti hasil wawancara dengan membawa isu ini ke rapat pleno tim keesokan harinya. Kami menetapkan aturan bersama (*Action Plan*): *"Aturan Cutoff Time H-2 pukul 17.00 WIB untuk revisi eksternal, dan bilamana ada revisi susulan, Ketua Tim dan Winda yang akan pasang badan mendampingi R.A. berkomunikasi dengan dosen."*
+* **Next practice:** Sebelum memulai sesi evaluasi performa anggota di masa depan, saya menetapkan protokol pertanyaan pembuka: *"Kendala sistemik atau birokrasi luar apa yang sedang menghambat pekerjaanmu minggu ini?"* untuk mencegah tim terjebak dalam bias stereotip personal.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor 1-4 | Evidence singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Berhasil meruntuhkan asumsi stereotipik awal ("kurang disiplin") menjadi pemahaman struktural (korban *bottleneck* birokrasi); memetakan *power dynamic* ketimpangan hubungan dosen vs mahasiswa. |
+| **Objective & State** | 4 | State awal (stres/defensif) dan state akhir (lega/tervalidasi) dideklarasikan eksplisit; mengurai objective ganda (ketepatan tenggat + perlindungan beban emosional mitra + kepatuhan SOP kampus) secara transparan. |
+| **Repertoire, Language & AI** | 4 | Repertoire diubah secara luwes dari interogatif ke eksploratif empatik; penggunaan AI dibatasi dengan rationale kuat — output AI yang menyarankan mengabaikan dosen secara aktif ditolak. |
+| **Response & Adaptation** | 4 | Sinyal defensif terdeteksi di Turn 2; Winda beradaptasi instan di Turn 3 (menurunkan nada & meminta maaf); di-replay melalui penetapan *Action Plan Cutoff Time* dan pendampingan resmi di pleno tim. |
+| **Agreement, Action & Relationship** | 4 | Agreement eksplisit tercapai (*Shared Problem Statement* dikonfirmasi); action plan konkret dengan *Shared Authority* (H-2 cutoff); relationship repair berhasil mengubah defensifitas menjadi kepemimpinan kolaboratif. |
+
+**Total: 20/20 - Lanjut.** Seluruh dimensi mencapai level 4: complexity dikelola dengan menangani beberapa objective secara bersamaan, signal lemah dideteksi dan ditindaklanjuti, trade-off dikomunikasikan secara eksplisit, dan relationship repair dilakukan secara reflektif dengan hasil yang terukur.
