@@ -1,94 +1,126 @@
 ---
-title: "Empathetic Interviewing, Neutralizing Assumptions & Systemic Constraints"
+title: "Professional Discovery Interview"
 week: 5
 status: "Selesai"
-self_score: "4"
+self_score: "20"
 assessor_score: "—"
-description: "Deklarasi uji asumsi awal, transkrip dialog verbatim penyesuaian strategi komunikasi real-time, analisis constraint birokrasi, tindak lanjut, dan analisis AI."
-categories: [Personal, Interview, Problem Statement]
+description: "Discovery interview bersama senior GIM ITB soal masalah retensi member baru - asumsi awal dibalik oleh data interview."
+categories: [PROFESSIONAL, DISCOVERY]
 ---
 
-**Nama Mahasiswa:** Winda Naila Nur Aisyah  
-**NIM:** 18225069  
-**Tanggal Pengerjaan:** 29 September 2026  
+## Kompetensi target
 
-> 📄 **Tautan Lembar Kerja:** [Buka Lembar Kerja (LK) Bab 05 Lengkap](../lk/week-05.html)
+Mendengar sebelum proposing dan membangun shared problem statement dengan person.
 
----
+## Evidence wajib
 
-## Context & Initial Assumption Neutralization
+* Initial assumption dan pertanyaan discovery.
+* Transcript/paraphrase serta problem impact dan constraint.
+* Shared problem statement yang dikonfirmasi partner.
 
-* **Target Interview:** R.A. (Penanggung Jawab Koordinasi Eksternal Tim)
-* **Initial Assumption (Sebelum Wawancara):** Saya berasumsi bahwa R.A. kurang memiliki komitmen, tidak disiplin, dan suka menunda-nunda penyerahan laporan validasi eksternal.
-* **Formulasi Replay Shift Pandangan:**  
-  *"Saya datang dengan asumsi awal bahwa R.A. kurang disiplin dalam mengelola waktu, **namun** setelah mendengar keterangannya mengenai revisi mendadak dari dosen/sponsor pada H-1 jam 22.00 WIB serta batasan kaku SOP dual-signature kampus, **saya mengubah pandangan saya** bahwa R.A. bukanlah individu yang lalai, melainkan pihak yang terkunci oleh bottleneck birokrasi eksternal yang tidak memiliki batas waktu penyerahan (*cutoff time*)."*
+::: {.callout-tip}
+### Lihat contoh pengisian
+Buka contoh fiktif Minggu 5 untuk melihat tingkat kekonkretaan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+:::
 
----
+## Konteks performance
 
-## Verbatim Interaction & Real-Time Dynamic Loop
+**Tanggal dan setting:** Awal semester, beberapa minggu setelah open recruitment GIM (Game Innovation and Making) ITB selesai. Gua berbincang dengan Kak Dani, senior yang sudah tiga tahun di GIM dan pernah jadi koordinator rekrutmen, di lobi gedung kuliah sekitar 30 menit setelah kelas selesai.
 
-Berikut adalah transkrip percakapan langsung (*verbatim turn-taking*) yang membuktikan perubahan respons R.A. secara nyata setelah Winda mengubah pendekatan komunikasinya:
+**Persons dan relationship:** Gua (anggota aktif GIM, trainer game design, angkatan 2025) dan Kak Dani (alumni aktif, senior koordinator rekrutmen sebelumnya). Hubungan: mentor-mentee tidak formal - Kak Dani sering kasih feedback ke gua soal materi training game design. Trust level tinggi, tapi gua belum pernah serius nanya soal masalah rekrutmen ke beliau.
 
-* **Turn 1 — Winda (Pertanyaan Awal Menuduh):**  
-  *"R.A., aku mau tanya soal laporan validasi eksternal minggu lalu. Kenapa ya bagianmu selalu mepet banget dikirimnya mendekati deadline?"*
+**Objective dan initial state:** Gua masuk dengan asumsi bahwa jumlah pendaftar GIM turun karena promosi kurang masif dan kurang menjangkau angkatan baru. Gua ingin ngajuin usulan program promosi baru, tapi sebelum itu mau verifikasi dulu asumsi gua ke orang yang punya pengalaman langsung. Objective interview: pahami apa yang sebenarnya terjadi di sisi pengalaman calon member, bukan langsung jualan ide.
 
-* **Turn 2 — R.A. [Respons Defensif & Sinyal Lemah]:**  
-  *(R.A. menundukkan kepala, menghela napas panjang, memutus kontak mata selama 4 detik, dan menjawab dengan suara memelan)*  
-  *"Ya... kan kamu tahu sendiri urusan sama pihak luar enggak gampang Win. Aku udah usahain semampuku kok..."*
+## Evidence
 
-* **Turn 3 — Winda [Deteksi Sinyal Defensif & Adaptasi Strategi]:**  
-  *(Winda menyadari rasa tertekan R.A., sengaja menurunkan nada suara menjadi lembut, meletakkan pulpen, dan bersandar rileks)*  
-  *"Eh, sorry banget R.A., aku enggak maksud menyalahkan atau menyudutkan kamu sama sekali. Aku paham banget posisi koordinasi eksternal itu penuh tekanan. Bisakah kamu cerita ke aku, di titik alur mana hambatan terbesar biasanya muncul pas kamu komunikasi sama dosen atau sponsor?"*
+::: {.callout-note}
+Catatan percakapan ditulis dari memori segera setelah selesai. Pertanyaan gua susun sebelumnya, tapi tidak dibacakan - dipakai sebagai panduan saja.
+:::
 
-* **Turn 4 — R.A. [Respons Terbuka Setelah Adaptasi Winda]:**  
-  *(R.A. mendongak, kontak mata kembali tersambung, nada bicaranya berubah menjadi emosional dan terbuka)*  
-  *"Jujur Win... aku sebenernya stres banget. Bukan aku sengaja nunda-nunda. Dosen pembimbing dan pihak sponsor itu baru ngirim revisi susulan di H-1 jam 22.00 WIB secara mendadak. SOP kampus minta tanda tangan basah mereka berdua. Aku terpaksa begadang ngerjain sendirian karena aku enggak enak ganggu teman-teman kalau harus ngechatin malam-malam."*
+**Initial assumption sebelum interview:** Promosi GIM kurang terlihat di media sosial dan poster fisik - Angkatan baru tidak tahu GIM ada atau apa yang GIM kerjakan - Solusi yang sudah gua bayangkan: bikin konten promosi lebih agresif, collab sama maba orientation.
 
-* **Turn 5 — Winda [Validasi & Formulasi Shared Problem Statement]:**  
-  *"Bentar, jadi kamu menanggung semua revisi mendadak itu sendirian gara-gara SOP dual-signature kampus? Berarti masalah utamanya bukan di kedisiplinan kamu, tapi di ketiadaan batas waktu (*cutoff time*) revisi dari pihak luar dan ketiadaan wewenang kamu buat menolak revisi susulan. Tepat begitu R.A.?"*
+**Pertanyaan yang gua siapkan:**
+1. Ceritain gimana proses rekrutmen terakhir berjalan dari sudut pandang lo.
+2. Di tahap mana menurut lo paling banyak orang "hilang"?
+3. Apa dampak konkretnya ke GIM waktu itu?
+4. Gimana cara angkatan lo dulu ngatasinya?
+5. Hal apa yang tidak boleh diubah dari cara rekrutmen GIM sekarang?
 
-* **Turn 6 — R.A. [Konfirmasi Eksplisit Akar Masalah]:**  
-  *(R.A. mengangguk mantap, ekspresi wajahnya terlihat sangat lega)*  
-  *"Nah! Iya tepat banget Win! Itu akar masalah utamanya! Aku cuma bingung gimana cara nolak revisi dosen kalau udah mepet deadline tanpa bikin mereka tersinggung."*
+**Ringkasan percakapan (sekitar 25 menit):**
 
----
+**Gua:** "Kak, gua lagi mau ngusulin sesuatu soal rekrutmen, tapi sebelumnya mau dengerin dulu pengalaman Kak Dani waktu jadi koordinator. Boleh ceritain gimana proses terakhir berjalan?"
 
-## Systemic Constraints Analysis
+**Kak Dani:** "Rekrutmen terakhir yang gua pegang, jumlah pendaftar sebenarnya cukup - hampir 80 orang. Masalahnya, yang aktif setelah dua bulan tinggal 20-an."
 
-1. **SOP Dual-Signature Kemahasiswaan:** Aturan administratif kampus mewajibkan pengesahan bertingkat yang tidak fleksibel.
-2. **Ketimpangan Power Relationship:** Sebagai mahasiswa, R.A. tidak memiliki posisi tawar (*authority*) untuk menolak permintaan dosen pembimbing di luar jam kerja.
-3. **Zero-Budget Overage Rule:** Aturan dana kegiatan yang ketat melarang R.A. mengambil keputusan revisi secara mandiri.
+**Gua:** "Jadi bukan soal jumlah pendaftar yang kurang, tapi soal yang bertahan setelah bergabung?"
 
----
+**Kak Dani:** "Betul. Yang pertama kali datang banyak, tapi langsung drop di bulan pertama."
+
+**Gua:** "Di bulan pertama itu, mereka biasanya ngapain? Ada program onboarding atau langsung dilempar ke proyek?"
+
+**Kak Dani:** "Nah itu. Kita langsung masukin ke divisi, tapi tidak ada penjelasan yang jelas tentang ekspektasi. Orang baru bingung mau ngapain, ngerasa tidak dibutuhkan, lalu pergi."
+
+**Gua:** "Jadi masalahnya bukan orang tidak tahu GIM ada, tapi orang masuk dan tidak tahu harus mulai dari mana?"
+
+**Kak Dani:** "Iya, persis. Tiga angkatan terakhir pola-nya sama."
+
+**Gua:** "Apa dampak konkretnya ke GIM waktu itu?"
+
+**Kak Dani:** "Divisi game dev kekurangan orang di tengah proyek. Kita jadi overload karena yang baru tidak bisa langsung kontribusi."
+
+**Gua:** "Hal apa yang menurut Kak Dani tidak boleh diubah dari cara rekrutmen sekarang?"
+
+**Kak Dani:** "Jangan hapus open audition - itu yang bikin GIM masih punya karakter seleksi. Tapi after-audition-nya yang perlu diperbaiki."
+
+**Pembaruan pembacaan setelah interview:**
+
+Asumsi awal gua ("promosi kurang") tidak didukung oleh data Kak Dani. Pendaftar cukup banyak - 80 orang. Masalahnya ada di retention dua bulan pertama, bukan akuisisi. Root cause yang muncul dari interview: tidak ada struktur onboarding yang jelas, dan member baru tidak punya jalur kontribusi yang terdefinisi.
+
+**Shared problem statement yang dikonfirmasi Kak Dani:**
+
+> "Member baru GIM yang sudah melewati audisi membutuhkan jalur onboarding yang terstruktur - minimal peta ekspektasi dan satu proyek entry-level yang bisa mereka kontribusikan - karena tanpa itu mereka merasa tidak dibutuhkan dan keluar sebelum bisa berkontribusi, sehingga divisi kekurangan kapasitas di tengah proyek aktif."
+
+Gua bacakan ulang rumusan itu ke Kak Dani. Beliau mengoreksi satu kata: "entry-level" diganti "sesuai kemampuan awal" karena level entry bisa terkesan merendahkan. Perubahan itu gua terima dan revisi.
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+| :--- | :--- |
+| **Person & character** | Kak Dani adalah praktisi dengan pengalaman langsung tiga tahun, bukan teoretisi. Gua perlakukan beliau sebagai sumber otoritas tentang apa yang sebenarnya terjadi - bukan sebagai orang yang gua ajak setuju soal ide yang sudah gua punya. Pertanyaan pertama dibuka dengan "ceritain" bukan "apakah menurut lo promosi kurang?" yang sudah mengarahkan jawaban. |
+| **Objective & state** | Gua masuk dengan hipotesis eksplisit (promosi kurang) dan niat untuk mengujinya, bukan membuktikannya. Ini penting karena kalau gua masuk untuk konfirmasi, gua tidak akan mendengar data yang berbeda. Hipotesis itu gua tulis sebelum interview dan gua tinggalkan untuk diuji. |
+| **Repertoire & language** | Pertanyaan open ("ceritain gimana..."), paraphrase ("jadi bukan soal jumlah, tapi soal yang bertahan?"), dan pertanyaan dampak ("apa dampaknya ke GIM waktu itu?") digunakan secara berurut. Gua tahan untuk tidak propose solusi sampai problem statement selesai dikonfirmasi. |
+| **Response & adaptation** | Di tengah interview, gua sadar asumsi gua soal promosi salah. Alih-alih defensive atau mengalihkan topik, gua follow the data - pindah ke pertanyaan retention dan onboarding. Ini memerlukan adaptasi real-time dari rencana awal interview. |
+| **Agreement/action** | Shared problem statement dirumuskan oleh gua, dibacakan ke Kak Dani, dikoreksi ("entry-level" jadi "sesuai kemampuan awal"), dan diterima. Problem statement dikonfirmasi sebelum gua propose solusi apapun. |
+| **Relationship outcome** | Kak Dani mengakhiri percakapan dengan menawarkan untuk terlibat kalau gua mau bikin proposal onboarding - sinyal bahwa beliau merasa didengar dan percakapan ini bermanfaat, bukan sekadar gua mengorek informasi. |
 
 ## Penggunaan AI
 
-AI (Claude) digunakan setelah sesi wawancara selesai untuk dua hal:
-
-1. **Memisahkan fakta dan story:** Saya memasukkan draf catatan wawancara dan meminta AI membedakan fakta teramati ("R.A. menerima revisi H-1 jam 22.00 WIB") dari asumsi subjektif saya ("R.A. takut menegur dosen karena pasif"). AI membantu saya menyadari bahwa ketakutan R.A. dipicu oleh ketimpangan *power relation* struktural kampus, bukan kecenderungan kepribadian.
-2. **Draft struktur tabel Shared Problem Statement:** Saya memberikan deskripsi umum mengenai hambatan birokrasi, AI menyusun draft poin masalah. Saya merevisi bagian "dampak" karena draft awal AI terlalu fokus pada keterlambatan berkas, bukan pada beban emosional R.A.
-
-* **Output AI yang ditolak:** AI merekomendasikan solusi agar R.A. mengabaikan revisi susulan dosen jika dikirim melebihi jam kerja. Output ini saya tolak penuh karena berisiko memicu sanksi akademis bagi tim dan tidak realistis dalam konteks hierarki kampus.
-* **Apa yang tetap saya pelajari sebagai manusia:** Kepekaan dalam mendeteksi perubahan gestur R.A. (menunduk dan napas berat) serta keberanian untuk langsung meminta maaf dan merubah nada bicara secara mendadak adalah keterampilan manusiawi yang tidak bisa digantikan oleh algoritma AI.
-
----
+AI digunakan setelah interview selesai untuk memberi label pada catatan percakapan - menandai mana yang **fact** (data konkret dari Kak Dani), mana yang **interpretation** (pembacaan gua), dan mana yang **assumption** gua yang belum terkonfirmasi. Gua periksa ulang setiap label terhadap catatan asli. Satu label "fact" dari AI dikoreksi menjadi "interpretation" karena Kak Dani hanya menyebutkan pola, bukan data tertulis. AI tidak dilibatkan dalam percakapan itu sendiri dan tidak digunakan untuk merumuskan shared problem statement - itu proses gua dan Kak Dani langsung.
 
 ## Feedback dan tindak lanjut
 
-* **Feedback yang diterima:** Pesan WhatsApp dari R.A. setelah sesi: *"Win, makasih banget ya tadi udah mau dengerin cerita jujurku dan enggak langsung menyalahkan. Aku berasa plong banget akhirnya ada yang paham beban koordinasi eksternal."*
-* **Adaptation/replay:** Saya menindaklanjuti hasil wawancara dengan membawa isu ini ke rapat pleno tim keesokan harinya. Kami menetapkan aturan bersama (*Action Plan*): *"Aturan Cutoff Time H-2 pukul 17.00 WIB untuk revisi eksternal, dan bilamana ada revisi susulan, Ketua Tim dan Winda yang akan pasang badan mendampingi R.A. berkomunikasi dengan dosen."*
-* **Next practice:** Sebelum memulai sesi evaluasi performa anggota di masa depan, saya menetapkan protokol pertanyaan pembuka: *"Kendala sistemik atau birokrasi luar apa yang sedang menghambat pekerjaanmu minggu ini?"* untuk mencegah tim terjebak dalam bias stereotip personal.
+**Feedback yang diterima:** Kak Dani mengoreksi kata "entry-level" dalam rumusan problem statement menjadi "sesuai kemampuan awal" - ini feedback substantif tentang framing yang bisa berdampak ke cara orang membaca masalah. Koreksi itu gua terima tanpa argumen karena Kak Dani yang lebih tahu culture GIM.
 
----
+**Adaptation/replay:** Gua revisi problem statement sesuai koreksi Kak Dani sebelum digunakan sebagai basis proposal ke pengurus GIM. Gua juga catat bahwa asumsi "promosi kurang" tidak valid dan tidak dimasukkan ke proposal.
+
+**Next practice:** Sebelum interview discovery berikutnya, gua akan eksplisit menuliskan asumsi yang ingin diuji - bukan hanya pertanyaan. Dengan begitu lebih mudah mengecek apakah interview mengkonfirmasi atau membantah asumsi, bukan sekadar mengumpulkan cerita.
 
 ## Self-assessment
 
 | Dimensi | Skor 1-4 | Evidence singkat |
 | :--- | :---: | :--- |
-| **Person & Character** | 4 | Berhasil meruntuhkan asumsi stereotipik awal ("kurang disiplin") menjadi pemahaman struktural (korban *bottleneck* birokrasi); memetakan *power dynamic* ketimpangan hubungan dosen vs mahasiswa. |
-| **Objective & State** | 4 | State awal (stres/defensif) dan state akhir (lega/tervalidasi) dideklarasikan eksplisit; mengurai objective ganda (ketepatan tenggat + perlindungan beban emosional mitra + kepatuhan SOP kampus) secara transparan. |
-| **Repertoire, Language & AI** | 4 | Repertoire diubah secara luwes dari interogatif ke eksploratif empatik; penggunaan AI dibatasi dengan rationale kuat — output AI yang menyarankan mengabaikan dosen secara aktif ditolak. |
-| **Response & Adaptation** | 4 | Sinyal defensif terdeteksi di Turn 2; Winda beradaptasi instan di Turn 3 (menurunkan nada & meminta maaf); di-replay melalui penetapan *Action Plan Cutoff Time* dan pendampingan resmi di pleno tim. |
-| **Agreement, Action & Relationship** | 4 | Agreement eksplisit tercapai (*Shared Problem Statement* dikonfirmasi); action plan konkret dengan *Shared Authority* (H-2 cutoff); relationship repair berhasil mengubah defensifitas menjadi kepemimpinan kolaboratif. |
+| **Person & Character** | 4 | Kak Dani diperlakukan sebagai sumber otoritas - pertanyaan terbuka, bukan leading; beliau offer terlibat di akhir sebagai sinyal kepercayaan |
+| **Objective & State** | 4 | Asumsi awal ditulis eksplisit sebelum interview dan dibantah oleh data - adaptasi objective dilakukan real-time |
+| **Repertoire, Language & AI** | 4 | Open question, paraphrase, pertanyaan dampak dan constraint digunakan berurut; AI dibatasi untuk labeling post-interview |
+| **Response & Adaptation** | 4 | Asumsi promosi salah - gua follow the data bukan defend hipotesis; pertanyaan beralih ke retention tanpa resistensi |
+| **Agreement, Action & Relationship** | 4 | Problem statement dirumuskan, dibacakan, dikoreksi, dan dikonfirmasi; Kak Dani offer terlibat di langkah berikutnya |
 
-**Total: 20/20 - Lanjut.** Seluruh dimensi mencapai level 4: complexity dikelola dengan menangani beberapa objective secara bersamaan, signal lemah dideteksi dan ditindaklanjuti, trade-off dikomunikasikan secara eksplisit, dan relationship repair dilakukan secara reflektif dengan hasil yang terukur.
+**Total: 20 / 20**
+
+::: {.callout-note}
+### Assessment dosen
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
+:::
