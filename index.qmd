@@ -5,8 +5,8 @@ toc: false
 ---
 
 ::: {.portfolio-header}
-<div class="student-name">{{< var student.name >}}</div>
-<div class="student-meta">{{< var student.id >}} · {{< var student.program >}} · {{< var student.cohort >}}</div>
+<div class="student-name">Winda Naila Nur Aisyah</div>
+<div class="student-meta">18225069 · Sistem dan Teknologi Informasi · 2025</div>
 :::
 
 Portfolio ini merekam perkembangan kompetensi pada mata kuliah **{{< var course.name >}}**. Setiap klaim pencapaian harus terhubung pada evidence, feedback, refleksi, dan tindakan perbaikan.

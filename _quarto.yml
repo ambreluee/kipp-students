@@ -135,7 +135,9 @@ website:
 
 format:
   html:
-    theme: [cosmo, assets/site.scss]
+    theme:
+      - cosmo
+      - assets/site.scss
     toc: true
     toc-depth: 3
     smooth-scroll: true

@@ -1,11 +1,11 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Problem–solution fit dan signal Interest."
-categories: [TAIDA, Interest]
+categories: [TAIDA, INTEREST]
+description: "Penghubungan mekanisme solusi dengan masalah, benefit, dan value bagi koordinator operasional melalui demo prototype ringkas dan penanganan hidden concern."
 ---
 
 ## Kompetensi target
@@ -14,12 +14,95 @@ Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan
 
 ## Evidence wajib
 
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
+* Attention evidence dan problem–solution link.
+* Interest pitch dengan evidence atau demonstration.
+* Response, state assessment, hidden concern, dan adaptation.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Jumat, 9 Oktober 2026. Lobi Lab STI ITB sesaat setelah simulasi alur gladi bersih kepanitiaan selesai. Percakapan berlangsung sekitar 15 menit antara Winda dan Rian.
+
+**Persons dan relationship:** Winda (PJ Teknis/Divisi IT) dan Rian (Koordinator Operasional/Logistik). Hubungan: Rekan panitia seangkatan. Kepercayaan meningkat pasca-kesepakatan uji coba checklist di Minggu 6.
+
+**Objective dan initial state:** Mengangkat ketertarikan (*Interest*) Rian terhadap solusi digital berupa *Form Handover 3-Klik via QR Code* di boks server/peralatan, guna menggantikan alur serah terima kertas manual. Initial state Rian: *Attention with reservation* (sudah sadar isu delay, tapi belum yakin solusi digital fleksibel di lapangan).
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+### 1. Attention Evidence & Solution Hypothesis
+
+* **Evidence dari Simulasi Jumat:** Dari 4 kali alur serah terima barang/server pada simulasi, 3 di antaranya mengalami penundaan pencatatan karena lembar kertas terpisah/tercecer, meskipun durasi fisik pengisian hanya butuh <2 menit.
+* **Solution Hypothesis:** *Form Handover Digital 3-Klik* berbasis Google Form ringkas dengan stiker QR Code yang ditempel langsung di boks server/peralatan dapat memangkas pencarian lembar fisik tanpa menambah beban aplikasi baru di ponsel staf.
+
+| Problem | Mechanism | Expected benefit | Value bagi target (Rian) |
+| :--- | :--- | :--- | :--- |
+| Lembar fisik serah terima acap kali tercecer / hilang di lapangan | Pindai QR Code di boks alat $\rightarrow$ Form 3 centang ringkas di HP | Waktu pencatatan $<90$ detik; *timestamp* otomatis tercatat di cloud | Mengurangi komplain dari ketua divisi lain & melacak penanggung jawab alat secara akurat |
+| Perdebatan siapa yang memegang barang terakhir saat ada kendala | Rekapitualisasi real-time spreadsheet *read-only* untuk semua koordinator | Status alat/server transparan & dapat diakses kapan saja | Rian tidak perlu menjadi "pemadam kebakaran" saat terjadi gesekan jadwal |
+
+---
+
+### 2. Pitch & Demonstration
+
+> *"Rian, dari uji coba simulasi tadi, kita lihat pengisian checklist kertas sebenarnya cepat, tapi 3 dari 4 berkasnya sempat tercecer dan bikin kita bingung melacak penanggung jawab server. Prototype ini tidak mewajibkan anak-anak lapangan instal aplikasi baru: cukup pindai QR Code di boks server ini, centang 3 kondisi alat, lalu kirim. Mari kita coba simulasikan dalam 90 detik."*
+
+Winda menunjukkan stiker QR Code di boks server dan mendemonstrasikan pengisian via HP selama 90 detik.
+
+---
+
+### 3. Response, Hidden Concern & Adaptation
+
+* **Respon & Demo Rian:** Rian mencoba memindai QR Code di HP miliknya, proses pengisian lancar. Namun Rian mengernyitkan dahi dan berkata:  
+  *"Tampilannya ringkas sih Win. Tapi gimana kalau di basement atau tempat acara nanti sinyal internet jelek? Anak lapangan bakalan panik kalau form-nya gagal muat."*
+* **Identifikasi Hidden Concern:** Winda semula mengira kekhawatiran utama Rian adalah kerumitan tampilan/teknologi. Respon Rian menunjukkan *hidden concern* sebenarnya adalah **keandalan sistem di kondisi ekstrem lapangan (*field reliability*)**.
+* **Adaptasi Winda:** Winda tidak defensif atau memaksakan koneksi cloud. Winda langsung mengadaptasi mekanisme:
+  1. Mengaktifkan fitur *offline submission* pada form sehingga data tersimpan otomatis di HP dan tersinkronisasi saat mendapat sinyal.
+  2. Menyediakan 1 lembar fisik *backup emergency* di dalam boks alat sebagai jaminan keamanan terakhir.
+* **Hasil & State Shift:** Rian tersenyum dan berkata: *"Nah, kalau ada backup offline dan fisik emergency gitu gua tenang."* State Rian resmi berpindah dari *Attention* menjadi **Interest** (meminta draf stiker QR Code dikirimkan untuk ditinjau bersama tim operasional).
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+| :--- | :--- |
+| **Person & character** | Winda fokus menghargai kekhawatiran operasional Rian (risiko sinyal buruk di lapangan) ketimbang membela kecanggihan sistem IT yang dibuat. |
+| **Objective & state** | State Rian dinilai secara cermat (*Attention* $\rightarrow$ *Interest*). Winda tidak terburu-buru meminta keputusan final sebelum *hidden concern* terurai. |
+| **Repertoire & language** | Pitch menggunakan demonstrasi langsung (90 detik) serta menghubungkan fitur (QR code & offline mode) langsung dengan benefit operasional (bebas komplain & lacak akurat). |
+| **Response & adaptation** | Respon kekhawatiran sinyal diadaptasi secara real-time dengan solusi *offline submission* dan *physical backup sheet*. |
+| **Agreement/action** | Rian meminta draf QR Code dan mekanisme backup offline untuk dibahas dalam rapat internal Divisi Logistik. |
+| **Relationship outcome** | Kepercayaan Rian meningkat pesat karena Divisi IT terbukti mendengarkan realitas kendala lapangan, bukan sekadar memaksakan sistem. |
+
+## Penggunaan AI
+
+AI digunakan pasca-demo untuk melakukan simulasi *objection handling* berbasis daftar risiko lapangan (seperti masalah baterai HP, sinyal buruk, dan kendala hak akses). AI membantu merumuskan penjelasan *offline submission mode* dengan kalimat intuitif non-teknis.
+
+## Feedback dan tindak lanjut
+
+* **Feedback yang diterima:** Rian menyarankan agar stiker QR Code dicetak dengan laminasi tahan air agar tidak rusak saat mobilisasi barang.
+* **Adaptation/replay:** Winda menyiapkan stiker QR bercetak tahan air dan menempelkannya di boks utama peralatan.
+* **Next practice:** Saat melakukan demo prototype teknis, selalu siapkan skenario penanganan kendala darurat (*fail-safe plan*) sebelum ditanyakan oleh *target person*.
+
+## Self-assessment
+
+| Dimensi | Skor 1-4 | Evidence singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Sangat menghargai kebutuhan keandalan lapangan yang menjadi beban tanggung jawab Rian. |
+| **Objective & State** | 4 | Berhasil menggeser state dari *Attention* ke *Interest* melalui penanganan *hidden concern*. |
+| **Repertoire, Language & AI** | 4 | Demo 90 detik sangat konkret; AI dimanfaatkan untuk memetakan risiko kendala lapangan. |
+| **Response & Adaptation** | 4 | Cepat beradaptasi menyediakan fitur *offline mode* dan *backup* fisik saat Rian meragukan sinyal. |
+| **Agreement, Action & Relationship** | 4 | Rian menyetujui uji coba penuh dan meminta bahan QR Code untuk dibahas dengan timnya. |
+
+**Total: 20 / 20 - Lanjut.**
+
+::: {.callout-note appearance="simple" icon=false}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

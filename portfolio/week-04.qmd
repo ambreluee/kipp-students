@@ -1,11 +1,11 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20"
 assessor_score: "—"
-description: "Satu meaning untuk lima person atau character."
-categories: [Fondasi, Language]
+categories: [FONDASI, LANGUAGE]
+description: "Penerjemahan pesan teknis cutoff time H-3 ke lima audiens serta pengelolaan umpan balik dan keraguan pemangku kepentingan."
 ---
 
 ## Kompetensi target
@@ -14,12 +14,83 @@ Mengadaptasi repertoire dan language tanpa mengubah core meaning.
 
 ## Evidence wajib
 
-- Lima versi untuk friend, technical peer, manager, customer, dan public.
-- Alasan perubahan language dan repertoire.
-- Feedback understanding dari sedikitnya satu target.
+* Lima versi untuk friend, technical peer, manager, customer, dan public.
+* Alasan perubahan language dan repertoire.
+* Feedback understanding dari sedikitnya satu target.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Selasa, 22 September 2026. Diskusi koordinasi persiapan acara kepanitiaan via Discord dan WhatsApp group. Winda perlu mengomunikasikan aturan batasan waktu (*cutoff time*) ke berbagai pihak.
+
+**Persons dan relationship:** Winda (penanggung jawab integrasi/teknis) ke 5 target audiens: (1) teman non-teknis/peserta, (2) rekan teknis/developer T.O., (3) manager/koordinator acara R.A., (4) customer/sponsor & dosen pembina, dan (5) publik/media.
+
+**Objective dan initial state:** Mengunci batasan waktu revisi (*cutoff time*) jadwal dan materi di H-3 agar tidak terjadi bentrok data (*race condition*) dan meminimalkan lembur mendadak. Objective: menyampaikan fakta teknis ini tanpa terkesan kaku, defensif, atau membuat sponsor dan panitia merasa dirugikan.
+
+**Core meaning yang tidak boleh berubah:** Sistem validasi rundown dan materi acara perlu mengimplementasikan mekanisme cutoff time ketat pada H-3 pukul 17.00 WIB untuk mencegah konflik revisi dari multiple stakeholders dan menekan beban lembur tim.
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+Lima versi ditulis langsung untuk memastikan pesan tersampaikan sesuai sudut pandang dan kebutuhan tiap audiens tanpa mengubah fakta dasar (*core meaning*):
+
+| Target/character | Versi language | Alasan adaptasi |
+| :--- | :--- | :--- |
+| **Friend (teman non-teknis / peserta)** | *"Jadwal dan pengisi acara resmi bakal dipublikasi pasti di H-2 ya! Biar temen-temen dapet kepastian agenda yang akurat dan nggak berubah-ubah lagi."* | Fokus pada manfaat akhir (*kepastian agenda*) tanpa jargon teknis *cutoff* atau *race condition*. |
+| **Technical peer (sesama dev / T.O.)** | *"Kita butuh penegasan cutoff time H-3 untuk validasi rundown agar tidak terjadi race condition pada commit data revisi dari dosen dan sponsor."* | Menggunakan jargon teknis (*cutoff time, race condition, commit data*) karena memiliki *shared vocabulary*. |
+| **Manager (Project Coordinator R.A.)** | *"Dengan batas waktu revisi maksimal H-3, tim kita tidak perlu lembur mendadak di malam H-1 dan risiko salah tayang jadwal acara bisa ditekan hingga nol."* | Fokus pada efisiensi operasional, kesehatan tim (*no overtime*), dan mitigasi risiko kelancaran acara. |
+| **Customer (sponsor / dosen pembina)** | *"Demi kepastian kualitas dan kelancaran acara bersama, seluruh persetujuan materi dan rundown kami mohon difinalisasi sebelum H-3 pukul 17.00 WIB."* | Menggunakan ragam bahasa formal, santun, dan menekankan kerja sama serta garansi mutu acara. |
+| **Public (tim publikasi / media)** | *"Mulai H-3 jam 5 sore, materi visual yang masuk sudah final 100%. Teman-teman bisa fokus cetak dan upload tanpa takut ada revisi mendadak."* | Menekankan kejelasan *action plan* dan jaminan ketenangan kerja eksekutor visual. |
+
+**Uji understanding & pengelolaan keraguan (Feedback dari Manager R.A.):**  
+R.A. menyampaikan keraguan: *"Tapi Win, kalau kita kunci cutoff time ketat di H-3, gimana kalau sponsor utama atau dosen mendadak minta perubahan di H-2? Apakah enggak bikin kita kelihatan kaku?"*
+
+**Respon Adaptasi Winda:** *"Poin yang sangat bagus, R.A. Ketentuan H-3 ini adalah filter standar. Jika ada perubahan darurat dari sponsor di H-2, wajib lewat **Emergency Approval Path** dengan persetujuan tertulis Ketua Pelaksana dan batas fleksibilitas maks 10% perubahan teknis. Sponsor tetap dihargai tanpa mengorbankan stamina tim."*  
+**Hasil:** R.A. menyetujui solusi *trade-off* ini dengan lega.
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+| :--- | :--- |
+| **Person & character** | Lima target dianalisis berdasarkan *shared vocabulary* dan kebutuhan informasi (detail teknis vs manfaat operasional vs garansi mutu). |
+| **Objective & state** | Core meaning dikunci sebelum penyusunan kalimat. Winda memastikan fakta *cutoff time H-3 pukul 17.00 WIB* tidak bergeser di semua versi. |
+| **Repertoire & language** | Jargon teknis (*race condition, commit*) hanya dipakai ke *technical peer*. Analisis manfaat dipakai untuk manajer dan bahasa formal untuk sponsor. |
+| **Response & adaptation** | Keraguan R.A. tentang fleksibilitas sponsor diadaptasi dengan menghadirkan *Emergency Approval Path*, bukan dengan membatalkan aturan H-3. |
+| **Agreement/action** | Disepakati aturan *cutoff time H-3* dengan klausa jalur darurat 10% perubahan teknis atas izin Ketua Pelaksana. |
+| **Relationship outcome** | Manajer merasa tenang, tim teknis mendapat jaminan waktu kerja, dan relasi dengan pihak sponsor/dosen tetap terjaga profesional. |
+
+## Penggunaan AI
+
+AI digunakan setelah lima versi selesai dibuat untuk mengaudit konsistensi *core meaning* di kelima tabel. AI mengonfirmasi bahwa fakta batasan H-3 dan mitigasi lembur hadir di seluruh versi tanpa ada distorsi fakta.
+
+## Feedback dan tindak lanjut
+
+* **Feedback yang diterima:** Project Coordinator (R.A.) merasa terakomodasi setelah ditambahkan klausa *Emergency Approval Path*.
+* **Adaptation/replay:** Menambahkan poin *Emergency Approval Path* ke dalam dokumen SOP resmi panitia sebelum disosialisasikan ke divisi lain.
+* **Next practice:** Selalu menyiapkan usulan kompromi (*trade-off*) saat mengajukan aturan atau batasan teknis ke pihak non-teknis.
+
+## Self-assessment
+
+| Dimensi | Skor 1-4 | Evidence singkat |
+| :--- | :---: | :--- |
+| **Person & Character** | 4 | Lima target dianalisis berdasarkan vocabulary, kebutuhan, dan tingkat relevansi informasi. |
+| **Objective & State** | 4 | Core meaning dipetakan eksplisit dan konsisten di seluruh variasi bahasa. |
+| **Repertoire, Language & AI** | 4 | Jargon teknis digunakan tepat sasaran; AI digunakan sebatas *fact-check* konsistensi arti. |
+| **Response & Adaptation** | 4 | Keraguan dari Project Coordinator diadaptasi dengan solusi *Emergency Approval Path*. |
+| **Agreement, Action & Relationship** | 4 | Aturan H-3 disepakati bersama; potensi konflik dengan sponsor berhasil dimitigasi. |
+
+**Total: 20 / 20 - Lanjut.**
+
+::: {.callout-note appearance="simple" icon=false}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Tercapai
+:::

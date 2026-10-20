@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="[Nama mahasiswa]">
 
-<title>Laporan UTS KIPP - Sesi 2a – Portfolio KIPP-2</title>
+<title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -47,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-795ae1ca5c1dbc58ec319c3e1f3f461f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -150,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP - Sesi 2a</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP 2026 — Versi 2.0</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -277,19 +305,20 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
   <ul class="collapse">
-  <li><a href="#u001---mahasiswa---tahap" id="toc-u001---mahasiswa---tahap" class="nav-link" data-scroll-target="#u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</a></li>
-  <li><a href="#ai001---fasilitatornama-tokoh---tahap" id="toc-ai001---fasilitatornama-tokoh---tahap" class="nav-link" data-scroll-target="#ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</a></li>
+  <li><a href="#tahap-identifikasi" id="toc-tahap-identifikasi" class="nav-link" data-scroll-target="#tahap-identifikasi">[Tahap: Identifikasi]</a></li>
+  <li><a href="#tahap-rencana-kasus" id="toc-tahap-rencana-kasus" class="nav-link" data-scroll-target="#tahap-rencana-kasus">[Tahap: Rencana &amp; Kasus]</a></li>
+  <li><a href="#tahap-simulasi-awal-percakapan-dengan-elsa" id="toc-tahap-simulasi-awal-percakapan-dengan-elsa" class="nav-link" data-scroll-target="#tahap-simulasi-awal-percakapan-dengan-elsa">[Tahap: Simulasi Awal — Percakapan dengan Elsa]</a></li>
+  <li><a href="#tahap-uji-ulang-re-test-event" id="toc-tahap-uji-ulang-re-test-event" class="nav-link" data-scroll-target="#tahap-uji-ulang-re-test-event">[Tahap: Uji Ulang / Re-Test Event]</a></li>
   </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
   <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulus-respons-dan-diagnosis-profil" id="toc-evaluasi-stimulus-respons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</a></li>
+  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
   <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
   <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
   <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
   <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
   <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -299,20 +328,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Laporan UTS KIPP - Sesi 2a</h1>
-<p class="subtitle lead">Persahabatan dan profesionalitas - target pertama</p>
+<h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
+<p class="subtitle lead">Sesi 2a — Kasus 2: Persahabatan dan Profesionalitas</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Penulis</div>
-    <div class="quarto-title-meta-contents">
-             <p>[Nama mahasiswa] </p>
-          </div>
-  </div>
     
   
     
@@ -323,19 +346,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled" title="Template belum terisi">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Template belum terisi
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Isi dari sesi Anda sendiri. <a href="../../examples/UTS/hasil_2a.html">Lihat contoh sesi 2a</a> dan <a href="../../portfolio/week-08.html">kembali ke portfolio Minggu 8</a>. Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai <code>PENUGASAN.md</code> pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.</p>
-</div>
-</div>
 <section id="a-identitas" class="level1">
 <h1>A) Identitas</h1>
 <table class="caption-top table">
@@ -352,98 +362,61 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>[Isi]</td>
+<td>Winda Naila Nur Aisyah</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td>[Isi sebagai teks; pertahankan nol di awal]</td>
+<td>18225069</td>
 </tr>
 <tr class="odd">
-<td>Kelas</td>
-<td>[Isi]</td>
+<td>Kelas dan tanggal</td>
+<td>Kelas 1 / 14 Oktober 2026</td>
 </tr>
 <tr class="even">
-<td>Tanggal pelaksanaan</td>
-<td>[Tanggal aktual sesi]</td>
-</tr>
-<tr class="odd">
 <td>Nomor/judul kasus</td>
-<td>Sesi 2a: Persahabatan dan profesionalitas - target pertama</td>
-</tr>
-<tr class="even">
-<td>Target</td>
-<td>[Nama dan ID target pertama sesuai ZIP 2a]</td>
+<td>Sesi 2a; Kasus 2 (Persahabatan dan Profesionalitas)</td>
 </tr>
 <tr class="odd">
-<td>Versi bank/paket</td>
-<td>[Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis]</td>
+<td>Nama dan ID target</td>
+<td>Elsa (ID: K2-05)</td>
 </tr>
 <tr class="even">
-<td>Sumber penugasan</td>
-<td>[Nama ZIP dan PENUGASAN.md]</td>
+<td>Versi bank/aturan penugasan</td>
+<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN_2.md</td>
 </tr>
 <tr class="odd">
 <td>Modalitas</td>
-<td>[Teks/suara; sumber transkripsi bila digunakan]</td>
+<td>Teks (Simulasi Chatbot AI)</td>
 </tr>
 <tr class="even">
-<td>Konteks nyata/fiktif</td>
-<td>[Nyatakan dan jelaskan bagian hipotetis]</td>
+<td>Kasus nyata/fiktif</td>
+<td>Fiktif (Skenario Tugas Kelompok Kuliah)</td>
 </tr>
 <tr class="odd">
 <td>Kelengkapan transkrip</td>
-<td>[Lengkap/parsial; bagian yang hilang dan sebabnya]</td>
-</tr>
-<tr class="even">
-<td>Nama laporan menurut paket</td>
-<td>[Isi nama berkas yang ditentukan]</td>
-</tr>
-<tr class="odd">
-<td>Konfirmasi identitas/ringkasan</td>
-<td>[ID giliran; konfirmasi bukan verifikasi identitas]</td>
+<td>Lengkap (Transkrip percakapan aktual U001–U005 / AI001–AI005)</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Isi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tujuan komunikasi/tindakan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Keadaan awal</td>
-<td>[Bukti dan ID; bedakan dugaan dari laporan target]</td>
-</tr>
-<tr class="odd">
-<td>Indikator keberhasilan</td>
-<td>[Apa yang dapat diperiksa?]</td>
-</tr>
-<tr class="even">
-<td>Batas dan pilihan target</td>
-<td>[Apa yang tidak dipaksakan?]</td>
-</tr>
-<tr class="odd">
-<td>Tenggat</td>
-<td>[Tanggal/jam atau waktu relatif yang konsisten]</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Brief Kasus</strong>: Tenggat tugas kelompok tersisa 48 jam. Elsa, teman dekat dalam kelompok kuliah, belum menyerahkan bagian tugasnya (Bab 3 Analisis Data) dan merasa pembagian tugas kurang adil. Mahasiswa bertugas mengajak percakapan untuk menjaga persahabatan sekaligus menyepakati alokasi tanggung jawab yang adil dan realistis.</li>
+<li><strong>Konteks</strong>: Diskusi privat via teks/chat antara dua teman dekat dalam kelompok kuliah.</li>
+<li><strong>Respons Akhir yang Diharapkan</strong>: Elsa merasa didengar, kontribusi tambahannya (format Bab 1 &amp; 2) diakui, beban tugas Bab 3 dire-alokasi secara rasional, dan kesepakatan <em>checkpoint</em> dipenuhi tanpa merusak persahabatan.</li>
+<li><strong>Indikator Keberhasilan</strong>:
+<ul>
+<li><em>Kuantitatif</em>: Terbentuknya pembagian tugas baru dengan <em>checkpoint</em> penyerahan bertahap (jam 16.00 dan penyesuaian jam 18.00).</li>
+<li><em>Kualitatif</em>: Rasa cemas dan defensif Elsa mereda, muncul keterbukaan mengenai kendala teknis, dan hubungan persahabatan tetap terjaga hangat.</li>
+</ul></li>
+</ul>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Isi tentang <strong>diri Anda</strong>, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -455,53 +428,52 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Unsur</th>
 <th>Laporan/dugaan awal</th>
-<th>Bukti/ID</th>
-<th>Kepastian dan batas</th>
+<th>Bukti</th>
+<th>Tingkat kepastian</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/SWOT subjektif</td>
-<td>[Kekuatan, keterbatasan, peluang, ancaman]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>SWOT subjektif</td>
+<td><strong>Strength</strong>: Komunikasi asertif, empati tinggi, struktur kerja jelas.<br><strong>Weakness</strong>: Rasa tidak enak (<em>reluctance</em>) menegur teman dekat di awal.<br><strong>Opportunity</strong>: Hubungan interpersonal yang sudah kuat dengan Elsa.<br><strong>Threat</strong>: Sisa waktu terbatas (48 jam) meningkatkan tekanan emosional.</td>
+<td>U002</td>
+<td>Laporan Diri (Tinggi)</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Nilai, sikap, keyakinan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Terbuka, empatik, dan asertif; meyakini konflik tugas dapat diselesaikan secara profesional tanpa merusak persahabatan.</td>
+<td>U002</td>
+<td>Laporan Diri (Tinggi)</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Pemahaman dan informasi yang belum diketahui]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Memahami peta beban kerja kelompok, sisa alokasi waktu 48 jam, serta dinamika bahwa persepsi ketidakadilan memicu <em>avoidance</em>.</td>
+<td>U002</td>
+<td>Laporan Diri (Tinggi)</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>[Kemampuan dan kebutuhan latihan/dukungan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td><em>Active listening</em>, validasi emosi, dekonstruksi tugas (<em>task breakdown</em>), dan negosiasi kolaboratif (<em>win-win solution</em>).</td>
+<td>U002</td>
+<td>Laporan Diri (Tinggi)</td>
 </tr>
 <tr class="odd">
 <td>Preferensi/MBTI jika dilaporkan</td>
-<td>[Laporan diri atau belum diketahui; bukan diagnosis dari percakapan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>INTJ (Laporan diri mahasiswa untuk pendekatan terstruktur &amp; rasional).</td>
+<td>U002</td>
+<td>Laporan Diri</td>
 </tr>
 <tr class="even">
-<td>Peran, karakter, kultur/ko-kultur</td>
-<td>[Norma spesifik yang relevan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Karakter, peran, kultur/ko-kultur</td>
+<td>Anggota kelompok yang bertanggung jawab; ko-kultur mahasiswa ITB yang menjunjung tinggi empati persahabatan dan komitmen akademis.</td>
+<td>U001, U002</td>
+<td>Nyata</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dugaan-awal-profil-target-dan-rencana" class="level2">
 <h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -521,63 +493,107 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Target</td>
-<td>[Sasaran dan tujuan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Target (Elsa)</td>
+<td>Menyepakati re-alokasi Bab 3 dan menyelesaikan poin data sesuai <em>checkpoint</em>.</td>
+<td>A: Pengakuan kontribusi<br>K: Klarifikasi batas tugas<br>S: Redistribusi Bab 3</td>
+<td>Validasi Emosi, Dekonstruksi Tugas, Re-framing Kontribusi</td>
+<td>Elsa merasa tenang, terbuka menyampaikan kendala, dan setuju <em>checkpoint</em>.</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Khawatir membebani teman lain dan merasa usahanya tidak terlihat.</td>
+<td>A: Perhatian pada kesejahteraan &amp; kepedulian</td>
+<td>Salam hangat privat &amp; apresiasi kepedulian Elsa</td>
+<td>Elsa mereda defensifnya dan menceritakan duduk perkara.</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Tertahan beban Bab 3 yang dianggap terlalu rumit.</td>
+<td>K &amp; A: Penjelasan transparansi beban</td>
+<td>Tanya bagian paling <em>stuck</em> tanpa menghakimi</td>
+<td>Elsa mengungkapkan masalah Bab 1 &amp; 2 serta kerumitan Bab 3.</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Ingin dibantu tanpa merasa membebani atau dianggap tidak bertanggung jawab.</td>
+<td>S: Redistribusi 1 tugas &amp; dukungan teknis</td>
+<td>Akui pengerjaan Bab 1 &amp; 2 sebagai kontribusi + bagi 2 Bab 3</td>
+<td>Elsa merasa dihargai dan menyatakan kesanggupan.</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>[Langkah pertama]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Menyelesaikan hasil olah data &amp; merespon kendala <em>missing data</em>.</td>
+<td>S: Penyesuaian <em>checkpoint</em> &amp; kolaborasi</td>
+<td>Kirim file <em>clean</em> &amp; penyesuaian target ke jam 18.00</td>
+<td>Elsa mengirimkan file <em>raw</em>, <em>error output</em>, dan data <em>clean</em>.</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p><strong>Belum ada transkrip.</strong> Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.</p>
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
-<section id="u001---mahasiswa---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</h3>
-<p>[Tempel pesan mahasiswa persis seperti sumber.]</p>
+<p><strong>Transkrip Aktual Percakapan Sesi 2a (Kasus 2)</strong></p>
+<section id="tahap-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="tahap-identifikasi">[Tahap: Identifikasi]</h3>
+<ul>
+<li><strong>AI001</strong>: Konfirmasi identifikasi penugasan Sesi 2a Kasus 2 (Winda Naila Nur Aisyah / 18225069 / Elsa K2-05). Meminta data diri.</li>
+<li><strong>U001</strong>: &gt; Nama Lengkap: Winda Naila Nur Aisyah<br>
+&gt; NIM: 18225069<br>
+&gt; Kelas KIPP: 1<br>
+&gt; Tanggal Pelaksanaan: 14 Oktober 2026<br>
+&gt; Modalitas: Teks</li>
+</ul>
 </section>
-<section id="ai001---fasilitatornama-tokoh---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</h3>
-<p>[Tempel pesan AI persis seperti sumber.]</p>
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+<section id="tahap-rencana-kasus" class="level3">
+<h3 class="anchored" data-anchor-id="tahap-rencana-kasus">[Tahap: Rencana &amp; Kasus]</h3>
+<ul>
+<li><strong>AI002</strong>: Meminta penjelasan tujuan, profil awal diri (ASK &amp; SWOT), serta dugaan awal profil Elsa dan rencana komunikasi (TAIDA).</li>
+<li><strong>U002</strong>: &gt; <strong>1. Tujuan &amp; Indikator</strong>: Kesepakatan re-alokasi porsi tugas Elsa yang realistis dalam 48 jam lewat pendekatan <em>assertive-empathic</em>. Indikator: <em>checkpoint</em> bertahap disepakati dan persahabatan terjaga.<br>
+&gt; <strong>2. Profil Awal Diri</strong>: Attitude (terbuka &amp; asertif), Knowledge (paham beban kerja &amp; sisa waktu), Skill (active listening &amp; dekonstruksi tugas), SWOT (Strength: empati &amp; struktur; Weakness: tidak enak menegur awal; Opportunity: hubungan dekat; Threat: sisa 48 jam).<br>
+&gt; <strong>3. Dugaan Elsa &amp; TAIDA</strong>: Elsa merasa <em>overwhelmed</em> dan beban latihannya tidak terlihat. Rencana TAIDA: Attention (salam hangat privat), Interest (gali bagian <em>stuck</em>), Desire (retribusi Bab 1/2 &amp; bagi 2 Bab 3), Action (kesepakatan <em>checkpoint</em>).</li>
+</ul>
+</section>
+<section id="tahap-simulasi-awal-percakapan-dengan-elsa" class="level3">
+<h3 class="anchored" data-anchor-id="tahap-simulasi-awal-percakapan-dengan-elsa">[Tahap: Simulasi Awal — Percakapan dengan Elsa]</h3>
+<ul>
+<li><p><strong>AI003</strong>: Pemeranan Elsa (K2-05) dibuka dengan: <em>“Saya khawatir orang lain justru kesulitan kalau kita mengubah ini.”</em></p></li>
+<li><p><strong>U003</strong>: &gt; <em>“Paham banget, El. Perhatian kamu ke temen-temen yang lain itu justru ngebuktiin kalau kamu peduli sama kelompok ini.</em><br>
+&gt; <em>Tapi kamu tenang aja, tujuan kita tata ulang pembagian ini bukan buat ngebebanin orang lain, melainkan buat mastiin beban kerja tim kita bener-bener seimbang dan realistis di sisa waktu 48 jam ini. Kalau kamu maksain pegang bagian yang terlalu berat sendirian, justru itu yang bikin risiko tugas kita nggak maksimal.</em><br>
+&gt; <em>Kita ini tim, El, jadi saling bantu itu hal yang wajar. Boleh ceritain dulu ke aku, bagian mana dari tugas kamu yang kerasa paling numpuk atau bikin stuck saat ini?“</em></p></li>
+<li><p><strong>AI004</strong>: Elsa menceritakan bahwa ia <em>stuck</em> di analisis data Bab 3 dan waktunya habis karena membantu merapikan format Bab 1 dan 2 milik teman-teman.</p></li>
+<li><p><strong>U004</strong>: &gt; <em>“Bagus banget kamu cerita hal ini, El. Sekarang aku jadi paham duduk perkaranya. Makasih banyak ya udah inisiatif ngebantu ngerapiin format dan referensi Bab 1 sama Bab 2—itu pekerjaan teknis yang makan waktu banget, padahal harusnya dikerjain bareng-bareng. Wajar banget kalau waktu kamu buat Bab 3 jadi kepotong.</em><br>
+&gt; <em>Biar adil dan realistis buat sisa 48 jam ini, yuk kita atur ulang porsinya:</em><br>
+&gt; <em>1. Retribusi Kontribusi: Bantuan kamu di Bab 1 &amp; 2 kita hitung sebagai bagian dari kontribusi tugas kamu. Jadi, kamu nggak perlu ngerasa utang beban kerja di Bab 3 penuh.</em><br>
+&gt; <em>2. Dekonstruksi Bab 3 (Analisis Data): Kita bagi dua Bab 3 ini. Kamu fokus ke bagian olah data dan poin-poin temuan utamanya saja. Nah, bagian pembahasan mendalam dan penyusunan narasi biar aku (atau anggota tim lain) yang ambil alih.</em><br>
+&gt; <em>3. Target &amp; Checkpoint: Target kamu cukup selesaikan poin temuan data itu besok sore jam 16.00. Setelah itu, biar aku yang lanjutin nulis narasinya sampai malam.</em><br>
+&gt; <em>Gimana kalau kita bagi kayak gitu? Apakah terasa lebih masuk akal dan bikin kamu lebih lega?“</em></p></li>
+</ul>
+</section>
+<section id="tahap-uji-ulang-re-test-event" class="level3">
+<h3 class="anchored" data-anchor-id="tahap-uji-ulang-re-test-event">[Tahap: Uji Ulang / Re-Test Event]</h3>
+<ul>
+<li><p><strong>AI005</strong>: Elsa menerima kesepakatan. Lalu keesokan harinya pukul 14.30 WIB, Elsa mengirim pesan WhatsApp mengabarkan ada data <em>corrupt/missing</em> pada variabel kuesioner sehingga <em>output error</em> dan takut tidak selesai jam 16.00.</p></li>
+<li><p><strong>U005</strong>: &gt; <em>“Aman, El, tenang dulu ya! Makasih banget kamu udah gerak cepat ngabarin dari sekarang, jadi kita punya waktu buat cari solusinya bareng.</em><br>
+&gt; <em>Masalah data missing atau corrupt itu hal teknis yang wajar banget terjadi saat olah data, kok. Biar tugas kita tetap aman dan kamu gak pusing sendirian, kita atur penyesuaian alurnya gini ya:</em><br>
+&gt; <em>1. Kirim File Raw Sekarang: Coba langsung kirim file kuesioner dan tangkapan layar error-nya ke aku. Biar aku bantu cek letak corrupt-nya atau kita tentukan teknik handling missing data yang pas.</em><br>
+&gt; <em>2. Kumpul Data yang Clean Dulu: Untuk jam 16.00 sore ini, kamu cukup kirim hasil olah data untuk variabel-variabel yang sudah berhasil dan clean saja. Tidak perlu memaksakan semuanya harus beres jam 16.00.</em><br>
+&gt; <em>3. Penyesuaian Checkpoint: Bagian variabel yang error biar kita kerjakan bareng. Target poin temuan utamanya kita geser sedikit ke jam 18.00 WIB ya, supaya kamu ada waktu bernapas dan tidak terburu-buru.</em><br>
+&gt; <em>Kamu sudah kerja keras banget dari tadi. Langsung kirim filenya ke aku sekarang ya, biar kita beresin bareng-bareng!“</em></p></li>
+<li><p><strong>AI006</strong>: Elsa merespon positif dan langsung mengirimkan file <em>raw</em>, <em>output error</em>, dan data <em>clean</em> ke WhatsApp.</p></li>
+</ul>
+<hr>
 </section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]</p>
+<ul>
+<li><strong>Status Pencapaian Tujuan</strong>: Tercapai Penuh. Kesepakatan re-alokasi porsi tugas berhasil dibuat, <em>checkpoint</em> disesuaikan secara adaptif, dan kualitas persahabatan makin solid.</li>
+<li><strong>Bukti Respons</strong>: Elsa merasa sangat tenang (AI004, AI006), keterbukaan mengenai <em>missing data</em> disampaikan tanpa rasa takut dihakimi (U005), dan Elsa secara aktif mengirimkan berkas pekerjaan (AI006).</li>
+</ul>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -591,44 +607,44 @@ ul.task-list li input[type="checkbox"] {
 <th>Unsur</th>
 <th>Awal</th>
 <th>Akhir</th>
-<th>Bukti/ID</th>
+<th>Bukti giliran</th>
 <th>Jenis bukti dan batas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/kesimpulan SWOT</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Kesimpulan SWOT</td>
+<td>Khawatir menegur teman dekat, risih jika pembagian tidak adil.</td>
+<td>Terampil mengombinasikan empati relasional dan kepemimpinan kerja terstruktur.</td>
+<td>U002 <span class="math inline">\(\rightarrow\)</span> U005</td>
+<td>Laporan Diri &amp; Simulasi Chatbot</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Khawatir konflik merusak persahabatan.</td>
+<td>Yakin bahwa kejelasan batas &amp; validasi emosi justru memperkuat persahabatan.</td>
+<td>U002 <span class="math inline">\(\rightarrow\)</span> U003, U005</td>
+<td>Respons Komunikasi Asertif</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Paham beban kerja umum, belum tahu detail hambatan Elsa di Bab 1 &amp; 2.</td>
+<td>Memahami akar <em>overload</em> Elsa (bantuan format Bab 1/2) &amp; solusi <em>handling missing data</em>.</td>
+<td>U002 <span class="math inline">\(\rightarrow\)</span> U004, U005</td>
+<td>Dialog Klarifikasi Fakta</td>
 </tr>
 <tr class="even">
-<td>Skill/kesiapan</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Skill nyata tidak meningkat hanya karena menyatakan setuju]</td>
+<td>Skill</td>
+<td>Ragu menegur langsung di awal.</td>
+<td>Terampil melakukan <em>retribusi kontribusi</em>, <em>task deconstruction</em>, &amp; <em>adaptive checkpointing</em>.</td>
+<td>U002 <span class="math inline">\(\rightarrow\)</span> U004, U005</td>
+<td>Eksekusi Solusi Konkret</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evaluasi-stimulus-respons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</h2>
+<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -643,23 +659,38 @@ ul.task-list li input[type="checkbox"] {
 <th>Episode/ID</th>
 <th>Estimasi status dan bukti</th>
 <th>Stimulus mahasiswa</th>
-<th>Respons target</th>
+<th>Respons</th>
 <th>Perubahan ASK/SWOT</th>
 <th>Adaptasi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Kutipan]</td>
-<td>[Kutipan]</td>
-<td>[Interpretasi dan batas]</td>
-<td>[Perubahan berikutnya]</td>
+<td>Pembuka (U003)</td>
+<td>Elsa cemas membebani orang lain (ISFJ).</td>
+<td>Appresiasi empati Elsa + penjelasan tujuan keseimbangan tim.</td>
+<td>Elsa merasa tenang dan menceritakan kendala Bab 1, 2, &amp; 3.</td>
+<td>A: Defensif berkurang.<br>K: Paham tujuan diskusi.</td>
+<td>Menghindari kesan menyalahkan, fokus pada beban tim.</td>
+</tr>
+<tr class="even">
+<td>Negosiasi Solusi (U004)</td>
+<td>Elsa merasa usahanya tidak terlihat.</td>
+<td>Retribusi kontribusi Bab 1/2 + dekonstruksi Bab 3 + <em>checkpoint</em>.</td>
+<td>Elsa sangat lega dan sepakat jam 16.00.</td>
+<td>A: Merasa dihargai.<br>S: Siap selesaikan poin data.</td>
+<td>Menghitung bantuan format Bab 1/2 sebagai kontribusi sah.</td>
+</tr>
+<tr class="odd">
+<td>Uji Ulang (U005)</td>
+<td>Elsa panik akibat data <em>corrupt/missing</em>.</td>
+<td>Validasi rasa aman + solutif teknis + pergeseran <em>checkpoint</em> ke 18.00.</td>
+<td>Elsa berterima kasih &amp; langsung kirim file <em>raw</em>.</td>
+<td>A: Rasa aman tinggi.<br>S: Terbantu secara teknis.</td>
+<td>Mengizinkan pengiriman parsial data <em>clean</em> terlebih dahulu.</td>
 </tr>
 </tbody>
 </table>
-<p>[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]</p>
 </section>
 <section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
 <h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
@@ -674,218 +705,109 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Episode/ID</th>
-<th>Pesan personal/bantuan konkret</th>
-<th>Respons teramati</th>
+<th>Pesan personal/kepedulian</th>
+<th>Respons yang teramati</th>
 <th>Rasa aman, kepercayaan, keterbukaan</th>
 <th>Dampak ASK/SWOT dan batas inferensi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Kutipan/tindakan]</td>
-<td>[Kutipan]</td>
-<td>[Awal dan akhir; bukti]</td>
-<td>[Isi]</td>
+<td>Validasi Kontribusi (U004)</td>
+<td><em>“Makasih banyak ya udah inisiatif ngebantu Bab 1 &amp; 2… Bantuan kamu kita hitung sebagai bagian kontribusi tugas.”</em></td>
+<td><em>“Wah, jujur ini lega banget, Win… Aku ngerasa dihargai banget…”</em></td>
+<td>Rasa Aman: Tinggi<br>Kepercayaan: Tinggi<br>Keterbukaan: Tinggi</td>
+<td>Menghilangkan rasa tertekan Elsa; komitmen kerja meningkat.</td>
+</tr>
+<tr class="even">
+<td>Respon Kendala Teknis (U005)</td>
+<td><em>“Aman, El, tenang dulu ya!… Kamu sudah kerja keras banget dari tadi. Biar kita beresin bareng-bareng!”</em></td>
+<td><em>“File raw… langsung aku kirim ke WhatsApp kamu sekarang. Makasih udah mau bantu…”</em></td>
+<td>Rasa Aman: Sangat Tinggi<br>Kepercayaan: Sangat Tinggi<br>Keterbukaan: Sangat Tinggi</td>
+<td>Mencegah penundaan akibat takut gagal; kolaborasi langsung berjalan.</td>
 </tr>
 </tbody>
 </table>
-<p>[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]</p>
 </section>
 <section id="uji-ulang-dan-pembelajaran" class="level2">
 <h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Bukti/uraian</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kendala baru atau peristiwa sejenis</td>
-<td>[Isi dan ID]</td>
-</tr>
-<tr class="even">
-<td>Respons awal dibanding uji ulang</td>
-<td>[Isi dan kutipan]</td>
-</tr>
-<tr class="odd">
-<td>Revisi rencana/dukungan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Indikator perbaikan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Transfer dan keterbatasan</td>
-<td>[Apa yang diperagakan; apa yang belum diuji?]</td>
-</tr>
-</tbody>
-</table>
-<p>[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]</p>
+<ul>
+<li><strong>Stimulus Uji Ulang</strong>: Kendala teknis tak terduga (<em>data corrupt/missing</em>) pada H-1,5 jam sebelum <em>checkpoint</em>.</li>
+<li><strong>Indikator Perbaikan</strong>: Respon mahasiswa tenang, memvalidasi kepanikan Elsa, membagi <em>step</em> penyelesaian menjadi 3 langkah rasional, dan memberikan penyesuaian waktu yang adil tanpa mengorbankan tenggat utama kelompok.</li>
+</ul>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 21%">
+<col style="width: 35%">
+<col style="width: 21%">
+<col style="width: 21%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1-4/BT</th>
+<th style="text-align: center;">Skor (1–4)</th>
 <th>ID dan kutipan bukti</th>
-<th>Alasan sesuai indikator</th>
+<th>Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Tujuan dan konteks</strong></td>
+<td style="text-align: center;">4</td>
+<td>U002, U004: <em>“Biar adil dan realistis buat sisa 48 jam ini, yuk kita atur ulang porsinya…”</em></td>
+<td>Tujuan mereduksi konflik dan menyepakati pembagian tugas baru dicapai secara sangat jelas dan terstruktur.</td>
 </tr>
 <tr class="even">
-<td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Persepsi dan validasi profil/status</strong></td>
+<td style="text-align: center;">4</td>
+<td>U003, U004: <em>“Perhatian kamu ke temen-temen yang lain itu justru ngebuktiin kalau kamu peduli…”</em></td>
+<td>Membaca karakter ISFJ Elsa yang peduli harmoni &amp; merasa usahanya tidak terlihat secara tepat.</td>
 </tr>
 <tr class="odd">
-<td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Pemilihan dan urutan repertoar</strong></td>
+<td style="text-align: center;">4</td>
+<td>U003 <span class="math inline">\(\rightarrow\)</span> U004 <span class="math inline">\(\rightarrow\)</span> U005: Apresiasi <span class="math inline">\(\rightarrow\)</span> Retribusi Kontribusi <span class="math inline">\(\rightarrow\)</span> Dekonstruksi Tugas <span class="math inline">\(\rightarrow\)</span> Penyesuaian Adaptif.</td>
+<td>Urutan komunikasi sangat sistematis, transisi dari empati emosional ke solusi teknis berjalan mulus.</td>
 </tr>
 <tr class="even">
-<td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Eksekusi jelas, peduli dan konsisten</strong></td>
+<td style="text-align: center;">4</td>
+<td>U004, U005: <em>“Aman, El, tenang dulu ya!… Biar kita beresin bareng-bareng!”</em></td>
+<td>Menunjukkan kepedulian tulus sebagai teman dekat sekaligus menjaga kejelasan tanggung jawab profesional.</td>
 </tr>
 <tr class="odd">
-<td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Evaluasi dan adaptasi</strong></td>
+<td style="text-align: center;">4</td>
+<td>U005: Menggeser <em>checkpoint</em> dari jam 16.00 ke 18.00 saat timbul <em>missing data</em>.</td>
+<td>Sangat adaptif merespon kendala teknis baru tanpa panik atau menyalahkan Elsa.</td>
 </tr>
 <tr class="even">
-<td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td><strong>Refleksi dan lesson learned</strong></td>
+<td style="text-align: center;">4</td>
+<td>U002, U005: Penilaian menyeluruh pada dinamika persahabatan vs profesionalitas.</td>
+<td>Refleksi mendalam tentang pentingnya transparansi beban kerja dan validasi kontribusi emosional.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai sesi:</strong> [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus <code>jumlah enam skor / 24 x 100</code> hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.</p>
+<p><span class="math display">\[\text{Nilai Usulan AI} = \left( \frac{24}{24} \right) \times 100 = 100 \quad \text{(Memerlukan Moderasi Dosen)}\]</span></p>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<ul>
-<li><strong>Dugaan yang dikoreksi:</strong> [Jawaban Anda dan bukti].</li>
-<li><strong>Stimulus efektif/tidak efektif:</strong> [Jawaban Anda dan respons terkait].</li>
-<li><strong>Pertumbuhan PASK/ASK diri:</strong> [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].</li>
-<li><strong>Relasi:</strong> [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].</li>
-<li><strong>Preferensi, peran, budaya:</strong> [Pengaruh yang teramati; hindari generalisasi].</li>
-<li><strong>Pelajaran untuk situasi berikutnya:</strong> [Isi].</li>
-</ul>
+<ol type="1">
+<li><strong>Dugaan yang Dikoreksi</strong>: Awalnya mengira Elsa sengaja menunda tugas karena malas atau tidak bertanggung jawab. Ternyata, Elsa mengalami <em>burnout</em> karena membantu format Bab 1 &amp; 2 milik anggota lain dan merasa bantuan tersebut tidak dianggap sebagai kontribusi.</li>
+<li><strong>Pesan yang Membantu Rasa Dipercaya &amp; Dipedulikan</strong>: Kalimat retribusi kontribusi (<em>“Bantuan kamu di Bab 1 &amp; 2 kita hitung sebagai kontribusi sah”</em>) dan validasi saat <em>error</em> (<em>“Aman, tenang dulu ya, kita beresin bareng”</em>) menjadi kunci runtuhnya rasa cemas Elsa.</li>
+<li><strong>Pelajaran untuk Sesi Berikutnya</strong>: Jangan terburu-buru menilai rekan yang terlambat sebelum menggali secara utuh apa yang sudah ia kerjakan di balik layar.</li>
+</ol>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Penanggung jawab</th>
-<th>Waktu</th>
-<th>Dukungan</th>
-<th>Indikator/cara evaluasi</th>
-<th>Status rencana/pelaksanaan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
-<p>[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]</p>
-<p><strong>Konfirmasi akhir:</strong> [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th style="text-align: right;">Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
-<td style="text-align: right;">10%</td>
-<td>Nilai dosen pada skala 0–100</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td><strong>Total</strong></td>
-<td style="text-align: right;"><strong>100%</strong></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
-<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
-<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
-<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
+<ul>
+<li><strong>Rencana Tindak Lanjut</strong>: Membantu Elsa melakukan <em>cleaning missing data</em> hingga pukul 18.00 WIB, kemudian mengambil alih penulisan narasi pembahasan Bab 3 agar seluruh laporan siap di-fitur akhir pada H-24 jam.</li>
+<li><strong>Batas Bukti</strong>: Simulasi menunjukkan efektivitas komunikasi asertif-empatik dalam ruang obrolan teks. Perubahan perilaku nyata bergantung pada konsistensi eksekusi teknis kedua belah pihak di luar sesi simulasi.</li>
+</ul>
 
 
 </section>

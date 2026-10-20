@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="[Nama mahasiswa - NIM]">
+<meta name="author" content="Winda Naila Nur Aisyah — 18225069">
 
-<title>[Judul makalah MBTI, komunikasi efektif, dan PASK] – Portfolio KIPP-2</title>
+<title>Analisis Preferensi Komunikasi Berdasarkan Myers-Briggs Type Indicator (MBTI) dan Pengembangan Kerangka PASK dalam Dinamika Interaksi Kepanitiaan Kampus – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-795ae1ca5c1dbc58ec319c3e1f3f461f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,6 +77,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -150,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">[Judul makalah MBTI, komunikasi efektif, dan PASK]</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Analisis Preferensi Komunikasi Berdasarkan Myers-Briggs Type Indicator (MBTI) dan Pengembangan Kerangka PASK dalam Dinamika Interaksi Kepanitiaan Kampus</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -273,25 +302,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#metode-dan-kedudukan-kerangka" id="toc-metode-dan-kedudukan-kerangka" class="nav-link" data-scroll-target="#metode-dan-kedudukan-kerangka"><span class="header-section-number">2</span> Metode dan Kedudukan Kerangka</a></li>
   <li><a href="#kategori-mbti-dan-komunikasi-efektif" id="toc-kategori-mbti-dan-komunikasi-efektif" class="nav-link" data-scroll-target="#kategori-mbti-dan-komunikasi-efektif"><span class="header-section-number">3</span> Kategori MBTI dan Komunikasi Efektif</a>
   <ul class="collapse">
-  <li><a href="#empat-pasangan-preferensi" id="toc-empat-pasangan-preferensi" class="nav-link" data-scroll-target="#empat-pasangan-preferensi"><span class="header-section-number">3.1</span> Empat pasangan preferensi</a></li>
-  <li><a href="#implikasi-dan-batas-ilmiah" id="toc-implikasi-dan-batas-ilmiah" class="nav-link" data-scroll-target="#implikasi-dan-batas-ilmiah"><span class="header-section-number">3.2</span> Implikasi dan batas ilmiah</a></li>
+  <li><a href="#empat-pasangan-preferensi" id="toc-empat-pasangan-preferensi" class="nav-link" data-scroll-target="#empat-pasangan-preferensi"><span class="header-section-number">3.1</span> Empat Pasangan Preferensi</a></li>
+  <li><a href="#implikasi-dan-batas-ilmiah" id="toc-implikasi-dan-batas-ilmiah" class="nav-link" data-scroll-target="#implikasi-dan-batas-ilmiah"><span class="header-section-number">3.2</span> Implikasi dan Batas Ilmiah</a></li>
   </ul></li>
   <li><a href="#strategi-komunikasi-untuk-profil-tertentu" id="toc-strategi-komunikasi-untuk-profil-tertentu" class="nav-link" data-scroll-target="#strategi-komunikasi-untuk-profil-tertentu"><span class="header-section-number">4</span> Strategi Komunikasi untuk Profil Tertentu</a>
   <ul class="collapse">
-  <li><a href="#umpan-balik-dan-konflik" id="toc-umpan-balik-dan-konflik" class="nav-link" data-scroll-target="#umpan-balik-dan-konflik"><span class="header-section-number">4.1</span> Umpan balik dan konflik</a></li>
+  <li><a href="#umpan-balik-dan-konflik" id="toc-umpan-balik-dan-konflik" class="nav-link" data-scroll-target="#umpan-balik-dan-konflik"><span class="header-section-number">4.1</span> Umpan Balik dan Konflik</a></li>
   </ul></li>
   <li><a href="#mengenali-preferensi-melalui-percakapan" id="toc-mengenali-preferensi-melalui-percakapan" class="nav-link" data-scroll-target="#mengenali-preferensi-melalui-percakapan"><span class="header-section-number">5</span> Mengenali Preferensi melalui Percakapan</a></li>
   <li><a href="#stimulus-swot-like-dan-pask" id="toc-stimulus-swot-like-dan-pask" class="nav-link" data-scroll-target="#stimulus-swot-like-dan-pask"><span class="header-section-number">6</span> Stimulus, SWOT-like, dan PASK</a>
   <ul class="collapse">
-  <li><a href="#definisi-dan-hubungan-konsep" id="toc-definisi-dan-hubungan-konsep" class="nav-link" data-scroll-target="#definisi-dan-hubungan-konsep"><span class="header-section-number">6.1</span> Definisi dan hubungan konsep</a></li>
-  <li><a href="#bentuk-respons" id="toc-bentuk-respons" class="nav-link" data-scroll-target="#bentuk-respons"><span class="header-section-number">6.2</span> Bentuk respons</a></li>
+  <li><a href="#definisi-dan-hubungan-konsep" id="toc-definisi-dan-hubungan-konsep" class="nav-link" data-scroll-target="#definisi-dan-hubungan-konsep"><span class="header-section-number">6.1</span> Definisi dan Hubungan Konsep</a></li>
   </ul></li>
-  <li><a href="#pendidikan-untuk-menumbuhkan-pask" id="toc-pendidikan-untuk-menumbuhkan-pask" class="nav-link" data-scroll-target="#pendidikan-untuk-menumbuhkan-pask"><span class="header-section-number">7</span> Pendidikan untuk Menumbuhkan PASK</a></li>
-  <li><a href="#contoh-integratif" id="toc-contoh-integratif" class="nav-link" data-scroll-target="#contoh-integratif"><span class="header-section-number">8</span> Contoh Integratif</a></li>
-  <li><a href="#pembahasan-dan-keterbatasan" id="toc-pembahasan-dan-keterbatasan" class="nav-link" data-scroll-target="#pembahasan-dan-keterbatasan"><span class="header-section-number">9</span> Pembahasan dan Keterbatasan</a></li>
-  <li><a href="#kesimpulan" id="toc-kesimpulan" class="nav-link" data-scroll-target="#kesimpulan"><span class="header-section-number">10</span> Kesimpulan</a></li>
-  <li><a href="#daftar-pustaka" id="toc-daftar-pustaka" class="nav-link" data-scroll-target="#daftar-pustaka">Daftar Pustaka</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts"><span class="header-section-number">11</span> Bobot dan nilai akhir UTS</a></li>
   </ul>
 </nav>
     </div>
@@ -300,8 +322,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">[Judul makalah MBTI, komunikasi efektif, dan PASK]</h1>
-<p class="subtitle lead">[Subjudul jika diperlukan]</p>
+<h1 class="title">Analisis Preferensi Komunikasi Berdasarkan Myers-Briggs Type Indicator (MBTI) dan Pengembangan Kerangka PASK dalam Dinamika Interaksi Kepanitiaan Kampus</h1>
+<p class="subtitle lead">Kajian Kritis Preferensi Psikologis, Pemetaan SWOT-like, dan Strategi Intervensi Edukatif pada Komunikasi Interpersonal</p>
 </div>
 
 
@@ -311,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Penulis</div>
     <div class="quarto-title-meta-contents">
-             <p>[Nama mahasiswa - NIM] </p>
+             <p>Winda Naila Nur Aisyah — 18225069 </p>
           </div>
   </div>
     
@@ -324,44 +346,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled" title="Template makalah pra-UTS">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Template makalah pra-UTS
+<div class="callout-body-container">
+<p>📄 <strong>Makalah Pra-UTS Komunikasi Inter Personal dan Publik (KIPP-2)</strong><br>
+Naskah ini disusun secara komprehensif sebagai kajian akademik integratif mengenai preferensi MBTI, pemetaan persepsi-sikap-keterampilan-pengetahuan (PASK), evaluasi SWOT-like, serta strategi komunikasi adaptif dalam konteks kepanitiaan mahasiswa.</p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Isi dengan kajian dan argumentasi Anda. <a href="../../examples/UTS/paper.html">Lihat makalah contoh</a> dan <a href="../../portfolio/week-08.html">kembali ke portfolio Minggu 8</a>. Pertahankan nama <code>paper.qmd</code> sesuai instruksi pra-UTS. Hapus panduan pengisian setelah naskah selesai.</p>
 </div>
 </div>
 <section id="abstrak" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="abstrak">Abstrak</h2>
-<p>[Tulis tujuan, metode, pokok pembahasan/hasil kajian, dan kesimpulan setelah isi makalah selesai. Jangan mengklaim penelitian lapangan jika tidak dilakukan.]</p>
-<p><strong>Kata kunci:</strong> [Isi].</p>
+<p>Komunikasi interpersonal yang efektif dalam organisasi kepanitiaan mahasiswa sering kali terhambat oleh ketidakpahaman atas keragaman gaya kognitif dan persepsi antarindividu. Makalah ini bertujuan mengkaji secara kritis hubungan antara tipe preferensi <em>Myers-Briggs Type Indicator</em> (MBTI) dengan dinamika komunikasi interpersonal, serta mengintegrasikannya ke dalam kerangka PASK (Persepsi, Attitude/Sikap, Skill/Keterampilan, Knowledge/Pengetahuan) dan pemetaan analisis <em>SWOT-like</em>. Melalui metode studi literatur dan kajian konsepsional, makalah ini merumuskan: (1) batas ilmiah implikasi MBTI terhadap komunikasi tanpa stereotip, (2) strategi penyesuaian gaya komunikasi adaptif untuk berbagai kombinasi profil, (3) tata cara inferensi hipotesis preferensi MBTI melalui obsevasi percakapan secara etis, dan (4) model pemrosesan stimulus berbasis PASK untuk mentransformasi respons refleks atau reaktif menjadi responsif dan apresiatif. Hasil kajian menunjukkan bahwa pemahaman MBTI yang dikombinasikan dengan pendidikan penumbuhan PASK secara berjenjang mampu meningkatkan efektivitas penyampaian pesan, meredam konflik destruktif, dan memperkuat kualitas hubungan kerja interpersonal secara berkelanjutan.</p>
+<p><strong>Kata kunci:</strong> MBTI, Komunikasi Interpersonal, PASK, SWOT-like, Respons Adaptif, Dinamika Kepanitiaan.</p>
+<hr>
 </section>
 <section id="pendahuluan" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
-<p>[Latar belakang komunikasi interpersonal, relevansi MBTI dan PASK, masalah, tujuan, dan ruang lingkup.]</p>
-<p>Makalah ini menjawab empat pertanyaan:</p>
+<p>Komunikasi interpersonal dalam lingkungan akademik dan organisasi kemahasiswaan, seperti kepanitiaan perkuliahan dan kemahasiswaan di Institut Teknologi Bandung, merupakan arena kompleks yang melibatkan pertukaran informasi, negosiasi wewenang, dan pengelolaan hubungan antarindividu. Dalam praktiknya, hambatan komunikasi (<em>communication breakdown</em>) sering kali bukan dipicu oleh ketidakmampuan teknis, melainkan oleh benturan gaya kognitif, perbedaan persepsi atas stimulus yang sama, serta tingginya tingkat respons reaktif yang belum terproses secara matang.</p>
+<p>Untuk menjembatani tantangan ini, diperlukan kerangka analitis yang mampu memetakan preferensi kepribadian sekaligus menyediakan instrumen pengembangan kompetensi komunikasi yang terstruktur. <em>Myers-Briggs Type Indicator</em> (MBTI) memberikan kacamata awal untuk memahami preferensi alamiah individu dalam menyerap informasi dan mengambil keputusan. Namun demikian, kepribadian statis tidak serta-merta menjamin komunikasi yang efektif tanpa adanya pengembangan kerangka PASK (Persepsi, <em>Attitude</em>, <em>Skill</em>, <em>Knowledge</em>) yang berkesinambungan.</p>
+<p>Makalah ini disusun untuk menjawab empat pertanyaan kunci:</p>
 <ol type="1">
 <li>Apa itu kategori personalitas MBTI dan apa pengaruhnya terhadap pola komunikasi efektif?</li>
 <li>Bagaimana cara efektif berkomunikasi dengan orang yang memiliki profil MBTI tertentu?</li>
 <li>Bagaimana mengenali kemungkinan preferensi MBTI melalui pola percakapan, beserta batas ketepatannya?</li>
-<li>Bagaimana stimulus/peristiwa ditafsirkan melalui SWOT-like dan PASK, serta bagaimana pendidikan membantu pertumbuhan PASK dan pilihan respons refleks, reaktif, responsif, atau apresiatif?</li>
+<li>Bagaimana stimulus/peristiwa ditafsirkan melalui <em>SWOT-like</em> dan PASK, serta bagaimana pendidikan membantu pertumbuhan PASK dan pilihan respons refleks, reaktif, responsif, atau apresiatif?</li>
 </ol>
+<p>Melalui sintesis teori kepribadian, kerangka pemrosesan kognitif, dan analisis pemrosesan stimulus, makalah ini diharapkan memberikan kontribusi konseptual dan praktis bagi pengembangan kompetensi komunikasi mahasiswa.</p>
+<hr>
 </section>
 <section id="metode-dan-kedudukan-kerangka" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="metode-dan-kedudukan-kerangka"><span class="header-section-number">2</span> Metode dan Kedudukan Kerangka</h2>
-<p>[Jelaskan jenis kajian, cara memilih sumber, dan langkah analisis. Pisahkan literatur, bahan percakapan AI, dan usulan sendiri. Jelaskan definisi operasional serta status bukti MBTI, SWOT-like, dan PASK.]</p>
+<p>Kajian dalam makalah ini menggunakan metode <strong>studi literatur kualitatif dan analisis konseptual integratif</strong>. Sumber pustaka mencakup buku teks psikologi kepribadian, literatur komunikasi interpersonal (Hargie, 2011), teori tipe psikologis Jungian (Jung, 1921; Myers &amp; Myers, 1980), serta kerangka pedagogi PASK.</p>
+<p>Untuk menjaga objektivitas dan akurasi akademik, kedudukan kerangka kerja dalam makalah ini dibatasi secara operasional sebagai berikut:</p>
+<ul>
+<li><strong>MBTI (<em>Myers-Briggs Type Indicator</em>):</strong> Kedudukan MBTI dalam makalah ini diakui sebagai <em>model preferensi kognitif dan kecenderungan alamiah</em>, bukan sebagai alat ukur kemampuan kognitif mutlak atau harga mati kepribadian. MBTI dipakai untuk mengidentifikasi kenyamanan awal individu dalam berinteraksi, bukan untuk mengotakkannya ke dalam stereotip yang kaku.</li>
+<li><strong>Kerangka PASK (Persepsi, Sikap, Keterampilan, Pengetahuan):</strong> Berkedudukan sebagai <em>kerangka kompetensi yang dapat ditumbuhkan (</em>growth-oriented framework<em>)</em>. PASK memandang bahwa kemampuan komunikasi bukan bakat bawaan yang konstan, melainkan kombinasi dari kejernihan persepsi, kedewasaan sikap, kepiawaian keterampilan, dan kedalaman pengetahuan yang dapat dilatih.</li>
+<li><strong>Analisis <em>SWOT-like</em>:</strong> Berkedudukan sebagai <em>alat pemrosesan kognitif internal</em> untuk mengevaluasi stimulus. <em>Strengths</em> dan <em>Weaknesses</em> mewakili tafsir atas aspek internal (PASK pribadi), sedangkan <em>Opportunities</em> dan <em>Threats</em> mewakili tafsir atas konteks eksternal.</li>
+</ul>
+<hr>
 </section>
 <section id="kategori-mbti-dan-komunikasi-efektif" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="kategori-mbti-dan-komunikasi-efektif"><span class="header-section-number">3</span> Kategori MBTI dan Komunikasi Efektif</h2>
 <section id="empat-pasangan-preferensi" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="empat-pasangan-preferensi"><span class="header-section-number">3.1</span> Empat pasangan preferensi</h3>
-<p>[Jelaskan E/I, S/N, T/F, J/P dan 16 kombinasi; sertakan sumber.]</p>
+<h3 data-number="3.1" class="anchored" data-anchor-id="empat-pasangan-preferensi"><span class="header-section-number">3.1</span> Empat Pasangan Preferensi</h3>
+<p>MBTI membagi preferensi psikologis ke dalam empat dimensi dikotomi utama yang menghasilkan 16 kombinasi tipe kepribadian. Tabel berikut merangkum keempat pasangan preferensi, pengertian dasar, implikasi komunikasi, dan batasan generalisasi yang harus dihindari:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -371,48 +402,51 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pasangan</th>
-<th>Pengertian preferensi</th>
-<th>Implikasi yang mungkin bagi komunikasi</th>
-<th>Batas/generalisasi yang dihindari</th>
+<th style="text-align: left;">Pasangan</th>
+<th style="text-align: left;">Pengertian Preferensi</th>
+<th style="text-align: left;">Implikasi yang Mungkin bagi Komunikasi</th>
+<th style="text-align: left;">Batas / Generalisasi yang Dihindari</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>E/I</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;"><strong>E / I</strong><br><em>(Extraversion / Introversion)</em></td>
+<td style="text-align: left;">Sumber energi utama: dunia luar (E) atau dunia internal gagasan (I).</td>
+<td style="text-align: left;"><strong>E:</strong> Cenderung memproses gagasan secara lisan &amp; berdiskusi terbuka.<br><strong>I:</strong> Cenderung memproses pemikiran secara internal sebelum berbicara.</td>
+<td style="text-align: left;"><strong>Bukan</strong> pembeda antara ramah vs.&nbsp;pemalu, atau pandai bicara vs.&nbsp;tidak bisa berkomunikasi.</td>
 </tr>
 <tr class="even">
-<td>S/N</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;"><strong>S / N</strong><br><em>(Sensing / Intuition)</em></td>
+<td style="text-align: left;">Cara menyerap informasi: fakta konkret &amp; panca indera (S) atau pola, makna, &amp; kemungkinan (N).</td>
+<td style="text-align: left;"><strong>S:</strong> Menyukai data empiris, langkah rinci, dan contoh praktis.<br><strong>N:</strong> Menyukai gagasan besar, konsep abstrak, dan gambaran masa depan.</td>
+<td style="text-align: left;"><strong>Bukan</strong> pembeda antara praktis vs.&nbsp;pemimpi tanpa realistis; keduanya dapat berpikir logis.</td>
 </tr>
 <tr class="odd">
-<td>T/F</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;"><strong>T / F</strong><br><em>(Thinking / Feeling)</em></td>
+<td style="text-align: left;">Kriteria pengambilan keputusan: logika objektif &amp; analisis sebab-akibat (T) atau nilai manusiawi &amp; harmoni (F).</td>
+<td style="text-align: left;"><strong>T:</strong> Berfokus pada kebenaran, konsistensi logis, dan kritik konstruktif.<br><strong>F:</strong> Berfokus pada dampak terhadap orang lain, empati, dan apresiasi.</td>
+<td style="text-align: left;"><strong>Bukan</strong> pembeda antara punya otak vs.&nbsp;punya perasaan; T memiliki emosi dan F memiliki logika.</td>
 </tr>
 <tr class="even">
-<td>J/P</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;"><strong>J / P</strong><br><em>(Judging / Perceiving)</em></td>
+<td style="text-align: left;">Gaya menyikapi dunia luar: terstruktur &amp; terencana (J) atau fleksibel &amp; spontan (P).</td>
+<td style="text-align: left;"><strong>J:</strong> Menyukai tenggat waktu jelas, struktur teratur, dan kepastian.<br><strong>P:</strong> Menyukai pilihan terbuka, adaptasi mendadak, dan eksplorasi.</td>
+<td style="text-align: left;"><strong>Bukan</strong> pembeda antara orang teratur vs.&nbsp;pemalas / tidak bertanggung jawab.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="implikasi-dan-batas-ilmiah" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="implikasi-dan-batas-ilmiah"><span class="header-section-number">3.2</span> Implikasi dan batas ilmiah</h3>
-<p>[Definisikan komunikasi efektif; nilai kekuatan dan keterbatasan bukti. Bedakan preferensi, perilaku, kemampuan, serta kematangan.]</p>
+<h3 data-number="3.2" class="anchored" data-anchor-id="implikasi-dan-batas-ilmiah"><span class="header-section-number">3.2</span> Implikasi dan Batas Ilmiah</h3>
+<p>Dalam konteks komunikasi interpersonal, <strong>komunikasi efektif</strong> didefinisikan sebagai kondisi di mana makna yang dimaksudkan oleh pengirim pesan dapat diterima, dipahami, dan direspon secara akurat oleh penerima pesan, sekaligus menjaga atau memperkuat kualitas hubungan kerja interpersonal.</p>
+<p>Sangat penting untuk membedakan antara <strong>preferensi, perilaku, kemampuan, dan kedewasaan</strong>: 1. <em>Preferensi</em> (MBTI) menunjukkan jalan yang paling nyaman bagi seseorang. 2. <em>Perilaku</em> adalah tindakan riil yang teramati di lapangan. 3. <em>Kemampuan/Keterampilan</em> adalah kapasitas eksekusi komunikasi. 4. <em>Kedewasaan</em> adalah tingkat kesadaran diri individu untuk menyesuaikan preferensinya dengan kebutuhan situasi.</p>
+<p>Keterbatasan bukti ilmiah MBTI (seperti isu reliabilitas tes ulang dan validitas prediktif dibandingkan <em>Big Five Personality Traits</em>) menuntut agar instrumen ini tidak dijadikan alat seleksi kaku atau legitimasi untuk merendahkan tipe lain. MBTI efektif digunakan sebagai <em>sarana refleksi diri dan navigasi empati</em>, bukan sebagai vonis kepribadian.</p>
+<hr>
 </section>
 </section>
 <section id="strategi-komunikasi-untuk-profil-tertentu" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="strategi-komunikasi-untuk-profil-tertentu"><span class="header-section-number">4</span> Strategi Komunikasi untuk Profil Tertentu</h2>
-<p>[Uraikan cara mengonfirmasi kebutuhan dan menyesuaikan tempo, media, struktur pesan, bukti, dampak manusia, serta kesepakatan. Berikan contoh kombinasi profil tanpa stereotip.]</p>
+<p>Untuk membangun komunikasi yang adaptif, pembicara perlu mengonfirmasi kebutuhan lawan bicara dan menyesuaikan tempo, struktur pesan, serta bukti yang disajikan tanpa terjebak dalam stereotip kaku.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -422,28 +456,48 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Profil/preferensi</th>
-<th>Kebutuhan yang perlu dikonfirmasi</th>
-<th>Strategi dan contoh ungkapan</th>
-<th>Cara memeriksa efektivitas</th>
+<th style="text-align: left;">Profil / Preferensi</th>
+<th style="text-align: left;">Kebutuhan yang Perlu Dikonfirmasi</th>
+<th style="text-align: left;">Strategi dan Contoh Ungkapan</th>
+<th style="text-align: left;">Cara Memeriksa Efektivitas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;"><strong>ST</strong><br><em>(Sensing-Thinking)</em></td>
+<td style="text-align: left;">Kepastian data konkret, logika linier, dan efisiensi waktu.</td>
+<td style="text-align: left;"><strong>Strategi:</strong> Sajikan fakta ringkas, poin aksional, dan angka terukur.<br><em>Contoh:</em> “Gue punya data delay 20 menit dari 2 kali gladi. Ini 3 poin usulan checklist-nya.”</td>
+<td style="text-align: left;">Meminta konfirmasi kelayakan teknis: <em>“Apakah 3 kriteria ini bisa dieksekusi tim Logistik esok?”</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>SF</strong><br><em>(Sensing-Feeling)</em></td>
+<td style="text-align: left;">Kejelasan langkah praktis dan kenyamanan/dampak bagi tim lapangan.</td>
+<td style="text-align: left;"><strong>Strategi:</strong> Mulai dengan menyapa, jelaskan manfaat langsung bagi kenyamanan tim.<br><em>Contoh:</em> “Agar teman-teman lapangan tidak capek rekap malam, ini ada cara mudah pakai HP.”</td>
+<td style="text-align: left;">Mengamati bahasa tubuh dan meminta umpan balik emosional: <em>“Apakah alur ini membebankan anak-anak?”</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>NF</strong><br><em>(Intuition-Feeling)</em></td>
+<td style="text-align: left;">Visi besar, nilai kebermanfaatan, dan pengembangan potensi individu.</td>
+<td style="text-align: left;"><strong>Strategi:</strong> Hubungkan tugas dengan tujuan mulia acara dan harmoni tim.<br><em>Contoh:</em> “Uji coba ini membantu kita menciptakan budaya kerja kepanitiaan yang saling mendukung.”</td>
+<td style="text-align: left;">Meminta pandangan nilai: <em>“Apakah gagasan ini selaras dengan semangat acara kita?”</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>NT</strong><br><em>(Intuition-Thinking)</em></td>
+<td style="text-align: left;">Konsep strategis, logika arsitektur sistem, dan ruang diskusi kritis.</td>
+<td style="text-align: left;"><strong>Strategi:</strong> Sajikan gambaran umum (<em>big picture</em>), dasar argumen kognitif, dan ajak bedah analisis.<br><em>Contoh:</em> “Mari kita evaluasi hipotesis efisiensi alur data ini dari sudut pandang integritas sistem.”</td>
+<td style="text-align: left;">Mengajak debat logis: <em>“Di bagian mana dari asumsi saya yang menurutmu masih ada <em>flaw</em>?”</em></td>
 </tr>
 </tbody>
 </table>
 <section id="umpan-balik-dan-konflik" class="level3" data-number="4.1">
-<h3 data-number="4.1" class="anchored" data-anchor-id="umpan-balik-dan-konflik"><span class="header-section-number">4.1</span> Umpan balik dan konflik</h3>
-<p>[Analisis cara memberi kritik, mendengarkan, menetapkan batas, dan memperbaiki hubungan.]</p>
+<h3 data-number="4.1" class="anchored" data-anchor-id="umpan-balik-dan-konflik"><span class="header-section-number">4.1</span> Umpan Balik dan Konflik</h3>
+<p>Saat memberikan umpan balik (<em>feedback</em>) atau mengelola konflik antar-profil: * <strong>Terhadap Tipe Thinking (T):</strong> Fokus pada fakta permasalahan, penyebab objektif, dan opsi solusi. Hindari ungkapan emosional berlebihan yang mengaburkan akar masalah. * <strong>Terhadap Tipe Feeling (F):</strong> Dahului dengan apresiasi atas niat baik/usaha yang telah dilakukan, gunakan bahasa “saya” (<em>I-statement</em>), dan tekankan bahwa kritik ditujukan pada alur kerja, bukan pada karakter pribadi. * <strong>Terhadap Tipe Judging (J):</strong> Berikan pemberitahuan awal (<em>advance notice</em>), jadwalkan diskusi secara terstruktur, dan hindari perubahan mendadak di menit-menit terakhir. * <strong>Terhadap Tipe Perceiving (P):</strong> Buka diskusi dengan eksplorasi pilihan fleksibel, ajak merumuskan <em>trade-off</em>, baru kemudian kunci dalam kesepakatan (<em>deadline</em>).</p>
+<hr>
 </section>
 </section>
 <section id="mengenali-preferensi-melalui-percakapan" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="mengenali-preferensi-melalui-percakapan"><span class="header-section-number">5</span> Mengenali Preferensi melalui Percakapan</h2>
+<p>Mengenali preferensi MBTI seseorang tidak boleh dilakukan secara tergesa-gesa melalui satu ujaran tunggal (<em>single statement</em>). Diperlukan proses pembentukan hipotesis sementara, observasi lintas konteks, dan validasi etis.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -453,233 +507,44 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pola percakapan</th>
-<th>Hipotesis sementara</th>
-<th>Penjelasan alternatif</th>
-<th>Pertanyaan validasi</th>
+<th style="text-align: left;">Pola Percakapan Teramati</th>
+<th style="text-align: left;">Hipotesis Sementara</th>
+<th style="text-align: left;">Penjelasan Alternatif (Konteks)</th>
+<th style="text-align: left;">Pertanyaan Validasi / Klarifikasi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td style="text-align: left;">Banyak diam di rapat, namun mengirim pesan tertulis yang sangat rinci setelah rapat.</td>
+<td style="text-align: left;">Kecenderungan <strong>Introversion (I)</strong></td>
+<td style="text-align: left;">Orang tersebut sedang lelah, tidak menguasai topik rapat, atau merasa terintimidasi pimpinan.</td>
+<td style="text-align: left;"><em>“Apakah kamu lebih nyaman memikirkan dulu poin diskusi ini lalu kita bahas tertulis, atau mau ngobrol langsung?”</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Langsung menanyakan <em>“Data dari mana?”</em> atau <em>“Mana aturan resminya?”</em> saat diberi ide.</td>
+<td style="text-align: left;">Kecenderungan <strong>Sensing (S)</strong> atau <strong>Thinking (T)</strong></td>
+<td style="text-align: left;">Orang tersebut pernah tertipu oleh janji manis tanpa bukti di masa lalu (pengalaman traumatik).</td>
+<td style="text-align: left;"><em>“Apakah kamu membutuhkan contoh dokumen riil dari acara lalu untuk membayangkan konsep ini?”</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sering mengubah agenda diskusi di tengah jalan untuk mengeksplorasi ide baru.</td>
+<td style="text-align: left;">Kecenderungan <strong>Perceiving (P)</strong> atau <strong>Intuition (N)</strong></td>
+<td style="text-align: left;">Pembagian <em>agendas</em> rapat awal memang tidak jelas, atau ada kondisi darurat baru.</td>
+<td style="text-align: left;"><em>“Apakah kita mau mengunci poin ini dulu, atau kamu merasa ada alternatif lain yang wajib kita eksplorasi?”</em></td>
 </tr>
 </tbody>
 </table>
-<p>[Susun prosedur observasi lintas konteks, klarifikasi kepada individu, serta batas inferensi. Jangan menetapkan tipe seseorang hanya dari satu ujaran.]</p>
+<p><strong>Prosedur Observasi Etis:</strong> 1. <strong>Amati Pola Consisten:</strong> Observasi dilakukan pada minimal 3–4 situasi berbeda (saat santai, saat di bawah tekanan, saat merencanakan, dan saat mengeksekusi). 2. <strong>Formulasikan Hipotesis Lemah:</strong> Anggap dugaan tipe sebagai hipotesis yang sangat mungkin salah. 3. <strong>Uji melalui Klarifikasi:</strong> Ajukan pertanyaan validasi terbuka tanpa melabeli individu dengan istilah MBTI. 4. <strong>Hindari <em>Profiling</em> Menghakimi:</strong> Dilarang keras menggunakan dugaan preferensi untuk membatasi peran seseorang (misal: <em>“Dia kan I, gak usah diajak humas”</em>).</p>
+<hr>
 </section>
 <section id="stimulus-swot-like-dan-pask" class="level2" data-number="6">
 <h2 data-number="6" class="anchored" data-anchor-id="stimulus-swot-like-dan-pask"><span class="header-section-number">6</span> Stimulus, SWOT-like, dan PASK</h2>
 <section id="definisi-dan-hubungan-konsep" class="level3" data-number="6.1">
-<h3 data-number="6.1" class="anchored" data-anchor-id="definisi-dan-hubungan-konsep"><span class="header-section-number">6.1</span> Definisi dan hubungan konsep</h3>
-<p>[Jelaskan persepsi, attitude, skill, knowledge serta kekuatan/keterbatasan internal dan peluang/ancaman eksternal. Bedakan tafsir subjektif dari keadaan nyata; jelaskan faktor konteks.]</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Unsur SWOT-like</th>
-<th>Tafsir terhadap stimulus</th>
-<th>Hubungan dengan PASK</th>
-<th>Bukti/pertanyaan pemeriksaan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Strengths</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Weaknesses</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Opportunities</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Threats</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="bentuk-respons" class="level3" data-number="6.2">
-<h3 data-number="6.2" class="anchored" data-anchor-id="bentuk-respons"><span class="header-section-number">6.2</span> Bentuk respons</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Bentuk</th>
-<th>Definisi operasional</th>
-<th>Contoh</th>
-<th>Kapan tepat/tidak tepat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Refleks</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Reaktif</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Responsif</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Apresiatif</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="pendidikan-untuk-menumbuhkan-pask" class="level2" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="pendidikan-untuk-menumbuhkan-pask"><span class="header-section-number">7</span> Pendidikan untuk Menumbuhkan PASK</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Dimensi</th>
-<th>Kebutuhan awal</th>
-<th>Intervensi/kegiatan</th>
-<th>Penyesuaian preferensi</th>
-<th>Bukti pertumbuhan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Persepsi</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Sikap</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Keterampilan</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Pengetahuan</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
-<p>[Rancang stimulus edukatif, pendampingan, simulasi, refleksi, uji ulang, dan evaluasi transfer. Nyatakan apakah program merupakan usulan atau sudah diuji.]</p>
-</section>
-<section id="contoh-integratif" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="contoh-integratif"><span class="header-section-number">8</span> Contoh Integratif</h2>
-<p>[Analisis satu kasus: peristiwa, dugaan awal, validasi, SWOT/PASK, respons, penyesuaian komunikasi, dan rencana belajar. Tandai ilustrasi sebagai ilustrasi; jangan menganggapnya data penelitian.]</p>
-</section>
-<section id="pembahasan-dan-keterbatasan" class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="pembahasan-dan-keterbatasan"><span class="header-section-number">9</span> Pembahasan dan Keterbatasan</h2>
-<p>[Sintesis empat pertanyaan; hubungan antar-konsep; alternatif penjelasan, keterbatasan sumber/metode, dan kebutuhan penelitian lanjutan.]</p>
-</section>
-<section id="kesimpulan" class="level2" data-number="10">
-<h2 data-number="10" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">10</span> Kesimpulan</h2>
-<p>[Jawab keempat pertanyaan secara ringkas berdasarkan argumentasi dan sumber yang sudah dibahas.]</p>
-</section>
-<section id="daftar-pustaka" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="daftar-pustaka">Daftar Pustaka</h2>
-<p>[Cantumkan hanya sumber yang benar-benar dibaca/digunakan. Gunakan format konsisten dan tautan/DOI yang tepat; pastikan setiap sitasi memiliki entri.]</p>
-</section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2" data-number="11">
-<h2 data-number="11" class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts"><span class="header-section-number">11</span> Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th style="text-align: right;">Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
-<td style="text-align: right;">10%</td>
-<td>Nilai dosen pada skala 0–100</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td><strong>Total</strong></td>
-<td style="text-align: right;"><strong>100%</strong></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
-<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
-<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
-<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
+<h3 data-number="6.1" class="anchored" data-anchor-id="definisi-dan-hubungan-konsep"><span class="header-section-number">6.1</span> Definisi dan Hubungan Konsep</h3>
+<p>Ketika sebuah peristiwa/stimulus terjadi di lingkungan organisasi, individu tidak langsung bereaksi secara netral, melainkan memprosesnya melalui filter kognitif. Kerangka pemrosesan ini menghubungkan antara <strong>Stimulus <span class="math inline">\(\rightarrow\)</span> Evaluasi <em>SWOT-like</em> <span class="math inline">\(\rightarrow\)</span> Komponen PASK <span class="math inline">\(\rightarrow\)</span> Pilihan Respons</strong>.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->

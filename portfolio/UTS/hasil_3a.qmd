@@ -1,164 +1,177 @@
 ---
-title: "Laporan UTS KIPP - Sesi 3a"
-subtitle: "Menawarkan solusi TI dan AI - target pertama"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3a — Kasus 3: Menawarkan Solusi TI dan AI"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
+    theme: cosmo
 execute:
   eval: false
 ---
-
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3a](../../examples/UTS/hasil_3a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
 
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI - target pertama |
-| Target | [Nama dan ID customer sesuai ZIP 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Nama mahasiswa | Winda Naila Nur Aisyah |
+| NIM | 18225069 |
+| Kelas dan tanggal | Kelas 1 / 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a; Kasus 3 (Menawarkan Solusi TI dan AI) |
+| Nama dan ID target | Ali (ID: K3-01) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN_2.md |
+| Modalitas | Teks (Simulasi Chatbot AI) |
+| Kasus nyata/fiktif | Fiktif (Konsultasi Adopsi Teknologi UMKM) |
+| Kelengkapan transkrip | Lengkap (Transkrip percakapan aktual U001–U006 / AI001–AI007) |
+
+---
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
-
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+* **Brief Kasus**: Ali, pengelola usaha dengan tenaga staf terbatas, menghadapi masalah tumpukan pesan pelanggan yang berulang (FAQ) serta pesanan yang tercecer. Ali ragu apakah usahanya membutuhkan TI/AI dan takut sistem baru membebani stafnya. Mahasiswa bertugas memvalidasi keraguan Ali, memetakan titik hambatan (*bottleneck*), serta menawarkan solusi otomatisasi pesan berisiko rendah (*zero-risk pilot project*).
+* **Konteks**: Konsultasi profesional antara konsultan TI/AI dan pemilik UMKM.
+* **Respons Akhir yang Diharapkan**: Ali menyetujui uji coba (*pilot project*) 7 hari otomatisasi FAQ WhatsApp Business, menyepakati alur pendampingan staf, serta merasa tenang karena sistem aman dan ringan untuk perangkat lama.
+* **Indikator Keberhasilan**:
+  * *Kuantitatif*: Kesepakatan jadwal penyetelan teknis (besok sore 20 menit) dan uji coba 7 hari untuk 4 pertanyaan FAQ utama.
+  * *Kualitatif*: Rasa cemas Ali dan staf senior (Bu Rina) teratasi melalui jaminan sistem *native* tanpa aplikasi tambahan, *cheat sheet* fisik, dan simulasi pendampingan langsung.
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| SWOT subjektif | **Strength**: Penyampaian teknis sederhana, peka bisnis praktis.<br>**Weakness**: Kecenderungan ingin langsung memberi solusi lengkap.<br>**Opportunity**: Masalah FAQ berulang sangat ideal diotomatisasi.<br>**Threat**: Kekhawatiran Ali akan biaya dan kapasitas staf. | U002 | Laporan Diri (Tinggi) |
+| Attitude | Empatik, konsultatif, tidak menggurui; meyakini keraguan klien sebagai hal rasional yang harus dijawab bukti manfaat nyata. | U002 | Laporan Diri (Tinggi) |
+| Knowledge | Memahami batas kapabilitas TI/AI untuk UMKM, arsitektur alur pesan, dan risiko teknis yang dihindari pemilik usaha. | U002 | Laporan Diri (Tinggi) |
+| Skill | Communication consultative selling, dekonstruksi alur proses, dan penyusunan skenario uji coba berisiko rendah. | U002 | Laporan Diri (Tinggi) |
+| Preferensi/MBTI jika dilaporkan | INTJ (Laporan diri mahasiswa untuk pendekatan terstruktur & rasional). | U002 | Laporan Diri |
+| Karakter, peran, kultur/ko-kultur | Konsultan TI/AI yang suportif; ko-kultur profesional ITB yang menjunjung solusi berbasis kebutuhan nyata pengguna. | U001, U002 | Nyata |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target (Ali) | Menyepakati uji coba 7 hari dan sesi pendampingan staf. | A: Penghargaan pada kehati-hatian<br>K: Penjelasan otomatisasi FAQ<br>S: Sesi demo & *cheat sheet* | Validasi Emosional, Dekonstruksi Solusi Sederhana, Skema Pendampingan | Ali menerima uji coba 7 hari dan menyepakati jadwal demo. |
+| Attention | Ragut dan cemas takut sistem baru membebani staf. | A: Empat dan validasi beban harian | Pertanyaan terbuka mengenai titik lelah operasional harian | Ali menceritakan masalah FAQ berulang dan pesanan tercecer. |
+| Interest | Khawatir staf tidak sanggup mengoperasikan aplikasi rumit. | K: Penjelasan fitur *native* WA Business | Menjelaskan konsep otomatisasi tanpa aplikasi tambahan | Ali merasa tenang dan menanyakan cara penyetelan teknis. |
+| Desire | Membutuhkan jaminan pendampingan langsung untuk stafnya. | S: Pendampingan 3 tahap (15m, 30m, 20m) | Rincian pembagian peran dan jadwal *go-live* | Ali menyetujui alur dan jadwal pelaksanaan. |
+| Action | Khawatir kendala staf senior (Bu Rina) & HP toko memori terbatas. | S: Penjelasan sifat *independen* & *zero-app* | Strategi khusus Bu Rina & optimasi RAM/storage | Ali menyatakan siap menyambut sesi pendampingan besok sore. |
+
+---
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+**Transkrip Aktual Percakapan Sesi 3a (Kasus 3)**
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+### [Tahap: Identifikasi]
+* **AI001**: Konfirmasi identifikasi penugasan Sesi 3a Kasus 3 (Winda Naila Nur Aisyah / 18225069 / Ali K3-01). Meminta data diri.
+* **U001**: 
+  > Nama Lengkap: Winda Naila Nur Aisyah  
+  > NIM: 18225069  
+  > Kelas KIPP: 1  
+  > Tanggal Pelaksanaan: 14 Oktober 2026  
+  > Modalitas: Teks
 
-### U001 - Mahasiswa - [Tahap]
+### [Tahap: Rencana & Kasus]
+* **AI002**: Meminta penjelasan tujuan, profil awal (ASK & SWOT), serta dugaan awal Ali dan rencana TAIDA.
+* **U002**: 
+  > **1. Tujuan & Indikator**: Mengidentifikasi titik hambatan operasional, meredakan keraguan, serta menyepakati *pilot project* 7 hari otomatisasi FAQ WA tanpa mengubah alur kerja utama. Indikator: kesepakatan jadwal demo dan kesiapan staf.  
+  > **2. Profil Awal Diri**: Attitude (empatik & konsultatif), Knowledge (paham batas TI/AI UMKM), Skill (consultative selling & pemetaan alur), SWOT (Strength: penyampaian sederhana; Weakness: solusi terlalu lengkap; Opportunity: FAQ mudah diotomatisasi; Threat: kecemasan biaya/staf).  
+  > **3. Dugaan Ali & TAIDA**: Ali khawatir biaya, kerumitan, dan staf tidak sanggup. Rencana TAIDA: Attention (validasi beban kerja), Interest (biaya tersembunyi pesan tercecer), Desire (asisten otomatis WA), Action (*zero-risk pilot project* 7 hari).
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+### [Tahap: Simulasi Awal — Percakapan dengan Ali]
+* **AI003**: Pemeranan Ali (K3-01) dibuka dengan: *"Terima kasih, tetapi saya belum yakin bisa melakukannya."*
+* **U003**: 
+  > *"Sangat wajar kalau Pak Ali merasa ragu, apalagi kalau membayangkan proses penerapannya bakal rumit atau menyita waktu staf yang sudah sibuk. Saya sangat mengapresiasi kehati-hatian Pak Ali demi kenyamanan tim dan kelancaran usaha.*  
+  > *Tujuan kita di sini sama sekali bukan untuk mengubah total alur kerja yang sudah berjalan atau memaksa penggunaan sistem yang rumit, Pak. Justru saya ingin mendengarkan dulu kendala harian yang paling terasa di lapangan.*  
+  > *Boleh cerita sedikit, Pak, di antara penanganan pertanyaan pelanggan yang berulang dan pencatatan pesanan masuk, bagian mana yang paling sering membuat Pak Ali atau staf merasa kewalahan?"*
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+* **AI004**: Ali menceritakan bahwa FAQ berulang menyita waktu staf sehingga pesanan tercecer, serta takut staf yang berketerampilan biasa pusing/takut salah jika ada sistem baru.
+* **U004**: 
+  > *"Tentu ada, Pak Ali. Langkah paling sederhana justru adalah langkah yang tidak mengubah aplikasi yang digunakan staf saat ini, sehingga staf tidak perlu mempelajari sistem rumit baru dari nol.*  
+  > *Solusi terdekat dan paling praktis adalah menggunakan Asisten Otomatisasi Pesan di WhatsApp Business yang dipadukan dengan Templat Rekap Pesanan:*  
+  > *- Otomatisasi FAQ Berulang (dijawab instan 24 jam).*  
+  > *- Kemudahan untuk Staf (beban ketik berkurang 70%, staf fokus saat fix pesan).*  
+  > *- Format Pesanan Rapi (templat isian otomatis).*  
+  > *Penawaran Uji Coba Aman (Zero-Risk Pilot): Uji coba terbatas 7 hari untuk 4 pertanyaan FAQ utama tanpa biaya. Bagaimana pendapat Pak Ali?"*
 
-[Tempel pesan AI persis seperti sumber.]
+* **AI005**: Ali merasa tenang dan menyetujui uji coba 7 hari, lalu menanyakan proses penyetelan serta minta pendampingan/demo untuk stafnya.
+* **U005**: 
+  > *"Tentu saja, Pak Ali. Saya akan mendampingi seluruh prosesnya dari awal agar Pak Ali dan tim merasa 100% siap dan nyaman sebelum sistem aktif.*  
+  > *1. Skema Penyetelan & Pendampingan: Pengumpulan teks (15 mnt), Penyetelan teknis oleh saya (30 mnt), Demo & Pelatihan staf (20 mnt + cheat sheet).*  
+  > *2. Pembagian Peran: Saya urus teknis & pendampingan; Pak Ali & staf sediakan teks & jalankan WA seperti biasa.*  
+  > *3. Jadwal: Hari ini pengumpulan teks, Besok sore demo 20 mnt, Lusa pagi go-live 7 hari.*  
+  > *Apakah alur ini sudah sesuai?"*
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+### [Tahap: Uji Ulang / Re-Test Event]
+* **AI006**: Ali mengonfirmasi persetujuan, namun menyampaikan kendala baru: Bu Rina (staf senior) takut salah pancing/hapus pesan, dan HP toko adalah ponsel pintar tipe lama dengan memori terbatas.
+* **U006**: 
+  > *"Kehati-hatian Bu Rina justru nilai plus yang besar... Kita akan pastikan alur ini berjalan sepenuhnya aman:*  
+  > *1. Strategi Pendampingan Bu Rina: Pendekatan personal bertahap, Jaminan keamanan sistem (otomatisasi independen tanpa akses hapus pesan), Panduan cetak fisik (cheat sheet) 1 lembar.*  
+  > *2. Optimasi Ponsel Memori Terbatas: Nol aplikasi tambahan (native WA Business), Beban perangkat sangat ringan (RAM & storage hemat).*  
+  > *Pak Ali dan Bu Rina tenang saja, besok sore kita pastikan Bu Rina paham dan nyaman sebelum aktif."*
+
+* **AI007**: Ali menyatakan rasa lega, memuji strategi *cheat sheet* dan penjelasan *native system* yang ramah ponsel lama, serta siap menyambut pendampingan besok sore.
+
+---
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
+* **Status Pencapaian Tujuan**: Tercapai Penuh. Kesepakatan uji coba terbatas 7 hari untuk FAQ WA tercapai, skema pendampingan staf disepakati, serta kekhawatiran khusus staf senior dan HP lama teratasi.
+* **Bukti Respons**: Ali menyatakan penjelasan menenangkan (AI005), menyepakati jadwal demo (AI006), dan menyatakan siap menjalankan uji coba besok sore (AI007).
 
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Kesimpulan SWOT | Khawatir keraguan Ali dan kendala staf membatalkan adopsi teknologi. | Berhasil menyusun solusi otomatisasi *native* yang sangat ramah staf & perangkat lama. | U002 $\rightarrow$ U006 | Laporan Diri & Simulasi Chatbot |
+| Attitude | Khawatir dipandang memaksa teknologi rumit. | Yakin bahwa validasi empati dan solusi berisiko nol (*zero-risk*) mampu membangun kepercayaan penuh. | U002 $\rightarrow$ U003, U006 | Respons Komunikasi Empatis |
+| Knowledge | Paham TI/AI secara umum, belum memetakan kekhawatiran spesifik HP lama & Bu Rina. | Menyusun solusi spesifik (*native feature*, *cheat sheet* fisik, *zero app*). | U002 $\rightarrow$ U004, U006 | Dialog Solusi Praktis |
+| Skill | Menjelaskan fitur teknis. | Demonstrasi *consultative selling* dengan menerjemahkan fitur ke rasa aman operasional. | U002 $\rightarrow$ U004, U006 | Eksekusi Solusi Konkret |
 
-## Evaluasi stimulus-respons dan diagnosis profil
+## Evaluasi stimulus–respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
-
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| Pembuka (U003) | Ali skeptis & ragu (INFP). | Validasi keraguan & pertanyaan terbuka tentang titik lelah operasional. | Ali terbuka menceritakan masalah FAQ & rasa takut staf. | A: Defensif berkurang.<br>K: Merasa dipahami. | Menghindari istilah teknis rumit, fokus pada rasa aman staf. |
+| Solusi FAQ (U004) | Ali takut staf pusing. | Konsep *zero-risk pilot* 7 hari & penjelasan efisiensi ketik 70%. | Ali merasa tenang & meminta skema pendampingan teknis. | K: Paham manfaat FAQ.<br>S: Berminat mencoba. | Menawarkan uji coba terbatas tanpa risiko biaya. |
+| Pendampingan (U005) | Ali butuh jaminan teknis. | Skema 3 tahap (15m, 30m, 20m) & pembagian peran transparan. | Ali sepakat dengan alur dan jadwal demo besok sore. | S: Kesiapan aksi meningkat. | Menanggung seluruh beban teknis agar Ali tidak terbeban. |
+| Uji Ulang (U006) | Cemas staf senior & HP lama. | Penjelasan fitur *native*, jaminan pesan tak terhapus, & *cheat sheet*. | Ali merasa sangat lega & mengonfirmasi kesiapan tim. | A: Kepercayaan maksimal.<br>S: Beban mental staf hilang. | Memberikan solusi fisik (*cheat sheet*) & kepastian RAM/storage. |
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
-
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+| Validasi Keraguan (U003) | *"Sangat wajar kalau Pak Ali merasa ragu... Saya sangat mengapresiasi kehati-hatian Pak Ali..."* | *"Terima kasih sudah memahami kekhawatiran saya... Yang paling membuat kami kewalahan..."* | Rasa Aman: Tinggi<br>Kepercayaan: Tinggi<br>Keterbukaan: Tinggi | Menurunkan barikade defensif; Ali bersedia menceritakan masalah internal toko. |
+| Respek Staf Senior (U006) | *"Kehati-hatian Bu Rina justru nilai plus yang besar... Pak Ali dan Bu Rina tenang saja..."* | *"Penjelasan Anda benar-benar menjawab kekhawatiran spesifik kami... Terima kasih banyak..."* | Rasa Aman: Sangat Tinggi<br>Kepercayaan: Sangat Tinggi<br>Keterbukaan: Sangat Tinggi | Membangun rasa saling percaya (*rapport*); menghapus hambatan psikologis adopsi teknologi. |
 
 ## Uji ulang dan pembelajaran
 
-| Unsur | Bukti/uraian |
-|---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+* **Stimulus Uji Ulang**: Kecemasan staf senior (Bu Rina) takut salah hapus pesan dan keterbatasan HP toko tipe lama.
+* **Indikator Perbaikan**: Mahasiswa beradaptasi secara presisi dengan menjelaskan keunggulan fitur *native* WA (hemat memori/RAM), memberikan kepastian keamanan sistem, serta merancang *cheat sheet* cetak untuk Bu Rina.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Dimensi | Skor (1–4) | ID dan kutipan bukti | Alasan |
+|---|:---:|---|---|
+| **Tujuan dan konteks** | 4 | U002, U004: *"Penawaran Uji Coba Aman (Zero-Risk Pilot): uji coba terbatas selama 7 hari..."* | Tujuan meredakan keraguan dan menyepakati uji coba TI/AI tercapai penuh. |
+| **Persepsi dan validasi profil/status** | 4 | U003, U006: *"Sangat wajar kalau Pak Ali merasa ragu... Kehati-hatian Bu Rina justru nilai plus..."* | Membaca profil INFP Ali yang berhati-hati dan sangat peduli pada kenyamanan emosional staf. |
+| **Pemilihan dan urutan repertoar** | 4 | U003 $\rightarrow$ U004 $\rightarrow$ U005 $\rightarrow$ U006: Empati $\rightarrow$ Solusi *Native* $\rightarrow$ Pendampingan $\rightarrow$ Optimasi HP. | Alur konsultasi sangat halus, logis, dan bertahap tanpa paksaan. |
+| **Eksekusi jelas, peduli dan konsisten** | 4 | U005, U006: *"Nol Aplikasi Tambahan... Panduan Cetak Ringkas (Cheat Sheet)..."* | Memberikan kepastian solusi yang nyata, murah, dan sangat ramah pengguna harian. |
+| **Evaluasi dan adaptasi** | 4 | U006: Menyediakan solusi *cheat sheet* fisik & jaminan RAM HP lama saat kendala Bu Rina muncul. | Sangat cepat beradaptasi menjawab kekhawatiran teknis spesifik klien. |
+| **Refleksi dan lesson learned** | 4 | U002, U006: Evaluasi mendalam mengenai pentingnya *consultative selling* pada UMKM. | Refleksi tajam tentang pentingnya memprioritaskan rasa aman pengguna dibanding kehebatan fitur. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+$$\text{Nilai Usulan AI} = \left( \frac{24}{24} \right) \times 100 = 100 \quad \text{(Memerlukan Moderasi Dosen)}$$
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+1. **Pertanyaan Evaluasi Netral**: *"Pesan apa yang membantu atau menghambat rasa dipercaya dan dipedulikan, dan apa bukti responsnya?"*
+   * *Jawaban*: Pesan yang paling membantu adalah **validasi atas rasa cemasnya** (*"Sangat wajar kalau Pak Ali merasa ragu..."*) serta **penghargaan atas sikap kritis stafnya** (*"Kehati-hatian Bu Rina justru nilai plus..."*). Bukti responsnya terlihat saat Ali langsung menyatakan rasa lega (*"Penjelasan Anda sangat menenangkan..."* di AI005 dan *"Penjelasan Anda benar-benar menjawab kekhawatiran spesifik kami..."* di AI007). Sebaliknya, penggunaan jargon teknis atau pendorongan aplikasi rumit akan menghambat rasa dipercaya Ali.
+2. **Dugaan yang Dikoreksi**: Awalnya menduga pemilik UMKM menolak teknologi karena alasan biaya semata. Ternyata, Ali menolak karena cemas stafnya tidak mampu mengoperasikannya atau takut perangkat tokonya yang lama menjadi rusak/lambat.
+3. **Pelajaran untuk Sesi Berikutnya**: Saat menawarkan solusi teknologi kepada pemilik usaha kecil, mulailah dari fitur *native* yang sudah mereka kenal, sediakan pendampingan nyata, dan utamakan kemudahan staf operasional di lapangan.
 
 ## Tindak lanjut dan batas bukti
 
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
-
-{{< include "../../includes/uts-penilaian.md" >}}
+* **Rencana Tindak Lanjut**: Mengumpulkan teks 4 FAQ dari Ali sore ini, mengonfigurasi WA Business, dan melaksanakan sesi demo 20 menit bersama Bu Rina besok sore pukul 16.00 WIB.
+* **Batas Bukti**: Simulasi menguji efektivitas komunikasi konsultatif dan adaptasi emosional. Keberhasilan implementasi teknis nyata tergantung pada hasil uji coba 7 hari di lapangan.
