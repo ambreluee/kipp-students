@@ -4,8 +4,8 @@ week: 10
 status: "Siap dinilai"
 self_score: "20"
 assessor_score: "—"
-categories: [TAIDA, ACTION]
-description: "Pemetakan hambatan (barriers) dan otoritas, negosiasi opsi solusi, pembentukan kesepakatan eksplisit (scope, owner, deadline, stop rule), serta eksekusi bukti tindakan."
+description: "Barrier, authority, negotiation, agreement, dan action evidence."
+categories: [TAIDA, Action]
 ---
 
 ## Kompetensi target
@@ -14,9 +14,9 @@ Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eks
 
 ## Evidence wajib
 
-* Barrier dan authority map.
-* Options dan trade-off yang dibahas.
-* Agreement dengan owner/deadline serta bukti action atau review.
+- Barrier dan authority map.
+- Options dan trade-off yang dibahas.
+- Agreement dengan owner/deadline serta bukti action atau review.
 
 ::: {.callout-note appearance="simple"}
 💡 **Lihat contoh pengisian**  
@@ -45,8 +45,6 @@ Meskipun Rian sangat menginginkan uji coba digital, eksekusi belum terjadi karen
 | **Alokasi petugas & jam simpul lapangan** | **Rian (Koord Logistik)** | Menetapkan 2 staf logistik untuk memindai QR Code di boks server. |
 | **Pembuatan QR Code & setting offline mode** | **Winda (PJ Teknis IT)** | Menyiapkan stiker QR, form offline, dan dashboard spreadsheet. |
 
-*Winda menyadari bahwa meminta izin *pilot* menyeluruh hanya kepada Rian tidaklah cukup; persetujuan teknis Aris dan lisensi SOP Fajar adalah kunci pengesahan action.*
-
 ---
 
 ### 2. Negosiasi Opsi & Trade-off
@@ -64,21 +62,17 @@ Winda memaparkan 3 pilihan skenario eksekusi untuk didiskusikan bersama:
 Seluruh pihak sepakat mengeksekusi **Opsi B** dengan kriteria kesepakatan formal sebagai berikut:
 
 * **Scope:** 1 Boks Server Utama pada Gladi Resik Akhir (Jumat, 23 Oktober 2026).
-* **Owners & Responsibilities:**
-  * **Winda:** Menyiapkan stiker QR Code, form offline, dan membuat dashboard ringkasan.
-  * **Aris:** Melakukan *technical & security review* pada kuesioner form.
-  * **Rian:** Memberikan instruksi (*briefing*) cara pemindaian kepada 2 staf logistik.
-  * **Fajar:** Menandatangani lisensi uji coba sementara.
-* **Deadline:** Review keamanan teknis selesai Kamis 22 Okt pukul 18.00 WIB; Keputusan *Go/No-Go* Jumat 23 Okt pukul 08.00 WIB.
-* **Stop Rule (Aturan Penghentian Darurat):** *Pilot* dihentikan seketika dan dialihkan ke kertas manual jika form gagal menyimpan data $>2$ kali berturut-turut atau terindikasi mengumpulkan identitas personal (NIM/Email) staf.
+* **Owners & Responsibilities:** Winda (stiker QR & dashboard), Aris (security review), Rian (briefing staf logistik), Fajar (lisensi uji coba).
+* **Deadline:** Review keamanan teknis Kamis 22 Okt pukul 18.00 WIB; Keputusan *Go/No-Go* Jumat 23 Okt pukul 08.00 WIB.
+* **Stop Rule:** *Pilot* dihentikan seketika dan dialihkan ke kertas manual jika form gagal menyimpan data $>2$ kali berturut-turut atau terindikasi mengumpulkan identitas personal.
 * **Review Schedule:** Sabtu, 24 Oktober 2026 pukul 10.00 WIB.
 
 ---
 
 ### 4. Action Evidence & Adaptation
 
-* **Temuan saat Technical Review:** Aris (Lead IT) menemukan bahwa pengatur awal Google Form masih mencentang opsi *"Collect email addresses automatically"*.
-* **Tindakan / Adaptasi Winda:** Winda langsung mengubah pengatur form menjadi *Anonymous Submission* (tanpa pengumpulan email/NIM) di depan Aris dan mengunduh berkas konfigurasi *offline*. 
+* **Temuan saat Technical Review:** Aris (Lead IT) menemukan opsi *"Collect email addresses automatically"* masih aktif.
+* **Tindakan / Adaptasi Winda:** Winda langsung mengubah pengatur form menjadi *Anonymous Submission* di depan Aris dan mengunduh berkas konfigurasi *offline*.
 * **Evidence Tangible:** *Screenshot* pengaturan privasi form dan tanda tangan digital persetujuan *Go/No-Go* dari Fajar dan Aris.
 :::
 
@@ -86,7 +80,7 @@ Seluruh pihak sepakat mengeksekusi **Opsi B** dengan kriteria kesepakatan formal
 
 | Elemen | Evidence dan analisis |
 | :--- | :--- |
-| **Person & character** | Winda menghormati hirarki wewenang organisasi dengan melibatkan Ketua Pelaksana dan Lead IT, tidak memintas jalur koordinasi. |
+| **Person & character** | Winda menghormati hirarki wewenang organisasi dengan melibatkan Ketua Pelaksana dan Lead IT. |
 | **Objective & state** | *Desire–action gap* berhasil ditutupi dengan mengonversi keinginan abstrak menjadi struktur aksi konkret (*scope, owner, deadline*). |
 | **Repertoire & language** | Menyajikan pilihan opsi beserta *trade-off* secara rasional tanpa memaksakan kehendak sepihak. |
 | **Response & adaptation** | Beradaptasi cepat menghapus pengumpulan email saat mendapat catatan *security review* dari Lead IT. |
@@ -113,7 +107,7 @@ AI dimanfaatkan untuk menyusun *checklist* potensi risiko teknis dan merancangka
 | **Response & Adaptation** | 4 | Mengubah pengaturan privasi form secara *real-time* sesuai hasil *review* IT Lead. |
 | **Agreement, Action & Relationship** | 4 | *Scope, owner, deadline, stop rule*, dan jadwal *review* disepakati lengkap dan eksplisit. |
 
-**Total: 20 / 20 - Lanjut.**
+**Total: 20 / 20 — Selesai.**
 
 ::: {.callout-note appearance="simple" icon=false}
 ### Assessment dosen
