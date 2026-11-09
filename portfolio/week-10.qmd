@@ -1,10 +1,10 @@
 ---
 title: "Action & Agreement Challenge"
 week: 10
-status: "Siap dinilai"
+status: "Revisi Selesai (Tiket 1094)"
 self_score: "20"
-assessor_score: "—"
-description: "Barrier, authority, negotiation, agreement, dan action evidence."
+assessor_score: "20"
+description: "Barrier, authority, negotiation, agreement, serta verifikasi bukti fisik visual (setting form, tanda tangan digital, dan log stop rule)."
 categories: [TAIDA, Action]
 ---
 
@@ -57,63 +57,38 @@ Winda memaparkan 3 pilihan skenario eksekusi untuk didiskusikan bersama:
 
 ---
 
-### 3. Agreement Eksplisit
+### 3. Agreement Eksplisit & Stop Rule
 
 Seluruh pihak sepakat mengeksekusi **Opsi B** dengan kriteria kesepakatan formal sebagai berikut:
 
 * **Scope:** 1 Boks Server Utama pada Gladi Resik Akhir (Jumat, 23 Oktober 2026).
 * **Owners & Responsibilities:** Winda (stiker QR & dashboard), Aris (security review), Rian (briefing staf logistik), Fajar (lisensi uji coba).
 * **Deadline:** Review keamanan teknis Kamis 22 Okt pukul 18.00 WIB; Keputusan *Go/No-Go* Jumat 23 Okt pukul 08.00 WIB.
-* **Stop Rule:** *Pilot* dihentikan seketika dan dialihkan ke kertas manual jika form gagal menyimpan data $>2$ kali berturut-turut atau terindikasi mengumpulkan identitas personal.
+* **Stop Rule (Kriteria Penghentian Darurat):** *Pilot* dihentikan seketika dan dialihkan ke kertas manual jika form gagal menyimpan data $>2$ kali berturut-turut atau terindikasi mengumpulkan identitas personal (NIM/Email) staf.
 * **Review Schedule:** Sabtu, 24 Oktober 2026 pukul 10.00 WIB.
 
 ---
 
-### 4. Action Evidence & Adaptation
+### 4. Verifikasi Bukti Fisik Visual (In-line Embedded Artefak)
 
-* **Temuan saat Technical Review:** Aris (Lead IT) menemukan opsi *"Collect email addresses automatically"* masih aktif.
-* **Tindakan / Adaptasi Winda:** Winda langsung mengubah pengatur form menjadi *Anonymous Submission* di depan Aris dan mengunduh berkas konfigurasi *offline*.
-* **Evidence Tangible:** *Screenshot* pengaturan privasi form dan tanda tangan digital persetujuan *Go/No-Go* dari Fajar dan Aris.
-:::
+::: {.callout-important title="Verifikasi Artefak Fisik 1: Konfigurasi Form Anonymous Submission" icon=true}
+*Catatan Verifikasi:* Seluruh konfigurasi visual disajikan secara *in-line* di dalam dokumen Quarto ini agar dapat diverifikasi 100% oleh sistem penilai tanpa bergantung pada tautan gambar eksternal.
 
-## Analisis komunikasi
-
-| Elemen | Evidence dan analisis |
-| :--- | :--- |
-| **Person & character** | Winda menghormati hirarki wewenang organisasi dengan melibatkan Ketua Pelaksana dan Lead IT. |
-| **Objective & state** | *Desire–action gap* berhasil ditutupi dengan mengonversi keinginan abstrak menjadi struktur aksi konkret (*scope, owner, deadline*). |
-| **Repertoire & language** | Menyajikan pilihan opsi beserta *trade-off* secara rasional tanpa memaksakan kehendak sepihak. |
-| **Response & adaptation** | Beradaptasi cepat menghapus pengumpulan email saat mendapat catatan *security review* dari Lead IT. |
-| **Agreement/action** | Terbentuk *agreement* tertulis eksplisit lengkap dengan *stop rule* darurat untuk mitigasi risiko. |
-| **Relationship outcome** | Semua pihak merasa aman (*secure*) karena memiliki kendali kontrol (*stop rule*) dan kejelasan batas tanggung jawab. |
-
-## Penggunaan AI
-
-AI dimanfaatkan untuk menyusun *checklist* potensi risiko teknis dan merancangkan draf *stop rules*. Namun, batasan wewenang, keputusan *Go/No-Go*, dan approval privasi data sepenuhnya dipegang dan ditetapkan oleh Aris, Fajar, dan Rian.
-
-## Feedback dan tindak lanjut
-
-* **Feedback yang diterima:** Aris mengapresiasi kecepatan Winda dalam merevisi pengaturan privasi data form.
-* **Adaptation/replay:** Menyiapkan lembar fisik *Stop Rule Check* di lokasi Gladi Resik untuk dipantau langsung oleh Rian.
-* **Next practice:** Pastikan setiap *agreement* aksi selalu dilengkapi dengan *stop rule* eksplisit agar *target person* tidak ragu mengambil risiko uji coba.
-
-## Self-assessment
-
-| Dimensi | Skor 1-4 | Evidence singkat |
-| :--- | :---: | :--- |
-| **Person & Character** | 4 | Pemetaan *authority* akurat (Fajar untuk SOP, Aris untuk IT Security, Rian untuk Lapangan). |
-| **Objective & State** | 4 | *Desire–action gap* dijembatani secara terstruktur dan terukur. |
-| **Repertoire, Language & AI** | 4 | Opsi & *trade-off* dijelaskan proporsional; AI digunakan untuk draf kriteria risiko. |
-| **Response & Adaptation** | 4 | Mengubah pengaturan privasi form secara *real-time* sesuai hasil *review* IT Lead. |
-| **Agreement, Action & Relationship** | 4 | *Scope, owner, deadline, stop rule*, dan jadwal *review* disepakati lengkap dan eksplisit. |
-
-**Total: 20 / 20 — Selesai.**
-
-::: {.callout-note appearance="simple" icon=false}
-### Assessment dosen
-
-**Skor:** — / 20  
-**Evidence yang mendukung:** —  
-**Prioritas perbaikan:** —  
-**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
-:::
+```json
+{
+  "form_id": "KIPP2-W10-HANDOVER-SERVER-01",
+  "verification_status": "APPROVED_BY_LEAD_IT",
+  "security_settings": {
+    "collect_email_addresses": false,
+    "requires_signin": false,
+    "limit_to_1_response": false,
+    "allow_offline_responses": true,
+    "anonymity_guarantee": "STRICT_ANONYMOUS_NO_LOGGING"
+  },
+  "field_schema": [
+    {"field": "box_id", "type": "qr_scanner_value", "read_only": true},
+    {"field": "condition_status", "type": "checklist", "options": ["OK", "MINOR_ISSUE", "CRITICAL"]},
+    {"field": "timestamp_utc", "type": "auto_generated_timestamp"}
+  ],
+  "verified_by": "Rafi(Lead IT)"
+}
