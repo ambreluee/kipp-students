@@ -1,10 +1,10 @@
 ---
 title: "Capstone Performance Portfolio"
 week: 15
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Integrated person-centered communication performance."
+description: "Integrasi menyeluruh person-centered communication: person/character/state map, performance plan, verbatim transcript, observer feedback, decisive adaptation, agreement & specific disagreement, relationship outcome, AI critique, dan refleksi capstone."
 categories: [Assessment, Capstone]
 ---
 
@@ -18,8 +18,84 @@ Mengintegrasikan person, character, objective, state, repertoire, language, resp
 - Rekaman/transcript, observer feedback, serta decisive adaptation.
 - Agreement/action atau specific disagreement, relationship outcome, AI critique, dan reflection.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 15](../examples/week-15.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 15](../examples/week-15.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Selasa, 1 Desember 2026. Forum Serah Terima Tata Kelola & Simulasi Krisis Operasional *Portal Layanan & Registrasi Kegiatan STI* di Ruang Sidang Labtek V ITB selama 50 menit, dihadiri oleh pemangku kepentingan lintas peran dan seorang *observer* independen.
+
+**Persons dan relationship:** Winda (Lead Developer & Fasilitator Transisi), Bu Ratna (Koordinator Layanan Akademik — perwakilan pengguna & pemilik proses bisnis), Pak Hendra (Staf Teknis Operasional Gedung — pelaksana harian lapangan), Damar (Ketua Divisi Pengembangan Himpunan — inisiator fitur lanjutan), dan Nadia (Peer Observer Independen). Relasi mencakup akuntabilitas vertikal kepada staf akademik/operasional kampus serta kolaborasi horizontal dengan sesama pengurus mahasiswa.
+
+**Objective dan initial state:** Mengesahkan berita acara serah terima sistem portal versi 1.0 dari tim pengembang mahasiswa kepada pengelola operasional kampus agar sistem tetap berkelanjutan setelah masa tugas tim berakhir, tanpa membebani staf teknis maupun membuka celah risiko privasi data. Initial state: Bu Ratna ragu menandatangani serah terima karena khawatir staf akan kebingungan menangani eror teknis setelah mahasiswa selesai kuliah; Pak Hendra pasif karena merasa aplikasi terlalu rumit; Damar mendesak agar modul *AI Chatbot* langsung digabungkan sebelum serah terima; Winda berisiko terjebak dalam penjelasan teknis yang terlalu defensif.
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+### 1. Person / Character / State Map & Performance Plan
+
+#### A. Integrated Person, Character & State Map
+
+| Person | Character & Otoritas | Objective Utama | Initial State & Sinyal Perilaku | Strategi Pendekatan Winda |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bu Ratna** *(Koord. Layanan Akademik)* | Teliti, berorientasi pada kepastian SOP, pemegang otoritas pengesahan serah terima (*sign-off*). | Memastikan layanan administrasi berjalan stabil tanpa ketergantungan pada individu mahasiswa tertentu. | *Cautious / skeptical*: mengerutkan kening saat melihat diagram arsitektur *backend* dan bertanya siapa yang bertanggung jawab saat libur semester. | Menggeser fokus dari kode program ke buku panduan operasional non-teknis (*1-Page Runbook*) dan masa garansi pendampingan (*hypercare*). |
+| **Pak Hendra** *(Staf Teknis Operasional)* | Pragmatis, pekerja lapangan yang mengutamakan kejelasan langkah praktis, cenderung pendiam di forum formal. | Menjalankan tugas harian (cek status server & cetak rekap) dalam waktu $< 10$ menit tanpa istilah pemrograman. | *Disengaged / intimidated*: duduk bersandar dan tidak mencatat saat istilah *API endpoint* dan *container* disebut. | Menggunakan bahasa sehari-hari, mendemonstrasikan tombol aksi tunggal (*1-click health check*), dan meminta validasi langsung darinya. |
+| **Damar** *(Pengembangan Himpunan)* | Visioner, antusias terhadap teknologi baru, namun kurang memperhitungkan risiko keamanan data dan beban pemeliharaan. | Menambahkan fitur *AI Chatbot* tanya-jawab akademik ke dalam portal utama sebelum acara *launching* minggu depan. | *Impatient / pushy*: menyela pembahasan SOP untuk mempromosikan integrasi LLM agar portal terlihat "canggih". | Memvalidasi semangat inovasinya sambil memisahkan (*decoupling*) fitur eksperimental dari sistem inti produksi demi keamanan. |
+| **Winda** *(Lead & Fasilitator)* | Akuntabel, adaptif, menjaga keseimbangan antara kualitas rekayasa dan empati relasional. | Menuntaskan kesepakatan serah terima yang realistis, aman secara etika/privasi, dan menjaga hubungan baik semua pihak. | *Focused / alert*: siap dengan rencana sesi namun waspada terhadap potensi kebuntuan antara tuntutan inovasi Damar dan kehati-hatian Bu Ratna. | Menerapkan *active listening*, membaca sinyal non-verbal, serta menyesuaikan alur presentasi secara *real-time*. |
+
+#### B. Performance Plan (Rancangan Alur 50 Menit)
+
+| Fase & Durasi | Tujuan Komunikasi | Repertoire & Artefak Pendukung | Indikator Keberhasilan Fase |
+| :--- | :--- | :--- | :--- |
+| **1. Framing & Common Ground** *(Menit 00–10)* | Menyamakan tujuan: keberlanjutan layanan lebih utama daripada kecanggihan fitur. | Ringkasan data uji stabilitas 30 hari terakhir (uptime $99.4\%$, $0$ kebocoran data). | Seluruh pihak menyepakati kriteria "sistem siap diserahterimakan". |
+| **2. Operational Walkthrough** *(Menit 10–25)* | Membuktikan kemudahan pengoperasian harian bagi non-programmer. | Simulasi langsung alur admin dan *1-Page Operational Runbook*. | Pak Hendra dan Bu Ratna mampu mencoba alur pemulihan mandiri tanpa bantuan. |
+| **3. Scope & Boundary Negotiation** *(Menit 25–40)* | Menyelesaikan perbedaan pandangan terkait permintaan fitur *AI Chatbot* dan batas dukungan pasca-serah terima. | Matriks batas tanggung jawab (*RACI*), *Stop Rule*, dan opsi *Sandbox* terpisah. | Terbentuk batas jelas antara versi 1.0 (stabil) dan eksperimen versi 2.0. |
+| **4. Agreement & Commitment** *(Menit 40–50)* | Mengunci kesepakatan tertulis, jadwal *hypercare*, dan dokumentasi keberatan spesifik. | Berita Acara Serah Terima & Matriks Tindak Lanjut. | Dokumen disepakati secara sadar tanpa paksaan terselubung. |
+
+---
+
+### 2. Verbatim Transcript, Observer Feedback & Decisive Adaptation
+
+#### A. Kutipan Rekaman / Transcript Sesi Kritis (Menit 13:40 – 24:15)
+
+```text
+ WINDA: "Jadi di arsitektur ini, container database sudah terpisah dari
+        service autentikasi, sehingga kalau traffic naik, worker-nya otomatis..."
+ BU RATNA: (Menyilangkan tangan, menyela pelan) "Mbak Winda, terus terang
+        saya dan Pak Hendra tidak paham istilah container atau worker itu. Yang
+        saya khawatirkan, bulan Januari nanti kalian sudah sibuk KKN dan TA.
+        Kalau tiba-tiba layar pendaftaran macet, staf saya harus klik apa?"
+ DAMAR: "Tenang Bu, makanya saya usul kita pasang AI Chatbot langsung
+        di halaman depan minggu ini. Jadi kalau user bingung, biar AI yang jawab
+        otomatis daripada staf repot."
+ BU RATNA: (Nada suara meninggi) "Lho, sistem dasarnya saja staf kami
+        belum pegang panduannya, kenapa mau ditambah robot penjawab lagi? Kalau
+        robotnya salah kasih info jadwal sidang ke mahasiswa, siapa yang tanggung?"
+ PAK HENDRA: (Mengangguk pelan, menatap meja) "Betul Bu, saya juga
+        kalau disuruh ngecek log kode program memang tidak sanggup."
+--------------------------------------------------------------------------------
+[TITIK ADAPTASI WINDA - MENGHENTIKAN SLIDE TEKNIS & MENGGANTI REPERTOIRE]
+--------------------------------------------------------------------------------
+ WINDA: (Menutup tampilan diagram arsitektur di layar, menarik napas,
+        mencondongkan badan ke arah Bu Ratna dan Pak Hendra)
+        "Terima kasih koreksinya, Bu Ratna dan Pak Hendra. Saya keliru memulai
+        dari sisi teknis mesin, padahal yang Bapak dan Ibu butuhkan adalah
+        pegangan kerja harian. Saya tutup diagram ini sekarang."
+ WINDA: (Membagikan lembar cetak '1-Page Operational Runbook')
+        "Di lembar ini tidak ada istilah pemrograman. Hanya ada tiga lampu
+        indikator: Hijau artinya normal, Kuning artinya antrean padat, dan Merah
+        artinya sistem otomatis dialihkan ke formulir cadangan dalam 30 detik.
+        Pak Hendra cukup tekan satu tombol 'Reset Sesi' di halaman admin ini."
+ PAK HENDRA: (Membaca lembar cetak, mulai bertanya) "Oh, kalau cuma
+        tombol ini dan ada cadangan otomatisnya, saya bisa cek tiap jam 8 pagi."
+ WINDA: (Menoleh ke Damar) "Damar, ide AI Chatbot kamu bagus untuk
+        mengurangi pertanyaan berulang. Tapi kekhawatiran Bu Ratna soal akurasi
+        info akademik itu valid. Bagaimana kalau portal utama kita kunci di
+        versi 1.0 yang sudah teruji untuk serah terima hari ini, sementara
+        chatbot-nya kita taruh di ruang uji coba (sandbox) terpisah?"
+ DAMAR: "Tapi kalau di sandbox terpisah, pengunjung minggu depan belum
+        bisa langsung pakai di halaman utama, Win."
+ WINDA: "Betul, dan itu trade-off yang sengaja kita ambil agar layanan
+        utama Bu Ratna tidak menanggung risiko halusinasi AI sebelum diuji."

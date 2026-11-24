@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Framing, deliberation, sufficient agreement, dan collective action.">
+<meta name="description" content="Community person map lintas hierarki, pemisahan fact/story/value/position, tiga frames, lima options, deliberasi dengan safeguard, serta rencana collective action dan review.">
 
 <title>Community Communication Challenge – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -274,13 +303,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
   <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -298,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Framing, deliberation, sufficient agreement, dan collective action.
+    Community person map lintas hierarki, pemisahan fact/story/value/position, tiga frames, lima options, deliberasi dengan safeguard, serta rencana collective action dan review.
   </div>
 </div>
 
@@ -326,134 +348,225 @@ ul.task-list li input[type="checkbox"] {
 <li>Sedikitnya tiga frames dan lima options.</li>
 <li>Deliberation evidence, safeguard, action, dan review plan.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
+<div class="callout-body-container">
+<p>💡 <strong>Lihat contoh pengisian</strong><br>
+Buka <a href="../examples/week-12.html">contoh fiktif Minggu 12</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-12.html">Buka contoh fiktif Minggu 12</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
 </div>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Selasa, 17 November 2026. Forum Musyawarah Komunitas Pengguna Ruang Diskusi &amp; Selasar Labtek V STI ITB selama 60 menit (dihadiri 16 perwakilan lintas angkatan, pengurus himpunan, dan perwakilan staf operasional gedung).</p>
+<p><strong>Persons dan relationship:</strong> Winda (Fasilitator/Moderator Netral), Bima &amp; Tasha (Perwakilan Mahasiswa Tingkat Akhir / Asisten Lab), Rafi (Perwakilan Mahasiswa Tingkat 2 / Kelompok Tugas Besar), Nisa (Perwakilan Mahasiswa Baru / Pengguna Pasif), Galih (Divisi Rumah Tangga Himpunan), serta Pak Hendra (Petugas Keamanan &amp; Kebersihan Lantai). Hubungan antarkelompok bersifat koeksistensi harian dalam satu ruang bersama (<em>shared commons</em>), namun memiliki ketimpangan kuasa (<em>power asymmetry</em>) antara senioritas, otoritas struktural himpunan, dan otoritas institusional petugas gedung.</p>
+<p><strong>Objective dan initial state:</strong> Memfasilitasi komunikasi komunitas yang inklusif untuk merumuskan tata kelola pemakaian ruang diskusi bersama menjelang periode Tugas Besar (Tubes) dan UAS. Initial state: Terjadi polarisasi dan ketegangan diam-diam—mahasiswa tingkat akhir menguasai meja strategis sejak pagi, kelompok Tubes dianggap terlalu berisik dan meninggalkan sampah, mahasiswa baru merasa terintimidasi untuk memakai ruang, dan pengelola gedung mengancam akan mengunci akses ruang lebih awal pukul 19.00 WIB jika teguran kebersihan kembali terulang.</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Catatan</span>1. Community Person Map &amp; Analisis Fact / Story / Value / Position
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<section id="a.-community-person-map-pemetaan-kuasa-kepentingan" class="level4">
+<h4 class="anchored" data-anchor-id="a.-community-person-map-pemetaan-kuasa-kepentingan">A. Community Person Map (Pemetaan Kuasa &amp; Kepentingan)</h4>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th style="text-align: left;">Kelompok / Person</th>
+<th style="text-align: left;">Jenis Power &amp; Otoritas</th>
+<th style="text-align: left;">Kepentingan Utama</th>
+<th style="text-align: left;">Kerentanan / Hambatan Partisipasi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Bima &amp; Tasha</strong> <em>(Tingkat Akhir &amp; Aslab)</em></td>
+<td style="text-align: left;"><em>Informal power</em> tinggi (senioritas, pengaruh sosial, akses kunci lab).</td>
+<td style="text-align: left;">Ketenangan untuk riset Tugas Akhir dan kepastian tempat duduk dengan stopkontak.</td>
+<td style="text-align: left;">Cenderung mendominasi pembicaraan; defensif jika dianggap memonopoli ruang.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Rafi dkk.</strong> <em>(Tingkat 2 / Tim Tubes)</em></td>
+<td style="text-align: left;"><em>Majority power</em> (jumlah pengguna terbanyak saat jam kuliah &amp; sore).</td>
+<td style="text-align: left;">Ruang diskusi kelompok kolaboratif, papan tulis, dan akses kerja hingga malam.</td>
+<td style="text-align: left;">Sering distereotipkan sebagai sumber kebisingan dan sampah oleh kelompok lain.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Galih</strong> <em>(Rumah Tangga Himpunan)</em></td>
+<td style="text-align: left;"><em>Formal student authority</em> (pengelola inventaris &amp; penghubung ke Prodi).</td>
+<td style="text-align: left;">Menjaga reputasi himpunan agar tidak mendapat surat teguran dari Sarpras ITB.</td>
+<td style="text-align: left;">Terjepit antara tekanan mahasiswa yang minta fasilitas bebas dan aturan birokrasi gedung.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Pak Hendra</strong> <em>(Keamanan &amp; Kebersihan Gedung)</em></td>
+<td style="text-align: left;"><em>Institutional gatekeeper power</em> (mengunci gedung pukul 21.00 WIB &amp; melapor ke Sarpras).</td>
+<td style="text-align: left;">Area bersih sebelum jam pulang sif dan tidak ada barang berharga tertinggal/hilang.</td>
+<td style="text-align: left;"><em>Low voice</em> dalam forum mahasiswa; sungkan menegur langsung mahasiswa yang lebih vokal.</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Nisa dkk.</strong> <em>(Angkatan Baru / Pengguna Pasif)</em></td>
+<td style="text-align: left;"><em>Low power</em> (minim jejaring &amp; belum paham aturan tak tertulis).</td>
+<td style="text-align: left;">Akses ruang belajar yang ramah dan aman di sela jadwal kuliah tanpa rasa sungkan.</td>
+<td style="text-align: left;">Enggan berbicara di forum terbuka karena takut dianggap tidak menghormati senior.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+<section id="b.-pemisahan-fact-story-value-dan-position" class="level4">
+<h4 class="anchored" data-anchor-id="b.-pemisahan-fact-story-value-dan-position">B. Pemisahan Fact, Story, Value, dan Position</h4>
+<p>Sebelum membahas solusi, Winda memandu peserta memisahkan fakta objektif dari narasi subjektif yang memicu prasangka:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Dimensi</th>
+<th style="text-align: left;">Temuan dalam Komunitas Pengguna Ruang Bersama</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Fact</strong> <em>(Data Terverifikasi)</em></td>
+<td style="text-align: left;">1. Kapasitas ruang utama adalah 44 kursi dan 10 meja besar.<br>2. Jam operasional gedung sesuai aturan Sarpras adalah pukul 07.00–21.00 WIB.<br>3. Tercatat 3 kali teguran tertulis dari petugas kebersihan dalam 2 minggu terakhir akibat gelas plastik dan kabel berserakan.<br>4. Rata-rata 4 meja utama ditempati tas/barang tanpa orang selama <span class="math inline">\(&gt;2\)</span> jam pada jam sibuk (10.00–15.00 WIB).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Story</strong> <em>(Tafsir / Narasi Subjektif)</em></td>
+<td style="text-align: left;">- <em>“Anak tingkat akhir egois, menaruh tas sejak pagi seolah meja itu milik pribadi.”</em><br>- <em>“Anak tingkat 2 kalau kerja Tubes berisik seperti di kafe dan tidak peduli kebersihan.”</em><br>- <em>“Mahasiswa baru memang malas berbaur, padahal tidak ada yang melarang masuk.”</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Value</strong> <em>(Nilai Dasar yang Dijunjung)</em></td>
+<td style="text-align: left;"><strong>Keadilan akses</strong> (<em>fairness</em>), <strong>produktivitas akademik</strong>, <strong>rasa saling menghargai</strong> lintas angkatan, dan <strong>tanggung jawab kolektif</strong> atas fasilitas bersama (<em>shared stewardship</em>).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Position</strong> <em>(Tuntutan Awal Kaku)</em></td>
+<td style="text-align: left;">- <em>Bima:</em> “Jadikan ruang dalam khusus untuk pengerjaan TA dan riset mandiri saja.”<br>- <em>Rafi:</em> “Buka akses ruang sampai pukul 23.00 WIB dan bebaskan diskusi kelompok di semua meja.”<br>- <em>Galih:</em> “Terapkan denda uang tunai bagi siapa pun yang meninggalkan sampah.”</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="tiga-frames-lima-options-solusi" class="level3">
+<h3 class="anchored" data-anchor-id="tiga-frames-lima-options-solusi">2. Tiga Frames &amp; Lima Options Solusi</h3>
+<section id="a.-tiga-frames-pemaknaan-masalah" class="level4">
+<h4 class="anchored" data-anchor-id="a.-tiga-frames-pemaknaan-masalah">A. Tiga Frames Pemaknaan Masalah</h4>
+<ol type="1">
+<li><strong>Frame 1 — Kepatuhan &amp; Ketertiban Fasilitas (<em>Order &amp; Compliance Frame</em>):</strong><br>
+Memandang masalah sebagai lemahnya disiplin terhadap aturan operasional gedung dan kebersihan. Prioritas utamanya adalah mencegah sanksi penguncian ruang dari pihak Sarpras dan menjaga keteraturan fisik.</li>
+<li><strong>Frame 2 — Produktivitas &amp; Inkubator Kolaborasi (<em>Academic Productivity Frame</em>):</strong><br>
+Memandang ruang bersama sebagai pusat kerja intelektual mahasiswa STI yang dinamis. Prioritas utamanya adalah mendukung kebutuhan kerja kelompok (Tubes) maupun fokus mendalam (TA) tanpa hambatan birokrasi kaku.</li>
+<li><strong>Frame 3 — Keadilan Akses &amp; Kepemilikan Bersama (<em>Commons &amp; Equity Frame</em>):</strong><br>
+Memandang ruang diskusi sebagai milik bersama (<em>commons</em>) lintas angkatan. Prioritas utamanya adalah menghapus monopoli ruang oleh kelompok tertentu dan membangun rasa memiliki agar seluruh anggota merasa diterima.</li>
+</ol>
+</section>
+<section id="b.-lima-options-analisis-trade-off" class="level4">
+<h4 class="anchored" data-anchor-id="b.-lima-options-analisis-trade-off">B. Lima Options &amp; Analisis Trade-off</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">No</th>
+<th style="text-align: left;">Opsi Solusi</th>
+<th style="text-align: left;">Mekanisme Utama</th>
+<th style="text-align: left;">Kelebihan (<em>Pros</em>)</th>
+<th style="text-align: left;">Kekurangan / Trade-off (<em>Cons</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: left;"><strong>Reservasi Slot Penuh via Aplikasi/QR</strong></td>
+<td style="text-align: left;">Setiap meja wajib dipesan per 2 jam melalui formulir <em>online</em> sebelum diduduki.</td>
+<td style="text-align: left;">Transparan dan mencegah klaim meja sepihak.</td>
+<td style="text-align: left;">Terlalu birokratis untuk pengguna singkat (30–45 menit) dan butuh admin pengawas harian.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: left;"><strong>Zonasi Ruang (Silent vs.&nbsp;Collaborative) + Batas Titip Barang 30 Menit</strong> <em>(Dipilih)</em></td>
+<td style="text-align: left;">Membagi area menjadi 60% Zona Kolaborasi (diskusi Tubes) dan 40% Zona Tenang (fokus TA/mandiri), disertai aturan barang ditinggal <span class="math inline">\(&gt;30\)</span> menit boleh dipindahkan ke rak komunal.</td>
+<td style="text-align: left;">Mengakomodasi dua gaya kerja berbeda sekaligus menghapus praktik <em>booking</em> meja pakai tas seharian.</td>
+<td style="text-align: left;">Suara dari zona kolaborasi masih berpotensi terdengar ke zona tenang jika volume diskusi tidak dijaga.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;"><strong>Prioritas Akses Berdasarkan Tingkat Studi</strong></td>
+<td style="text-align: left;">Mahasiswa tingkat akhir dan asisten mendapat hak prioritas penuh di jam sibuk (09.00–17.00).</td>
+<td style="text-align: left;">Menjamin ketenangan pengerjaan TA.</td>
+<td style="text-align: left;">Memperparah ketimpangan kuasa (<em>power gap</em>) dan mengucilkan mahasiswa tingkat awal.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;"><strong>Clear-Desk Policy 20.45 WIB &amp; Piket Sapu Kolektif 5 Menit</strong> <em>(Dipilih)</em></td>
+<td style="text-align: left;">Alarm pengingat pukul 20.45 WIB; seluruh pengguna yang masih berada di ruangan wajib merapikan meja dan membuang sampah bersama sebelum gedung dikunci pukul 21.00 WIB.</td>
+<td style="text-align: left;">Menghilangkan beban sepihak pada petugas kebersihan dan mencegah teguran Sarpras tanpa sistem denda yang rumit.</td>
+<td style="text-align: left;">Membutuhkan kedisiplinan kolektif dan penanggung jawab pengingat harian (<em>duty officer</em>).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: left;"><strong>Status Quo + Imbauan Poster Tata Tertib</strong></td>
+<td style="text-align: left;">Mempertahankan kondisi saat ini dan hanya menempel poster imbauan sopan santun.</td>
+<td style="text-align: left;">Tidak membutuhkan perubahan kebiasaan atau koordinasi baru.</td>
+<td style="text-align: left;">Tidak menyelesaikan akar konflik dan berisiko tinggi memicu penguncian ruang oleh gedung.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="bukti-deliberasi-safeguards-sufficient-agreement" class="level3">
+<h3 class="anchored" data-anchor-id="bukti-deliberasi-safeguards-sufficient-agreement">3. Bukti Deliberasi, Safeguards &amp; Sufficient Agreement</h3>
+<section id="a.-safeguards-untuk-menyeimbangkan-power-dalam-forum" class="level4">
+<h4 class="anchored" data-anchor-id="a.-safeguards-untuk-menyeimbangkan-power-dalam-forum">A. Safeguards untuk Menyeimbangkan Power dalam Forum</h4>
+<p>Agar kelompok berkuasa rendah (mahasiswa baru dan staf gedung) tidak terintimidasi saat deliberasi, Winda menerapkan tiga <em>safeguard</em> eksplisit: 1. <strong>Konsultasi Pra-Forum dengan Gatekeeper:</strong> Winda mewawancarai Pak Hendra sebelum rapat dan menyajikan syarat operasional gedung (batas kunci 21.00 WIB dan standar kebersihan) sebagai <em>fakta netral</em> di papan tulis, sehingga Pak Hendra tidak perlu berdebat langsung dengan mahasiswa. 2. <strong>Input Anonim di Awal Sesi (<em>Silent Brainwriting</em>):</strong> Seluruh peserta menuliskan pengalaman tidak nyaman dan usulan di kartu indeks anonim selama 5 menit pertama. Cara ini membuat keluhan Nisa (mahasiswa baru) mengenai intimidasi meja terbaca setara dengan pendapat senior. 3. <strong>Aturan Giliran Bicara &amp; Larangan Generalisasi Angkatan:</strong> Setiap pembicara dibatasi maksimal 2 menit, dilarang menyebut label negatif angkatan tertentu, dan wajib merujuk pada perilaku spesifik (<em>“meninggalkan tas 2 jam”</em>, bukan <em>“senior egois”</em>).</p>
+</section>
+<section id="b.-bukti-alur-deliberasi-sufficient-agreement" class="level4">
+<h4 class="anchored" data-anchor-id="b.-bukti-alur-deliberasi-sufficient-agreement">B. Bukti Alur Deliberasi &amp; Sufficient Agreement</h4>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Titik Balik Deliberasi:</strong> Ketika kartu anonim mahasiswa baru dibacakan—yang menyatakan mereka sering duduk di lantai koridor karena 4 meja kosong penuh dengan tas tak bertuan—Bima (perwakilan tingkat akhir) mengakui bahwa kebiasaan menitip tas saat kuliah memang merugikan pengguna lain. Sebaliknya, Rafi (perwakilan Tubes) memahami tekanan yang dihadapi Galih dan Pak Hendra terkait teguran kebersihan.</li>
+<li><strong>Sufficient Agreement (Kesepakatan Memadai):</strong><br>
+Forum tidak memaksakan kesepakatan bulat 100% atas semua detail, melainkan menyepakati paket <strong>Opsi 2 (Zonasi Ruang &amp; Batas Titip Barang 30 Menit)</strong> dan <strong>Opsi 4 (Clear-Desk Policy 20.45 WIB &amp; Piket 5 Menit)</strong> sebagai eksperimen bersama selama 2 minggu.</li>
+<li><strong>Catatan Keberatan Residual (<em>Residual Dissent</em>):</strong><br>
+Bima mencatat keberatan bahwa Zona Tenang tetap berisiko bising saat jam makan siang, sementara Rafi khawatir batas 30 menit terlalu singkat saat kelompok sedang membeli makan siang bersama.<br>
+<em>Penyelesaian:</em> Disepakati penggunaan papan tulis portabel beroda sebagai penyekat visual/akustik ringan antar-zona, serta penyediaan “Kartu Istirahat Makan 45 Menit” bertulis jam pergi agar barang kelompok tidak langsung digeser.</li>
 </ul>
+<hr>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
 </section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+<section id="rencana-collective-action-review-plan" class="level3">
+<h3 class="anchored" data-anchor-id="rencana-collective-action-review-plan">4. Rencana Collective Action &amp; Review Plan</h3>
 </section>
+<section id="text" class="level1">
+<h1>```text</h1>
+<p>RENCANA AKSI KOLEKTIF KOMUNITAS RUANG BERSAMA STI (PERIODE UJI COBA 2 MINGGU) Mulai Berlaku : Rabu, 18 November 2026 | Evaluasi: Selasa, 1 Desember 2026 ——————————————————————————– 1. PENATAAN ZONA &amp; SEKAT (Galih &amp; Winda - Rabu, 18 Nov pukul 08.30 WIB) - Memasang penanda Zona Kolaborasi (6 meja) &amp; Zona Tenang (4 meja) serta menempatkan 2 papan tulis portabel sebagai pembatas area. 2. KARTU ISTIRAHAT &amp; RAK KOMUNAL (Nisa &amp; Perwakilan Angkatan - Kamis, 19 Nov) - Menyediakan 10 unit “Kartu Istirahat 45 Menit” di meja pintu masuk dan menata 1 rak penyimpanan sementara untuk tas yang ditinggal &gt;30 menit. 3. PROTOKOL CLEAR-DESK 20.45 WIB (Seluruh Pengguna &amp; Koordinator Piket Harian) - Alarm grup &amp; pengingat lisan pukul 20.45 WIB; seluruh pengguna merapikan kabel, membuang sampah ke tempat sampah koridor, dan melapor ke Pak Hendra. 4. PEMANTAUAN HARIAN TANPA MENGHAKIMI (Bima, Rafi, &amp; Pak Hendra) - Mencatat insiden kebersihan atau konflik meja pada log buku tamu pintu masuk (skala 1-5) tanpa menyebut nama individu. ================================================================================</p>
 
 
+</section>
+</div>
+</div>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->

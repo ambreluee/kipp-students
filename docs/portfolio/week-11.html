@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Stakeholder map, interests, options, trade-offs, dan agreement.">
+<meta name="description" content="Stakeholder person map, multi-state TAIDA, position-interest analysis, opsi &amp; trade-off, kesepakatan eksplisit beserta catatan dissent, dan relationship review.">
 
 <title>Multi-Person Negotiation Challenge – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -274,13 +303,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
   <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -298,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Stakeholder map, interests, options, trade-offs, dan agreement.
+    Stakeholder person map, multi-state TAIDA, position-interest analysis, opsi &amp; trade-off, kesepakatan eksplisit beserta catatan dissent, dan relationship review.
   </div>
 </div>
 
@@ -326,134 +348,215 @@ ul.task-list li input[type="checkbox"] {
 <li>Position–interest analysis, common ground, dan options.</li>
 <li>Negotiation evidence, agreement/dissent, dan relationship review.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
+<div class="callout-body-container">
+<p>💡 <strong>Lihat contoh pengisian</strong><br>
+Buka <a href="../examples/week-11.html">contoh fiktif Minggu 11</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-11.html">Buka contoh fiktif Minggu 11</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
 </div>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Kamis, 5 November 2026. Rapat negosiasi lintas divisi untuk persiapan Pameran Karya &amp; Tech Expo STI ITB di Ruang Diskusi Labtek V ITB selama 45 menit.</p>
+<p><strong>Persons dan relationship:</strong> Winda (Mediator / PJ Teknis &amp; Sistem), Damar (Koordinator Acara &amp; Kurasi Karya), Aris (Lead Infrastruktur &amp; Keamanan Jaringan), dan Nadia (Koordinator Keuangan &amp; Logistik Venue). Hubungan kerja antardivisi setara secara struktural, namun memiliki prioritas operasional yang saling berbenturan menjelang hari-H.</p>
+<p><strong>Objective dan initial state:</strong> Memfasilitasi kesepakatan teknis dan operasional untuk fitur <em>Demo Interaktif &amp; Live Voting Pengunjung</em> tanpa melanggar batas kapasitas jaringan maupun plafon anggaran. Initial state: Terjadi kebuntuan (<em>deadlock</em>) karena Damar menuntut <em>streaming</em> video HD dan <em>live voting</em> penuh, Aris menolak karena risiko jaringan lumpuh, dan Nadia menolak penambahan anggaran sewa perangkat.</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Catatan</span>1. Stakeholder Person Map &amp; Multi-State TAIDA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sebelum mengajukan solusi, Winda memetakan otoritas, batasan, dan kondisi psikologis (<em>state</em>) setiap pihak:</p>
+<section id="a.-stakeholder-person-map" class="level4">
+<h4 class="anchored" data-anchor-id="a.-stakeholder-person-map">A. Stakeholder Person Map</h4>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th style="text-align: left;">Stakeholder</th>
+<th style="text-align: left;">Peran &amp; Authority</th>
+<th style="text-align: left;">Objective Utama</th>
+<th style="text-align: left;">Constraint (Batasan)</th>
+<th style="text-align: left;">Initial State</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Damar</strong></td>
+<td style="text-align: left;">Koordinator Acara (Otoritas <em>rundown</em> &amp; tata letak <em>booth</em>)</td>
+<td style="text-align: left;">Pameran ramai, interaktif, dan seluruh 18 karya tampil maksimal dengan <em>live voting</em>.</td>
+<td style="text-align: left;">Durasi pameran hanya 5 jam; khawatir pengunjung pasif jika demo hanya statis.</td>
+<td style="text-align: left;"><em>High urgency / pushy</em> (mendesak seluruh fitur aktif).</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Aris</strong></td>
+<td style="text-align: left;">Lead Infrastruktur (Otoritas <em>clearance</em> jaringan &amp; server)</td>
+<td style="text-align: left;">Jaringan lokal stabil dan bebas dari <em>bandwidth congestion</em> atau akses ilegal.</td>
+<td style="text-align: left;">Maksimal 120 koneksi simultan per <em>access point</em>; melarang <em>streaming</em> terpusat.</td>
+<td style="text-align: left;"><em>Defensive / cautious</em> (trauma insiden jaringan <em>down</em> tahun lalu).</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Nadia</strong></td>
+<td style="text-align: left;">Koordinator Keuangan &amp; Venue (Otoritas pencairan dana &amp; izin ruang)</td>
+<td style="text-align: left;">Pengeluaran tidak melebihi sisa kas dan tata ruang mematuhi aturan K3 gedung.</td>
+<td style="text-align: left;">Sisa anggaran Rp 450.000; kabel dilarang melintang di jalur evakuasi koridor.</td>
+<td style="text-align: left;"><em>Cost-sensitive / rigid</em> (menolak biaya tambahan di luar RAB awal).</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Winda</strong></td>
+<td style="text-align: left;">PJ Teknis &amp; Sistem (Otoritas arsitektur aplikasi lokal)</td>
+<td style="text-align: left;">Menyediakan sistem <em>voting</em> dan demo yang andal, cepat, dan mudah dioperasikan panitia.</td>
+<td style="text-align: left;">Waktu <em>setup</em> instalasi hanya 90 menit sebelum pintu dibuka.</td>
+<td style="text-align: left;"><em>Facilitative / analytical</em> (menjembatani kebutuhan acara dan batas teknis).</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+<section id="b.-pemetaan-multi-state-taida" class="level4">
+<h4 class="anchored" data-anchor-id="b.-pemetaan-multi-state-taida">B. Pemetaan Multi-State TAIDA</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tahap TAIDA</th>
+<th style="text-align: left;">Damar (Acara)</th>
+<th style="text-align: left;">Aris (Infrastruktur)</th>
+<th style="text-align: left;">Nadia (Keuangan &amp; Venue)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Trigger</strong></td>
+<td style="text-align: left;">Melihat <em>mockup</em> layar klasemen <em>live voting</em> dari acara kampus lain.</td>
+<td style="text-align: left;">Menerima draf kebutuhan teknis acara yang mencantumkan “18 titik <em>streaming</em> video”.</td>
+<td style="text-align: left;">Menerima estimasi awal pengajuan sewa modem <em>dedicated</em> sebesar Rp 1.200.000.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Attention</strong></td>
+<td style="text-align: left;">Tertuju pada daya tarik visual pameran dan kepuasan peserta pameran.</td>
+<td style="text-align: left;">Tertuju pada beban <em>traffic</em> jaringan dan potensi kegagalan server saat jam sibuk.</td>
+<td style="text-align: left;">Tertuju pada defisit kas divisi dan risiko teguran pengelola gedung terkait kabel.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Interest</strong></td>
+<td style="text-align: left;">Menjaga reputasi divisi acara agar pameran dinilai sukses dan modern.</td>
+<td style="text-align: left;">Melindungi integritas sistem agar tim IT tidak disalahkan jika jaringan mati.</td>
+<td style="text-align: left;">Menjaga saldo kas tetap positif dan memastikan keamanan fisik area pameran.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Desire</strong></td>
+<td style="text-align: left;">Semua fitur interaktif (video HD + <em>voting real-time</em>) berjalan bersamaan.</td>
+<td style="text-align: left;">Membatasi sistem pameran ke mode <em>offline</em> sepenuhnya tanpa koneksi jaringan.</td>
+<td style="text-align: left;">Pengeluaran tambahan Rp 0 dan tidak ada penambahan perangkat fisik di koridor.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Action / Block</strong></td>
+<td style="text-align: left;">Menolak pemangkasan fitur acara; menahan finalisasi <em>rundown</em>.</td>
+<td style="text-align: left;">Menahan <em>technical clearance</em> jaringan selama fitur <em>streaming</em> masih tercantum.</td>
+<td style="text-align: left;">Membekukan pencairan dana teknis sampai rincian biaya ditekan di bawah plafon.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="positioninterest-analysis-common-ground-options" class="level3">
+<h3 class="anchored" data-anchor-id="positioninterest-analysis-common-ground-options">2. Position–Interest Analysis, Common Ground &amp; Options</h3>
+<p>Winda memfasilitasi diskusi untuk memisahkan tuntutan permukaan (<em>position</em>) dari kepentingan mendasar (<em>underlying interest</em>) tiap pihak:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stakeholder</th>
+<th style="text-align: left;">Position (Tuntutan Permukaan)</th>
+<th style="text-align: left;">Underlying Interest (Kepentingan Mendasar)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Damar</strong></td>
+<td style="text-align: left;"><em>“Semua 18 booth harus bisa memutar video demo HD lewat jaringan pusat dan terhubung ke live voting.”</em></td>
+<td style="text-align: left;">Pengunjung dapat melihat demo karya dengan jelas dan berpartisipasi aktif memberikan suara tanpa antrean panjang.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Aris</strong></td>
+<td style="text-align: left;"><em>“Tidak boleh ada streaming video atau akses internet berat di jaringan panitia selama acara.”</em></td>
+<td style="text-align: left;">Beban <em>payload</em> jaringan tetap ringan (<span class="math inline">\(&lt; 30\%\)</span> kapasitas) sehingga sistem inti tidak <em>crash</em> saat puncak pengunjung.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Nadia</strong></td>
+<td style="text-align: left;"><em>“Anggaran sewa alat tambahan ditolak, dan tidak boleh ada penarikan kabel jaringan baru.”</em></td>
+<td style="text-align: left;">Total belanja tidak melampaui sisa kas Rp 450.000 dan jalur evakuasi gedung tetap steril sesuai aturan K3.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Common Ground (Titik Temu Bersama):</strong><br>
+Seluruh pihak sepakat bahwa pameran membutuhkan <strong>pengalaman visual yang interaktif bagi pengunjung</strong>, <strong>stabilitas teknis tanpa gangguan jaringan</strong>, <strong>kepatuhan terhadap aturan keselamatan gedung</strong>, serta <strong>pengeluaran yang tetap berada di bawah sisa kas Rp 450.000</strong>.</p>
+<p><strong>Opsi Solusi dan Analisis Trade-off:</strong></p>
+<ol type="1">
+<li><strong>Opsi 1 — Full Cloud Streaming &amp; Live Voting Terpusat:</strong><br>
+Memenuhi posisi Damar 100%, tetapi menyebabkan <em>bottleneck</em> jaringan (ditolak Aris) dan membutuhkan sewa modem/paket data Rp 1.200.000 (ditolak Nadia).</li>
+<li><strong>Opsi 2 — Arsitektur Hybrid Offline-First (Local Video Pre-Cache + Lightweight QR Voting):</strong> <em>(Dipilih)</em>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<li><em>Mekanisme:</em> Video demo HD disimpan secara lokal (<em>pre-cached</em>) di masing-masing laptop <em>booth</em> sehingga <strong>0% memakai bandwidth jaringan</strong>. Jaringan Wi-Fi lokal khusus digunakan untuk <em>live voting</em> berbasis teks/JSON ringan (<span class="math inline">\(&lt; 12\text{ KB}\)</span> per suara).</li>
+<li><em>Trade-off:</em> Membutuhkan waktu inspeksi laptop <em>booth</em> saat gladi resik (H-1) dan anggaran Rp 250.000 untuk 1 unit <em>local router</em> cadangan + <em>cable protector</em> karet standar K3, namun menyisakan saldo kas Rp 200.000.</li>
+</ul></li>
+<li><strong>Opsi 3 — Manual Paper Voting &amp; Poster Statis:</strong><br>
+Biaya Rp 0 dan bebas risiko jaringan (memenuhi posisi Aris &amp; Nadia), tetapi menurunkan kualitas interaksi pameran dan memperlambat rekapitulasi pemenang (ditolak Damar).</li>
+</ol>
+<hr>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="bukti-negosiasi-agreement-catatan-dissent" class="level3">
+<h3 class="anchored" data-anchor-id="bukti-negosiasi-agreement-catatan-dissent">3. Bukti Negosiasi, Agreement &amp; Catatan Dissent</h3>
+<section id="a.-rekaman-alur-negosiasi-negotiation-moves" class="level4">
+<h4 class="anchored" data-anchor-id="a.-rekaman-alur-negosiasi-negotiation-moves">A. Rekaman Alur Negosiasi (Negotiation Moves)</h4>
+<ol type="1">
+<li><strong>Reframing Masalah Teknis (Winda <span class="math inline">\(\rightarrow\)</span> Damar &amp; Aris):</strong><br>
+Winda menggeser perdebatan dari <em>“boleh atau tidaknya video HD”</em> menjadi <em>“di mana file video disimpan”</em>. Dengan memindahkan file video ke penyimpanan lokal tiap laptop <em>booth</em>, Damar tetap mendapatkan tayangan HD tanpa membebani jaringan Aris.</li>
+<li><strong>Kuantifikasi Beban Sistem (Winda <span class="math inline">\(\rightarrow\)</span> Aris):</strong><br>
+Winda menunjukkan simulasi beban <em>live voting</em> hanya sebesar <span class="math inline">\(12\text{ KB/request}\)</span> (total <span class="math inline">\(&lt; 1.8\text{ MB}\)</span> untuk 150 pengunjung), jauh di bawah ambang batas aman Aris. Aris setuju memberikan <em>clearance</em> dengan syarat akses internet luar ditutup (<em>intranet-only</em>).</li>
+<li><strong>Negosiasi Plafon Anggaran &amp; K3 (Winda <span class="math inline">\(\rightarrow\)</span> Nadia):</strong><br>
+Winda memangkas estimasi biaya dari Rp 1.200.000 menjadi Rp 250.000 (sewa 1 <em>router</em> lokal Rp 150.000 + <em>cable protector</em> karet Rp 100.000) dan menempatkan <em>router</em> di titik tengah plafon/meja kontrol tanpa kabel melintang lantai. Nadia menyetujui pencairan dana tersebut.</li>
+</ol>
 </section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+<section id="b.-kesepakatan-eksplisit-explicit-agreement-matrix" class="level4">
+<h4 class="anchored" data-anchor-id="b.-kesepakatan-eksplisit-explicit-agreement-matrix">B. Kesepakatan Eksplisit (Explicit Agreement Matrix)</h4>
 </section>
+</section>
+<section id="text" class="level1">
+<h1>```text</h1>
+<p>BERITA ACARA KESEPAKATAN NEGOSIASI LINTAS DIVISI (TECH EXPO STI ITB) Tanggal Pengesahan : Kamis, 5 November 2026 | Pukul 16.40 WIB Skema Disepakati : OPSI 2 (Local Video Pre-Cache + Intranet QR Live Voting) ——————————————————————————– 1. DAMAR (Acara) : Menginstruksikan 18 tim karya menyalin file video demo ke laptop lokal paling lambat H-1 pukul 15.00 WIB. 2. ARIS (Infra) : Membuka jaringan intranet khusus voting (150 koneksi) dan menerbitkan Technical Clearance setelah cek H-1 pukul 17.00. 3. NADIA (Keuangan): Mencairkan dana Rp 250.000 pada Jumat, 6 Nov pukul 10.00 dengan syarat kuitansi resmi dan pemasangan cable protector. 4. WINDA (Teknis) : Menyiapkan aplikasi voting ringan (&lt;12 KB/req), router cadangan, dan melakukan audit laptop booth pada H-1. ================================================================================</p>
 
 
+</section>
+</div>
+</div>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->

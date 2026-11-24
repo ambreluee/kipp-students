@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Public artifact, evidence, context, response, dan reputation.">
+<meta name="description" content="Public character, target audience, objective, TAIDA map, artefak publik terverifikasi in-line, context-collapse &amp; reputation check, serta log respons dan koreksi.">
 
 <title>Public Contribution Challenge – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -274,13 +303,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
   <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -298,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Public artifact, evidence, context, response, dan reputation.
+    Public character, target audience, objective, TAIDA map, artefak publik terverifikasi in-line, context-collapse &amp; reputation check, serta log respons dan koreksi.
   </div>
 </div>
 
@@ -326,134 +348,135 @@ ul.task-list li input[type="checkbox"] {
 <li>Public artifact serta sumber evidence.</li>
 <li>Context-collapse/reputation check, response, dan correction bila diperlukan.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
+<div class="callout-body-container">
+<p>💡 <strong>Lihat contoh pengisian</strong><br>
+Buka <a href="../examples/week-13.html">contoh fiktif Minggu 13</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-13.html">Buka contoh fiktif Minggu 13</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
 </div>
 </div>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> Sabtu–Selasa, 21–24 November 2026. Publikasi artikel panduan terbuka (<em>open engineering &amp; operational playbook</em>) pada kanal publik komunitas mahasiswa IT &amp; pengelola acara kampus (LinkedIn &amp; GitHub Pages Dokumentasi Terbuka STI), dilanjutkan pemantauan diskusi publik selama 72 jam.</p>
+<p><strong>Persons dan relationship:</strong> Winda (Penulis &amp; Praktisi Teknis Mahasiswa STI ITB) berhadapan dengan audiens publik berlapis (<em>multi-layered public</em>): panitia acara mahasiswa lintas kampus, staf pengelola fasilitas/IT kampus, dosen/akademisi, serta rekruter profesional di jejaring terbuka. Hubungan bersifat asimetris (satu-ke-banyak) di mana pembaca tidak memiliki konteks internal kepanitiaan sebelumnya.</p>
+<p><strong>Objective dan initial state:</strong> Menerjemahkan pembelajaran teknis dan tata kelola dari uji coba sistem registrasi <em>offline-first</em> &amp; <em>rate-limiting</em> (Minggu 10–11) menjadi panduan publik yang sederhana, akurat, bebas jargon berlebihan, dan bertanggung jawab. Initial state: Banyak panitia acara mahasiswa di media sosial mengeluhkan <em>server crash</em> dan <em>overbooking</em> kuota saat pendaftaran acara dibuka, namun sering menyalahkan kapasitas server semata tanpa memahami mekanisme <em>atomic locking</em> dan <em>fallback</em> operasional.</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Catatan</span>1. Public Character, Target Audience, Objective &amp; TAIDA Map
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<section id="a.-definisi-public-character-target-objective" class="level4">
+<h4 class="anchored" data-anchor-id="a.-definisi-public-character-target-objective">A. Definisi Public Character, Target &amp; Objective</h4>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th style="text-align: left;">Komponen</th>
+<th style="text-align: left;">Spesifikasi Desain Komunikasi Publik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Public Character</strong></td>
+<td style="text-align: left;"><strong>Praktisi Teknis yang Membumi &amp; Akuntabel</strong> (<em>Pragmatic &amp; Accountable Student Builder</em>): menyampaikan solusi berbasis data uji riil, jujur mengenai batas kemampuan sistem, tidak menggurui, dan terbuka terhadap koreksi.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Target Audience</strong></td>
+<td style="text-align: left;"><strong>Primer:</strong> Ketua pelaksana dan divisi IT kepanitiaan mahasiswa yang merancang sistem registrasi/presensi.<br><strong>Sekunder:</strong> Pengelola infrastruktur/sarpras kampus dan rekan sejawat bidang Sistem dan Teknologi Informasi.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Core Meaning</strong></td>
+<td style="text-align: left;"><em>Sistem acara kampus yang andal tidak bergantung pada server mahal, melainkan pada tiga pagar pengaman: penguncian kuota atomik, arsitektur offline-first, dan aturan berhenti darurat (stop rule) yang disepakati panitia.</em></td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td style="text-align: left;"><strong>Objective</strong></td>
+<td style="text-align: left;">Memberikan kerangka praktis yang dapat langsung diadopsi panitia acara skala kecil–menengah dalam waktu <span class="math inline">\(&lt; 1\)</span> hari persiapan, sekaligus membangun reputasi profesional yang kredibel dan tidak melebih-lebihkan klaim teknis.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
-</section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
-</section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<section id="b.-public-taida-map-perjalanan-kognitif-audiens-publik" class="level4">
+<h4 class="anchored" data-anchor-id="b.-public-taida-map-perjalanan-kognitif-audiens-publik">B. Public TAIDA Map (Perjalanan Kognitif Audiens Publik)</h4>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
+<th style="text-align: left;">Tahap TAIDA</th>
+<th style="text-align: left;">Kondisi Audiens Publik</th>
+<th style="text-align: left;">Strategi Pesan dalam Artefak Publik</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;"><strong>Trigger</strong></td>
+<td style="text-align: left;">Panitia membaca cerita kegagalan sistem registrasi acara kampus yang <em>down</em> di menit pertama pendaftaran.</td>
+<td style="text-align: left;">Membuka tulisan dengan skenario nyata: 100 kursi habis dalam 10 detik, tetapi 115 orang tercatat lolos (<em>overbooking</em>) akibat <em>race condition</em>.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;"><strong>Attention</strong></td>
+<td style="text-align: left;">Perhatian pembaca terpecah oleh istilah teknis yang rumit atau promosi alat berbayar.</td>
+<td style="text-align: left;">Menggunakan judul lugas, subjudul bernomor, dan ringkasan 3 poin utama yang dapat dipindai dalam 30 detik.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;"><strong>Interest</strong></td>
+<td style="text-align: left;">Pembaca ingin tahu apakah solusi tersebut realistis diterapkan dengan anggaran minim dan waktu mepet.</td>
+<td style="text-align: left;">Menyajikan angka uji riil (500 <em>request</em>/10 detik, latensi rata-rata <span class="math inline">\(340\text{ ms}\)</span>, biaya tambahan Rp 0–250.000) beserta perbandingan opsi.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;"><strong>Desire</strong></td>
+<td style="text-align: left;">Pembaca tertarik mencoba, namun ragu jika terjadi kendala di lapangan saat hari-H.</td>
+<td style="text-align: left;">Menyertakan <em>checklist</em> <em>Stop Rule</em> (kapan harus beralih ke jalur manual dalam 30 detik) agar panitia merasa aman.</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: left;"><strong>Action</strong></td>
+<td style="text-align: left;">Pembaca membagikan panduan, berdiskusi di kolom komentar, atau mengadaptasi <em>checklist</em> ke kepanitiaan mereka.</td>
+<td style="text-align: left;">Menyediakan templat <em>checklist</em> 4 langkah siap pakai dan membuka kolom tanya-jawab teknis secara transparan.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+<hr>
 </section>
+<section id="public-artifact-sumber-evidence-terverifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="public-artifact-sumber-evidence-terverifikasi">2. Public Artifact &amp; Sumber Evidence Terverifikasi</h3>
+<section id="a.-public-artifact-lengkap-in-line-published-playbook" class="level4">
+<h4 class="anchored" data-anchor-id="a.-public-artifact-lengkap-in-line-published-playbook">A. Public Artifact Lengkap (In-Line Published Playbook)</h4>
+</section>
+</section>
+<section id="text" class="level1">
+<h1>```text</h1>
+<p>PUBLIKASI TERBUKA: “ANTI-CRASH &amp; ANTI-OVERBOOKING: 3 PAGAR PENGAMAN SISTEM REGISTRASI ACARA KAMPUS BERANGGARAN MINIM” Penulis : Winda Naila Nur Aisyah (Mahasiswa STI ITB) | Terbit: 21 Nov 2026 Lisensi : CC BY 4.0 (Bebas diadaptasi untuk kegiatan kemahasiswaan) ——————————————————————————– Setiap musim acara kampus, masalah klasik selalu berulang: tautan pendaftaran dibuka pukul 19.00, lalu pada pukul 19.01 server lumpuh atau jumlah pendaftar lolos melebihi kapasitas ruangan (overbooking).</p>
+<p>Dari pengujian teknis dan koordinasi lintas divisi pada kegiatan workshop dan pameran kampus (skala 100–150 peserta), masalah ini jarang disebabkan oleh kurangnya biaya server, melainkan ketiadaan tiga pagar pengaman berikut:</p>
+<ol type="1">
+<li><p>KUNCI KUOTA SECARA ATOMIK (CEGAH OVERBOOKING) Jangan mengandalkan pengecekan kuota biasa (“baca jumlah pendaftar -&gt; simpan”) karena dua orang yang menekan tombol di milidetik yang sama akan sama-sama lolos. Gunakan operasi increment atomik (seperti Redis INCR atau transaksi baris tunggal) dan kunci form otomatis tepat saat hitungan menyentuh batas.</p></li>
+<li><p>PISAHKAN ASET BERAT DARI JALUR TRANSAKSI (OFFLINE-FIRST) Pada acara pameran atau presensi lapangan, jangan memuat video atau gambar besar melalui jaringan lokal panitia. Simpan aset media secara lokal di perangkat (pre-cache) sehingga jaringan hanya melayani payload teks/JSON ringan (&lt; 12 KB per transaksi) dan tetap bisa menyimpan sementara di cache browser saat sinyal putus.</p></li>
+<li><p>SEPAKATI “STOP RULE” SEBELUM ACARA DIMULAI Teknologi apa pun bisa gagal di lapangan. Pastikan divisi IT, Acara, dan Logistik menyepakati ambang batas berhenti darurat secara tertulis—misalnya: “Jika latensi &gt; 3000 ms sebanyak 3 kali berturut-turut atau eror &gt; 5%, alihkan ke form statis/presensi manual dalam 30 detik.”</p></li>
+</ol>
+<p>BATASAN PENERAPAN (DISCLAIMER): Panduan ini diuji untuk skala acara kampus 100–150 pengguna simultan (50 req/s). Untuk skala ribuan pengguna serentak (seperti konser atau seleksi nasional), diperlukan arsitektur antrean terdistribusi dan load balancer berlapis. ================================================================================</p>
 
 
+</section>
+</div>
+</div>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->

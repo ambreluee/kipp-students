@@ -1,10 +1,10 @@
 ---
 title: "AI-Mediated Communication Design"
 week: 14
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "AI role, prompt, output, human revision, boundary, dan risk."
+description: "Perancangan batas peran AI, bukti prompt, output mentah, revisi manusia, audit privasi/otoritas/risiko, serta justifikasi pembatasan AI untuk menjaga kompetensi dan relasi."
 categories: [AI, Ethics]
 ---
 
@@ -18,8 +18,54 @@ Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan r
 - AI role, prompt/output, serta human revision.
 - Privacy/authority/risk review dan alasan tidak menggunakan lebih banyak AI.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 14](../examples/week-14.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 14](../examples/week-14.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Kamis, 26 November 2026. Penyusunan komunikasi eskalasi insiden teknis dan koordinasi pemulihan jadwal proyek sistem informasi (durasi proses 40 menit) di Lab STI ITB dan kanal komunikasi resmi proyek.
+
+**Persons dan relationship:** Winda (Project Lead & Penanggung Jawab Komunikasi Proyek), Gilang (Anggota Tim Backend Developer), dan Bu Ratna (Stakeholder Utama / Koordinator Layanan Akademik sebagai pengguna sistem). Hubungan kerja mencakup tanggung jawab kepemimpinan sejawat (*peer leadership*) kepada Gilang dan akuntabilitas profesional kepada Bu Ratna.
+
+**Objective dan initial state:** Menyampaikan pemberitahuan resmi mengenai gangguan *staging server* selama 4 jam serta pergeseran jadwal *User Acceptance Testing* (UAT) selama 1 hari secara jujur, tenang, dan solutif agar kepercayaan Bu Ratna tetap terjaga, sekaligus melindungi rasa aman psikologis Gilang agar tidak dipermalukan. Initial state: Gilang dalam kondisi panik dan menyalahkan diri sendiri akibat salah menimpa konfigurasi *environment*; Bu Ratna mulai cemas apakah sistem siap digunakan minggu depan; Winda memiliki waktu terbatas dan berisiko menulis pesan yang terlalu defensif atau kaku.
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+### 1. Persons, Characters, Objective & State
+
+| Aktor | Karakter & Peran | Objective Komunikasi | Initial State |
+| :--- | :--- | :--- | :--- |
+| **Winda** *(Project Lead)* | Komunikator utama yang akuntabel, tenang, dan melindungi tim tanpa menutupi fakta teknis. | Menyampaikan status gangguan secara transparan, mengunci jadwal UAT baru, dan menjaga kepercayaan stakeholder. | *Time-pressured* (harus segera melapor sebelum jam pulang kantor), namun fokus menjaga objektivitas. |
+| **Bu Ratna** *(Stakeholder / Klien)* | Pengambil keputusan operasional layanan yang teliti, berorientasi pada kepastian jadwal, dan tidak menyukai kejutan mendadak. | Mendapat kepastian bahwa data layanan aman dan jadwal peluncuran minggu depan tidak terganggu. | *Anxious / skeptical* karena melihat *dashboard* uji coba tidak dapat diakses sejak siang hari. |
+| **Gilang** *(Backend Developer)* | Rekan setim yang tekun tetapi masih minim pengalaman menangani insiden produksi (*junior*). | Memperbaiki konfigurasi server dan belajar dari insiden tanpa kehilangan kepercayaan diri dalam tim. | *Panicked / guilt-ridden* (sempat ingin menulis pesan permintaan maaf panjang yang menyalahkan dirinya sendiri). |
+
+---
+
+### 2. AI Role Design, Prompt, Raw Output & Human Revision
+
+#### A. Desain Peran & Batas AI (*AI Role Boundary*)
+Winda menetapkan peran AI secara sempit hanya sebagai **Asisten Penstruktur Draf & Pemeriksa Nada Defensif (*Tone De-escalation & Structure Assistant*)**:
+* **Yang Didelegasikan ke AI:** Menyusun kerangka pesan pelaporan insiden berbasis fakta teranonimisasi dan memeriksa apakah terdapat kalimat yang terkesan menyalahkan pihak tertentu (*blaming*) atau terlalu teknis bagi pembaca non-IT.
+* **Yang Dipegang 100% Manusia (Winda & Gilang):** Verifikasi akar masalah teknis (*root cause*), penetapan jadwal kompensasi UAT, keputusan siapa yang bertanggung jawab, penyuntingan akhir empati relasional, dan otoritas pengiriman pesan.
+
+#### B. Input Teranonimisasi & Prompt ke AI
+Sebelum memasukkan konteks ke AI, Winda menghapus seluruh nama asli, NIM, alamat IP server, dan log autentikasi:
+
+```text
+[PROMPT KE AI - DATA SUDAH DIANONIMISASI]
+Peran: Kamu adalah editor komunikasi proyek sistem informasi.
+Tugas: Bantu susun draf awal email pembaruan status kepada koordinator layanan
+(pengguna non-teknis) mengenai gangguan server uji coba selama 4 jam hari ini
+dan penyesuaian jadwal UAT dari Jumat pukul 10.00 menjadi Sabtu pukul 10.00.
+
+Fakta terverifikasi (jangan tambah asumsi):
+- Penyebab: kesalahan konfigurasi variabel lingkungan saat pembaruan rutin.
+- Dampak: server uji coba tidak bisa diakses 4 jam; tidak ada data pengguna yang hilang.
+- Perbaikan: sistem sudah pulih pukul 15.30 WIB dan ditambahkan validasi otomatis sebelum deploy.
+- Usulan jadwal UAT baru: Sabtu pukul 10.00 WIB (durasi 60 menit).
+
+Batasan gaya: Gunakan bahasa Indonesia profesional yang ringkas, tidak defensif,
+tidak menyalahkan individu tertentu, dan fokus pada langkah mitigasi. Maksimal 180 kata.

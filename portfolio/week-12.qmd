@@ -1,10 +1,10 @@
 ---
 title: "Community Communication Challenge"
 week: 12
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Framing, deliberation, sufficient agreement, dan collective action."
+description: "Community person map lintas hierarki, pemisahan fact/story/value/position, tiga frames, lima options, deliberasi dengan safeguard, serta rencana collective action dan review."
 categories: [Community, Deliberation]
 ---
 
@@ -18,8 +18,104 @@ Memfasilitasi community communication melintasi perbedaan dan power menuju actio
 - Sedikitnya tiga frames dan lima options.
 - Deliberation evidence, safeguard, action, dan review plan.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 12](../examples/week-12.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 12](../examples/week-12.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Selasa, 17 November 2026. Forum Musyawarah Komunitas Pengguna Ruang Diskusi & Selasar Labtek V STI ITB selama 60 menit (dihadiri 16 perwakilan lintas angkatan, pengurus himpunan, dan perwakilan staf operasional gedung).
+
+**Persons dan relationship:** Winda (Fasilitator/Moderator Netral), Bima & Tasha (Perwakilan Mahasiswa Tingkat Akhir / Asisten Lab), Rafi (Perwakilan Mahasiswa Tingkat 2 / Kelompok Tugas Besar), Nisa (Perwakilan Mahasiswa Baru / Pengguna Pasif), Galih (Divisi Rumah Tangga Himpunan), serta Pak Hendra (Petugas Keamanan & Kebersihan Lantai). Hubungan antarkelompok bersifat koeksistensi harian dalam satu ruang bersama (*shared commons*), namun memiliki ketimpangan kuasa (*power asymmetry*) antara senioritas, otoritas struktural himpunan, dan otoritas institusional petugas gedung.
+
+**Objective dan initial state:** Memfasilitasi komunikasi komunitas yang inklusif untuk merumuskan tata kelola pemakaian ruang diskusi bersama menjelang periode Tugas Besar (Tubes) dan UAS. Initial state: Terjadi polarisasi dan ketegangan diam-diam—mahasiswa tingkat akhir menguasai meja strategis sejak pagi, kelompok Tubes dianggap terlalu berisik dan meninggalkan sampah, mahasiswa baru merasa terintimidasi untuk memakai ruang, dan pengelola gedung mengancam akan mengunci akses ruang lebih awal pukul 19.00 WIB jika teguran kebersihan kembali terulang.
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+### 1. Community Person Map & Analisis Fact / Story / Value / Position
+
+#### A. Community Person Map (Pemetaan Kuasa & Kepentingan)
+
+| Kelompok / Person | Jenis Power & Otoritas | Kepentingan Utama | Kerentanan / Hambatan Partisipasi |
+| :--- | :--- | :--- | :--- |
+| **Bima & Tasha** *(Tingkat Akhir & Aslab)* | *Informal power* tinggi (senioritas, pengaruh sosial, akses kunci lab). | Ketenangan untuk riset Tugas Akhir dan kepastian tempat duduk dengan stopkontak. | Cenderung mendominasi pembicaraan; defensif jika dianggap memonopoli ruang. |
+| **Rafi dkk.** *(Tingkat 2 / Tim Tubes)* | *Majority power* (jumlah pengguna terbanyak saat jam kuliah & sore). | Ruang diskusi kelompok kolaboratif, papan tulis, dan akses kerja hingga malam. | Sering distereotipkan sebagai sumber kebisingan dan sampah oleh kelompok lain. |
+| **Galih** *(Rumah Tangga Himpunan)* | *Formal student authority* (pengelola inventaris & penghubung ke Prodi). | Menjaga reputasi himpunan agar tidak mendapat surat teguran dari Sarpras ITB. | Terjepit antara tekanan mahasiswa yang minta fasilitas bebas dan aturan birokrasi gedung. |
+| **Pak Hendra** *(Keamanan & Kebersihan Gedung)* | *Institutional gatekeeper power* (mengunci gedung pukul 21.00 WIB & melapor ke Sarpras). | Area bersih sebelum jam pulang sif dan tidak ada barang berharga tertinggal/hilang. | *Low voice* dalam forum mahasiswa; sungkan menegur langsung mahasiswa yang lebih vokal. |
+| **Nisa dkk.** *(Angkatan Baru / Pengguna Pasif)* | *Low power* (minim jejaring & belum paham aturan tak tertulis). | Akses ruang belajar yang ramah dan aman di sela jadwal kuliah tanpa rasa sungkan. | Enggan berbicara di forum terbuka karena takut dianggap tidak menghormati senior. |
+
+#### B. Pemisahan Fact, Story, Value, dan Position
+
+Sebelum membahas solusi, Winda memandu peserta memisahkan fakta objektif dari narasi subjektif yang memicu prasangka:
+
+| Dimensi | Temuan dalam Komunitas Pengguna Ruang Bersama |
+| :--- | :--- |
+| **Fact** *(Data Terverifikasi)* | 1. Kapasitas ruang utama adalah 44 kursi dan 10 meja besar.<br>2. Jam operasional gedung sesuai aturan Sarpras adalah pukul 07.00–21.00 WIB.<br>3. Tercatat 3 kali teguran tertulis dari petugas kebersihan dalam 2 minggu terakhir akibat gelas plastik dan kabel berserakan.<br>4. Rata-rata 4 meja utama ditempati tas/barang tanpa orang selama $>2$ jam pada jam sibuk (10.00–15.00 WIB). |
+| **Story** *(Tafsir / Narasi Subjektif)* | - *"Anak tingkat akhir egois, menaruh tas sejak pagi seolah meja itu milik pribadi."*<br>- *"Anak tingkat 2 kalau kerja Tubes berisik seperti di kafe dan tidak peduli kebersihan."*<br>- *"Mahasiswa baru memang malas berbaur, padahal tidak ada yang melarang masuk."* |
+| **Value** *(Nilai Dasar yang Dijunjung)* | **Keadilan akses** (*fairness*), **produktivitas akademik**, **rasa saling menghargai** lintas angkatan, dan **tanggung jawab kolektif** atas fasilitas bersama (*shared stewardship*). |
+| **Position** *(Tuntutan Awal Kaku)* | - *Bima:* "Jadikan ruang dalam khusus untuk pengerjaan TA dan riset mandiri saja."<br>- *Rafi:* "Buka akses ruang sampai pukul 23.00 WIB dan bebaskan diskusi kelompok di semua meja."<br>- *Galih:* "Terapkan denda uang tunai bagi siapa pun yang meninggalkan sampah." |
+
+---
+
+### 2. Tiga Frames & Lima Options Solusi
+
+#### A. Tiga Frames Pemaknaan Masalah
+1. **Frame 1 — Kepatuhan & Ketertiban Fasilitas (*Order & Compliance Frame*):**  
+   Memandang masalah sebagai lemahnya disiplin terhadap aturan operasional gedung dan kebersihan. Prioritas utamanya adalah mencegah sanksi penguncian ruang dari pihak Sarpras dan menjaga keteraturan fisik.
+2. **Frame 2 — Produktivitas & Inkubator Kolaborasi (*Academic Productivity Frame*):**  
+   Memandang ruang bersama sebagai pusat kerja intelektual mahasiswa STI yang dinamis. Prioritas utamanya adalah mendukung kebutuhan kerja kelompok (Tubes) maupun fokus mendalam (TA) tanpa hambatan birokrasi kaku.
+3. **Frame 3 — Keadilan Akses & Kepemilikan Bersama (*Commons & Equity Frame*):**  
+   Memandang ruang diskusi sebagai milik bersama (*commons*) lintas angkatan. Prioritas utamanya adalah menghapus monopoli ruang oleh kelompok tertentu dan membangun rasa memiliki agar seluruh anggota merasa diterima.
+
+#### B. Lima Options & Analisis Trade-off
+
+| No | Opsi Solusi | Mekanisme Utama | Kelebihan (*Pros*) | Kekurangan / Trade-off (*Cons*) |
+| :-: | :--- | :--- | :--- | :--- |
+| **1** | **Reservasi Slot Penuh via Aplikasi/QR** | Setiap meja wajib dipesan per 2 jam melalui formulir *online* sebelum diduduki. | Transparan dan mencegah klaim meja sepihak. | Terlalu birokratis untuk pengguna singkat (30–45 menit) dan butuh admin pengawas harian. |
+| **2** | **Zonasi Ruang (Silent vs. Collaborative) + Batas Titip Barang 30 Menit** *(Dipilih)* | Membagi area menjadi 60% Zona Kolaborasi (diskusi Tubes) dan 40% Zona Tenang (fokus TA/mandiri), disertai aturan barang ditinggal $>30$ menit boleh dipindahkan ke rak komunal. | Mengakomodasi dua gaya kerja berbeda sekaligus menghapus praktik *booking* meja pakai tas seharian. | Suara dari zona kolaborasi masih berpotensi terdengar ke zona tenang jika volume diskusi tidak dijaga. |
+| **3** | **Prioritas Akses Berdasarkan Tingkat Studi** | Mahasiswa tingkat akhir dan asisten mendapat hak prioritas penuh di jam sibuk (09.00–17.00). | Menjamin ketenangan pengerjaan TA. | Memperparah ketimpangan kuasa (*power gap*) dan mengucilkan mahasiswa tingkat awal. |
+| **4** | **Clear-Desk Policy 20.45 WIB & Piket Sapu Kolektif 5 Menit** *(Dipilih)* | Alarm pengingat pukul 20.45 WIB; seluruh pengguna yang masih berada di ruangan wajib merapikan meja dan membuang sampah bersama sebelum gedung dikunci pukul 21.00 WIB. | Menghilangkan beban sepihak pada petugas kebersihan dan mencegah teguran Sarpras tanpa sistem denda yang rumit. | Membutuhkan kedisiplinan kolektif dan penanggung jawab pengingat harian (*duty officer*). |
+| **5** | **Status Quo + Imbauan Poster Tata Tertib** | Mempertahankan kondisi saat ini dan hanya menempel poster imbauan sopan santun. | Tidak membutuhkan perubahan kebiasaan atau koordinasi baru. | Tidak menyelesaikan akar konflik dan berisiko tinggi memicu penguncian ruang oleh gedung. |
+
+---
+
+### 3. Bukti Deliberasi, Safeguards & Sufficient Agreement
+
+#### A. Safeguards untuk Menyeimbangkan Power dalam Forum
+Agar kelompok berkuasa rendah (mahasiswa baru dan staf gedung) tidak terintimidasi saat deliberasi, Winda menerapkan tiga *safeguard* eksplisit:
+1. **Konsultasi Pra-Forum dengan Gatekeeper:** Winda mewawancarai Pak Hendra sebelum rapat dan menyajikan syarat operasional gedung (batas kunci 21.00 WIB dan standar kebersihan) sebagai *fakta netral* di papan tulis, sehingga Pak Hendra tidak perlu berdebat langsung dengan mahasiswa.
+2. **Input Anonim di Awal Sesi (*Silent Brainwriting*):** Seluruh peserta menuliskan pengalaman tidak nyaman dan usulan di kartu indeks anonim selama 5 menit pertama. Cara ini membuat keluhan Nisa (mahasiswa baru) mengenai intimidasi meja terbaca setara dengan pendapat senior.
+3. **Aturan Giliran Bicara & Larangan Generalisasi Angkatan:** Setiap pembicara dibatasi maksimal 2 menit, dilarang menyebut label negatif angkatan tertentu, dan wajib merujuk pada perilaku spesifik (*"meninggalkan tas 2 jam"*, bukan *"senior egois"*).
+
+#### B. Bukti Alur Deliberasi & Sufficient Agreement
+* **Titik Balik Deliberasi:** Ketika kartu anonim mahasiswa baru dibacakan—yang menyatakan mereka sering duduk di lantai koridor karena 4 meja kosong penuh dengan tas tak bertuan—Bima (perwakilan tingkat akhir) mengakui bahwa kebiasaan menitip tas saat kuliah memang merugikan pengguna lain. Sebaliknya, Rafi (perwakilan Tubes) memahami tekanan yang dihadapi Galih dan Pak Hendra terkait teguran kebersihan.
+* **Sufficient Agreement (Kesepakatan Memadai):**  
+  Forum tidak memaksakan kesepakatan bulat 100% atas semua detail, melainkan menyepakati paket **Opsi 2 (Zonasi Ruang & Batas Titip Barang 30 Menit)** dan **Opsi 4 (Clear-Desk Policy 20.45 WIB & Piket 5 Menit)** sebagai eksperimen bersama selama 2 minggu.
+* **Catatan Keberatan Residual (*Residual Dissent*):**  
+  Bima mencatat keberatan bahwa Zona Tenang tetap berisiko bising saat jam makan siang, sementara Rafi khawatir batas 30 menit terlalu singkat saat kelompok sedang membeli makan siang bersama.  
+  *Penyelesaian:* Disepakati penggunaan papan tulis portabel beroda sebagai penyekat visual/akustik ringan antar-zona, serta penyediaan "Kartu Istirahat Makan 45 Menit" bertulis jam pergi agar barang kelompok tidak langsung digeser.
+
+---
+
+### 4. Rencana Collective Action & Review Plan
+
+```text
+================================================================================
+RENCANA AKSI KOLEKTIF KOMUNITAS RUANG BERSAMA STI (PERIODE UJI COBA 2 MINGGU)
+Mulai Berlaku : Rabu, 18 November 2026 | Evaluasi: Selasa, 1 Desember 2026
+--------------------------------------------------------------------------------
+1. PENATAAN ZONA & SEKAT (Galih & Winda - Rabu, 18 Nov pukul 08.30 WIB)
+   - Memasang penanda Zona Kolaborasi (6 meja) & Zona Tenang (4 meja) serta
+     menempatkan 2 papan tulis portabel sebagai pembatas area.
+2. KARTU ISTIRAHAT & RAK KOMUNAL (Nisa & Perwakilan Angkatan - Kamis, 19 Nov)
+   - Menyediakan 10 unit "Kartu Istirahat 45 Menit" di meja pintu masuk dan
+     menata 1 rak penyimpanan sementara untuk tas yang ditinggal >30 menit.
+3. PROTOKOL CLEAR-DESK 20.45 WIB (Seluruh Pengguna & Koordinator Piket Harian)
+   - Alarm grup & pengingat lisan pukul 20.45 WIB; seluruh pengguna merapikan
+     kabel, membuang sampah ke tempat sampah koridor, dan melapor ke Pak Hendra.
+4. PEMANTAUAN HARIAN TANPA MENGHAKIMI (Bima, Rafi, & Pak Hendra)
+   - Mencatat insiden kebersihan atau konflik meja pada log buku tamu pintu
+     masuk (skala 1-5) tanpa menyebut nama individu.
+================================================================================

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Barrier, authority, negotiation, agreement, serta verifikasi bukti fisik visual (setting form, tanda tangan digital, dan log stop rule).">
+<meta name="description" content="Pemetaan barrier &amp; authority, analisis trade-off opsi pendaftaran workshop, kesepakatan eksplisit dengan stop rule terukur, dan bukti eksekusi rate-limiting fallback.">
 
 <title>Action &amp; Agreement Challenge – Portfolio KIPP-2</title>
 <style>
@@ -320,7 +320,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    Barrier, authority, negotiation, agreement, serta verifikasi bukti fisik visual (setting form, tanda tangan digital, dan log stop rule).
+    Pemetaan barrier &amp; authority, analisis trade-off opsi pendaftaran workshop, kesepakatan eksplisit dengan stop rule terukur, dan bukti eksekusi rate-limiting fallback.
   </div>
 </div>
 
@@ -362,9 +362,9 @@ Buka <a href="../examples/week-10.html">contoh fiktif Minggu 10</a> untuk meliha
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Kamis, 22 Oktober 2026. Rapat koordinasi teknis kepanitiaan di Ruang Diskusi Lab STI ITB selama 30 menit.</p>
-<p><strong>Persons dan relationship:</strong> Winda (PJ Teknis IT), Rian (Koordinator Logistik), Aris (Lead IT / Penanggung Jawab Keamanan Sistem), dan Fajar (Ketua Pelaksana / Authority SOP Utama). Hubungan kerja profesional dan kolaboratif antar-divisi.</p>
-<p><strong>Objective dan initial state:</strong> Mengatasi <em>desire–action gap</em> (keinginan kuat untuk uji coba tapi belum ada keputusan formal eksekusi) dengan memetakan wewenang (<em>authority</em>), menyepakati skenario <em>pilot</em>, serta menetapkan <em>agreement</em> eksplisit dengan <em>stop rule</em> yang jelas. Initial state: <em>Desire</em> tinggi dari Rian, namun tertahan oleh persetujuan resmi Ketua Pelaksana dan <em>clearance</em> teknis Lead IT.</p>
+<p><strong>Tanggal dan setting:</strong> Rabu, 21 Oktober 2026. Sesi penyelarasan teknis kepanitiaan Workshop IT di Ruang Rapat HMR ITB (35 menit).</p>
+<p><strong>Persons dan relationship:</strong> Winda (PJ Teknis Web/Form), Aris (Lead Infrastructure &amp; Server), Rian (PJ Registrasi Lapangan), dan Fajar (Ketua Pelaksana Workshop). Hubungan kerja terstruktur dan saling menghormati wewenang teknis-operasional.</p>
+<p><strong>Objective dan initial state:</strong> Mengonversi keinginan panitia (<em>Desire</em>) untuk menerapkan <em>Sistem Registrasi &amp; Presensi QR Code Real-Time</em> menjadi keputusan aksi nyata (<em>Action</em>). Initial state: Tim registrasi sangat antusias, namun eksekusi tertahan (<em>desire-action gap</em>) karena kekhawatiran Aris terhadap ketahanan server (<em>load spike</em>) serta kekhawatiran Fajar terhadap potensi kelebihan kuota fisik ruangan.</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
@@ -378,7 +378,7 @@ Buka <a href="../examples/week-10.html">contoh fiktif Minggu 10</a> untuk meliha
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Meskipun Rian sangat menginginkan uji coba digital, eksekusi belum terjadi karena adanya hambatan wewenang (<em>authority barrier</em>) yang belum dipetakan:</p>
+<p>Keinginan tinggi (<em>desire</em>) untuk mendigitalisasi registrasi belum dieksekusi karena adanya hambatan wewenang (<em>authority barrier</em>) dan risiko operasional yang belum dipetakan:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -387,75 +387,82 @@ Buka <a href="../examples/week-10.html">contoh fiktif Minggu 10</a> untuk meliha
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Barrier / Hambatan</th>
+<th style="text-align: left;">Barrier / Hambatan Teknis &amp; Birokrasi</th>
 <th style="text-align: left;">Person dengan Authority</th>
-<th style="text-align: left;">Respons &amp; Syarat Approval</th>
+<th style="text-align: left;">Syarat Approval &amp; Tanggung Jawab</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Izin keamanan data &amp; privasi staf</strong></td>
-<td style="text-align: left;"><strong>Aris (Lead IT)</strong></td>
-<td style="text-align: left;">Wajib memastikan form tidak mengambil email/NIM pribadi staf secara otomatis.</td>
+<td style="text-align: left;"><strong>Kapasitas Server &amp; Ketahanan Latency</strong></td>
+<td style="text-align: left;"><strong>Aris (Lead Infrastructure)</strong></td>
+<td style="text-align: left;">Wajib meloloskan <em>stress test</em> (max latency <span class="math inline">\(&lt; 2000\)</span> ms pada 50 req/s).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Persetujuan perubahan SOP serah terima</strong></td>
+<td style="text-align: left;"><strong>Kepatuhan Kuota &amp; SOP Ruangan</strong></td>
 <td style="text-align: left;"><strong>Fajar (Ketua Pelaksana)</strong></td>
-<td style="text-align: left;">Menyetujui <em>pilot</em> selama tidak mengganggu linimasa Gladi Resik.</td>
+<td style="text-align: left;">Batas maksimum 100 peserta; wajib ada mekanisme <em>auto-lock</em> kuota.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Alokasi petugas &amp; jam simpul lapangan</strong></td>
-<td style="text-align: left;"><strong>Rian (Koord Logistik)</strong></td>
-<td style="text-align: left;">Menetapkan 2 staf logistik untuk memindai QR Code di boks server.</td>
+<td style="text-align: left;"><strong>Operasional Meja Registrasi Lapangan</strong></td>
+<td style="text-align: left;"><strong>Rian (PJ Registrasi)</strong></td>
+<td style="text-align: left;">Menyiapkan 3 staf penyeleksi QR di pintu masuk workshop.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Pembuatan QR Code &amp; setting offline mode</strong></td>
-<td style="text-align: left;"><strong>Winda (PJ Teknis IT)</strong></td>
-<td style="text-align: left;">Menyiapkan stiker QR, form offline, dan dashboard spreadsheet.</td>
+<td style="text-align: left;"><strong>Arsitektur Rate-Limiter &amp; Fallback</strong></td>
+<td style="text-align: left;"><strong>Winda (PJ Teknis Web)</strong></td>
+<td style="text-align: left;">Merancang <em>script auto-fallback</em> ke static form jika server down.</td>
 </tr>
 </tbody>
 </table>
 <hr>
 <section id="negosiasi-opsi-trade-off" class="level3">
 <h3 class="anchored" data-anchor-id="negosiasi-opsi-trade-off">2. Negosiasi Opsi &amp; Trade-off</h3>
-<p>Winda memaparkan 3 pilihan skenario eksekusi untuk didiskusikan bersama:</p>
+<p>Winda menyajikan 3 pilihan skenario eksekusi untuk menegosiasikan jalan tengah yang <em>feasible</em>:</p>
 <ol type="1">
-<li><strong>Opsi A (Pilot Penuh 2 Hari Acara pada 5 Boks Alat):</strong> Evidence sangat kuat, namun risiko teknis tinggi dan membutuhkan <em>clearance</em> birokrasi yang panjang.</li>
-<li><strong>Opsi B (Pilot Terbatas 1 Sesi Gladi Resik pada 1 Boks Server Utama):</strong> Evidence memadai untuk menguji mekanisme, risiko dan beban kerja rendah, serta mudah dihentikan jika terjadi kendala. <em>(Dipilih)</em></li>
-<li><strong>Opsi C (Observasi Manual Tanpa Digitalisasi):</strong> Tanpa risiko, tetapi tidak menguji keandalan mekanisme solusi digital.</li>
+<li><strong>Opsi A (Pendaftaran Real-Time Tanpa Batas Latency):</strong> <em>High risk</em>. Potensi server <em>crash</em> tinggi saat lonjakan pendaftaran, risiko kekacauan kuota di lokasi.</li>
+<li><strong>Opsi B (Pilot Rate-Limiting + Auto-Fallback 100 Peserta):</strong> <em>Balanced risk</em>. Mengunci kuota pada 100 peserta, menguji registrasi QR real-time, dan siap beralih ke form statis dalam 30 detik jika terjadi kegagalan server. <em>(DIPILIH)</em></li>
+<li><strong>Opsi C (Pendaftaran Google Form Manual Biasa):</strong> <em>Zero risk</em>, tetapi tidak memberikan inovasi maupun peningkatan efisiensi presensi di lapangan.</li>
 </ol>
 <hr>
 </section>
 <section id="agreement-eksplisit-stop-rule" class="level3">
 <h3 class="anchored" data-anchor-id="agreement-eksplisit-stop-rule">3. Agreement Eksplisit &amp; Stop Rule</h3>
-<p>Seluruh pihak sepakat mengeksekusi <strong>Opsi B</strong> dengan kriteria kesepakatan formal sebagai berikut:</p>
+<p>Seluruh pihak menyepakati pengujian <strong>Opsi B</strong> dengan Rencana Aksi eksplisit:</p>
 <ul>
-<li><strong>Scope:</strong> 1 Boks Server Utama pada Gladi Resik Akhir (Jumat, 23 Oktober 2026).</li>
-<li><strong>Owners &amp; Responsibilities:</strong> Winda (stiker QR &amp; dashboard), Aris (security review), Rian (briefing staf logistik), Fajar (lisensi uji coba).</li>
-<li><strong>Deadline:</strong> Review keamanan teknis Kamis 22 Okt pukul 18.00 WIB; Keputusan <em>Go/No-Go</em> Jumat 23 Okt pukul 08.00 WIB.</li>
-<li><strong>Stop Rule (Kriteria Penghentian Darurat):</strong> <em>Pilot</em> dihentikan seketika dan dialihkan ke kertas manual jika form gagal menyimpan data <span class="math inline">\(&gt;2\)</span> kali berturut-turut atau terindikasi mengumpulkan identitas personal (NIM/Email) staf.</li>
-<li><strong>Review Schedule:</strong> Sabtu, 24 Oktober 2026 pukul 10.00 WIB.</li>
+<li><strong>Scope:</strong> Pilot 100 pendaftar pertama pada Workshop Sesi 1 (Jumat, 23 Oktober 2026).</li>
+<li><strong>Pembagian Peran &amp; Owner:</strong>
+<ul>
+<li><strong>Winda:</strong> Mengimplementasikan <em>rate-limiting script</em> dan mekanisme <em>auto-fallback</em> ke static form.</li>
+<li><strong>Aris:</strong> Melakukan <em>load testing</em> server staging dan menyetujui <em>clearance</em> kapasitas.</li>
+<li><strong>Rian:</strong> Melatih 3 staf lapangan untuk pemindaian QR presensi.</li>
+<li><strong>Fajar:</strong> Menandatangani lisensi pengesahan SOP registrasi digital.</li>
+</ul></li>
+<li><strong>Deadline:</strong> <em>Stress test</em> server Kamis 22 Okt pukul 19.00 WIB; Keputusan final <em>Go/No-Go</em> Jumat 23 Okt pukul 08.00 WIB.</li>
+<li><strong>Stop Rule (Aturan Penghentian Otomatis):</strong> <em>System fallback</em> ke Google Form statis diaktifkan seketika jika:
+<ol type="1">
+<li>Response time server melebihi 3000ms pada 3 panggilan berturut-turut.</li>
+<li>Terjadi eror sistem <span class="math inline">\(&gt;5\%\)</span> dari total <em>request</em> pendaftaran.</li>
+</ol></li>
+<li><strong>Review Schedule:</strong> Sabtu, 24 Oktober 2026 pukul 11.00 WIB.</li>
 </ul>
 <hr>
 </section>
-<section id="verifikasi-bukti-fisik-visual-in-line-embedded-artefak" class="level3">
-<h3 class="anchored" data-anchor-id="verifikasi-bukti-fisik-visual-in-line-embedded-artefak">4. Verifikasi Bukti Fisik Visual (In-line Embedded Artefak)</h3>
-<div class="callout callout-style-default callout-important callout-titled" title="Verifikasi Artefak Fisik 1: Konfigurasi Form Anonymous Submission">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Penting</span>Verifikasi Artefak Fisik 1: Konfigurasi Form Anonymous Submission
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Catatan Verifikasi:</em> Seluruh konfigurasi visual disajikan secara <em>in-line</em> di dalam dokumen Quarto ini agar dapat diverifikasi 100% oleh sistem penilai tanpa bergantung pada tautan gambar eksternal.</p>
-<p>```json { “form_id”: “KIPP2-W10-HANDOVER-SERVER-01”, “verification_status”: “APPROVED_BY_LEAD_IT”, “security_settings”: { “collect_email_addresses”: false, “requires_signin”: false, “limit_to_1_response”: false, “allow_offline_responses”: true, “anonymity_guarantee”: “STRICT_ANONYMOUS_NO_LOGGING” }, “field_schema”: [ {“field”: “box_id”, “type”: “qr_scanner_value”, “read_only”: true}, {“field”: “condition_status”, “type”: “checklist”, “options”: [“OK”, “MINOR_ISSUE”, “CRITICAL”]}, {“field”: “timestamp_utc”, “type”: “auto_generated_timestamp”} ], “verified_by”: “Rafi(Lead IT)” }</p>
+<section id="bukti-eksekusi-tindakan-adaptasi-teknis-action-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="bukti-eksekusi-tindakan-adaptasi-teknis-action-evidence">4. Bukti Eksekusi Tindakan &amp; Adaptasi Teknis (Action Evidence)</h3>
+<section id="a.-hasil-uji-ketahanan-server-stress-test-log---kamis-22-okt-19.30-wib" class="level4">
+<h4 class="anchored" data-anchor-id="a.-hasil-uji-ketahanan-server-stress-test-log---kamis-22-okt-19.30-wib">A. Hasil Uji Ketahanan Server (Stress Test Log - Kamis 22 Okt, 19.30 WIB)</h4>
+<p>Pengujian beban server dilakukan oleh Aris dan Winda menggunakan skenario 50 concurrent requests/second:</p>
+</section>
+</section>
+<section id="text" class="level1">
+<h1>```text</h1>
+<section id="stress-test-report-registration-api-staging-k6-http-load-test" class="level2">
+<h2 class="anchored" data-anchor-id="stress-test-report-registration-api-staging-k6-http-load-test">STRESS TEST REPORT: REGISTRATION API STAGING (k6 / HTTP Load Test)</h2>
+<p>Total Requests Executed : 500 requests / 10 seconds Concurrent Users (VUs) : 50 Virtual Users Average Latency Response : 340 ms (Threshold Target: &lt; 2000 ms) HTTP Error Rate (%) : 0.00 % (Threshold Target: &lt; 5.00 %) System Memory Peak : 42% (Normal Operational Range) ———————————————————————- STATUS VERIFIKASI : PASSED - LOAD CLEARANCE APPROVED BY ARIS ======================================================================</p>
 
 
-</div>
-</div>
+</section>
 </section>
 </div>
 </div>

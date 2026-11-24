@@ -1,10 +1,10 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "20"
 assessor_score: "—"
-description: "Stakeholder map, interests, options, trade-offs, dan agreement."
+description: "Stakeholder person map, multi-state TAIDA, position-interest analysis, opsi & trade-off, kesepakatan eksplisit beserta catatan dissent, dan relationship review."
 categories: [Negotiation, Stakeholder]
 ---
 
@@ -18,8 +18,96 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 - Position–interest analysis, common ground, dan options.
 - Negotiation evidence, agreement/dissent, dan relationship review.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+::: {.callout-note appearance="simple"}
+💡 **Lihat contoh pengisian**  
+Buka [contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** Kamis, 5 November 2026. Rapat negosiasi lintas divisi untuk persiapan Pameran Karya & Tech Expo STI ITB di Ruang Diskusi Labtek V ITB selama 45 menit.
+
+**Persons dan relationship:** Winda (Mediator / PJ Teknis & Sistem), Damar (Koordinator Acara & Kurasi Karya), Aris (Lead Infrastruktur & Keamanan Jaringan), dan Nadia (Koordinator Keuangan & Logistik Venue). Hubungan kerja antardivisi setara secara struktural, namun memiliki prioritas operasional yang saling berbenturan menjelang hari-H.
+
+**Objective dan initial state:** Memfasilitasi kesepakatan teknis dan operasional untuk fitur *Demo Interaktif & Live Voting Pengunjung* tanpa melanggar batas kapasitas jaringan maupun plafon anggaran. Initial state: Terjadi kebuntuan (*deadlock*) karena Damar menuntut *streaming* video HD dan *live voting* penuh, Aris menolak karena risiko jaringan lumpuh, dan Nadia menolak penambahan anggaran sewa perangkat.
+
+## Evidence
+
+::: {.callout-note appearance="simple" icon=false}
+### 1. Stakeholder Person Map & Multi-State TAIDA
+
+Sebelum mengajukan solusi, Winda memetakan otoritas, batasan, dan kondisi psikologis (*state*) setiap pihak:
+
+#### A. Stakeholder Person Map
+
+| Stakeholder | Peran & Authority | Objective Utama | Constraint (Batasan) | Initial State |
+| :--- | :--- | :--- | :--- | :--- |
+| **Damar** | Koordinator Acara (Otoritas *rundown* & tata letak *booth*) | Pameran ramai, interaktif, dan seluruh 18 karya tampil maksimal dengan *live voting*. | Durasi pameran hanya 5 jam; khawatir pengunjung pasif jika demo hanya statis. | *High urgency / pushy* (mendesak seluruh fitur aktif). |
+| **Aris** | Lead Infrastruktur (Otoritas *clearance* jaringan & server) | Jaringan lokal stabil dan bebas dari *bandwidth congestion* atau akses ilegal. | Maksimal 120 koneksi simultan per *access point*; melarang *streaming* terpusat. | *Defensive / cautious* (trauma insiden jaringan *down* tahun lalu). |
+| **Nadia** | Koordinator Keuangan & Venue (Otoritas pencairan dana & izin ruang) | Pengeluaran tidak melebihi sisa kas dan tata ruang mematuhi aturan K3 gedung. | Sisa anggaran Rp 450.000; kabel dilarang melintang di jalur evakuasi koridor. | *Cost-sensitive / rigid* (menolak biaya tambahan di luar RAB awal). |
+| **Winda** | PJ Teknis & Sistem (Otoritas arsitektur aplikasi lokal) | Menyediakan sistem *voting* dan demo yang andal, cepat, dan mudah dioperasikan panitia. | Waktu *setup* instalasi hanya 90 menit sebelum pintu dibuka. | *Facilitative / analytical* (menjembatani kebutuhan acara dan batas teknis). |
+
+#### B. Pemetaan Multi-State TAIDA
+
+| Tahap TAIDA | Damar (Acara) | Aris (Infrastruktur) | Nadia (Keuangan & Venue) |
+| :--- | :--- | :--- | :--- |
+| **Trigger** | Melihat *mockup* layar klasemen *live voting* dari acara kampus lain. | Menerima draf kebutuhan teknis acara yang mencantumkan "18 titik *streaming* video". | Menerima estimasi awal pengajuan sewa modem *dedicated* sebesar Rp 1.200.000. |
+| **Attention** | Tertuju pada daya tarik visual pameran dan kepuasan peserta pameran. | Tertuju pada beban *traffic* jaringan dan potensi kegagalan server saat jam sibuk. | Tertuju pada defisit kas divisi dan risiko teguran pengelola gedung terkait kabel. |
+| **Interest** | Menjaga reputasi divisi acara agar pameran dinilai sukses dan modern. | Melindungi integritas sistem agar tim IT tidak disalahkan jika jaringan mati. | Menjaga saldo kas tetap positif dan memastikan keamanan fisik area pameran. |
+| **Desire** | Semua fitur interaktif (video HD + *voting real-time*) berjalan bersamaan. | Membatasi sistem pameran ke mode *offline* sepenuhnya tanpa koneksi jaringan. | Pengeluaran tambahan Rp 0 dan tidak ada penambahan perangkat fisik di koridor. |
+| **Action / Block** | Menolak pemangkasan fitur acara; menahan finalisasi *rundown*. | Menahan *technical clearance* jaringan selama fitur *streaming* masih tercantum. | Membekukan pencairan dana teknis sampai rincian biaya ditekan di bawah plafon. |
+
+---
+
+### 2. Position–Interest Analysis, Common Ground & Options
+
+Winda memfasilitasi diskusi untuk memisahkan tuntutan permukaan (*position*) dari kepentingan mendasar (*underlying interest*) tiap pihak:
+
+| Stakeholder | Position (Tuntutan Permukaan) | Underlying Interest (Kepentingan Mendasar) |
+| :--- | :--- | :--- |
+| **Damar** | *"Semua 18 booth harus bisa memutar video demo HD lewat jaringan pusat dan terhubung ke live voting."* | Pengunjung dapat melihat demo karya dengan jelas dan berpartisipasi aktif memberikan suara tanpa antrean panjang. |
+| **Aris** | *"Tidak boleh ada streaming video atau akses internet berat di jaringan panitia selama acara."* | Beban *payload* jaringan tetap ringan ($< 30\%$ kapasitas) sehingga sistem inti tidak *crash* saat puncak pengunjung. |
+| **Nadia** | *"Anggaran sewa alat tambahan ditolak, dan tidak boleh ada penarikan kabel jaringan baru."* | Total belanja tidak melampaui sisa kas Rp 450.000 dan jalur evakuasi gedung tetap steril sesuai aturan K3. |
+
+**Common Ground (Titik Temu Bersama):**  
+Seluruh pihak sepakat bahwa pameran membutuhkan **pengalaman visual yang interaktif bagi pengunjung**, **stabilitas teknis tanpa gangguan jaringan**, **kepatuhan terhadap aturan keselamatan gedung**, serta **pengeluaran yang tetap berada di bawah sisa kas Rp 450.000**.
+
+**Opsi Solusi dan Analisis Trade-off:**
+
+1. **Opsi 1 — Full Cloud Streaming & Live Voting Terpusat:**  
+   Memenuhi posisi Damar 100%, tetapi menyebabkan *bottleneck* jaringan (ditolak Aris) dan membutuhkan sewa modem/paket data Rp 1.200.000 (ditolak Nadia).
+2. **Opsi 2 — Arsitektur Hybrid Offline-First (Local Video Pre-Cache + Lightweight QR Voting):** *(Dipilih)*  
+   * *Mekanisme:* Video demo HD disimpan secara lokal (*pre-cached*) di masing-masing laptop *booth* sehingga **0% memakai bandwidth jaringan**. Jaringan Wi-Fi lokal khusus digunakan untuk *live voting* berbasis teks/JSON ringan ($< 12\text{ KB}$ per suara).
+   * *Trade-off:* Membutuhkan waktu inspeksi laptop *booth* saat gladi resik (H-1) dan anggaran Rp 250.000 untuk 1 unit *local router* cadangan + *cable protector* karet standar K3, namun menyisakan saldo kas Rp 200.000.
+3. **Opsi 3 — Manual Paper Voting & Poster Statis:**  
+   Biaya Rp 0 dan bebas risiko jaringan (memenuhi posisi Aris & Nadia), tetapi menurunkan kualitas interaksi pameran dan memperlambat rekapitulasi pemenang (ditolak Damar).
+
+---
+
+### 3. Bukti Negosiasi, Agreement & Catatan Dissent
+
+#### A. Rekaman Alur Negosiasi (Negotiation Moves)
+1. **Reframing Masalah Teknis (Winda $\rightarrow$ Damar & Aris):**  
+   Winda menggeser perdebatan dari *"boleh atau tidaknya video HD"* menjadi *"di mana file video disimpan"*. Dengan memindahkan file video ke penyimpanan lokal tiap laptop *booth*, Damar tetap mendapatkan tayangan HD tanpa membebani jaringan Aris.
+2. **Kuantifikasi Beban Sistem (Winda $\rightarrow$ Aris):**  
+   Winda menunjukkan simulasi beban *live voting* hanya sebesar $12\text{ KB/request}$ (total $< 1.8\text{ MB}$ untuk 150 pengunjung), jauh di bawah ambang batas aman Aris. Aris setuju memberikan *clearance* dengan syarat akses internet luar ditutup (*intranet-only*).
+3. **Negosiasi Plafon Anggaran & K3 (Winda $\rightarrow$ Nadia):**  
+   Winda memangkas estimasi biaya dari Rp 1.200.000 menjadi Rp 250.000 (sewa 1 *router* lokal Rp 150.000 + *cable protector* karet Rp 100.000) dan menempatkan *router* di titik tengah plafon/meja kontrol tanpa kabel melintang lantai. Nadia menyetujui pencairan dana tersebut.
+
+#### B. Kesepakatan Eksplisit (Explicit Agreement Matrix)
+
+```text
+================================================================================
+BERITA ACARA KESEPAKATAN NEGOSIASI LINTAS DIVISI (TECH EXPO STI ITB)
+Tanggal Pengesahan : Kamis, 5 November 2026 | Pukul 16.40 WIB
+Skema Disepakati   : OPSI 2 (Local Video Pre-Cache + Intranet QR Live Voting)
+--------------------------------------------------------------------------------
+1. DAMAR (Acara)   : Menginstruksikan 18 tim karya menyalin file video demo ke
+                     laptop lokal paling lambat H-1 pukul 15.00 WIB.
+2. ARIS (Infra)    : Membuka jaringan intranet khusus voting (150 koneksi) dan
+                     menerbitkan Technical Clearance setelah cek H-1 pukul 17.00.
+3. NADIA (Keuangan): Mencairkan dana Rp 250.000 pada Jumat, 6 Nov pukul 10.00
+                     dengan syarat kuitansi resmi dan pemasangan cable protector.
+4. WINDA (Teknis)  : Menyiapkan aplikasi voting ringan (<12 KB/req), router
+                     cadangan, dan melakukan audit laptop booth pada H-1.
+================================================================================
